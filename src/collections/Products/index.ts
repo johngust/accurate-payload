@@ -152,6 +152,43 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
           fields: [
             ...defaultCollection.fields,
             {
+              name: 'sku',
+              label: 'Артикул',
+              type: 'text',
+              admin: {
+                position: 'sidebar',
+              },
+            },
+            {
+              name: 'inStock',
+              label: 'Наличие',
+              type: 'select',
+              defaultValue: 'in_stock',
+              options: [
+                { label: 'В наличии', value: 'in_stock' },
+                { label: 'Под заказ', value: 'preorder' },
+                { label: 'Нет в наличии', value: 'out_of_stock' }
+              ],
+            },
+            {
+              name: 'rating',
+              label: 'Рейтинг',
+              type: 'group',
+              fields: [
+                { name: 'value', label: 'Оценка (0-5)', type: 'number', min: 0, max: 5 },
+                { name: 'count', label: 'Количество отзывов', type: 'number', min: 0 }
+              ]
+            },
+            {
+              name: 'specs',
+              label: 'Характеристики',
+              type: 'array',
+              fields: [
+                { name: 'key', label: 'Название (Например: Бренд)', type: 'text', required: true },
+                { name: 'value', label: 'Значение', type: 'text', required: true }
+              ]
+            },
+            {
               name: 'relatedProducts',
               label: 'Похожие товары',
               type: 'relationship',

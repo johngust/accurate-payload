@@ -1,14 +1,14 @@
 'use client'
 import type { Product, Variant } from '@/payload-types'
 
-import { RichText } from '@/components/RichText'
 import { AddToCart } from '@/components/Cart/AddToCart'
 import { Price } from '@/components/Price'
-import React, { Suspense } from 'react'
+import { RichText } from '@/components/RichText'
+import { Star } from 'lucide-react'
+import { Suspense } from 'react'
 
-import { VariantSelector } from './VariantSelector'
 import { useCurrency } from '@payloadcms/plugin-ecommerce/client/react'
-import { StockIndicator } from '@/components/product/StockIndicator'
+import { VariantSelector } from './VariantSelector'
 
 export function ProductDescription({ product }: { product: Product }) {
   const { currency } = useCurrency()
@@ -33,60 +33,103 @@ export function ProductDescription({ product }: { product: Product }) {
         ) {
           return a[priceField] - b[priceField]
         }
-
         return 0
       }) as Variant[]
 
-    const lowestVariant = variantsOrderedByPrice[0][priceField]
-    const highestVariant = variantsOrderedByPrice[variantsOrderedByPrice.length - 1][priceField]
-    if (
-      variantsOrderedByPrice &&
-      typeof lowestVariant === 'number' &&
-      typeof highestVariant === 'number'
-    ) {
-      lowestAmount = lowestVariant
-      highestAmount = highestVariant
+    if (variantsOrderedByPrice.length > 0) {
+      const lowestVariant = variantsOrderedByPrice[0][priceField]
+      const highestVariant = variantsOrderedByPrice[variantsOrderedByPrice.length - 1][priceField]
+      if (typeof lowestVariant === 'number' && typeof highestVariant === 'number') {
+        lowestAmount = lowestVariant
+        highestAmount = highestVariant
+      }
     }
   } else if (product[priceField] && typeof product[priceField] === 'number') {
     amount = product[priceField]
   }
 
+  const { rating, sku, specs, inStock } = product
+
   return (
-    <div className="flex flex-col gap-6">
-      <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between">
-        <h1 className="text-2xl font-medium">{product.title}</h1>
-        <div className="uppercase font-mono">
-          {hasVariants ? (
-            <Price highestAmount={highestAmount} lowestAmount={lowestAmount} />
+    <div className="flex flex-col gap-8 rounded-2xl bg-card p-6 shadow-sm border border-border">
+      {/* Title & SKU */}
+      <div>
+        <div className="mb-2 flex flex-wrap items-center justify-between gap-4 text-sm text-muted-foreground">
+          {sku && <span>Артикул: {sku}</span>}
+          {rating?.value ? (
+            <div className="flex items-center gap-1 text-warning">
+              <Star className="h-4 w-4 fill-current" />
+              <span className="font-semibold text-foreground">{rating.value}</span>
+              <span className="text-muted-foreground">({rating.count || 0} отзывов)</span>
+            </div>
           ) : (
-            <Price amount={amount} />
+            <span className="text-muted-foreground">Нет отзывов</span>
           )}
         </div>
+        <h1 className="font-heading text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+          {product.title}
+        </h1>
       </div>
-      {product.description ? (
-        <RichText className="" data={product.description} enableGutter={false} />
-      ) : null}
-      <hr />
+
+      <hr className="border-border" />
+
+      {/* Price & Action Block */}
+      <div className="flex flex-col justify-between gap-6 sm:flex-row sm:items-center rounded-xl bg-secondary/30 p-6">
+        <div className="flex flex-col gap-2">
+          {inStock === 'in_stock' && <span className="text-sm font-medium text-success">В наличии</span>}
+          {inStock === 'preorder' && <span className="text-sm font-medium text-warning">Под заказ</span>}
+          {inStock === 'out_of_stock' && <span className="text-sm font-medium text-destructive">Нет в наличии</span>}
+
+          <div className="font-heading text-3xl font-bold text-primary">
+            {hasVariants ? (
+              <Price highestAmount={highestAmount} lowestAmount={lowestAmount} />
+            ) : (
+              <Price amount={amount} />
+            )}
+          </div>
+        </div>
+
+        <div className="w-full sm:w-auto min-w-[200px]">
+          <Suspense fallback={null}>
+            <AddToCart product={product} />
+          </Suspense>
+        </div>
+      </div>
+
       {hasVariants && (
         <>
           <Suspense fallback={null}>
             <VariantSelector product={product} />
           </Suspense>
-
-          <hr />
+          <hr className="border-border" />
         </>
       )}
-      <div className="flex items-center justify-between">
-        <Suspense fallback={null}>
-          <StockIndicator product={product} />
-        </Suspense>
-      </div>
 
-      <div className="flex items-center justify-between">
-        <Suspense fallback={null}>
-          <AddToCart product={product} />
-        </Suspense>
-      </div>
+      {/* Description */}
+      {product.description && (
+        <div>
+          <h3 className="mb-4 font-heading text-xl font-bold">О товаре</h3>
+          <div className="prose prose-sm md:prose-base dark:prose-invert max-w-none text-muted-foreground">
+            <RichText data={product.description} enableGutter={false} />
+          </div>
+        </div>
+      )}
+
+      {/* Specs */}
+      {specs && specs.length > 0 && (
+        <div className="mt-4">
+          <h3 className="mb-4 font-heading text-xl font-bold">Характеристики</h3>
+          <dl className="flex border-t border-border flex-col divide-y divide-border text-sm md:text-base">
+            {specs.map((spec, i) => (
+              <div key={i} className="flex justify-between py-3">
+                <dt className="text-muted-foreground w-1/2 pr-4">{spec.key}</dt>
+                <dd className="font-medium text-foreground w-1/2 text-right">{spec.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
+      )}
     </div>
   )
 }
+

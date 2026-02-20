@@ -79,9 +79,25 @@ export const homeStaticData: () => RequiredDataFromCollectionSlug<'pages'> = () 
         },
       },
     },
-    layout: [],
+    layout: [
+      {
+        blockType: 'categoriesGrid',
+        title: 'Популярные категории (Статичные данные)',
+        categories: []
+      },
+      {
+        blockType: 'servicesBlock',
+        title: 'Сервис и услуги',
+        services: [
+          { iconName: 'Truck', title: 'Доставка', description: 'Бережная доставка по всей стране' },
+          { iconName: 'Wrench', title: 'Установка', description: 'Монтаж с гарантией качества' },
+          { iconName: 'Shield', title: 'Гарантия', description: 'До 10 лет гарантии на товары' },
+          { iconName: 'CreditCard', title: 'Оплата', description: 'Удобная оплата онлайн или при получении' }
+        ]
+      }
+    ],
     meta: {
-      description: 'An open-source ecommerce site built with Payload and Next.js.',
+      description: 'Клон интернет-магазина сантехники на Payload',
       title: 'Payload Ecommerce Template',
     },
     title: 'Home',

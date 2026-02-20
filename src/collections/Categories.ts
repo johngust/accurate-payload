@@ -20,6 +20,15 @@ export const Categories: CollectionConfig = {
       type: 'text',
       required: true,
     },
+    {
+      name: 'parent',
+      label: 'Родительская категория',
+      type: 'relationship',
+      relationTo: 'categories',
+      admin: {
+        position: 'sidebar',
+      },
+    },
     slugField({
       position: undefined,
     }),

@@ -295,6 +295,19 @@ export interface Product {
   };
   priceInUSDEnabled?: boolean | null;
   priceInUSD?: number | null;
+  sku?: string | null;
+  inStock?: ('in_stock' | 'preorder' | 'out_of_stock') | null;
+  rating?: {
+    value?: number | null;
+    count?: number | null;
+  };
+  specs?:
+    | {
+        key: string;
+        value: string;
+        id?: string | null;
+      }[]
+    | null;
   relatedProducts?: (number | Product)[] | null;
   meta?: {
     title?: string | null;
@@ -481,6 +494,27 @@ export interface Page {
     | ThreeItemGridBlock
     | BannerBlock
     | FormBlock
+    | {
+        title?: string | null;
+        categories: (number | Category)[];
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'categoriesGrid';
+      }
+    | {
+        title?: string | null;
+        services?:
+          | {
+              iconName?: string | null;
+              title?: string | null;
+              description?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'servicesBlock';
+      }
   )[];
   meta?: {
     title?: string | null;
@@ -595,6 +629,7 @@ export interface ArchiveBlock {
 export interface Category {
   id: number;
   title: string;
+  parent?: (number | null) | Category;
   /**
    * When enabled, the slug will auto-generate from the title field on save and autosave.
    */
@@ -1222,6 +1257,29 @@ export interface PagesSelect<T extends boolean = true> {
         threeItemGrid?: T | ThreeItemGridBlockSelect<T>;
         banner?: T | BannerBlockSelect<T>;
         formBlock?: T | FormBlockSelect<T>;
+        categoriesGrid?:
+          | T
+          | {
+              title?: T;
+              categories?: T;
+              id?: T;
+              blockName?: T;
+            };
+        servicesBlock?:
+          | T
+          | {
+              title?: T;
+              services?:
+                | T
+                | {
+                    iconName?: T;
+                    title?: T;
+                    description?: T;
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
       };
   meta?:
     | T
@@ -1360,6 +1418,7 @@ export interface FormBlockSelect<T extends boolean = true> {
  */
 export interface CategoriesSelect<T extends boolean = true> {
   title?: T;
+  parent?: T;
   generateSlug?: T;
   slug?: T;
   updatedAt?: T;
@@ -1621,6 +1680,21 @@ export interface ProductsSelect<T extends boolean = true> {
   variants?: T;
   priceInUSDEnabled?: T;
   priceInUSD?: T;
+  sku?: T;
+  inStock?: T;
+  rating?:
+    | T
+    | {
+        value?: T;
+        count?: T;
+      };
+  specs?:
+    | T
+    | {
+        key?: T;
+        value?: T;
+        id?: T;
+      };
   relatedProducts?: T;
   meta?:
     | T
