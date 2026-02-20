@@ -44,3 +44,9 @@ public/media
 
 .vercel
 .env*.local
+
+# uploaded media (local dev)
+/media
+
+# python cache
+__pycache__
