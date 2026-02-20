@@ -1,20 +1,29 @@
+import { ecommercePlugin } from '@payloadcms/plugin-ecommerce'
 import { formBuilderPlugin } from '@payloadcms/plugin-form-builder'
 import { seoPlugin } from '@payloadcms/plugin-seo'
-import { Plugin } from 'payload'
 import { GenerateTitle, GenerateURL } from '@payloadcms/plugin-seo/types'
 import { FixedToolbarFeature, HeadingFeature, lexicalEditor } from '@payloadcms/richtext-lexical'
-import { ecommercePlugin } from '@payloadcms/plugin-ecommerce'
+import { Plugin } from 'payload'
 
 import { stripeAdapter } from '@payloadcms/plugin-ecommerce/payments/stripe'
 
-import { Page, Product } from '@/payload-types'
-import { getServerSideURL } from '@/utilities/getURL'
-import { ProductsCollection } from '@/collections/Products'
-import { adminOrPublishedStatus } from '@/access/adminOrPublishedStatus'
 import { adminOnlyFieldAccess } from '@/access/adminOnlyFieldAccess'
+import { adminOrPublishedStatus } from '@/access/adminOrPublishedStatus'
 import { customerOnlyFieldAccess } from '@/access/customerOnlyFieldAccess'
 import { isAdmin } from '@/access/isAdmin'
 import { isDocumentOwner } from '@/access/isDocumentOwner'
+import {
+  AddressesCollection,
+  CartsCollection,
+  OrdersCollection,
+  TransactionsCollection,
+  VariantOptionsCollection,
+  VariantTypesCollection,
+  VariantsCollection,
+} from '@/collections/ecommerce_overrides'
+import { ProductsCollection } from '@/collections/Products'
+import { Page, Product } from '@/payload-types'
+import { getServerSideURL } from '@/utilities/getURL'
 
 const generateTitle: GenerateTitle<Product | Page> = ({ doc }) => {
   return doc?.title ? `${doc.title} | Payload Ecommerce Template` : 'Payload Ecommerce Template'
@@ -76,6 +85,15 @@ export const plugins: Plugin[] = [
     customers: {
       slug: 'users',
     },
+    addresses: {
+      addressesCollectionOverride: AddressesCollection,
+    },
+    carts: {
+      cartsCollectionOverride: CartsCollection,
+    },
+    orders: {
+      ordersCollectionOverride: OrdersCollection,
+    },
     payments: {
       paymentMethods: [
         stripeAdapter({
@@ -87,6 +105,14 @@ export const plugins: Plugin[] = [
     },
     products: {
       productsCollectionOverride: ProductsCollection,
+      variants: {
+        variantOptionsCollectionOverride: VariantOptionsCollection,
+        variantTypesCollectionOverride: VariantTypesCollection,
+        variantsCollectionOverride: VariantsCollection,
+      },
+    },
+    transactions: {
+      transactionsCollectionOverride: TransactionsCollection,
     },
   }),
 ]

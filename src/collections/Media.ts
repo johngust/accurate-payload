@@ -13,7 +13,11 @@ const dirname = path.dirname(filename)
 
 export const Media: CollectionConfig = {
   admin: {
-    group: 'Content',
+    group: 'Контент',
+  },
+  labels: {
+    singular: 'Медиафайл',
+    plural: 'Медиафайлы',
   },
   slug: 'media',
   access: {

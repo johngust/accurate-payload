@@ -6,6 +6,7 @@ export const Code: Block = {
   fields: [
     {
       name: 'language',
+      label: 'Язык',
       type: 'select',
       defaultValue: 'typescript',
       options: [
@@ -25,9 +26,13 @@ export const Code: Block = {
     },
     {
       name: 'code',
+      label: 'Код',
       type: 'code',
-      label: false,
       required: true,
     },
   ],
+  labels: {
+    plural: 'Блоки кода',
+    singular: 'Блок кода',
+  },
 }

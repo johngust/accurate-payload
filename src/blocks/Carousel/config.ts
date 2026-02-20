@@ -5,15 +5,16 @@ export const Carousel: Block = {
   fields: [
     {
       name: 'populateBy',
+      label: 'Заполнить по',
       type: 'select',
       defaultValue: 'collection',
       options: [
         {
-          label: 'Collection',
+          label: 'Коллекция',
           value: 'collection',
         },
         {
-          label: 'Individual Selection',
+          label: 'Индивидуальный выбор',
           value: 'selection',
         },
       ],
@@ -25,10 +26,10 @@ export const Carousel: Block = {
         condition: (_, siblingData) => siblingData.populateBy === 'collection',
       },
       defaultValue: 'products',
-      label: 'Collections To Show',
+      label: 'Коллекции для отображения',
       options: [
         {
-          label: 'Products',
+          label: 'Товары',
           value: 'products',
         },
       ],
@@ -40,7 +41,7 @@ export const Carousel: Block = {
         condition: (_, siblingData) => siblingData.populateBy === 'collection',
       },
       hasMany: true,
-      label: 'Categories To Show',
+      label: 'Категории для отображения',
       relationTo: 'categories',
     },
     {
@@ -51,7 +52,7 @@ export const Carousel: Block = {
         step: 1,
       },
       defaultValue: 10,
-      label: 'Limit',
+      label: 'Лимит',
     },
     {
       name: 'selectedDocs',
@@ -60,7 +61,7 @@ export const Carousel: Block = {
         condition: (_, siblingData) => siblingData.populateBy === 'selection',
       },
       hasMany: true,
-      label: 'Selection',
+      label: 'Выбор',
       relationTo: ['products'],
     },
     {
@@ -72,7 +73,7 @@ export const Carousel: Block = {
         disabled: true,
       },
       hasMany: true,
-      label: 'Populated Docs',
+      label: 'Заполненные документы',
       relationTo: ['products'],
     },
     {
@@ -84,12 +85,12 @@ export const Carousel: Block = {
         disabled: true,
         step: 1,
       },
-      label: 'Populated Docs Total',
+      label: 'Всего заполненных документов',
     },
   ],
   interfaceName: 'CarouselBlock',
   labels: {
-    plural: 'Carousels',
-    singular: 'Carousel',
+    plural: 'Карусели',
+    singular: 'Карусель',
   },
 }

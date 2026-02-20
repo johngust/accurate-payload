@@ -1,7 +1,6 @@
 import { CallToAction } from '@/blocks/CallToAction/config'
 import { Content } from '@/blocks/Content/config'
 import { MediaBlock } from '@/blocks/MediaBlock/config'
-import { slugField } from 'payload'
 import { generatePreviewPath } from '@/utilities/generatePreviewPath'
 import { CollectionOverride } from '@payloadcms/plugin-ecommerce/types'
 import {
@@ -18,12 +17,13 @@ import {
   InlineToolbarFeature,
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
-import { DefaultDocumentIDType, Where } from 'payload'
+import { DefaultDocumentIDType, slugField, Where } from 'payload'
 
 export const ProductsCollection: CollectionOverride = ({ defaultCollection }) => ({
   ...defaultCollection,
   admin: {
     ...defaultCollection?.admin,
+    group: 'Каталог',
     defaultColumns: ['title', 'enableVariants', '_status', 'variants.variants'],
     livePreview: {
       url: ({ data, req }) =>
@@ -53,8 +53,12 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
     inventory: true,
     meta: true,
   },
+  labels: {
+    plural: 'Товары',
+    singular: 'Товар',
+  },
   fields: [
-    { name: 'title', type: 'text', required: true },
+    { name: 'title', label: 'Название', type: 'text', required: true },
     {
       type: 'tabs',
       tabs: [
@@ -74,22 +78,25 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
                   ]
                 },
               }),
-              label: false,
+              label: 'Описание',
               required: false,
             },
             {
               name: 'gallery',
+              label: 'Галерея',
               type: 'array',
               minRows: 1,
               fields: [
                 {
                   name: 'image',
+                  label: 'Изображение',
                   type: 'upload',
                   relationTo: 'media',
                   required: true,
                 },
                 {
                   name: 'variantOption',
+                  label: 'Опция варианта',
                   type: 'relationship',
                   relationTo: 'variantOptions',
                   admin: {
@@ -134,17 +141,19 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
 
             {
               name: 'layout',
+              label: 'Макет',
               type: 'blocks',
               blocks: [CallToAction, Content, MediaBlock],
             },
           ],
-          label: 'Content',
+          label: 'Контент',
         },
         {
           fields: [
             ...defaultCollection.fields,
             {
               name: 'relatedProducts',
+              label: 'Похожие товары',
               type: 'relationship',
               filterOptions: ({ id }) => {
                 if (id) {
@@ -166,7 +175,7 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
               relationTo: 'products',
             },
           ],
-          label: 'Product Details',
+          label: 'Детали товара',
         },
         {
           name: 'meta',
@@ -199,6 +208,7 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
     },
     {
       name: 'categories',
+      label: 'Категории',
       type: 'relationship',
       admin: {
         position: 'sidebar',

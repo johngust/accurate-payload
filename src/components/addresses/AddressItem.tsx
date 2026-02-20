@@ -1,8 +1,8 @@
 'use client'
 
-import React from 'react'
-import type { Address } from '@/payload-types'
 import { CreateAddressModal } from '@/components/addresses/CreateAddressModal'
+import type { Address } from '@/payload-types'
+import React from 'react'
 
 type Props = {
   address: Partial<Omit<Address, 'country'>> & { country?: string } // Allow address to be partial and entirely optional as this is entirely for display purposes
@@ -65,8 +65,8 @@ export const AddressItem: React.FC<Props> = ({
                 <CreateAddressModal
                   addressID={address.id}
                   initialData={address}
-                  buttonText={'Edit'}
-                  modalTitle={'Edit address'}
+                  buttonText={'Изменить'}
+                  modalTitle={'Изменить адрес'}
                 />
               )}
               {afterActions}

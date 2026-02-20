@@ -1,40 +1,40 @@
-import type { Block, Field } from 'payload'
-
+import { link } from '@/fields/link'
 import {
   FixedToolbarFeature,
   HeadingFeature,
   InlineToolbarFeature,
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
-
-import { link } from '@/fields/link'
+import type { Block, Field } from 'payload'
 
 const columnFields: Field[] = [
   {
     name: 'size',
+    label: 'Размер',
     type: 'select',
     defaultValue: 'oneThird',
     options: [
       {
-        label: 'One Third',
+        label: 'Одна треть',
         value: 'oneThird',
       },
       {
-        label: 'Half',
+        label: 'Половина',
         value: 'half',
       },
       {
-        label: 'Two Thirds',
+        label: 'Две трети',
         value: 'twoThirds',
       },
       {
-        label: 'Full',
+        label: 'Полная ширина',
         value: 'full',
       },
     ],
   },
   {
     name: 'richText',
+    label: 'Текст',
     type: 'richText',
     editor: lexicalEditor({
       features: ({ rootFeatures }) => {
@@ -46,10 +46,10 @@ const columnFields: Field[] = [
         ]
       },
     }),
-    label: false,
   },
   {
     name: 'enableLink',
+    label: 'Включить ссылку',
     type: 'checkbox',
   },
   link({
@@ -67,6 +67,7 @@ export const Content: Block = {
   fields: [
     {
       name: 'columns',
+      label: 'Колонки',
       type: 'array',
       admin: {
         initCollapsed: true,

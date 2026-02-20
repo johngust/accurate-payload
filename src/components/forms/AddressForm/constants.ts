@@ -1,1 +1,1 @@
-export const titles = ['Mr.', 'Mrs.', 'Ms.', 'Dr.', 'Prof.', 'Mx.', 'Other']
+export const titles = ['Г-н', 'Г-жа', 'Д-р', 'Проф.', 'Другое']

@@ -10,6 +10,7 @@ import {
   UnorderedListFeature,
   lexicalEditor,
 } from '@payloadcms/richtext-lexical'
+import { ru } from '@payloadcms/translations/languages/ru'
 import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
@@ -81,6 +82,9 @@ export default buildConfig({
   //email: nodemailerAdapter(),
   endpoints: [],
   globals: [Header, Footer],
+  i18n: {
+    supportedLanguages: { ru },
+  },
   plugins,
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: {

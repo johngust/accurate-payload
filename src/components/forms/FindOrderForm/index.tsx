@@ -42,37 +42,37 @@ export const FindOrderForm: React.FC<Props> = ({ initialEmail }) => {
 
   return (
     <Fragment>
-      <h1 className="text-xl mb-4">Find my order</h1>
+      <h1 className="text-xl mb-4">Найти мой заказ</h1>
       <div className="prose dark:prose-invert mb-8">
-        <p>{`Please enter your email and order ID below.`}</p>
+        <p>{`Пожалуйста, введите ваш адрес электронной почты и ID заказа ниже.`}</p>
       </div>
       <form className="max-w-lg flex flex-col gap-8" onSubmit={handleSubmit(onSubmit)}>
         <FormItem>
           <Label htmlFor="email" className="mb-2">
-            Email address
+            Адрес электронной почты
           </Label>
           <Input
             id="email"
-            {...register('email', { required: 'Email is required.' })}
+            {...register('email', { required: 'Электронная почта обязательна.' })}
             type="email"
           />
           {errors.email && <FormError message={errors.email.message} />}
         </FormItem>
         <FormItem>
           <Label htmlFor="orderID" className="mb-2">
-            Order ID
+            ID заказа
           </Label>
           <Input
             id="orderID"
             {...register('orderID', {
-              required: 'Order ID is required. You can find this in your email.',
+              required: 'ID заказа обязателен. Вы можете найти его в своем email.',
             })}
             type="text"
           />
           {errors.orderID && <FormError message={errors.orderID.message} />}
         </FormItem>
         <Button type="submit" className="self-start" variant="default">
-          Find my order
+          Найти мой заказ
         </Button>
       </form>
     </Fragment>

@@ -1,14 +1,18 @@
-import { slugField } from 'payload'
 import type { CollectionConfig } from 'payload'
+import { slugField } from 'payload'
 
 export const Categories: CollectionConfig = {
   slug: 'categories',
+  labels: {
+    singular: 'Категория',
+    plural: 'Категории',
+  },
   access: {
     read: () => true,
   },
   admin: {
     useAsTitle: 'title',
-    group: 'Content',
+    group: 'Контент',
   },
   fields: [
     {

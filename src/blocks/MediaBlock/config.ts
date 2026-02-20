@@ -6,9 +6,14 @@ export const MediaBlock: Block = {
   fields: [
     {
       name: 'media',
+      label: 'Медиа',
       type: 'upload',
       relationTo: 'media',
       required: true,
     },
   ],
+  labels: {
+    plural: 'Медиа-блоки',
+    singular: 'Медиа-блок',
+  },
 }

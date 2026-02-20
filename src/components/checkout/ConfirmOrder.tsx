@@ -44,7 +44,7 @@ export const ConfirmOrder: React.FC = () => {
 
   return (
     <div className="text-center w-full flex flex-col items-center justify-start gap-4">
-      <h1 className="text-2xl">Confirming Order</h1>
+      <h1 className="text-2xl">Подтверждение заказа</h1>
 
       <LoadingSpinner className="w-12 h-6" />
     </div>
