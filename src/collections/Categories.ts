@@ -21,6 +21,12 @@ export const Categories: CollectionConfig = {
       required: true,
     },
     {
+      name: 'image',
+      label: 'Изображение',
+      type: 'upload',
+      relationTo: 'media',
+    },
+    {
       name: 'parent',
       label: 'Родительская категория',
       type: 'relationship',

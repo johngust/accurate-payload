@@ -629,6 +629,7 @@ export interface ArchiveBlock {
 export interface Category {
   id: number;
   title: string;
+  image?: (number | null) | Media;
   parent?: (number | null) | Category;
   /**
    * When enabled, the slug will auto-generate from the title field on save and autosave.
@@ -1418,6 +1419,7 @@ export interface FormBlockSelect<T extends boolean = true> {
  */
 export interface CategoriesSelect<T extends boolean = true> {
   title?: T;
+  image?: T;
   parent?: T;
   generateSlug?: T;
   slug?: T;
