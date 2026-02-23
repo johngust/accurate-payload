@@ -126,7 +126,7 @@ async function seedClone() {
                     }
                 },
                 links: [
-                    { link: { type: 'custom', url: '/shop', label: 'Перейти в каталог' } }
+                    { link: { type: 'custom', url: '/catalog', label: 'Перейти в каталог' } }
                 ],
                 media: heroImageId
             },
@@ -161,7 +161,7 @@ async function seedClone() {
         data: {
             navItems: [
                 { link: { type: 'custom', url: '/', label: 'Главная' } },
-                { link: { type: 'custom', url: '/shop', label: 'Каталог' } },
+                { link: { type: 'custom', url: '/catalog', label: 'Каталог' } },
                 { link: { type: 'custom', url: '/about', label: 'О компании' } },
                 { link: { type: 'custom', url: '/delivery', label: 'Доставка' } },
             ]
@@ -173,7 +173,7 @@ async function seedClone() {
         context: { disableRevalidate: true },
         data: {
             navItems: [
-                { link: { type: 'custom', url: '/shop', label: 'Каталог товаров' } },
+                { link: { type: 'custom', url: '/catalog', label: 'Каталог товаров' } },
                 { link: { type: 'custom', url: '/contacts', label: 'Контакты' } },
                 { link: { type: 'custom', url: '/privacy', label: 'Политика конфиденциальности' } }
             ]
