@@ -3,10 +3,15 @@
 
 import configPromise from '@payload-config'
 import 'dotenv/config'
+import fs from 'fs'
+import path from 'path'
 import { getPayload, type Payload } from 'payload'
 
 import { categories } from './categories'
 import { products } from './products'
+
+const IMAGES_DIR = path.resolve(process.cwd(), 'src/scripts/parser/images')
+const MAPPING_PATH = path.join(IMAGES_DIR, 'mapping.json')
 
 async function findOrCreateCategory(
   payload: Payload,
@@ -56,14 +61,68 @@ async function seedCategories(payload: Payload) {
   return categoryMap
 }
 
+function loadImageMapping(): Record<string, string> {
+  if (!fs.existsSync(MAPPING_PATH)) return {}
+  return JSON.parse(fs.readFileSync(MAPPING_PATH, 'utf-8'))
+}
+
+async function uploadImage(payload: Payload, slug: string, filename: string): Promise<number> {
+  // Проверяем, не загружено ли уже
+  const existing = await payload.find({
+    collection: 'media',
+    where: { filename: { equals: filename } },
+    limit: 1,
+  })
+  if (existing.docs.length > 0) {
+    return existing.docs[0].id
+  }
+
+  const filePath = path.join(IMAGES_DIR, filename)
+  if (!fs.existsSync(filePath)) {
+    throw new Error(`Файл не найден: ${filePath}`)
+  }
+
+  const data = fs.readFileSync(filePath)
+  const ext = path.extname(filename).toLowerCase()
+  const mimetype = ext === '.png' ? 'image/png' : 'image/jpeg'
+
+  const media = await payload.create({
+    collection: 'media',
+    data: {
+      alt: slug,
+    },
+    file: {
+      data,
+      mimetype,
+      name: filename,
+      size: data.byteLength,
+    },
+  })
+
+  return media.id
+}
+
 async function seedProducts(payload: Payload, categoryMap: Map<string, number>) {
   console.log('\n=== Создание товаров ===')
+  const imageMapping = loadImageMapping()
 
   for (const prod of products) {
     const categoryId = categoryMap.get(prod.categorySlug)
     if (!categoryId) {
       console.warn(`  [пропуск] Категория не найдена: ${prod.categorySlug}`)
       continue
+    }
+
+    // Загрузка изображения
+    let gallery: { image: number }[] | undefined
+    const imageFile = imageMapping[prod.slug]
+    if (imageFile) {
+      try {
+        const mediaId = await uploadImage(payload, prod.slug, imageFile)
+        gallery = [{ image: mediaId }]
+      } catch (err) {
+        console.warn(`  [изображение] ошибка для ${prod.slug}: ${(err as Error).message}`)
+      }
     }
 
     const existing = await payload.find({
@@ -73,7 +132,18 @@ async function seedProducts(payload: Payload, categoryMap: Map<string, number>) 
     })
 
     if (existing.docs.length > 0) {
-      console.log(`  [существует] ${prod.sku} — ${prod.title}`)
+      const doc = existing.docs[0]
+      // Обновляем gallery если товар существует, но без изображений
+      if (gallery && (!doc.gallery || doc.gallery.length === 0)) {
+        await payload.update({
+          collection: 'products',
+          id: doc.id,
+          data: { gallery },
+        })
+        console.log(`  [обновлён gallery] ${prod.sku} — ${prod.title}`)
+      } else {
+        console.log(`  [существует] ${prod.sku} — ${prod.title}`)
+      }
       continue
     }
 
@@ -89,6 +159,7 @@ async function seedProducts(payload: Payload, categoryMap: Map<string, number>) 
         rating: prod.rating,
         specs: prod.specs,
         categories: [categoryId],
+        gallery,
         meta: {
           title: prod.title,
           description: `Купить ${prod.title} по выгодной цене с доставкой.`,
