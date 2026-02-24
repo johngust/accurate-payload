@@ -19,8 +19,8 @@ export const categories: ParsedCategory[] = [
     slug: 'rakoviny',
     children: [
       { title: 'Накладные раковины', slug: 'nakladnye-rakoviny' },
-      { title: 'Врезные раковины', slug: 'vreznye-rakoviny' },
-      { title: 'Раковины на пьедестале', slug: 'rakoviny-na-pedestale' },
+      { title: 'Мебельные раковины', slug: 'mebelnye-rakoviny' },
+      { title: 'Раковины над стиральной машиной', slug: 'rakoviny-nad-stiralnoj' },
       { title: 'Подвесные раковины', slug: 'podvesnye-rakoviny' },
     ],
   },
@@ -40,17 +40,8 @@ export const categories: ParsedCategory[] = [
     children: [
       { title: 'Смесители для раковины', slug: 'smesiteli-dlya-rakoviny' },
       { title: 'Смесители для ванны', slug: 'smesiteli-dlya-vanny' },
-      { title: 'Смесители для кухни', slug: 'smesiteli-dlya-kuhni' },
+      { title: 'Душевые стойки', slug: 'dushevye-stoyki' },
       { title: 'Смесители для душа', slug: 'smesiteli-dlya-dusha' },
-    ],
-  },
-  {
-    title: 'Душевые кабины',
-    slug: 'dushevye-kabiny',
-    children: [
-      { title: 'Душевые уголки', slug: 'dushevye-ugolki' },
-      { title: 'Душевые двери', slug: 'dushevye-dveri' },
-      { title: 'Душевые поддоны', slug: 'dushevye-poddony' },
     ],
   },
   {
@@ -62,21 +53,11 @@ export const categories: ParsedCategory[] = [
     ],
   },
   {
-    title: 'Мебель для ванной',
-    slug: 'mebel-dlya-vannoj',
+    title: 'Биде',
+    slug: 'bide',
     children: [
-      { title: 'Тумбы с раковиной', slug: 'tumby-s-rakovinoj' },
-      { title: 'Зеркальные шкафы', slug: 'zerkalnye-shkafy' },
-      { title: 'Пеналы', slug: 'penaly' },
-    ],
-  },
-  {
-    title: 'Аксессуары для ванной',
-    slug: 'aksessuary-dlya-vannoj',
-    children: [
-      { title: 'Держатели полотенец', slug: 'derzhateli-polotenec' },
-      { title: 'Дозаторы мыла', slug: 'dozatory-myla' },
-      { title: 'Крючки', slug: 'kryuchki' },
+      { title: 'Подвесные биде', slug: 'podvesnye-bide' },
+      { title: 'Напольные биде', slug: 'napolnye-bide' },
     ],
   },
 ]

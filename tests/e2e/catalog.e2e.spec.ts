@@ -156,7 +156,7 @@ test.describe('Статические страницы', () => {
 
 test.describe('Локализация', () => {
   test('на странице товара текст на русском', async ({ page }) => {
-    await page.goto(`${baseURL}/products/roca-the-gap-342477000`)
+    await page.goto(`${baseURL}/products/stworki-molde-s23401wh`)
 
     const backLink = page.locator('a', { hasText: 'Все товары' })
     await expect(backLink).toBeVisible()
