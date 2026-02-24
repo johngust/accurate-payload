@@ -77,9 +77,11 @@ export const ProductGridItem: React.FC<Props> = ({ product }) => {
             )}
           </div>
 
-          <Button size="icon" className="h-10 w-10 shrink-0 rounded-full transition-colors">
-            <ShoppingCart className="h-4 w-4" />
-            <span className="sr-only">В корзину</span>
+          <Button asChild size="icon" className="h-10 w-10 shrink-0 rounded-full transition-colors">
+            <Link href={`/products/${product.slug}`}>
+              <ShoppingCart className="h-4 w-4" />
+              <span className="sr-only">Подробнее</span>
+            </Link>
           </Button>
         </div>
       </div>
