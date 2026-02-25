@@ -1,3 +1,6 @@
+// ABOUTME: Компонент меню для fallback-режима Footer.
+// ABOUTME: Отображает список навигационных ссылок из navItems через CMSLink.
+
 import type { Footer } from '@/payload-types'
 
 import { CMSLink } from '@/components/Link'

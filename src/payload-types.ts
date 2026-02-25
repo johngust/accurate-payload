@@ -2208,6 +2208,21 @@ export interface Footer {
         id?: string | null;
       }[]
     | null;
+  columns?:
+    | {
+        title: string;
+        links?:
+          | {
+              label: string;
+              url: string;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+      }[]
+    | null;
+  contactPhone?: string | null;
+  contactEmail?: string | null;
   updatedAt?: string | null;
   createdAt?: string | null;
 }
@@ -2253,6 +2268,21 @@ export interface FooterSelect<T extends boolean = true> {
             };
         id?: T;
       };
+  columns?:
+    | T
+    | {
+        title?: T;
+        links?:
+          | T
+          | {
+              label?: T;
+              url?: T;
+              id?: T;
+            };
+        id?: T;
+      };
+  contactPhone?: T;
+  contactEmail?: T;
   updatedAt?: T;
   createdAt?: T;
   globalType?: T;

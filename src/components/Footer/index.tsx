@@ -1,65 +1,81 @@
-import type { Footer } from '@/payload-types'
+// ABOUTME: Компонент Footer — отображает навигационные колонки со ссылками и контактную информацию.
+// ABOUTME: Поддерживает два режима: колоночный макет (columns) и fallback на navItems.
+
+import type { Footer as FooterType } from '@/payload-types'
 
 import { FooterMenu } from '@/components/Footer/menu'
-import { LogoIcon } from '@/components/icons/logo'
 import { ThemeSelector } from '@/providers/Theme/ThemeSelector'
 import { getCachedGlobal } from '@/utilities/getGlobals'
 import Link from 'next/link'
 import { Suspense } from 'react'
 
-const { COMPANY_NAME, SITE_NAME } = process.env
-
 export async function Footer() {
-  const footer: Footer = await getCachedGlobal('footer', 1)()
-  const menu = footer.navItems || []
-  const currentYear = new Date().getFullYear()
-  const copyrightDate = 2023 + (currentYear > 2023 ? `-${currentYear}` : '')
-  const skeleton = 'w-full h-6 animate-pulse rounded bg-neutral-200 dark:bg-neutral-700'
-
-  const copyrightName = COMPANY_NAME || SITE_NAME || ''
+  const footer: FooterType = await getCachedGlobal('footer', 1)()
+  const { navItems, columns, contactPhone, contactEmail } = footer
+  const hasColumns = columns && columns.length > 0
 
   return (
-    <footer className="text-sm text-neutral-500 dark:text-neutral-400">
-      <div className="container">
-        <div className="flex w-full flex-col gap-6 border-t border-neutral-200 py-12 text-sm md:flex-row md:gap-12 dark:border-neutral-700">
-          <div>
-            <Link className="flex items-center gap-2 text-black md:pt-1 dark:text-white" href="/">
-              <LogoIcon className="w-6" />
-              <span className="sr-only">{SITE_NAME}</span>
-            </Link>
-          </div>
-          <Suspense
-            fallback={
-              <div className="flex h-[188px] w-[200px] flex-col gap-2">
-                <div className={skeleton} />
-                <div className={skeleton} />
-                <div className={skeleton} />
-                <div className={skeleton} />
-                <div className={skeleton} />
-                <div className={skeleton} />
+    <footer className="border-t bg-card">
+      <div className="container py-12">
+        {hasColumns ? (
+          <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+            {columns.map((col) => (
+              <div key={col.id}>
+                <h3 className="mb-4 font-heading text-sm font-bold">{col.title}</h3>
+                <ul className="space-y-2">
+                  {col.links?.map((link) => (
+                    <li key={link.id}>
+                      <Link
+                        href={link.url}
+                        className="text-sm text-muted-foreground hover:text-foreground"
+                      >
+                        {link.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
               </div>
-            }
-          >
-            <FooterMenu menu={menu} />
-          </Suspense>
-          <div className="md:ml-auto flex flex-col gap-4 items-end">
-            <ThemeSelector />
+            ))}
+            {(contactPhone || contactEmail) && (
+              <div>
+                <h3 className="mb-4 font-heading text-sm font-bold">Контакты</h3>
+                {contactPhone && <p className="text-lg font-bold">{contactPhone}</p>}
+                {contactEmail && (
+                  <a
+                    href={`mailto:${contactEmail}`}
+                    className="text-sm text-muted-foreground hover:text-foreground"
+                  >
+                    {contactEmail}
+                  </a>
+                )}
+              </div>
+            )}
           </div>
-        </div>
+        ) : (
+          <div className="flex w-full flex-col gap-6 text-sm md:flex-row md:gap-12">
+            <Suspense
+              fallback={
+                <div className="flex h-[188px] w-[200px] flex-col gap-2">
+                  {Array.from({ length: 4 }).map((_, i) => (
+                    <div
+                      key={i}
+                      className="h-6 w-full animate-pulse rounded bg-neutral-200 dark:bg-neutral-700"
+                    />
+                  ))}
+                </div>
+              }
+            >
+              <FooterMenu menu={navItems || []} />
+            </Suspense>
+            <div className="flex flex-col items-end gap-4 md:ml-auto">
+              <ThemeSelector />
+            </div>
+          </div>
+        )}
       </div>
-      <div className="border-t border-neutral-200 py-6 text-sm dark:border-neutral-700">
-        <div className="container mx-auto flex w-full flex-col items-center gap-1 md:flex-row md:gap-0">
-          <p>
-            &copy; {copyrightDate} {copyrightName}
-            {copyrightName.length && !copyrightName.endsWith('.') ? '.' : ''} Все права защищены.
-          </p>
-          <hr className="mx-4 hidden h-4 w-px border-l border-neutral-400 md:inline-block" />
-          <p>Разработано в Мичигане</p>
-          <p className="md:ml-auto">
-            <a className="text-black dark:text-white" href="https://payloadcms.com">
-              Создано с помощью Payload
-            </a>
-          </p>
+      <div className="border-t py-6">
+        <div className="container text-center text-xs text-muted-foreground">
+          &copy; {new Date().getFullYear()} Сантехника-Онлайн. Все права защищены.
         </div>
       </div>
     </footer>
