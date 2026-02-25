@@ -76,6 +76,9 @@ export interface Config {
     pages: Page;
     categories: Category;
     media: Media;
+    promotions: Promotion;
+    featuredProducts: FeaturedProduct;
+    brands: Brand;
     forms: Form;
     'form-submissions': FormSubmission;
     addresses: Address;
@@ -109,6 +112,9 @@ export interface Config {
     pages: PagesSelect<false> | PagesSelect<true>;
     categories: CategoriesSelect<false> | CategoriesSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
+    promotions: PromotionsSelect<false> | PromotionsSelect<true>;
+    featuredProducts: FeaturedProductsSelect<false> | FeaturedProductsSelect<true>;
+    brands: BrandsSelect<false> | BrandsSelect<true>;
     forms: FormsSelect<false> | FormsSelect<true>;
     'form-submissions': FormSubmissionsSelect<false> | FormSubmissionsSelect<true>;
     addresses: AddressesSelect<false> | AddressesSelect<true>;
@@ -1054,6 +1060,54 @@ export interface Address {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "promotions".
+ */
+export interface Promotion {
+  id: number;
+  title: string;
+  subtitle?: string | null;
+  image: number | Media;
+  link?: {
+    url?: string | null;
+    label?: string | null;
+  };
+  type: 'hero' | 'banner' | 'sale';
+  active?: boolean | null;
+  categories?: (number | Category)[] | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "featuredProducts".
+ */
+export interface FeaturedProduct {
+  id: number;
+  title: string;
+  product: number | Product;
+  discountPercent?: number | null;
+  active?: boolean | null;
+  categories?: (number | Category)[] | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "brands".
+ */
+export interface Brand {
+  id: number;
+  name: string;
+  logo?: (number | null) | Media;
+  link?: {
+    url?: string | null;
+  };
+  sortOrder?: number | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "form-submissions".
  */
 export interface FormSubmission {
@@ -1108,6 +1162,18 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'media';
         value: number | Media;
+      } | null)
+    | ({
+        relationTo: 'promotions';
+        value: number | Promotion;
+      } | null)
+    | ({
+        relationTo: 'featuredProducts';
+        value: number | FeaturedProduct;
+      } | null)
+    | ({
+        relationTo: 'brands';
+        value: number | Brand;
       } | null)
     | ({
         relationTo: 'forms';
@@ -1444,6 +1510,55 @@ export interface MediaSelect<T extends boolean = true> {
   height?: T;
   focalX?: T;
   focalY?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "promotions_select".
+ */
+export interface PromotionsSelect<T extends boolean = true> {
+  title?: T;
+  subtitle?: T;
+  image?: T;
+  link?:
+    | T
+    | {
+        url?: T;
+        label?: T;
+      };
+  type?: T;
+  active?: T;
+  categories?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "featuredProducts_select".
+ */
+export interface FeaturedProductsSelect<T extends boolean = true> {
+  title?: T;
+  product?: T;
+  discountPercent?: T;
+  active?: T;
+  categories?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "brands_select".
+ */
+export interface BrandsSelect<T extends boolean = true> {
+  name?: T;
+  logo?: T;
+  link?:
+    | T
+    | {
+        url?: T;
+      };
+  sortOrder?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

@@ -16,9 +16,12 @@ import { buildConfig } from 'payload'
 import sharp from 'sharp'
 import { fileURLToPath } from 'url'
 
+import { Brands } from '@/collections/Brands'
 import { Categories } from '@/collections/Categories'
+import { FeaturedProducts } from '@/collections/FeaturedProducts'
 import { Media } from '@/collections/Media'
 import { Pages } from '@/collections/Pages'
+import { Promotions } from '@/collections/Promotions'
 import { Users } from '@/collections/Users'
 import { Footer } from '@/globals/Footer'
 import { Header } from '@/globals/Header'
@@ -39,7 +42,7 @@ export default buildConfig({
     },
     user: Users.slug,
   },
-  collections: [Users, Pages, Categories, Media],
+  collections: [Users, Pages, Categories, Media, Promotions, FeaturedProducts, Brands],
   db: postgresAdapter({
     pool: {
       connectionString: process.env.DATABASE_URL || process.env.POSTGRES_URL || '',
