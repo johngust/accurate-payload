@@ -1,5 +1,6 @@
 import { ArchiveBlock } from '@/blocks/ArchiveBlock/Component'
 import { BannerBlock } from '@/blocks/Banner/Component'
+import { BrandsBlockComponent } from '@/blocks/BrandsBlock/Component'
 import { CallToActionBlock } from '@/blocks/CallToAction/Component'
 import { CarouselBlock } from '@/blocks/Carousel/Component'
 import { CategoriesGridBlock } from '@/blocks/CategoriesGrid/Component'
@@ -9,6 +10,8 @@ import { ContentBlock } from '@/blocks/Content/Component'
 import { FormBlock } from '@/blocks/Form/Component'
 import { MediaBlock } from '@/blocks/MediaBlock/Component'
 import { PromoBannersBlock } from '@/blocks/PromoBanners/Component'
+import { SaleWithCarouselBlock } from '@/blocks/SaleWithCarousel/Component'
+import { ServiceCardsBlock } from '@/blocks/ServiceCards/Component'
 import { ServicesBlockComponent } from '@/blocks/ServicesBlock/Component'
 import { ThreeItemGridBlock } from '@/blocks/ThreeItemGrid/Component'
 import { toKebabCase } from '@/utilities/toKebabCase'
@@ -30,6 +33,9 @@ const blockComponents = {
   categoryProductTabs: CategoryProductTabsBlock,
   promoBanners: PromoBannersBlock,
   servicesBlock: ServicesBlockComponent,
+  brandsBlock: BrandsBlockComponent,
+  saleWithCarousel: SaleWithCarouselBlock,
+  serviceCards: ServiceCardsBlock,
 }
 
 export const RenderBlocks: React.FC<{

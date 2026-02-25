@@ -541,6 +541,38 @@ export interface Page {
         blockName?: string | null;
         blockType: 'categoryProductTabs';
       }
+    | {
+        title?: string | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'brandsBlock';
+      }
+    | {
+        promotion: number | Promotion;
+        populateBy?: ('collection' | 'selection') | null;
+        category?: (number | null) | Category;
+        products?: (number | Product)[] | null;
+        limit?: number | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'saleWithCarousel';
+      }
+    | {
+        cards?:
+          | {
+              iconName: string;
+              title: string;
+              description?: string | null;
+              link?: {
+                url?: string | null;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'serviceCards';
+      }
   )[];
   meta?: {
     title?: string | null;
@@ -1387,6 +1419,43 @@ export interface PagesSelect<T extends boolean = true> {
           | {
               categories?: T;
               limit?: T;
+              id?: T;
+              blockName?: T;
+            };
+        brandsBlock?:
+          | T
+          | {
+              title?: T;
+              id?: T;
+              blockName?: T;
+            };
+        saleWithCarousel?:
+          | T
+          | {
+              promotion?: T;
+              populateBy?: T;
+              category?: T;
+              products?: T;
+              limit?: T;
+              id?: T;
+              blockName?: T;
+            };
+        serviceCards?:
+          | T
+          | {
+              cards?:
+                | T
+                | {
+                    iconName?: T;
+                    title?: T;
+                    description?: T;
+                    link?:
+                      | T
+                      | {
+                          url?: T;
+                        };
+                    id?: T;
+                  };
               id?: T;
               blockName?: T;
             };

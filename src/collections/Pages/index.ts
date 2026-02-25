@@ -4,6 +4,7 @@ import { adminOnly } from '@/access/adminOnly'
 import { adminOrPublishedStatus } from '@/access/adminOrPublishedStatus'
 import { Archive } from '@/blocks/ArchiveBlock/config'
 import { Banner } from '@/blocks/Banner/config'
+import { BrandsBlock } from '@/blocks/BrandsBlock/config'
 import { CallToAction } from '@/blocks/CallToAction/config'
 import { Carousel } from '@/blocks/Carousel/config'
 import { CategoriesGrid } from '@/blocks/CategoriesGrid/config'
@@ -13,6 +14,8 @@ import { Content } from '@/blocks/Content/config'
 import { FormBlock } from '@/blocks/Form/config'
 import { MediaBlock } from '@/blocks/MediaBlock/config'
 import { PromoBanners } from '@/blocks/PromoBanners/config'
+import { SaleWithCarousel } from '@/blocks/SaleWithCarousel/config'
+import { ServiceCards } from '@/blocks/ServiceCards/config'
 import { ServicesBlock } from '@/blocks/ServicesBlock/config'
 import { ThreeItemGrid } from '@/blocks/ThreeItemGrid/config'
 import { hero } from '@/fields/hero'
@@ -110,6 +113,9 @@ export const Pages: CollectionConfig = {
                 CategoryIconsRow,
                 PromoBanners,
                 CategoryProductTabs,
+                BrandsBlock,
+                SaleWithCarousel,
+                ServiceCards,
               ],
               required: true,
             },
