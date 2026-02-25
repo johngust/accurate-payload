@@ -17,7 +17,7 @@ const MAPPING_PATH = path.join(IMAGES_DIR, 'mapping.json')
 async function findOrCreateCategory(
   payload: Payload,
   slug: string,
-  data: { title: string; slug: string; parent?: number },
+  data: { title: string; slug: string; parent?: number; image?: number },
 ) {
   const existing = await payload.find({
     collection: 'categories',
@@ -25,7 +25,16 @@ async function findOrCreateCategory(
     limit: 1,
   })
   if (existing.docs.length > 0) {
-    console.log(`  [существует] ${slug}`)
+    if (data.image && !existing.docs[0].image) {
+      await payload.update({
+        collection: 'categories',
+        id: existing.docs[0].id,
+        data: { image: data.image },
+      })
+      console.log(`  [обновлена иконка] ${slug}`)
+    } else {
+      console.log(`  [существует] ${slug}`)
+    }
     return existing.docs[0]
   }
   const created = await payload.create({
@@ -36,14 +45,30 @@ async function findOrCreateCategory(
   return created
 }
 
+const categoryIcons: Record<string, { label: string; color: string }> = {
+  unitazy: { label: 'У', color: '#4F46E5' },
+  rakoviny: { label: 'Р', color: '#0891B2' },
+  vanny: { label: 'В', color: '#2563EB' },
+  smesiteli: { label: 'С', color: '#7C3AED' },
+  polotencesushiteli: { label: 'П', color: '#DC2626' },
+  bide: { label: 'Б', color: '#059669' },
+}
+
 async function seedCategories(payload: Payload) {
   console.log('\n=== Создание категорий ===')
   const categoryMap = new Map<string, number>()
 
   for (const cat of categories) {
+    let imageId: number | undefined
+    const iconInfo = categoryIcons[cat.slug]
+    if (iconInfo) {
+      imageId = await createPlaceholderImage(payload, iconInfo.label, iconInfo.color, 120, 120)
+    }
+
     const created = await findOrCreateCategory(payload, cat.slug, {
       title: cat.title,
       slug: cat.slug,
+      ...(imageId ? { image: imageId } : {}),
     })
     categoryMap.set(cat.slug, created.id)
 
