@@ -7,9 +7,12 @@ import { Banner } from '@/blocks/Banner/config'
 import { CallToAction } from '@/blocks/CallToAction/config'
 import { Carousel } from '@/blocks/Carousel/config'
 import { CategoriesGrid } from '@/blocks/CategoriesGrid/config'
+import { CategoryIconsRow } from '@/blocks/CategoryIconsRow/config'
+import { CategoryProductTabs } from '@/blocks/CategoryProductTabs/config'
 import { Content } from '@/blocks/Content/config'
 import { FormBlock } from '@/blocks/Form/config'
 import { MediaBlock } from '@/blocks/MediaBlock/config'
+import { PromoBanners } from '@/blocks/PromoBanners/config'
 import { ServicesBlock } from '@/blocks/ServicesBlock/config'
 import { ThreeItemGrid } from '@/blocks/ThreeItemGrid/config'
 import { hero } from '@/fields/hero'
@@ -104,6 +107,9 @@ export const Pages: CollectionConfig = {
                 FormBlock,
                 CategoriesGrid,
                 ServicesBlock,
+                CategoryIconsRow,
+                PromoBanners,
+                CategoryProductTabs,
               ],
               required: true,
             },

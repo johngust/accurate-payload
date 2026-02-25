@@ -521,6 +521,26 @@ export interface Page {
         blockName?: string | null;
         blockType: 'servicesBlock';
       }
+    | {
+        categories?: (number | Category)[] | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'categoryIconsRow';
+      }
+    | {
+        source?: ('all_active' | 'manual') | null;
+        promotions?: (number | Promotion)[] | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'promoBanners';
+      }
+    | {
+        categories: (number | Category)[];
+        limit?: number | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'categoryProductTabs';
+      }
   )[];
   meta?: {
     title?: string | null;
@@ -914,6 +934,25 @@ export interface Form {
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "promotions".
+ */
+export interface Promotion {
+  id: number;
+  title: string;
+  subtitle?: string | null;
+  image: number | Media;
+  link?: {
+    url?: string | null;
+    label?: string | null;
+  };
+  type: 'hero' | 'banner' | 'sale';
+  active?: boolean | null;
+  categories?: (number | Category)[] | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "variants".
  */
 export interface Variant {
@@ -1055,25 +1094,6 @@ export interface Address {
     | 'SE'
     | 'CH';
   phone?: string | null;
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "promotions".
- */
-export interface Promotion {
-  id: number;
-  title: string;
-  subtitle?: string | null;
-  image: number | Media;
-  link?: {
-    url?: string | null;
-    label?: string | null;
-  };
-  type: 'hero' | 'banner' | 'sale';
-  active?: boolean | null;
-  categories?: (number | Category)[] | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -1344,6 +1364,29 @@ export interface PagesSelect<T extends boolean = true> {
                     description?: T;
                     id?: T;
                   };
+              id?: T;
+              blockName?: T;
+            };
+        categoryIconsRow?:
+          | T
+          | {
+              categories?: T;
+              id?: T;
+              blockName?: T;
+            };
+        promoBanners?:
+          | T
+          | {
+              source?: T;
+              promotions?: T;
+              id?: T;
+              blockName?: T;
+            };
+        categoryProductTabs?:
+          | T
+          | {
+              categories?: T;
+              limit?: T;
               id?: T;
               blockName?: T;
             };

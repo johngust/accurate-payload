@@ -3,9 +3,12 @@ import { BannerBlock } from '@/blocks/Banner/Component'
 import { CallToActionBlock } from '@/blocks/CallToAction/Component'
 import { CarouselBlock } from '@/blocks/Carousel/Component'
 import { CategoriesGridBlock } from '@/blocks/CategoriesGrid/Component'
+import { CategoryIconsRowBlock } from '@/blocks/CategoryIconsRow/Component'
+import { CategoryProductTabsBlock } from '@/blocks/CategoryProductTabs/Component'
 import { ContentBlock } from '@/blocks/Content/Component'
 import { FormBlock } from '@/blocks/Form/Component'
 import { MediaBlock } from '@/blocks/MediaBlock/Component'
+import { PromoBannersBlock } from '@/blocks/PromoBanners/Component'
 import { ServicesBlockComponent } from '@/blocks/ServicesBlock/Component'
 import { ThreeItemGridBlock } from '@/blocks/ThreeItemGrid/Component'
 import { toKebabCase } from '@/utilities/toKebabCase'
@@ -23,6 +26,9 @@ const blockComponents = {
   mediaBlock: MediaBlock,
   threeItemGrid: ThreeItemGridBlock,
   categoriesGrid: CategoriesGridBlock,
+  categoryIconsRow: CategoryIconsRowBlock,
+  categoryProductTabs: CategoryProductTabsBlock,
+  promoBanners: PromoBannersBlock,
   servicesBlock: ServicesBlockComponent,
 }
 
