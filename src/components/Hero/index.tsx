@@ -21,13 +21,6 @@ export const Hero: React.FC<Props> = async ({ categoryId }) => {
   }
   if (categoryId) {
     promoWhere.and.push({ categories: { contains: categoryId } })
-  } else {
-    promoWhere.and.push({
-      or: [
-        { categories: { exists: false } },
-        { 'categories.length': { equals: 0 } },
-      ],
-    })
   }
 
   const [promotions, featuredProducts] = await Promise.all([

@@ -2,6 +2,7 @@
 // ABOUTME: Категория — маленькая иконка 48px + название. Быстрая навигация по каталогу.
 
 import type { Category } from '@/payload-types'
+import type { Where } from 'payload'
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 import Link from 'next/link'
@@ -12,22 +13,19 @@ type Props = {
 }
 
 export const CategoryIconsRowBlock: React.FC<Props> = async ({ categories }) => {
-  let cats: Category[] = []
+  const payload = await getPayload({ config: configPromise })
 
-  if (categories?.length) {
-    cats = categories
-      .map((c: number | Category) => (typeof c === 'object' ? c : null))
-      .filter(Boolean) as Category[]
-  } else {
-    const payload = await getPayload({ config: configPromise })
-    const result = await payload.find({
-      collection: 'categories',
-      where: { parent: { exists: false } },
-      limit: 12,
-      depth: 1,
-    })
-    cats = result.docs
-  }
+  const where: Where = categories?.length
+    ? { id: { in: categories.map((c: number | Category) => (typeof c === 'object' ? c.id : c)) } }
+    : { parent: { exists: false } }
+
+  const result = await payload.find({
+    collection: 'categories',
+    where,
+    limit: 12,
+    depth: 1,
+  })
+  const cats = result.docs
 
   if (!cats.length) return null
 
