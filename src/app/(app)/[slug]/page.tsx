@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 import { RenderBlocks } from '@/blocks/RenderBlocks'
+import { Hero } from '@/components/Hero'
 import { RenderHero } from '@/heros/RenderHero'
 import { generateMeta } from '@/utilities/generateMeta'
 import configPromise from '@payload-config'
@@ -60,10 +61,11 @@ export default async function Page({ params }: Args) {
   }
 
   const { hero, layout } = page
+  const isHomePage = slug === 'home'
 
   return (
     <article className="pt-16 pb-24">
-      <RenderHero {...hero} />
+      {isHomePage ? <Hero /> : <RenderHero {...hero} />}
       <RenderBlocks blocks={layout} />
     </article>
   )
