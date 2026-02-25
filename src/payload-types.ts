@@ -573,6 +573,43 @@ export interface Page {
         blockName?: string | null;
         blockType: 'serviceCards';
       }
+    | {
+        title?: string | null;
+        sets?:
+          | {
+              title: string;
+              image: number | Media;
+              price?: number | null;
+              link?: {
+                url?: string | null;
+              };
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'productSets';
+      }
+    | {
+        title?: string | null;
+        promotions?: (number | Promotion)[] | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'promoGrid';
+      }
+    | {
+        title?: string | null;
+        images?:
+          | {
+              image: number | Media;
+              caption?: string | null;
+              id?: string | null;
+            }[]
+          | null;
+        id?: string | null;
+        blockName?: string | null;
+        blockType: 'imageGallery';
+      }
   )[];
   meta?: {
     title?: string | null;
@@ -1454,6 +1491,48 @@ export interface PagesSelect<T extends boolean = true> {
                       | {
                           url?: T;
                         };
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        productSets?:
+          | T
+          | {
+              title?: T;
+              sets?:
+                | T
+                | {
+                    title?: T;
+                    image?: T;
+                    price?: T;
+                    link?:
+                      | T
+                      | {
+                          url?: T;
+                        };
+                    id?: T;
+                  };
+              id?: T;
+              blockName?: T;
+            };
+        promoGrid?:
+          | T
+          | {
+              title?: T;
+              promotions?: T;
+              id?: T;
+              blockName?: T;
+            };
+        imageGallery?:
+          | T
+          | {
+              title?: T;
+              images?:
+                | T
+                | {
+                    image?: T;
+                    caption?: T;
                     id?: T;
                   };
               id?: T;

@@ -12,8 +12,11 @@ import { CategoryIconsRow } from '@/blocks/CategoryIconsRow/config'
 import { CategoryProductTabs } from '@/blocks/CategoryProductTabs/config'
 import { Content } from '@/blocks/Content/config'
 import { FormBlock } from '@/blocks/Form/config'
+import { ImageGallery } from '@/blocks/ImageGallery/config'
 import { MediaBlock } from '@/blocks/MediaBlock/config'
+import { ProductSets } from '@/blocks/ProductSets/config'
 import { PromoBanners } from '@/blocks/PromoBanners/config'
+import { PromoGrid } from '@/blocks/PromoGrid/config'
 import { SaleWithCarousel } from '@/blocks/SaleWithCarousel/config'
 import { ServiceCards } from '@/blocks/ServiceCards/config'
 import { ServicesBlock } from '@/blocks/ServicesBlock/config'
@@ -116,6 +119,9 @@ export const Pages: CollectionConfig = {
                 BrandsBlock,
                 SaleWithCarousel,
                 ServiceCards,
+                ProductSets,
+                PromoGrid,
+                ImageGallery,
               ],
               required: true,
             },
