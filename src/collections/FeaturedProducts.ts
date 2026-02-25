@@ -3,10 +3,12 @@
 
 import type { CollectionConfig } from 'payload'
 
+import { adminOnly } from '@/access/adminOnly'
+
 export const FeaturedProducts: CollectionConfig = {
   slug: 'featuredProducts',
   labels: { singular: 'Товар дня', plural: 'Товары дня' },
-  access: { read: () => true },
+  access: { read: () => true, create: adminOnly, update: adminOnly, delete: adminOnly },
   admin: { useAsTitle: 'title', group: 'Промо' },
   fields: [
     { name: 'title', type: 'text', required: true, label: 'Заголовок', defaultValue: 'Товар дня' },
