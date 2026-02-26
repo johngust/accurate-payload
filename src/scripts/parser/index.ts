@@ -179,7 +179,7 @@ async function seedProducts(payload: Payload, categoryMap: Map<string, number>) 
         title: prod.title,
         slug: prod.slug,
         _status: 'published',
-        priceInUSD: prod.price,
+        priceInKZT: prod.price,
         inStock: prod.inStock,
         sku: prod.sku,
         rating: prod.rating,
@@ -242,7 +242,7 @@ const promotionsData = [
   },
   {
     title: 'Бесплатная доставка',
-    subtitle: 'При заказе от 10 000 ₽',
+    subtitle: 'При заказе от 10 000 ₸',
     type: 'hero' as const,
     link: { url: '/delivery', label: 'Подробнее' },
   },
@@ -254,7 +254,7 @@ const promotionsData = [
     link: { url: '/catalog/unitazy', label: 'Выбрать' },
   },
   {
-    title: 'Смесители от 3 500 ₽',
+    title: 'Смесители от 3 500 ₸',
     subtitle: 'Широкий выбор для ванной и кухни',
     type: 'banner' as const,
     link: { url: '/catalog/smesiteli', label: 'Выбрать' },
@@ -280,7 +280,7 @@ const promotionsData = [
   },
   {
     title: 'Подарок при покупке',
-    subtitle: 'Набор аксессуаров в подарок при заказе от 15 000 ₽',
+    subtitle: 'Набор аксессуаров в подарок при заказе от 15 000 ₸',
     type: 'sale' as const,
     link: { url: '/catalog', label: 'Подробнее' },
   },
@@ -461,7 +461,7 @@ async function seedHomePage(payload: Payload, categoryMap: Map<string, number>) 
         {
           iconName: 'Truck',
           title: 'Доставка по России',
-          description: 'Бесплатная доставка при заказе от 10 000 ₽',
+          description: 'Бесплатная доставка при заказе от 10 000 ₸',
         },
       ],
     },
@@ -509,7 +509,7 @@ async function seedHomePage(payload: Payload, categoryMap: Map<string, number>) 
         hero: { type: 'none' },
         layout,
         meta: {
-          title: 'Сантехника-Онлайн — интернет-магазин сантехники',
+          title: 'Accurate.kz — интернет-магазин сантехники',
           description: 'Широкий выбор сантехники по выгодным ценам с доставкой по всей России.',
         },
       },
@@ -546,7 +546,7 @@ const staticPages = [
     title: 'Доставка и оплата',
     slug: 'delivery',
     content:
-      'Мы доставляем товары по всей России. Доставка по Москве и Московской области — от 1 дня. Доставка в регионы — от 3 до 7 рабочих дней.\n\nБесплатная доставка при заказе от 10 000 ₽. Стоимость доставки рассчитывается автоматически при оформлении заказа.\n\nСпособы оплаты: банковская карта, наличные при получении, безналичный расчёт для юридических лиц, рассрочка от банков-партнёров.\n\nВозврат товара возможен в течение 14 дней с момента получения при сохранении товарного вида и упаковки.',
+      'Мы доставляем товары по всей России. Доставка по Москве и Московской области — от 1 дня. Доставка в регионы — от 3 до 7 рабочих дней.\n\nБесплатная доставка при заказе от 10 000 ₸. Стоимость доставки рассчитывается автоматически при оформлении заказа.\n\nСпособы оплаты: банковская карта, наличные при получении, безналичный расчёт для юридических лиц, рассрочка от банков-партнёров.\n\nВозврат товара возможен в течение 14 дней с момента получения при сохранении товарного вида и упаковки.',
   },
   {
     title: 'Контакты',
@@ -599,7 +599,7 @@ async function seedStaticPages(payload: Payload) {
           },
         ],
         meta: {
-          title: `${page.title} — Сантехника-Онлайн`,
+          title: `${page.title} — Accurate.kz`,
           description: page.content.slice(0, 160),
         },
       },

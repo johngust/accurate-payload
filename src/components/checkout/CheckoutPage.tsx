@@ -353,85 +353,90 @@ export const CheckoutPage: React.FC = () => {
 
       {!cartIsEmpty && (
         <div className="basis-full lg:basis-1/3 lg:pl-8 p-8 border-none bg-primary/5 flex flex-col gap-8 rounded-lg">
-          <h2 className="text-3xl font-medium">Ваша корзина</h2>
-          {cart?.items?.map((item, index) => {
-            if (typeof item.product === 'object' && item.product) {
-              const {
-                product,
-                product: { id, meta, title, gallery },
-                quantity,
-                variant,
-              } = item
+          <h2 className="text-2xl font-bold">Ваша корзина</h2>
+          <div className="flex flex-col gap-6">
+            {cart?.items?.map((item, index) => {
+              if (typeof item.product === 'object' && item.product) {
+                const {
+                  product,
+                  product: { id, meta, title, gallery },
+                  quantity,
+                  variant,
+                } = item
 
-              if (!quantity) return null
+                if (!quantity) return null
 
-              let image = gallery?.[0]?.image || meta?.image
-              let price = product?.priceInUSD
+                let image = gallery?.[0]?.image || meta?.image
+                let price = product?.priceInKZT
 
-              const isVariant = Boolean(variant) && typeof variant === 'object'
+                const isVariant = Boolean(variant) && typeof variant === 'object'
 
-              if (isVariant) {
-                price = variant?.priceInUSD
+                if (isVariant) {
+                  price = variant?.priceInKZT
 
-                const imageVariant = product.gallery?.find((item: any) => {
-                  if (!item.variantOption) return false
-                  const variantOptionID =
-                    typeof item.variantOption === 'object'
-                      ? item.variantOption.id
-                      : item.variantOption
+                  const imageVariant = product.gallery?.find((item: any) => {
+                    if (!item.variantOption) return false
+                    const variantOptionID =
+                      typeof item.variantOption === 'object'
+                        ? item.variantOption.id
+                        : item.variantOption
 
-                  const hasMatch = variant?.options?.some((option: any) => {
-                    if (typeof option === 'object') return option.id === variantOptionID
-                    else return option === variantOptionID
+                    const hasMatch = variant?.options?.some((option: any) => {
+                      if (typeof option === 'object') return option.id === variantOptionID
+                      else return option === variantOptionID
+                    })
+
+                    return hasMatch
                   })
 
-                  return hasMatch
-                })
-
-                if (imageVariant && typeof imageVariant.image !== 'string') {
-                  image = imageVariant.image
+                  if (imageVariant && typeof imageVariant.image !== 'string') {
+                    image = imageVariant.image
+                  }
                 }
-              }
 
-              return (
-                <div className="flex items-start gap-4" key={index}>
-                  <div className="flex items-stretch justify-stretch h-20 w-20 p-2 rounded-lg border">
-                    <div className="relative w-full h-full">
-                      {image && typeof image !== 'string' && (
-                        <Media className="" fill imgClassName="rounded-lg" resource={image} />
-                      )}
-                    </div>
-                  </div>
-                  <div className="flex grow justify-between items-center">
-                    <div className="flex flex-col gap-1">
-                      <p className="font-medium text-lg">{title}</p>
-                      {variant && typeof variant === 'object' && (
-                        <p className="text-sm font-mono text-primary/50 tracking-widest">
-                          {variant.options
-                            ?.map((option: any) => {
-                              if (typeof option === 'object') return option.label
-                              return null
-                            })
-                            .join(', ')}
-                        </p>
-                      )}
-                      <div>
-                        {'x'}
-                        {quantity}
+                return (
+                  <div className="flex items-start gap-4 border-b border-gray-100 pb-4 last:border-0" key={index}>
+                    <div className="flex items-stretch justify-stretch h-16 w-16 shrink-0 p-1 rounded border border-gray-100 bg-white">
+                      <div className="relative w-full h-full">
+                        {image && typeof image !== 'string' && (
+                          <Media className="" fill imgClassName="rounded object-contain" resource={image} />
+                        )}
                       </div>
                     </div>
+                    <div className="flex grow justify-between">
+                      <div className="flex flex-col gap-0.5">
+                        <p className="text-sm font-medium line-clamp-2">{title}</p>
+                        {variant && typeof variant === 'object' && (
+                          <p className="text-[10px] uppercase text-muted-foreground tracking-widest">
+                            {variant.options
+                              ?.map((option: any) => {
+                                if (typeof option === 'object') return option.label
+                                return null
+                              })
+                              .join(', ')}
+                          </p>
+                        )}
+                        <div className="text-xs text-muted-foreground mt-1">
+                          {quantity} шт.
+                        </div>
+                      </div>
 
-                    {typeof price === 'number' && <Price amount={price} />}
+                      {typeof price === 'number' && (
+                        <div className="text-right">
+                          <Price amount={price * quantity} className="text-sm font-bold text-primary" />
+                        </div>
+                      )}
+                    </div>
                   </div>
-                </div>
-              )
-            }
-            return null
-          })}
-          <hr />
-          <div className="flex justify-between items-center gap-2">
-            <span className="uppercase">Итого</span>{' '}
-            <Price className="text-3xl font-medium" amount={cart.subtotal || 0} />
+                )
+              }
+              return null
+            })}
+          </div>
+          <hr className="border-gray-200" />
+          <div className="flex justify-between items-center">
+            <span className="font-bold text-lg uppercase">Итого к оплате</span>{' '}
+            <Price className="text-3xl font-bold text-primary" amount={cart.subtotal || 0} />
           </div>
         </div>
       )}

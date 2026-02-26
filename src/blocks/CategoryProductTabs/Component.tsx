@@ -36,7 +36,7 @@ export const CategoryProductTabsBlock: React.FC<Props> = async ({ categories, li
     depth: 1,
     select: {
       title: true, slug: true, gallery: true,
-      priceInUSD: true, inStock: true, rating: true,
+      priceInKZT: true, inStock: true, rating: true,
     },
   })
 

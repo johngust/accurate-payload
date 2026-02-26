@@ -6,17 +6,12 @@ import { Header } from '@/components/Header'
 import { LivePreviewListener } from '@/components/LivePreviewListener'
 import { Providers } from '@/providers'
 import { InitTheme } from '@/providers/Theme/InitTheme'
-import { Nunito_Sans, Rubik } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
-const nunitoSans = Nunito_Sans({
+const inter = Inter({
   subsets: ['latin', 'cyrillic'],
-  variable: '--font-nunito-sans',
-})
-
-const rubik = Rubik({
-  subsets: ['latin', 'cyrillic'],
-  variable: '--font-rubik',
+  variable: '--font-inter',
 })
 
 /* const { SITE_NAME, TWITTER_CREATOR, TWITTER_SITE } = process.env
@@ -49,7 +44,7 @@ const twitterSite = TWITTER_SITE ? ensureStartsWith(TWITTER_SITE, 'https://') : 
 export default async function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html
-      className={[nunitoSans.variable, rubik.variable].filter(Boolean).join(' ')}
+      className={inter.variable}
       lang="ru"
       suppressHydrationWarning
     >

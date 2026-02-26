@@ -8,6 +8,7 @@ import clsx from 'clsx'
 import { useSearchParams } from 'next/navigation'
 import React, { useCallback, useMemo } from 'react'
 import { toast } from 'sonner'
+
 type Props = {
   product: Product
 }
@@ -15,6 +16,7 @@ type Props = {
 export function AddToCart({ product }: Props) {
   const { addItem, cart, isLoading } = useCart()
   const searchParams = useSearchParams()
+  const [quantity, setQuantity] = React.useState(1)
 
   const variants = product.variants?.docs || []
 
@@ -43,12 +45,13 @@ export function AddToCart({ product }: Props) {
 
       addItem({
         product: product.id,
+        quantity,
         variant: selectedVariant?.id ?? undefined,
       }).then(() => {
         toast.success('Товар добавлен в корзину.')
       })
     },
-    [addItem, product, selectedVariant],
+    [addItem, product, selectedVariant, quantity],
   )
 
   const disabled = useMemo<boolean>(() => {
@@ -95,17 +98,41 @@ export function AddToCart({ product }: Props) {
   }, [selectedVariant, cart?.items, product])
 
   return (
-    <Button
-      aria-label="Добавить в корзину"
-      variant={'outline'}
-      className={clsx({
-        'hover:opacity-90': true,
-      })}
-      disabled={disabled || isLoading}
-      onClick={addToCart}
-      type="submit"
-    >
-      Добавить в корзину
-    </Button>
+    <div className="flex flex-col gap-3">
+      <div className="flex items-center gap-3">
+        <div className="flex h-11 items-center rounded border border-gray-200 bg-white overflow-hidden">
+          <button
+            onClick={() => setQuantity(Math.max(1, quantity - 1))}
+            className="flex h-full w-10 items-center justify-center hover:bg-gray-50 transition-colors"
+            type="button"
+          >
+            -
+          </button>
+          <input
+            type="number"
+            value={quantity}
+            onChange={(e) => setQuantity(Math.max(1, parseInt(e.target.value) || 1))}
+            className="w-12 text-center text-sm font-bold border-none focus:ring-0 outline-none"
+          />
+          <button
+            onClick={() => setQuantity(quantity + 1)}
+            className="flex h-full w-10 items-center justify-center hover:bg-gray-50 transition-colors"
+            type="button"
+          >
+            +
+          </button>
+        </div>
+        <Button
+          aria-label="Добавить в корзину"
+          variant={'default'}
+          className="flex-1 h-11 text-base font-bold transition-all hover:scale-[1.02] active:scale-[0.98]"
+          disabled={disabled || isLoading}
+          onClick={addToCart}
+          type="submit"
+        >
+          {disabled && !isLoading ? 'Нет в наличии' : 'В корзину'}
+        </Button>
+      </div>
+    </div>
   )
 }

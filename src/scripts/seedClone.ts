@@ -51,7 +51,7 @@ async function seedClone() {
                 title,
                 slug: sku.toLowerCase(),
                 _status: 'published',
-                priceInUSD: price,
+                priceInKZT: price,
                 inStock: 'in_stock',
                 sku: sku,
                 rating: { value: 4.8, count: 12 },
@@ -114,7 +114,7 @@ async function seedClone() {
                                 type: 'heading',
                                 version: 1,
                                 tag: 'h1',
-                                children: [{ type: 'text', version: 1, text: 'Сантехника-Онлайн' }]
+                                children: [{ type: 'text', version: 1, text: 'Accurate.kz' }]
                             },
                             {
                                 type: 'paragraph',
@@ -150,7 +150,7 @@ async function seedClone() {
                 }
             ],
             meta: {
-                title: 'Сантехника-Онлайн - интернет магазин',
+                title: 'Accurate.kz - интернет магазин',
                 description: 'Купить сантехнику онлайн'
             }
         }

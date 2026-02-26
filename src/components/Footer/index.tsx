@@ -75,7 +75,7 @@ export async function Footer() {
       </div>
       <div className="border-t py-6">
         <div className="container text-center text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Сантехника-Онлайн. Все права защищены.
+          &copy; {new Date().getFullYear()} Accurate.kz. Все права защищены.
         </div>
       </div>
     </footer>

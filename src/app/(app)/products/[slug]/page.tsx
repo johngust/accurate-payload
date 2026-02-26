@@ -81,12 +81,12 @@ export default async function ProductPage({ params }: Args) {
       })
     : product.inventory! > 0
 
-  let price = product.priceInUSD
+  let price = product.priceInKZT
 
   if (product.enableVariants && product?.variants?.docs?.length) {
     price = product?.variants?.docs?.reduce((acc, variant) => {
-      if (typeof variant === 'object' && variant?.priceInUSD && acc && variant?.priceInUSD > acc) {
-        return variant.priceInUSD
+      if (typeof variant === 'object' && variant?.priceInKZT && acc && variant?.priceInKZT > acc) {
+        return variant.priceInKZT
       }
       return acc
     }, price)
@@ -102,7 +102,7 @@ export default async function ProductPage({ params }: Args) {
       '@type': 'AggregateOffer',
       availability: hasStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       price: price,
-      priceCurrency: 'usd',
+      priceCurrency: 'kzt',
     },
   }
 
@@ -135,7 +135,7 @@ export default async function ProductPage({ params }: Args) {
             </Suspense>
           </div>
 
-          <div className="basis-full lg:basis-1/2">
+          <div className="basis-full lg:basis-1/2 bg-white p-8 rounded-lg border border-gray-100 shadow-sm">
             <ProductDescription product={product} />
           </div>
         </div>
@@ -169,7 +169,7 @@ function RelatedProducts({ products }: { products: Product[] }) {
             <Link className="relative h-full w-full" href={`/products/${product.slug}`}>
               <GridTileImage
                 label={{
-                  amount: product.priceInUSD!,
+                  amount: product.priceInKZT!,
                   title: product.title,
                 }}
                 media={product.meta?.image as Media}
@@ -207,7 +207,7 @@ const queryProductBySlug = async ({ slug }: { slug: string }) => {
     populate: {
       variants: {
         title: true,
-        priceInUSD: true,
+        priceInKZT: true,
         inventory: true,
         options: true,
       },

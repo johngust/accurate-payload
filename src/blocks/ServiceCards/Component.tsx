@@ -33,15 +33,15 @@ export const ServiceCardsBlock: React.FC<Props> = ({ cards }) => {
             <Wrapper
               key={card.id || i}
               {...(wrapperProps as any)}
-              className="flex items-start gap-4 rounded-2xl bg-secondary/50 p-5 transition-colors hover:bg-secondary"
+              className="flex items-center gap-4 rounded-lg border border-gray-100 bg-white p-6 transition-all hover:shadow-md hover:border-primary/20"
             >
-              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/10">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-primary/5">
                 <IconComponent className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-heading text-sm font-bold">{card.title}</h3>
+                <h3 className="text-sm font-bold text-foreground">{card.title}</h3>
                 {card.description && (
-                  <p className="mt-1 text-xs text-muted-foreground">{card.description}</p>
+                  <p className="mt-0.5 text-[11px] text-muted-foreground uppercase tracking-tight">{card.description}</p>
                 )}
               </div>
             </Wrapper>

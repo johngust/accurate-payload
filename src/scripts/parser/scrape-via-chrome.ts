@@ -34,7 +34,7 @@ export const PARSE_PRODUCT_JS = `
   const body = document.body.innerText;
   const result = {};
   result.title = document.querySelector('h1')?.textContent?.trim() || '';
-  const priceMatch = body.match(/(\\d[\\d\\s]+)\\s*₽/);
+  const priceMatch = body.match(/(\\d[\\d\\s]+)\\s*₸/);
   result.price = priceMatch ? parseInt(priceMatch[1].replace(/\\s/g, '')) : 0;
   const codeMatch = body.match(/Код товара:\\s*(\\d+)/);
   result.productCode = codeMatch ? codeMatch[1] : '';
@@ -48,7 +48,7 @@ export const PARSE_PRODUCT_JS = `
     for (let i = 0; i < lines.length - 1; i += 2) {
       const key = lines[i];
       const val = lines[i + 1];
-      if (key && val && key.length < 50 && !key.includes('₽') && !val.includes('₽')) {
+      if (key && val && key.length < 50 && !key.includes('₸') && !val.includes('₸')) {
         specs.push({ key: key, value: val });
       }
     }

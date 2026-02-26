@@ -19,25 +19,22 @@ export const CategoryCard: React.FC<Props> = ({ category }) => {
   return (
     <Link
       href={`/catalog/${category.slug}`}
-      className="group relative flex h-40 w-full flex-col items-center justify-center overflow-hidden rounded-2xl bg-secondary p-4 text-center transition-all hover:-translate-y-1 hover:shadow-md hover:bg-secondary/80"
+      className="group flex w-full flex-col items-center justify-center rounded-lg border border-gray-100 bg-white p-6 text-center transition-all hover:border-primary/20 hover:shadow-lg"
     >
-      {image && (
-        <div className="mb-2 h-16 w-16">
+      <div className="relative mb-4 flex h-24 w-24 items-center justify-center rounded-full bg-gray-50 transition-colors group-hover:bg-primary/5">
+        {image ? (
           <Media
-            className="h-full w-full"
-            imgClassName="h-full w-full object-contain"
+            className="h-16 w-16"
+            imgClassName="h-full w-full object-contain transition-transform duration-300 group-hover:scale-110"
             resource={image}
           />
-        </div>
-      )}
-      <span className="font-heading text-sm font-medium tracking-tight text-foreground transition-colors group-hover:text-primary sm:text-base">
+        ) : (
+          <div className="h-16 w-16 rounded-full bg-gray-200" />
+        )}
+      </div>
+      <span className="text-sm font-semibold text-foreground transition-colors group-hover:text-primary sm:text-base line-clamp-2">
         {category.title}
       </span>
-      <div className="absolute bottom-3 opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-        <span className="flex items-center text-xs font-semibold uppercase tracking-wider text-primary">
-          Перейти <ChevronRight className="ml-1 h-3 w-3" />
-        </span>
-      </div>
     </Link>
   )
 }

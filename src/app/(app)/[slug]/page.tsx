@@ -64,7 +64,7 @@ export default async function Page({ params }: Args) {
   const isHomePage = slug === 'home'
 
   return (
-    <article className="pt-16 pb-24">
+    <article className="pb-24">
       {isHomePage ? <Hero /> : <RenderHero {...hero} />}
       <RenderBlocks blocks={layout} />
     </article>

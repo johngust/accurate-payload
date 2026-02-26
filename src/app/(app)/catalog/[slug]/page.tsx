@@ -79,14 +79,14 @@ export default async function CategoryPage({ params, searchParams }: Args) {
   if (minPrice && typeof minPrice === 'string') {
     const min = parseFloat(minPrice)
     if (!isNaN(min)) {
-      productConditions.push({ priceInUSD: { greater_than_equal: min } })
+      productConditions.push({ priceInKZT: { greater_than_equal: min } })
     }
   }
 
   if (maxPrice && typeof maxPrice === 'string') {
     const max = parseFloat(maxPrice)
     if (!isNaN(max)) {
-      productConditions.push({ priceInUSD: { less_than_equal: max } })
+      productConditions.push({ priceInKZT: { less_than_equal: max } })
     }
   }
 
@@ -101,7 +101,7 @@ export default async function CategoryPage({ params, searchParams }: Args) {
       slug: true,
       gallery: true,
       categories: true,
-      priceInUSD: true,
+      priceInKZT: true,
       inStock: true,
       rating: true,
     },

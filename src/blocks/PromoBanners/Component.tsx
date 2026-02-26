@@ -44,7 +44,7 @@ export const PromoBannersBlock: React.FC<Props> = async ({ source, promotions })
             <Wrapper
               key={promo.id}
               {...(wrapperProps as any)}
-              className="group relative aspect-[16/9] overflow-hidden rounded-2xl"
+              className="group relative aspect-[16/9] overflow-hidden rounded-lg"
             >
               {image && (
                 <Media

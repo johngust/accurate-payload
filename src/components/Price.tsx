@@ -24,6 +24,13 @@ type PriceRange = {
 
 type Props = BaseProps & (PriceFixed | PriceRange)
 
+const KZT_CURRENCY = {
+  code: 'KZT',
+  decimals: 0,
+  label: 'Tenge',
+  symbol: '₸',
+}
+
 export const Price = ({
   amount,
   className,
@@ -32,21 +39,37 @@ export const Price = ({
   currencyCode: currencyCodeFromProps,
   as = 'p',
 }: Props & React.ComponentProps<'p'>) => {
-  const { formatCurrency, supportedCurrencies } = useCurrency()
+  const { currency: activeCurrency, formatCurrency, supportedCurrencies } = useCurrency()
 
   const Element = as
 
   const currencyToUse = useMemo(() => {
+    if (currencyCodeFromProps === 'KZT') return KZT_CURRENCY
     if (currencyCodeFromProps) {
-      return supportedCurrencies.find((currency) => currency.code === currencyCodeFromProps)
+      return (
+        supportedCurrencies?.find((currency) => currency.code === currencyCodeFromProps) ||
+        KZT_CURRENCY
+      )
     }
-    return undefined
-  }, [currencyCodeFromProps, supportedCurrencies])
+    // Если плагин еще не загрузил валюту или по умолчанию стоит USD, форсируем KZT
+    if (!activeCurrency || activeCurrency.code === 'USD') {
+      return KZT_CURRENCY
+    }
+    return activeCurrency
+  }, [currencyCodeFromProps, supportedCurrencies, activeCurrency])
+
+  const formattedAmount = (val: number) => {
+    // Жестко форматируем в тенге, чтобы избежать проблем с инициализацией плагина
+    const formatted = new Intl.NumberFormat('ru-KZ', {
+      minimumFractionDigits: 0,
+    }).format(val)
+    return `${formatted} ₸`
+  }
 
   if (typeof amount === 'number') {
     return (
       <Element className={className} suppressHydrationWarning>
-        {formatCurrency(amount, { currency: currencyToUse })}
+        {formattedAmount(amount)}
       </Element>
     )
   }
@@ -54,7 +77,7 @@ export const Price = ({
   if (highestAmount && highestAmount !== lowestAmount) {
     return (
       <Element className={className} suppressHydrationWarning>
-        {`${formatCurrency(lowestAmount, { currency: currencyToUse })} - ${formatCurrency(highestAmount, { currency: currencyToUse })}`}
+        {`${formattedAmount(lowestAmount)} - ${formattedAmount(highestAmount)}`}
       </Element>
     )
   }
@@ -62,7 +85,7 @@ export const Price = ({
   if (lowestAmount) {
     return (
       <Element className={className} suppressHydrationWarning>
-        {`${formatCurrency(lowestAmount, { currency: currencyToUse })}`}
+        {`${formattedAmount(lowestAmount)}`}
       </Element>
     )
   }

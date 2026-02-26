@@ -83,6 +83,17 @@ export const plugins: Plugin[] = [
     },
   }),
   ecommercePlugin({
+    currencies: {
+      supportedCurrencies: [
+        {
+          code: 'KZT',
+          decimals: 0,
+          label: 'Tenge',
+          symbol: '₸',
+        },
+      ],
+      defaultCurrency: 'KZT',
+    },
     access: {
       adminOnlyFieldAccess,
       adminOrPublishedStatus,

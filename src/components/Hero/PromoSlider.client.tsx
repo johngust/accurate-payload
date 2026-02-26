@@ -39,7 +39,7 @@ export const PromoSlider: React.FC<Props> = ({ promotions }) => {
   if (!promotions.length) return null
 
   return (
-    <div className="relative overflow-hidden rounded-2xl">
+    <div className="relative overflow-hidden rounded-lg shadow-sm">
       <Carousel
         setApi={setApi}
         opts={{ align: 'start', loop: true }}
@@ -53,7 +53,7 @@ export const PromoSlider: React.FC<Props> = ({ promotions }) => {
             const wrapperProps = promo.link?.url ? { href: promo.link.url } : {}
 
             return (
-              <CarouselItem key={promo.id} className="relative aspect-[16/9] w-full">
+              <CarouselItem key={promo.id} className="relative aspect-[21/9] w-full">
                 <Wrapper {...(wrapperProps as any)} className="relative block h-full w-full">
                   {image && (
                     <Media
@@ -61,16 +61,18 @@ export const PromoSlider: React.FC<Props> = ({ promotions }) => {
                       imgClassName="absolute inset-0 h-full w-full object-cover"
                     />
                   )}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute bottom-6 left-6 right-6 text-white">
-                    <h2 className="text-2xl font-bold">{promo.title}</h2>
+                  <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-transparent" />
+                  <div className="absolute inset-0 flex flex-col justify-center p-8 md:p-12 text-white max-w-xl">
+                    <h2 className="text-3xl md:text-4xl font-bold leading-tight drop-shadow-md">{promo.title}</h2>
                     {promo.subtitle && (
-                      <p className="mt-1 text-sm opacity-90">{promo.subtitle}</p>
+                      <p className="mt-2 text-base md:text-lg opacity-90 drop-shadow-sm">{promo.subtitle}</p>
                     )}
                     {promo.link?.label && (
-                      <span className="mt-3 inline-block rounded-lg bg-white/20 px-4 py-2 text-sm font-medium backdrop-blur-sm">
-                        {promo.link.label}
-                      </span>
+                      <div className="mt-6">
+                        <span className="inline-block rounded bg-primary px-6 py-2.5 text-sm font-bold shadow-lg transition-transform hover:scale-105">
+                          {promo.link.label}
+                        </span>
+                      </div>
                     )}
                   </div>
                 </Wrapper>
@@ -80,13 +82,13 @@ export const PromoSlider: React.FC<Props> = ({ promotions }) => {
         </CarouselContent>
       </Carousel>
       {promotions.length > 1 && (
-        <div className="absolute bottom-3 left-1/2 flex -translate-x-1/2 gap-1.5">
+        <div className="absolute bottom-4 left-8 flex gap-2">
           {promotions.map((_, i) => (
             <button
               key={i}
               onClick={() => api?.scrollTo(i)}
-              className={`h-2 w-2 rounded-full transition-colors ${
-                i === current ? 'bg-white' : 'bg-white/40'
+              className={`h-1.5 transition-all duration-300 rounded-full ${
+                i === current ? 'w-8 bg-white' : 'w-2 bg-white/40 hover:bg-white/60'
               }`}
             />
           ))}

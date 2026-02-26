@@ -9,9 +9,9 @@ type Props = {
 
 export const CategoriesGridBlock: React.FC<Props> = ({ title, categories }) => {
     return (
-        <section className="container py-12">
+        <section className="container py-8">
             {title && (
-                <h2 className="mb-8 font-heading text-3xl font-bold tracking-tight text-foreground md:text-4xl">
+                <h2 className="mb-6 text-2xl font-bold tracking-tight text-foreground md:text-3xl">
                     {title}
                 </h2>
             )}
