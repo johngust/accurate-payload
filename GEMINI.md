@@ -95,6 +95,55 @@ The project uses `pnpm` as the package manager.
     *   E2E tests are located in `tests/e2e` and run with Playwright.
     *   Integration tests are located in `tests/int` and run with Vitest.
 
+## Deployment, Migrations & Media
+
+### Hosting
+
+*   **Vercel** (Hobby plan) — deploy via CLI only: `npx vercel --prod`. GitHub integration is broken.
+*   **Database:** Supabase PostgreSQL via connection pooler (`aws-1-ap-southeast-1.pooler.supabase.com:6543`). Direct host (IPv6) is unreachable.
+*   **Media:** Vercel Blob Storage via `@payloadcms/storage-vercel-blob` with `clientUploads: true`.
+
+### Migration Workflow
+
+After schema changes:
+
+```bash
+pnpm generate:types          # Regenerate types
+pnpm payload migrate:create  # Create migration
+npx tsc --noEmit             # Verify TypeScript
+# Commit, then deploy
+```
+
+**CRITICAL — `dev` record trap:** Running Payload locally (`pnpm dev` or `npx tsx src/scripts/*.ts`) creates a `dev` row in `payload_migrations` table. This causes Vercel builds to hang on an interactive question. **Delete before every deploy:**
+
+```sql
+DELETE FROM payload_migrations WHERE name = 'dev';
+```
+
+### Media & Vercel Blob
+
+*   DB stores relative URLs: `/api/media/file/<filename>`. Payload proxies from Blob.
+*   `BLOB_READ_WRITE_TOKEN` required in `.env` for local uploads to Blob.
+*   Each `payload.update()` with a file increments filename suffix (`-1`, `-2`, ...) — needs force redeploy to update static pages.
+
+**Scripts** (run with `npx tsx`):
+
+*   `src/scripts/uploadMedia.ts` — Creates media records from `public/images/`
+*   `src/scripts/reuploadMediaToBlob.ts` — Re-uploads existing media to Blob
+*   `src/scripts/uploadMissingPlaceholders.ts` — Generates placeholder PNGs
+*   `src/scripts/seedClone.ts` — Seeds content (expects media already uploaded)
+
+### Deploy Checklist
+
+1.  `DELETE FROM payload_migrations WHERE name = 'dev'`
+2.  `npx vercel --prod` (or `--force` if images stale)
+
+### Required Vercel Environment Variables
+
+`DATABASE_URL`, `PAYLOAD_SECRET`, `PAYLOAD_PUBLIC_SERVER_URL`, `NEXT_PUBLIC_SERVER_URL`, `BLOB_READ_WRITE_TOKEN`, `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `STRIPE_WEBHOOKS_SIGNING_SECRET`, `COMPANY_NAME`, `SITE_NAME`, `PREVIEW_SECRET`
+
+**WARNING:** Use `echo -n` when adding env vars via CLI to avoid trailing newline.
+
 ## Agent Guidelines
 
 *   **Language:** All communication, explanations, and code comments must be in **Russian** (Русский).

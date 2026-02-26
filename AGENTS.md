@@ -1033,6 +1033,57 @@ export const myPlugin =
 9. **SQLite Transactions**: Disabled by default, enable with `transactionOptions: {}`
 10. **Point Fields**: Not supported in SQLite
 
+## Project-Specific: Deployment, Migrations & Media
+
+### Hosting
+
+- **Vercel** (Hobby plan) — deploy via CLI only (`npx vercel --prod`). GitHub integration is broken.
+- **Database**: Supabase PostgreSQL via connection pooler (`aws-1-ap-southeast-1.pooler.supabase.com:6543`). Direct host (IPv6) is not reachable.
+- **Media**: Vercel Blob Storage via `@payloadcms/storage-vercel-blob` with `clientUploads: true`.
+
+### Migration Workflow
+
+After modifying collections/fields/globals:
+
+```bash
+pnpm generate:types          # Regenerate TypeScript types
+pnpm payload migrate:create  # Create migration in src/migrations/
+npx tsc --noEmit             # Verify TypeScript
+# Commit, then deploy
+```
+
+**CRITICAL — The `dev` record trap:** Running Payload locally (`pnpm dev` or `npx tsx src/scripts/*.ts`) creates a `dev` row in `payload_migrations` (batch = -1). This causes the Vercel build to hang on an interactive question. **Delete it before every deploy:**
+
+```sql
+DELETE FROM payload_migrations WHERE name = 'dev';
+```
+
+### Media & Vercel Blob
+
+- `disablePayloadAccessControl: false` (current) — DB stores `/api/media/file/<filename>`, Payload proxies from Blob
+- `BLOB_READ_WRITE_TOKEN` must be in `.env` for local uploads to reach Blob
+- Each `payload.update()` with a file increments the filename suffix (`-1`, `-2`, ...) — requires force redeploy (`npx vercel --prod --force`) to update static pages
+
+**Scripts** (run with `npx tsx`):
+
+| Script | Purpose |
+|--------|---------|
+| `src/scripts/uploadMedia.ts` | Creates new media records from `public/images/` |
+| `src/scripts/reuploadMediaToBlob.ts` | Re-uploads existing media from `media/` to Blob |
+| `src/scripts/uploadMissingPlaceholders.ts` | Generates placeholder PNGs via `sharp` |
+| `src/scripts/seedClone.ts` | Seeds pages, categories, products (expects media already uploaded) |
+
+### Deploy Checklist
+
+1. `DELETE FROM payload_migrations WHERE name = 'dev'`
+2. `npx vercel --prod` (or `--force` if static pages have stale images)
+
+### Required Vercel Environment Variables
+
+`DATABASE_URL`, `PAYLOAD_SECRET`, `PAYLOAD_PUBLIC_SERVER_URL`, `NEXT_PUBLIC_SERVER_URL`, `BLOB_READ_WRITE_TOKEN`, `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `STRIPE_WEBHOOKS_SIGNING_SECRET`, `COMPANY_NAME`, `SITE_NAME`, `PREVIEW_SECRET`
+
+**WARNING:** When adding env vars via CLI, use `echo -n` to avoid trailing newline which breaks image URLs.
+
 ## Additional Context Files
 
 For deeper exploration of specific topics, refer to the context files located in `.cursor/rules/`:
