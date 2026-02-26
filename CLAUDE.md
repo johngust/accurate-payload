@@ -270,14 +270,23 @@ Tailwind CSS 4 with `[data-theme="dark"]` selector-based dark mode. Custom CSS v
 
 Required in `.env` (copy from `.env.example`):
 - `PAYLOAD_SECRET` — encryption secret
-- `DATABASE_URL` — PostgreSQL connection string (Supabase)
+- `DATABASE_URL` — PostgreSQL connection string (Supabase **pooler**, not direct host)
 - `PAYLOAD_PUBLIC_SERVER_URL` / `NEXT_PUBLIC_SERVER_URL` — app URL
+- `BLOB_READ_WRITE_TOKEN` — Vercel Blob storage token (required for media uploads)
 - `STRIPE_SECRET_KEY`, `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`, `STRIPE_WEBHOOKS_SIGNING_SECRET` — Stripe keys
 - `COMPANY_NAME`, `SITE_NAME`, `PREVIEW_SECRET` — site configuration
 
-## Database
+## Database & Migrations
 
-PostgreSQL via `@payloadcms/db-postgres`. Migrations in `src/migrations/`. In dev mode, `push: true` auto-syncs schema. For production, create migrations with `pnpm payload migrate:create` and run with `pnpm payload migrate` (also runs automatically during `pnpm build`).
+PostgreSQL via `@payloadcms/db-postgres`. Migrations in `src/migrations/`. In dev mode, `push: true` auto-syncs schema. For production, create migrations with `pnpm payload migrate:create` and run with `pnpm payload migrate` (runs automatically during `pnpm build`).
+
+**CRITICAL:** Running Payload locally (dev server or scripts via `npx tsx`) creates a `dev` row in `payload_migrations`. This row must be deleted before deploying to Vercel, otherwise the build hangs on an interactive question. See `.claude/rules/deployment.md` for full details.
+
+## Deployment & Media
+
+Production is hosted on Vercel with Vercel Blob for media storage. Deploy only via CLI (`npx vercel --prod`) — GitHub integration is not available. Full deployment workflow, media upload scripts, and troubleshooting are documented in `.claude/rules/deployment.md`.
+
+Scripts in `src/scripts/`: `uploadMedia.ts` (initial upload), `reuploadMediaToBlob.ts` (re-upload to Blob), `seedClone.ts` (seed content). Run with `npx tsx`.
 
 ## Language Requirement
 

@@ -1,3 +1,6 @@
+// ABOUTME: Загружает медиафайлы из public/images/ в Payload (создаёт новые записи media).
+// ABOUTME: При наличии BLOB_READ_WRITE_TOKEN файлы попадают в Vercel Blob.
+
 import configPromise from '@payload-config'
 import 'dotenv/config'
 import fs from 'fs'

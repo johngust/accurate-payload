@@ -1,3 +1,6 @@
+// ABOUTME: Создаёт контент главной страницы, связывая категории, продукты и медиа.
+// ABOUTME: Ожидает, что media-записи уже загружены (ищет по filename через payload.find).
+
 import configPromise from '@payload-config'
 import 'dotenv/config'
 import { getPayload } from 'payload'
