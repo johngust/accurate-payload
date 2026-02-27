@@ -90,7 +90,9 @@ export function HeaderClient({ header, categories }: Props) {
             </div>
             
             <div className="flex-1 max-w-2xl">
-              <Search className="w-full" />
+              <Suspense fallback={null}>
+                <Search className="w-full" />
+              </Suspense>
             </div>
           </div>
 
