@@ -65,7 +65,7 @@ export function ProductDescription({ product, isModal = false }: { product: Prod
             <div className="flex items-center gap-1">
               <div className="flex">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className={cn("h-2.5 w-2.5", i < Math.floor(rating.value) ? "fill-warning text-warning" : "text-gray-200")} />
+                  <Star key={i} className={cn("h-2.5 w-2.5", i < Math.floor(rating.value ?? 0) ? "fill-warning text-warning" : "text-gray-200")} />
                 ))}
               </div>
               <span className="font-bold text-foreground">{rating.value}</span>

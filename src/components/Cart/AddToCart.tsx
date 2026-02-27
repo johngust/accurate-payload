@@ -45,9 +45,8 @@ export function AddToCart({ product }: Props) {
 
       addItem({
         product: product.id,
-        quantity,
         variant: selectedVariant?.id ?? undefined,
-      }).then(() => {
+      }, quantity).then(() => {
         toast.success('Товар добавлен в корзину.')
       })
     },
