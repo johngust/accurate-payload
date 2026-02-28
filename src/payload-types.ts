@@ -727,6 +727,10 @@ export interface Category {
   image?: (number | null) | Media;
   parent?: (number | null) | Category;
   /**
+   * Используйте [НАЗВАНИЕ ТОВАРА] как плейсхолдер. Пример: Студийное фото [НАЗВАНИЕ ТОВАРА], 8k, photorealistic
+   */
+  promptTemplate?: string | null;
+  /**
    * When enabled, the slug will auto-generate from the title field on save and autosave.
    */
   generateSlug?: boolean | null;
@@ -1678,6 +1682,7 @@ export interface CategoriesSelect<T extends boolean = true> {
   title?: T;
   image?: T;
   parent?: T;
+  promptTemplate?: T;
   generateSlug?: T;
   slug?: T;
   updatedAt?: T;

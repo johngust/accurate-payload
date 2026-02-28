@@ -19,8 +19,17 @@ import {
 } from '@payloadcms/richtext-lexical'
 import { DefaultDocumentIDType, slugField, Where } from 'payload'
 
+import { generateProductImage } from './hooks/generateProductImage'
+
 export const ProductsCollection: CollectionOverride = ({ defaultCollection }) => ({
   ...defaultCollection,
+  hooks: {
+    ...defaultCollection?.hooks,
+    beforeChange: [
+      ...(defaultCollection?.hooks?.beforeChange || []),
+      generateProductImage,
+    ],
+  },
   admin: {
     ...defaultCollection?.admin,
     group: 'Каталог',

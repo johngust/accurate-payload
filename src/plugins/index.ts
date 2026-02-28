@@ -36,14 +36,20 @@ const generateURL: GenerateURL<Product | Page> = ({ doc }) => {
   return doc?.slug ? `${url}/${doc.slug}` : url
 }
 
+const vercelBlobToken = process.env.BLOB_ACCURATE_READ_WRITE_TOKEN || process.env.BLOB_READ_WRITE_TOKEN || ''
+
 export const plugins: Plugin[] = [
-  vercelBlobStorage({
-    collections: {
-      media: true,
-    },
-    token: process.env.BLOB_ACCURATE_READ_WRITE_TOKEN || process.env.BLOB_READ_WRITE_TOKEN || '',
-    clientUploads: true,
-  }),
+  ...(vercelBlobToken
+    ? [
+        vercelBlobStorage({
+          collections: {
+            media: true,
+          },
+          token: vercelBlobToken,
+          clientUploads: true,
+        }),
+      ]
+    : []),
   seoPlugin({
     generateTitle,
     generateURL,

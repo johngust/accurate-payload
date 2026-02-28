@@ -35,6 +35,14 @@ export const Categories: CollectionConfig = {
         position: 'sidebar',
       },
     },
+    {
+      name: 'promptTemplate',
+      label: 'Шаблон промпта для генерации картинок',
+      type: 'textarea',
+      admin: {
+        description: 'Используйте [НАЗВАНИЕ ТОВАРА] как плейсхолдер. Пример: Студийное фото [НАЗВАНИЕ ТОВАРА], 8k, photorealistic',
+      },
+    },
     slugField({
       position: undefined,
     }),
