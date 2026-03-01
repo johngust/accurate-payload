@@ -13,6 +13,7 @@ import { ChevronRight } from 'lucide-react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { getPayload } from 'payload'
+import { getCategoryFilters } from '@/utilities/getFilters'
 
 type SearchParams = { [key: string]: string | string[] | undefined }
 
@@ -43,7 +44,7 @@ export async function generateMetadata({ params }: Args): Promise<Metadata> {
 
 export default async function CategoryPage({ params, searchParams }: Args) {
   const { slug } = await params
-  const { sort, inStock, minPrice, maxPrice } = await searchParams
+  const { sort, inStock, minPrice, maxPrice, brand } = await searchParams
 
   const payload = await getPayload({ config: configPromise })
 
@@ -56,6 +57,9 @@ export default async function CategoryPage({ params, searchParams }: Args) {
 
   const category = categoryResult.docs[0]
   if (!category) return notFound()
+
+  // Получаем доступные фильтры для этой категории
+  const { brands: availableBrands } = await getCategoryFilters(category.id)
 
   // Подкатегории
   const subcategories = await payload.find({
@@ -74,6 +78,15 @@ export default async function CategoryPage({ params, searchParams }: Args) {
 
   if (inStock && typeof inStock === 'string') {
     productConditions.push({ inStock: { equals: inStock } })
+  }
+
+  if (brand && typeof brand === 'string') {
+    const brandList = brand.split(',')
+    productConditions.push({
+      or: brandList.map(b => ({
+        'specs.value': { equals: b }
+      }))
+    })
   }
 
   if (minPrice && typeof minPrice === 'string') {
@@ -149,9 +162,12 @@ export default async function CategoryPage({ params, searchParams }: Args) {
       {/* Фильтры + Товары */}
       <div className="flex flex-col md:flex-row gap-8">
         <aside className="w-full shrink-0 md:w-1/4">
-          <FiltersSidebar />
+          <FiltersSidebar brands={availableBrands} />
         </aside>
         <main className="flex-1">
+          <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">
+            <p>Найдено товаров: {products.totalDocs}</p>
+          </div>
           {products.docs.length > 0 ? (
             <Grid className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {products.docs.map((product) => (
@@ -159,9 +175,11 @@ export default async function CategoryPage({ params, searchParams }: Args) {
               ))}
             </Grid>
           ) : (
-            <p className="text-muted-foreground">
-              Товары не найдены. Попробуйте изменить фильтры.
-            </p>
+            <div className="py-20 text-center bg-muted/20 rounded-lg">
+              <p className="text-muted-foreground">
+                Товары не найдены. Попробуйте изменить фильтры.
+              </p>
+            </div>
           )}
         </main>
       </div>

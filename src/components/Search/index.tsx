@@ -27,7 +27,7 @@ export const Search: React.FC<Props> = ({ className }) => {
       newParams.delete('q')
     }
 
-    router.push(createUrl('/catalog', newParams))
+    router.push(createUrl('/search', newParams))
   }
 
   return (

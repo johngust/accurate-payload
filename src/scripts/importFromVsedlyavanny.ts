@@ -132,11 +132,12 @@ async function run() {
   const urls = await extractUrlsFromSitemap('sitemap.xml');
   console.log(`Found ${urls.length} product URLs.`);
   
-  const batch = urls.slice(0, 100);
-  console.log(`Starting import of first 100 products as a test...`);
+  console.log(`Starting import of all ${urls.length} products...`);
   
-  for (const url of batch) {
-    console.log(`\nFetching ${url}`);
+  let count = 0;
+  for (const url of urls) {
+    count++;
+    console.log(`\n[${count}/${urls.length}] Fetching ${url}`);
     const productData = await parseProductPage(url);
     
     if (!productData || !productData.title) {
@@ -146,6 +147,34 @@ async function run() {
     
     console.log(`Extracted: ${productData.title} | ${productData.price} KZT`);
     
+    // Determine category based on title
+    const categoriesRes = await payload.find({ collection: 'categories', limit: 100 });
+    const catMap: Record<string, string> = {};
+    categoriesRes.docs.forEach(cat => {
+      catMap[cat.title.toLowerCase()] = cat.id;
+    });
+
+    const keywordMap: Record<string, string> = {
+      'унитаз': 'Унитазы',
+      'смеситель': 'Смесители',
+      'ванна': 'Ванны',
+      'раковин': 'Раковины',
+      'душев': 'Душевые',
+      'биде': 'Биде',
+      'полотенцесушитель': 'Полотенцесушители',
+      'мойк': 'Кухонные мойки',
+      'инсталл': 'Инсталляции',
+    };
+
+    let assignedCatId: string | null = null;
+    const lowerTitle = productData.title.toLowerCase();
+    for (const [keyword, catTitle] of Object.entries(keywordMap)) {
+      if (lowerTitle.includes(keyword)) {
+        assignedCatId = catMap[catTitle.toLowerCase()];
+        if (assignedCatId) break;
+      }
+    }
+
     let mediaId = null;
     if (productData.imageUrl) {
       console.log(`Downloading image: ${productData.imageUrl}`);
@@ -173,6 +202,7 @@ async function run() {
           slug,
           enableVariants: false,
           inStock: 'in_stock',
+          categories: assignedCatId ? [assignedCatId] : [],
           specs: productData.specs.slice(0, 10).map(s => ({
             id: Math.random().toString(36).substring(7),
             key: s.key,

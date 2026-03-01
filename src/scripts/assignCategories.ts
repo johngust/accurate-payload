@@ -4,8 +4,8 @@ import configPromise from '../payload.config'
 async function run() {
   const payload = await getPayload({ config: configPromise })
   
-  const categories = await payload.find({ collection: 'categories', limit: 100 })
-  const products = await payload.find({ collection: 'products', limit: 1000 })
+  const categories = await payload.find({ collection: 'categories', limit: 300 })
+  const products = await payload.find({ collection: 'products', limit: 10000 })
   
   console.log(`Found ${products.totalDocs} products and ${categories.totalDocs} categories`)
 
@@ -21,16 +21,24 @@ async function run() {
     'ванна': 'Ванны',
     'раковин': 'Раковины',
     'душев': 'Душевые',
+    'душ': 'Душевые',
     'биде': 'Биде',
     'полотенцесушитель': 'Полотенцесушители',
     'мойк': 'Кухонные мойки',
     'инсталл': 'Инсталляции',
+    'lemark': 'Смесители',
+    'grossman': 'Душевые',
+    'iddis': 'Смесители',
+    'brave': 'Смесители',
+    'pissuar': 'Унитазы',
+    'трап': 'Душевые',
   }
 
   let updatedCount = 0
 
   for (const product of products.docs) {
-    if (product.categories && product.categories.length > 0) continue
+    // Re-assign if empty
+    if (product.categories && product.categories.length > 0) continue;
 
     const title = product.title.toLowerCase()
     let assignedCatId: string | null = null
