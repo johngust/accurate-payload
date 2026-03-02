@@ -1,5 +1,6 @@
 // ABOUTME: Улучшенная боковая панель фильтров, вдохновленная vsedlyavanny.kz.
 // ABOUTME: Включает глобальный поиск по каталогу, счетчики товаров, поиск по брендам и слайдер цены.
+// ABOUTME: Компактная версия с внутренним скроллом для длинных списков.
 
 'use client'
 
@@ -116,7 +117,7 @@ export const FiltersSidebar: React.FC<Props> = ({
   }
 
   const filteredBrands = brands.filter(b => b.title.toLowerCase().includes(brandSearch.toLowerCase()))
-  const visibleBrands = showAllBrands ? filteredBrands : filteredBrands.slice(0, 10)
+  const visibleBrands = showAllBrands ? filteredBrands : filteredBrands.slice(0, 8)
 
   const hasActiveFilters = currentInStock || 
     (currentMinPrice !== minPossiblePrice) || 
@@ -126,41 +127,41 @@ export const FiltersSidebar: React.FC<Props> = ({
     currentGlobalSearch
 
   return (
-    <div className="flex flex-col gap-5 sticky top-24 pb-10">
+    <div className="flex flex-col gap-3 sticky top-24 max-h-[calc(100vh-120px)] pb-4 overflow-y-auto custom-scrollbar">
       {/* Global Catalog Search */}
-      <form onSubmit={handleGlobalSearch} className="relative group">
-        <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-muted-foreground group-focus-within:text-primary transition-colors">
-          <Search className="h-4 w-4" />
+      <form onSubmit={handleGlobalSearch} className="relative group shrink-0">
+        <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-muted-foreground group-focus-within:text-primary transition-colors">
+          <Search className="h-3.5 w-3.5" />
         </div>
         <Input
-          placeholder="Поиск по каталогу..."
+          placeholder="Поиск..."
           value={globalSearch}
           onChange={(e) => setGlobalSearch(e.target.value)}
-          className="pl-10 h-11 bg-white border-border/60 rounded-xl shadow-sm focus-visible:ring-primary/20 focus-visible:border-primary transition-all text-sm"
+          className="pl-9 h-9 bg-white border-border/60 rounded-lg shadow-sm focus-visible:ring-primary/20 focus-visible:border-primary transition-all text-xs"
         />
         {globalSearch && (
           <button 
             type="button" 
             onClick={() => { setGlobalSearch(''); updateParams({ q: null }); }}
-            className="absolute inset-y-0 right-0 pr-3 flex items-center text-muted-foreground hover:text-foreground"
+            className="absolute inset-y-0 right-0 pr-2 flex items-center text-muted-foreground hover:text-foreground"
           >
-            <X className="h-4 w-4" />
+            <X className="h-3.5 w-3.5" />
           </button>
         )}
       </form>
 
       {/* Main Filter Container */}
-      <div className="bg-white rounded-2xl border border-border/50 shadow-sm overflow-hidden flex flex-col">
+      <div className="bg-white rounded-xl border border-border/50 shadow-sm overflow-hidden flex flex-col shrink-0">
         {/* Sidebar Header */}
-        <div className="px-5 py-4 border-b border-border/40 bg-muted/5 flex items-center justify-between">
+        <div className="px-4 py-2.5 border-b border-border/40 bg-muted/5 flex items-center justify-between shrink-0">
           <div className="flex items-center gap-2">
-            <Filter className="h-4 w-4 text-primary" />
-            <span className="font-bold text-sm uppercase tracking-wider">Фильтры</span>
+            <Filter className="h-3.5 w-3.5 text-primary" />
+            <span className="font-bold text-[11px] uppercase tracking-wider">Фильтры</span>
           </div>
           {hasActiveFilters && (
             <button 
               onClick={handleReset}
-              className="text-[10px] font-bold text-muted-foreground hover:text-destructive uppercase tracking-widest transition-colors"
+              className="text-[9px] font-bold text-muted-foreground hover:text-destructive uppercase tracking-widest transition-colors"
             >
               Сбросить
             </button>
@@ -171,12 +172,12 @@ export const FiltersSidebar: React.FC<Props> = ({
           
           {/* Categories Tree-like */}
           {categories.length > 0 && (
-            <AccordionItem value="category" className="px-5 border-b border-border/30">
-              <AccordionTrigger className="hover:no-underline py-4 text-[13px] font-bold uppercase tracking-widest text-foreground/80">
+            <AccordionItem value="category" className="px-4 border-b border-border/30">
+              <AccordionTrigger className="hover:no-underline py-3 text-[11px] font-bold uppercase tracking-widest text-foreground/80">
                 Категории
               </AccordionTrigger>
-              <AccordionContent className="pb-5">
-                <div className="flex flex-col space-y-0.5">
+              <AccordionContent className="pb-3">
+                <div className="flex flex-col space-y-0.5 max-h-48 overflow-y-auto pr-1 custom-scrollbar">
                   {categories.map((cat) => {
                     const count = categoryCounts[cat.id.toString()] || 0
                     const isActive = selectedCategories.includes(cat.slug || '')
@@ -185,9 +186,9 @@ export const FiltersSidebar: React.FC<Props> = ({
                         key={cat.id}
                         onClick={() => cat.slug && handleCategoryChange(cat.slug)}
                         className={cn(
-                          "flex items-center justify-between w-full text-left py-2 px-3 rounded-lg transition-all text-[13px] group relative overflow-hidden",
+                          "flex items-center justify-between w-full text-left py-1.5 px-2 rounded-md transition-all text-[12px] group relative overflow-hidden",
                           isActive 
-                            ? "bg-primary text-primary-foreground font-semibold shadow-md shadow-primary/20" 
+                            ? "bg-primary text-primary-foreground font-semibold" 
                             : "hover:bg-muted text-muted-foreground hover:text-foreground"
                         )}
                       >
@@ -199,12 +200,11 @@ export const FiltersSidebar: React.FC<Props> = ({
                           <span className="truncate">{cat.title}</span>
                         </div>
                         <span className={cn(
-                          "text-[10px] px-1.5 py-0.5 rounded-full z-10 transition-colors",
+                          "text-[9px] px-1.5 py-0.5 rounded-full z-10",
                           isActive ? "bg-white/20 text-white" : "bg-muted-foreground/10 text-muted-foreground"
                         )}>
                           {count}
                         </span>
-                        {isActive && <div className="absolute inset-0 bg-primary/10 animate-pulse" />}
                       </button>
                     )
                   })}
@@ -214,12 +214,12 @@ export const FiltersSidebar: React.FC<Props> = ({
           )}
 
           {/* Price Range with Improved UI */}
-          <AccordionItem value="price" className="px-5 border-b border-border/30">
-            <AccordionTrigger className="hover:no-underline py-4 text-[13px] font-bold uppercase tracking-widest text-foreground/80">
-              Цена (тг)
+          <AccordionItem value="price" className="px-4 border-b border-border/30">
+            <AccordionTrigger className="hover:no-underline py-3 text-[11px] font-bold uppercase tracking-widest text-foreground/80">
+              Цена
             </AccordionTrigger>
-            <AccordionContent className="pb-7 pt-2">
-              <div className="flex flex-col gap-6 px-1">
+            <AccordionContent className="pb-5 pt-1">
+              <div className="flex flex-col gap-4 px-1">
                 <Slider
                   min={minPossiblePrice}
                   max={maxPossiblePrice}
@@ -227,102 +227,97 @@ export const FiltersSidebar: React.FC<Props> = ({
                   value={priceRange}
                   onValueChange={(val) => setPriceRange(val as [number, number])}
                   onValueCommit={handlePriceApply}
-                  className="py-4"
+                  className="py-2"
                 />
                 
-                <div className="grid grid-cols-2 gap-3">
-                  <div className="space-y-1.5">
-                    <label className="text-[9px] uppercase font-black text-muted-foreground tracking-tighter ml-1">Минимум</label>
-                    <div className="relative">
-                      <Input
-                        type="number"
-                        value={priceRange[0]}
-                        onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])}
-                        className="h-9 px-3 text-xs bg-muted/20 border-border/40 focus-visible:ring-primary/10 rounded-lg"
-                      />
-                    </div>
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="space-y-1">
+                    <label className="text-[8px] uppercase font-black text-muted-foreground tracking-tighter ml-1">От</label>
+                    <Input
+                      type="number"
+                      value={priceRange[0]}
+                      onChange={(e) => setPriceRange([Number(e.target.value), priceRange[1]])}
+                      className="h-7 px-2 text-[10px] bg-muted/20 border-border/40 rounded-md"
+                    />
                   </div>
-                  <div className="space-y-1.5">
-                    <label className="text-[9px] uppercase font-black text-muted-foreground tracking-tighter ml-1">Максимум</label>
-                    <div className="relative">
-                      <Input
-                        type="number"
-                        value={priceRange[1]}
-                        onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])}
-                        className="h-9 px-3 text-xs bg-muted/20 border-border/40 focus-visible:ring-primary/10 rounded-lg"
-                      />
-                    </div>
+                  <div className="space-y-1">
+                    <label className="text-[8px] uppercase font-black text-muted-foreground tracking-tighter ml-1">До</label>
+                    <Input
+                      type="number"
+                      value={priceRange[1]}
+                      onChange={(e) => setPriceRange([priceRange[0], Number(e.target.value)])}
+                      className="h-7 px-2 text-[10px] bg-muted/20 border-border/40 rounded-md"
+                    />
                   </div>
                 </div>
                 
                 <Button 
                   size="sm" 
-                  className="w-full h-9 text-[11px] uppercase tracking-[0.2em] font-black rounded-lg shadow-lg shadow-primary/10 transition-transform active:scale-[0.98]" 
+                  className="w-full h-7 text-[10px] uppercase tracking-widest font-black rounded-md" 
                   onClick={handlePriceApply}
                 >
-                  Применить
+                  ОК
                 </Button>
               </div>
             </AccordionContent>
           </AccordionItem>
 
           {/* Brands with Counts and Search */}
-          <AccordionItem value="brand" className="px-5 border-none">
-            <AccordionTrigger className="hover:no-underline py-4 text-[13px] font-bold uppercase tracking-widest text-foreground/80">
+          <AccordionItem value="brand" className="px-4 border-none">
+            <AccordionTrigger className="hover:no-underline py-3 text-[11px] font-bold uppercase tracking-widest text-foreground/80">
               Бренды
             </AccordionTrigger>
-            <AccordionContent className="pb-5">
-              <div className="space-y-4 pt-1">
+            <AccordionContent className="pb-4">
+              <div className="space-y-3 pt-0.5">
                 <div className="relative">
-                  <Search className="absolute left-2.5 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-muted-foreground/60" />
+                  <Search className="absolute left-2 top-1/2 -translate-y-1/2 h-3 w-3 text-muted-foreground/60" />
                   <Input
-                    placeholder="Быстрый поиск..."
+                    placeholder="Бренд..."
                     value={brandSearch}
                     onChange={(e) => setBrandSearch(e.target.value)}
-                    className="h-8 pl-8 text-[12px] bg-muted/20 border-none rounded-lg focus-visible:ring-1 focus-visible:ring-primary/30"
+                    className="h-7 pl-7 text-[11px] bg-muted/20 border-none rounded-md focus-visible:ring-1 focus-visible:ring-primary/30"
                   />
                 </div>
                 
-                <div className="flex flex-col gap-1 max-h-72 overflow-y-auto pr-1 custom-scrollbar">
+                <div className="flex flex-col gap-0.5 max-h-56 overflow-y-auto pr-1 custom-scrollbar">
                   {visibleBrands.length > 0 ? visibleBrands.map((brand) => (
                     <label 
                       key={brand.title} 
                       className={cn(
-                        "flex cursor-pointer items-center justify-between py-1.5 px-2 rounded-lg transition-colors group",
+                        "flex cursor-pointer items-center justify-between py-1 px-1.5 rounded-md transition-colors group",
                         selectedBrands.includes(brand.title) ? "bg-primary/5" : "hover:bg-muted/50"
                       )}
                     >
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-center gap-2">
                         <Checkbox 
                           checked={selectedBrands.includes(brand.title)}
                           onCheckedChange={() => handleBrandChange(brand.title)}
-                          className="rounded-[4px] border-border/60 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+                          className="h-3.5 w-3.5 rounded-[3px] border-border/60 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
                         />
                         <span className={cn(
-                          "text-[13px] transition-colors",
+                          "text-[12px] transition-colors",
                           selectedBrands.includes(brand.title) ? "text-primary font-medium" : "text-muted-foreground group-hover:text-foreground"
                         )}>
                           {brand.title}
                         </span>
                       </div>
-                      <span className="text-[10px] font-medium text-muted-foreground/50 bg-muted px-1.5 py-0.5 rounded-full group-hover:bg-muted-foreground/10 transition-colors">
+                      <span className="text-[9px] font-medium text-muted-foreground/50">
                         {brand.count}
                       </span>
                     </label>
                   )) : (
-                    <div className="text-center py-6 opacity-40">
-                      <ShoppingBag className="h-8 w-8 mx-auto mb-2 stroke-1" />
-                      <p className="text-[11px] uppercase tracking-tighter">Нет результатов</p>
+                    <div className="text-center py-4 opacity-40">
+                      <p className="text-[10px] uppercase tracking-tighter">Нет результатов</p>
                     </div>
                   )}
                 </div>
 
-                {filteredBrands.length > 10 && (
+                {filteredBrands.length > 8 && (
                   <button
                     onClick={() => setShowAllBrands(!showAllBrands)}
-                    className="w-full py-2 text-[11px] font-bold text-primary uppercase tracking-widest hover:bg-primary/5 rounded-lg transition-colors border border-dashed border-primary/20 mt-2"
+                    className="w-full py-1.5 text-[10px] font-bold text-primary uppercase tracking-widest hover:bg-primary/5 rounded-md transition-colors border border-dashed border-primary/20 mt-1"
                   >
-                    {showAllBrands ? 'Свернуть' : `Все бренды (${filteredBrands.length})`}
+                    {showAllBrands ? 'Свернуть' : `Еще (${filteredBrands.length - 8})`}
                   </button>
                 )}
               </div>
@@ -331,19 +326,15 @@ export const FiltersSidebar: React.FC<Props> = ({
         </Accordion>
       </div>
 
-      {/* Modern Badge for "Special Offers" or similar */}
-      <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-primary to-blue-600 p-5 text-white shadow-xl shadow-primary/20 group">
-        <div className="relative z-10">
-          <h4 className="font-bold text-sm mb-1 uppercase tracking-wider">Нужна помощь?</h4>
-          <p className="text-[11px] text-white/80 leading-relaxed mb-4">
-            Наши эксперты помогут подобрать идеальную сантехнику под ваш проект.
-          </p>
-          <Button variant="secondary" size="sm" className="w-full h-8 text-[10px] font-bold uppercase tracking-widest bg-white text-primary border-none hover:bg-white/90">
-            Консультация
-          </Button>
-        </div>
-        <div className="absolute -right-6 -bottom-6 h-24 w-24 bg-white/10 rounded-full blur-2xl group-hover:scale-150 transition-transform duration-700" />
-        <div className="absolute -left-10 -top-10 h-32 w-32 bg-black/5 rounded-full blur-3xl" />
+      {/* Info Block - Smaller */}
+      <div className="rounded-xl bg-primary/5 border border-primary/10 p-3 shrink-0">
+        <h4 className="font-bold text-[10px] mb-1 uppercase tracking-wider text-primary">Нужна помощь?</h4>
+        <p className="text-[10px] text-muted-foreground leading-tight mb-2">
+          Наши эксперты помогут подобрать идеальную сантехнику.
+        </p>
+        <Button variant="outline" size="sm" className="w-full h-7 text-[9px] font-bold uppercase tracking-widest border-primary/20 hover:bg-primary hover:text-white transition-all">
+          Консультация
+        </Button>
       </div>
     </div>
   )

@@ -147,31 +147,53 @@ async function run() {
     
     console.log(`Extracted: ${productData.title} | ${productData.price} KZT`);
     
-    // Determine category based on title
-    const categoriesRes = await payload.find({ collection: 'categories', limit: 100 });
-    const catMap: Record<string, string> = {};
-    categoriesRes.docs.forEach(cat => {
-      catMap[cat.title.toLowerCase()] = cat.id;
-    });
+    // Determine category based on URL segments first (more reliable)
+    const urlSegments = url.split('/');
+    // Example: https://vsedlyavanny.kz/shop/Smesiteli/Dushevaya_stoyka/...
+    // Segments: ["https:", "", "vsedlyavanny.kz", "shop", "Smesiteli", "Dushevaya_stoyka", ...]
+    const shopCategorySlug = urlSegments[4]; // "Smesiteli"
+    const shopSubCategorySlug = urlSegments[5]; // "Dushevaya_stoyka"
 
-    const keywordMap: Record<string, string> = {
-      'унитаз': 'Унитазы',
-      'смеситель': 'Смесители',
-      'ванна': 'Ванны',
-      'раковин': 'Раковины',
-      'душев': 'Душевые',
-      'биде': 'Биде',
-      'полотенцесушитель': 'Полотенцесушители',
-      'мойк': 'Кухонные мойки',
-      'инсталл': 'Инсталляции',
+    const urlToInternalMap: Record<string, string> = {
+      'Smesiteli': 'Смесители',
+      'Unitazy': 'Унитазы',
+      'Vanny': 'Ванны',
+      'Rakoviny': 'Раковины',
+      'Polotencesushiteli': 'Полотенцесушители',
+      'Bide': 'Биде',
+      'Installyacii': 'Инсталляции',
+      'Kukhonnye_moyki': 'Кухонные мойки',
+      'Dushevye_poddony': 'Душевые поддоны',
+      'Mebel_dlya_vannoy': 'Мебель для ванной',
     };
 
     let assignedCatId: string | null = null;
-    const lowerTitle = productData.title.toLowerCase();
-    for (const [keyword, catTitle] of Object.entries(keywordMap)) {
-      if (lowerTitle.includes(keyword)) {
-        assignedCatId = catMap[catTitle.toLowerCase()];
-        if (assignedCatId) break;
+    
+    // 1. Try to match by URL segment
+    if (shopCategorySlug && urlToInternalMap[shopCategorySlug]) {
+      assignedCatId = catMap[urlToInternalMap[shopCategorySlug].toLowerCase()];
+    }
+    
+    // 2. Fallback to keyword matching in title if URL didn't match
+    if (!assignedCatId) {
+      const keywordMap: Record<string, string> = {
+        'унитаз': 'Унитазы',
+        'смеситель': 'Смесители',
+        'ванна': 'Ванны',
+        'раковин': 'Раковины',
+        'душев': 'Душевые',
+        'биде': 'Биде',
+        'полотенцесушитель': 'Полотенцесушители',
+        'мойк': 'Кухонные мойки',
+        'инсталл': 'Инсталляции',
+      };
+
+      const lowerTitle = productData.title.toLowerCase();
+      for (const [keyword, catTitle] of Object.entries(keywordMap)) {
+        if (lowerTitle.includes(keyword)) {
+          assignedCatId = catMap[catTitle.toLowerCase()];
+          if (assignedCatId) break;
+        }
       }
     }
 
@@ -189,7 +211,20 @@ async function run() {
       });
       
       if (existing.docs.length > 0) {
-        console.log(`Product already exists: ${productData.title}`);
+        const product = existing.docs[0];
+        // If product exists but has no categories, update it
+        if ((!product.categories || product.categories.length === 0) && assignedCatId) {
+          console.log(`Updating categories for existing product: ${productData.title}`);
+          await payload.update({
+            collection: 'products',
+            id: product.id,
+            data: {
+              categories: [assignedCatId]
+            },
+          });
+        } else {
+          console.log(`Product already exists and has categories: ${productData.title}`);
+        }
         continue;
       }
       

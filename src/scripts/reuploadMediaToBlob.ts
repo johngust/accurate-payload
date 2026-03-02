@@ -32,7 +32,7 @@ async function reuploadMedia() {
   // Получаем все записи media из базы
   const allMedia = await payload.find({
     collection: 'media',
-    limit: 200,
+    limit: 10000,
     depth: 0,
   })
 
