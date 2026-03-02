@@ -6,6 +6,7 @@ import type { Where } from 'payload'
 
 import { Grid } from '@/components/Grid'
 import { ProductGridItem } from '@/components/ProductGridItem'
+import { FiltersSidebar } from '@/components/FiltersSidebar'
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 import { notFound } from 'next/navigation'
@@ -24,7 +25,7 @@ export async function generateMetadata({ searchParams }: Args): Promise<Metadata
 }
 
 export default async function SearchPage({ searchParams }: Args) {
-  const { q } = await searchParams
+  const { q, sort, inStock, minPrice, maxPrice, brand } = await searchParams
 
   if (!q || typeof q !== 'string') {
     return (
@@ -37,16 +38,61 @@ export default async function SearchPage({ searchParams }: Args) {
 
   const payload = await getPayload({ config: configPromise })
 
+  // Базовые условия поиска
+  const searchConditions: Where = {
+    or: [
+      { title: { contains: q } },
+      { 'specs.value': { contains: q } },
+      { slug: { contains: q } },
+    ],
+  }
+
+  // Собираем where-условия для товаров
+  const productConditions: Where[] = [
+    { _status: { equals: 'published' } },
+    searchConditions,
+  ]
+
+  if (inStock && typeof inStock === 'string') {
+    productConditions.push({ inStock: { equals: inStock } })
+  }
+
+  if (brand && typeof brand === 'string') {
+    const brandList = brand.split(',')
+    productConditions.push({
+      or: brandList.map(b => ({
+        and: [
+          {
+            or: [
+              { 'specs.key': { equals: 'Бренд' } },
+              { 'specs.key': { equals: 'Производитель' } },
+              { 'specs.key': { equals: 'Brand' } },
+            ],
+          },
+          { 'specs.value': { equals: b } },
+        ],
+      })),
+    })
+  }
+
+  if (minPrice && typeof minPrice === 'string') {
+    const min = parseFloat(minPrice)
+    if (!isNaN(min)) {
+      productConditions.push({ priceInKZT: { greater_than_equal: min } })
+    }
+  }
+
+  if (maxPrice && typeof maxPrice === 'string') {
+    const max = parseFloat(maxPrice)
+    if (!isNaN(max)) {
+      productConditions.push({ priceInKZT: { less_than_equal: max } })
+    }
+  }
+
   const products = await payload.find({
     collection: 'products',
-    where: {
-      or: [
-        { title: { contains: q } },
-        { 'specs.value': { contains: q } },
-        { slug: { contains: q } },
-      ],
-      _status: { equals: 'published' },
-    },
+    where: { and: productConditions },
+    sort: typeof sort === 'string' ? sort : 'title',
     limit: 40,
     depth: 1,
     select: {
@@ -57,7 +103,19 @@ export default async function SearchPage({ searchParams }: Args) {
       priceInKZT: true,
       inStock: true,
       rating: true,
+      specs: true, // Нужно для извлечения брендов
     },
+  })
+
+  // Извлекаем доступные бренды из результатов поиска (первые 40)
+  const brands = new Set<string>()
+  products.docs.forEach(p => {
+    p.specs?.forEach(s => {
+      const key = s.key.toLowerCase().trim()
+      if (key === 'бренд' || key === 'производитель' || key === 'brand') {
+        brands.add(s.value.trim())
+      }
+    })
   })
 
   return (
@@ -66,20 +124,28 @@ export default async function SearchPage({ searchParams }: Args) {
         Результаты поиска: <span className="text-primary italic">"{q}"</span>
       </h1>
 
-      <p className="mb-8 text-muted-foreground">Найдено товаров: {products.totalDocs}</p>
-
-      {products.docs.length > 0 ? (
-        <Grid className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {products.docs.map((product) => (
-            <ProductGridItem key={product.id} product={product} />
-          ))}
-        </Grid>
-      ) : (
-        <div className="py-20 text-center bg-muted/30 rounded-lg">
-          <p className="text-xl text-muted-foreground">К сожалению, ничего не найдено.</p>
-          <p className="text-sm text-muted-foreground mt-2">Попробуйте использовать другие ключевые слова.</p>
-        </div>
-      )}
+      <div className="flex flex-col md:flex-row gap-8">
+        <aside className="w-full shrink-0 md:w-1/4">
+          <FiltersSidebar brands={Array.from(brands).sort()} />
+        </aside>
+        <main className="flex-1">
+          <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">
+            <p>Найдено товаров: {products.totalDocs}</p>
+          </div>
+          {products.docs.length > 0 ? (
+            <Grid className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {products.docs.map((product) => (
+                <ProductGridItem key={product.id} product={product} />
+              ))}
+            </Grid>
+          ) : (
+            <div className="py-20 text-center bg-muted/30 rounded-lg">
+              <p className="text-xl text-muted-foreground">К сожалению, ничего не найдено.</p>
+              <p className="text-sm text-muted-foreground mt-2">Попробуйте использовать другие ключевые слова.</p>
+            </div>
+          )}
+        </main>
+      </div>
     </div>
   )
 }

@@ -18,7 +18,7 @@ export async function getCategoryFilters(categoryId?: string) {
   const products = await payload.find({
     collection: 'products',
     where,
-    limit: 500, // Анализируем первые 500 товаров
+    limit: 1000, // Анализируем первые 1000 товаров для поиска фильтров
     select: {
       specs: true
     }
@@ -29,17 +29,20 @@ export async function getCategoryFilters(categoryId?: string) {
 
   products.docs.forEach(product => {
     product.specs?.forEach(spec => {
-      if (spec.key.toLowerCase() === 'бренд' || spec.key.toLowerCase() === 'производитель') {
-        brands.add(spec.value)
+      const key = spec.key.toLowerCase().trim()
+      const val = spec.value.trim()
+      
+      if (key === 'бренд' || key === 'производитель' || key === 'brand') {
+        brands.add(val)
       }
-      if (spec.key.toLowerCase() === 'материал') {
-        materials.add(spec.value)
+      if (key === 'материал' || key === 'material') {
+        materials.add(val)
       }
     })
   })
 
   return {
-    brands: Array.from(brands).sort(),
-    materials: Array.from(materials).sort()
+    brands: Array.from(brands).sort((a, b) => a.localeCompare(b)),
+    materials: Array.from(materials).sort((a, b) => a.localeCompare(b))
   }
 }

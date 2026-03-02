@@ -84,8 +84,17 @@ export default async function CategoryPage({ params, searchParams }: Args) {
     const brandList = brand.split(',')
     productConditions.push({
       or: brandList.map(b => ({
-        'specs.value': { equals: b }
-      }))
+        and: [
+          {
+            or: [
+              { 'specs.key': { equals: 'Бренд' } },
+              { 'specs.key': { equals: 'Производитель' } },
+              { 'specs.key': { equals: 'Brand' } },
+            ],
+          },
+          { 'specs.value': { equals: b } },
+        ],
+      })),
     })
   }
 
