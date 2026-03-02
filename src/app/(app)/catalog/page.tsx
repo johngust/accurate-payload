@@ -23,11 +23,16 @@ export const metadata: Metadata = {
 }
 
 export default async function CatalogPage({ searchParams }: Args) {
-  const { sort, inStock, minPrice, maxPrice, brand } = await searchParams
+  const { sort, inStock, minPrice, maxPrice, brand, category, q } = await searchParams
   const payload = await getPayload({ config: configPromise })
 
   // Получаем общие фильтры для всего магазина
-  const { brands: availableBrands } = await getCategoryFilters()
+  const { 
+    brands: availableBrands, 
+    minPrice: minPossiblePrice, 
+    maxPrice: maxPossiblePrice,
+    categoryCounts
+  } = await getCategoryFilters()
 
   // Корневые категории
   const categories = await payload.find({
@@ -46,6 +51,31 @@ export default async function CatalogPage({ searchParams }: Args) {
   const productConditions: Where[] = [
     { _status: { equals: 'published' } },
   ]
+
+  if (q && typeof q === 'string') {
+    productConditions.push({
+      or: [
+        { title: { contains: q } },
+        { 'specs.value': { contains: q } },
+      ],
+    })
+  }
+
+  if (category && typeof category === 'string') {
+    const categorySlugs = category.split(',')
+    const selectedCategoryDocs = await payload.find({
+      collection: 'categories',
+      where: { slug: { in: categorySlugs } },
+      limit: 100,
+      depth: 0,
+    })
+    const selectedCategoryIds = selectedCategoryDocs.docs.map((c) => c.id)
+    if (selectedCategoryIds.length > 0) {
+      productConditions.push({
+        categories: { in: selectedCategoryIds },
+      })
+    }
+  }
 
   if (inStock && typeof inStock === 'string') {
     productConditions.push({ inStock: { equals: inStock } })
@@ -123,7 +153,13 @@ export default async function CatalogPage({ searchParams }: Args) {
       {/* Фильтры + Товары */}
       <div className="flex flex-col md:flex-row gap-8">
         <aside className="w-full shrink-0 md:w-1/4">
-          <FiltersSidebar brands={availableBrands} />
+          <FiltersSidebar 
+            brands={availableBrands} 
+            categories={categories.docs} 
+            categoryCounts={categoryCounts}
+            minPossiblePrice={minPossiblePrice}
+            maxPossiblePrice={maxPossiblePrice}
+          />
         </aside>
         <main className="flex-1">
           <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">

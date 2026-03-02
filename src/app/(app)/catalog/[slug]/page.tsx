@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Args): Promise<Metadata> {
 
 export default async function CategoryPage({ params, searchParams }: Args) {
   const { slug } = await params
-  const { sort, inStock, minPrice, maxPrice, brand } = await searchParams
+  const { sort, inStock, minPrice, maxPrice, brand, category: categoryParam, q } = await searchParams
 
   const payload = await getPayload({ config: configPromise })
 
@@ -59,7 +59,12 @@ export default async function CategoryPage({ params, searchParams }: Args) {
   if (!category) return notFound()
 
   // Получаем доступные фильтры для этой категории
-  const { brands: availableBrands } = await getCategoryFilters(category.id)
+  const { 
+    brands: availableBrands, 
+    minPrice: minPossiblePrice, 
+    maxPrice: maxPossiblePrice,
+    categoryCounts
+  } = await getCategoryFilters(category.id)
 
   // Подкатегории
   const subcategories = await payload.find({
@@ -75,6 +80,31 @@ export default async function CategoryPage({ params, searchParams }: Args) {
     { _status: { equals: 'published' } },
     { categories: { contains: category.id } },
   ]
+
+  if (q && typeof q === 'string') {
+    productConditions.push({
+      or: [
+        { title: { contains: q } },
+        { 'specs.value': { contains: q } },
+      ],
+    })
+  }
+
+  if (categoryParam && typeof categoryParam === 'string') {
+    const categorySlugs = categoryParam.split(',')
+    const selectedCategoryDocs = await payload.find({
+      collection: 'categories',
+      where: { slug: { in: categorySlugs } },
+      limit: 100,
+      depth: 0,
+    })
+    const selectedCategoryIds = selectedCategoryDocs.docs.map((c) => c.id)
+    if (selectedCategoryIds.length > 0) {
+      productConditions.push({
+        categories: { in: selectedCategoryIds },
+      })
+    }
+  }
 
   if (inStock && typeof inStock === 'string') {
     productConditions.push({ inStock: { equals: inStock } })
@@ -171,7 +201,13 @@ export default async function CategoryPage({ params, searchParams }: Args) {
       {/* Фильтры + Товары */}
       <div className="flex flex-col md:flex-row gap-8">
         <aside className="w-full shrink-0 md:w-1/4">
-          <FiltersSidebar brands={availableBrands} />
+          <FiltersSidebar 
+            brands={availableBrands} 
+            categories={subcategories.docs} 
+            categoryCounts={categoryCounts}
+            minPossiblePrice={minPossiblePrice}
+            maxPossiblePrice={maxPossiblePrice}
+          />
         </aside>
         <main className="flex-1">
           <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">
