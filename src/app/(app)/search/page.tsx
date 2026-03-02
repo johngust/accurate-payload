@@ -31,7 +31,7 @@ export default async function SearchPage({ searchParams }: Args) {
     return (
       <div className="container py-20 text-center">
         <h1 className="text-2xl font-bold mb-4">Введите запрос для поиска</h1>
-        <p className="text-muted-foreground">Например: "смеситель для ванны"</p>
+        <p className="text-muted-foreground">Например: &quot;смеситель для ванны&quot;</p>
       </div>
     )
   }
@@ -121,7 +121,7 @@ export default async function SearchPage({ searchParams }: Args) {
   return (
     <div className="container py-8">
       <h1 className="font-heading text-3xl font-bold mb-6">
-        Результаты поиска: <span className="text-primary italic">"{q}"</span>
+        Результаты поиска: <span className="text-primary italic">&quot;{q}&quot;</span>
       </h1>
 
       <div className="flex flex-col md:flex-row gap-8">
