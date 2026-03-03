@@ -48,6 +48,7 @@ export default buildConfig({
   db: postgresAdapter({
     pool: {
       connectionString: process.env.DATABASE_URL || process.env.POSTGRES_URL || '',
+      max: 10, // Limit connections to prevent saturation
     },
   }),
   editor: lexicalEditor({
