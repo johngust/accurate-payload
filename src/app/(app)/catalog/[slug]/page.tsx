@@ -22,6 +22,9 @@ type Args = {
   searchParams: Promise<SearchParams>
 }
 
+export const dynamicParams = true
+export const revalidate = 3600 // Cache category pages for 1 hour
+
 export async function generateMetadata({ params }: Args): Promise<Metadata> {
   const { slug } = await params
   const payload = await getPayload({ config: configPromise })

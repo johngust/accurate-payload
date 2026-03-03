@@ -47,7 +47,7 @@ export const PromoSlider: React.FC<Props> = ({ promotions }) => {
         className="w-full"
       >
         <CarouselContent>
-          {promotions.map((promo) => {
+          {promotions.map((promo, i) => {
             const image = typeof promo.image === 'object' ? promo.image : undefined
             const Wrapper = promo.link?.url ? Link : 'div'
             const wrapperProps = promo.link?.url ? { href: promo.link.url } : {}
@@ -58,6 +58,7 @@ export const PromoSlider: React.FC<Props> = ({ promotions }) => {
                   {image && (
                     <Media
                       resource={image}
+                      priority={i === 0}
                       imgClassName="absolute inset-0 h-full w-full object-cover"
                     />
                   )}

@@ -14,6 +14,7 @@ import type { Page } from '@/payload-types'
 import { notFound } from 'next/navigation'
 
 export const dynamicParams = true
+export const revalidate = 3600 // Cache page for 1 hour
 
 export async function generateStaticParams() {
   // Disable static generation during build to save time

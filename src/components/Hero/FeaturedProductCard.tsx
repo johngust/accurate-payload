@@ -53,6 +53,7 @@ export const FeaturedProductCard: React.FC<Props> = ({ featured }) => {
             {image && (
               <Media
                 resource={image}
+                priority
                 imgClassName="absolute inset-0 h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
               />
             )}

@@ -20,6 +20,9 @@ type Args = {
   }>
 }
 
+export const dynamicParams = true
+export const revalidate = 3600 // Cache product pages for 1 hour
+
 export async function generateMetadata({ params }: Args): Promise<Metadata> {
   const { slug } = await params
   const product = await queryProductBySlug({ slug })
