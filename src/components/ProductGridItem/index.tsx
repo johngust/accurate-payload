@@ -37,6 +37,8 @@ export const ProductGridItem: React.FC<Props> = ({ product }) => {
   const image =
     gallery?.[0]?.image && typeof gallery[0]?.image !== 'string' ? gallery[0]?.image : undefined
 
+  const placeholderUrl = `https://placehold.co/600x600/f3f4f6/1f2937?text=${encodeURIComponent(title || 'Accurate')}`
+
   const handleOpenModal = (e: React.MouseEvent) => {
     e.preventDefault()
     setIsModalOpen(true)
@@ -49,12 +51,20 @@ export const ProductGridItem: React.FC<Props> = ({ product }) => {
         className="group relative flex h-full w-full cursor-pointer flex-col overflow-hidden rounded-lg border border-gray-100 bg-card p-4 transition-all hover:shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
       >
         <div className="relative mb-4 block aspect-square w-full">
-          {image && (
+          {image ? (
             <Media
               className="relative h-full w-full"
               imgClassName="absolute inset-0 h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
               resource={image}
             />
+          ) : (
+            <div className="relative h-full w-full overflow-hidden rounded-md bg-gray-100">
+              <img 
+                src={placeholderUrl} 
+                alt={title || ''} 
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
+            </div>
           )}
         </div>
 

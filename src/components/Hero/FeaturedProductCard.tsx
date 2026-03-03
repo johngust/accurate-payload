@@ -22,6 +22,8 @@ export const FeaturedProductCard: React.FC<Props> = ({ featured }) => {
       ? product.gallery[0].image
       : undefined
 
+  const placeholderUrl = `https://placehold.co/600x600/f3f4f6/1f2937?text=${encodeURIComponent(product.title || 'Accurate')}`
+
   const price = product.priceInKZT
   const oldPrice =
     featured.discountPercent && price
@@ -50,11 +52,17 @@ export const FeaturedProductCard: React.FC<Props> = ({ featured }) => {
 
         <div className="relative mb-3 flex w-full flex-1 flex-col">
           <div className="relative mb-3 aspect-square w-full overflow-hidden rounded-lg bg-gray-50/50">
-            {image && (
+            {image ? (
               <Media
                 resource={image}
                 priority
                 imgClassName="absolute inset-0 h-full w-full object-contain transition-transform duration-500 group-hover:scale-105"
+              />
+            ) : (
+              <img 
+                src={placeholderUrl} 
+                alt={product.title || ''} 
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             )}
           </div>
