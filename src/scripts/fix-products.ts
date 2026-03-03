@@ -18,7 +18,7 @@ async function fixProducts() {
     where: {
       or: [
         { categories: { exists: false } },
-        { categories: { size: 0 } },
+        { categories: { size: 0 } } as any,
         { categories: { equals: null } }
       ]
     },

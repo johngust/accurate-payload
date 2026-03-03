@@ -1,35 +1,27 @@
-import { getPayload } from 'payload';
-import config from '../payload.config';
+import { getPayload } from 'payload'
+import configPromise from '../payload.config'
 
 async function run() {
-  const payload = await getPayload({ config });
+  const payload = await getPayload({ config: configPromise })
   
-  const products = await payload.find({ 
-    collection: 'products', 
-    limit: 5,
-    sort: '-createdAt'
-  });
+  const products = await payload.find({ collection: 'products', limit: 10000, depth: 0 })
+  let noGallery = 0
+  let noImage = 0
   
-  console.log('--- Проверка изображений товаров ---');
   for (const p of products.docs) {
-    console.log(`Товар: ${p.title}`);
-    console.log(`Slug: ${p.slug}`);
-    console.log(`Галерея: ${JSON.stringify(p.gallery)}`);
-    
-    if (p.gallery && p.gallery.length > 0 && p.gallery[0].image) {
-      const mediaId = typeof p.gallery[0].image === 'object' ? p.gallery[0].image.id : p.gallery[0].image;
-      const media = await payload.findByID({
-        collection: 'media',
-        id: mediaId,
-      });
-      console.log(`URL изображения: ${media.url}`);
+    if (!p.gallery || p.gallery.length === 0) {
+      noGallery++
     } else {
-      console.log('Изображение отсутствует');
+      const first = p.gallery[0]
+      if (!first.image) noImage++
     }
-    console.log('---');
   }
   
-  process.exit(0);
+  console.log('Total products: ' + products.totalDocs)
+  console.log('Products without gallery: ' + noGallery)
+  console.log('Products with empty first image: ' + noImage)
+  
+  process.exit(0)
 }
 
-run();
+run()

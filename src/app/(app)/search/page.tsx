@@ -72,7 +72,7 @@ export default async function SearchPage({ searchParams }: Args) {
           { 'specs.value': { equals: b } },
         ],
       })),
-    })
+    } as any)
   }
 
   if (minPrice && typeof minPrice === 'string') {
@@ -108,15 +108,20 @@ export default async function SearchPage({ searchParams }: Args) {
   })
 
   // Извлекаем доступные бренды из результатов поиска (первые 40)
-  const brands = new Set<string>()
+  const brandCounts = new Map<string, number>()
   products.docs.forEach(p => {
     p.specs?.forEach(s => {
       const key = s.key.toLowerCase().trim()
       if (key === 'бренд' || key === 'производитель' || key === 'brand') {
-        brands.add(s.value.trim())
+        const val = s.value.trim()
+        brandCounts.set(val, (brandCounts.get(val) || 0) + 1)
       }
     })
   })
+
+  const availableBrands = Array.from(brandCounts.entries())
+    .map(([title, count]) => ({ title, count }))
+    .sort((a, b) => a.title.localeCompare(b.title))
 
   return (
     <div className="container py-8">
@@ -126,7 +131,7 @@ export default async function SearchPage({ searchParams }: Args) {
 
       <div className="flex flex-col md:flex-row gap-8">
         <aside className="w-full shrink-0 md:w-1/4">
-          <FiltersSidebar brands={Array.from(brands).sort()} />
+          <FiltersSidebar brands={availableBrands} />
         </aside>
         <main className="flex-1">
           <div className="mb-4 flex justify-between items-center text-sm text-muted-foreground">

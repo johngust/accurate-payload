@@ -3,7 +3,7 @@
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
 
-export async function getCategoryFilters(categoryId?: string) {
+export async function getCategoryFilters(categoryId?: string | number) {
   const payload = await getPayload({ config: configPromise })
 
   const where: any = {
@@ -11,14 +11,37 @@ export async function getCategoryFilters(categoryId?: string) {
   }
 
   if (categoryId) {
-    where.categories = { contains: categoryId }
+    // Находим все подкатегории, чтобы включить их товары в фильтры родителя
+    const subCategories = await payload.find({
+      collection: 'categories',
+      where: {
+        or: [
+          { id: { equals: categoryId } },
+          { parent: { equals: categoryId } }
+        ]
+      },
+      limit: 100,
+      depth: 0
+    })
+    
+    const allCategoryIds = subCategories.docs.map(c => c.id)
+    where.categories = { in: allCategoryIds }
   }
+
+  // Получаем все категории для построения иерархии
+  const allCategoriesRes = await payload.find({
+    collection: 'categories',
+    limit: 500,
+    depth: 0,
+  })
+  const allCategories = allCategoriesRes.docs
 
   // Получаем товары, чтобы извлечь уникальные бренды и подсчитать их количество
   const products = await payload.find({
     collection: 'products',
     where,
     limit: 2000, // Анализируем больше товаров для точного подсчета
+    depth: 0,
     select: {
       specs: true,
       priceInKZT: true,
@@ -39,11 +62,29 @@ export async function getCategoryFilters(categoryId?: string) {
       if (product.priceInKZT > maxPrice) maxPrice = product.priceInKZT
     }
 
-    // Category counts
+    // Category counts (Cumulative)
     if (Array.isArray(product.categories)) {
-      product.categories.forEach(cat => {
-        const id = typeof cat === 'object' ? cat.id : cat
-        categoryCounts.set(id.toString(), (categoryCounts.get(id.toString()) || 0) + 1)
+      const processedInThisProduct = new Set<string | number>()
+      
+      product.categories.forEach(catId => {
+        const id = typeof catId === 'object' ? (catId as any).id : catId
+        if (!id) return
+
+        // Добавляем саму категорию
+        if (!processedInThisProduct.has(id)) {
+          categoryCounts.set(id.toString(), (categoryCounts.get(id.toString()) || 0) + 1)
+          processedInThisProduct.add(id)
+        }
+
+        // Добавляем родительскую категорию (для корректных счетчиков в фильтрах)
+        const catObj = allCategories.find(c => c.id === id)
+        if (catObj && catObj.parent) {
+          const parentId = typeof catObj.parent === 'object' ? (catObj.parent as any).id : catObj.parent
+          if (parentId && !processedInThisProduct.has(parentId)) {
+            categoryCounts.set(parentId.toString(), (categoryCounts.get(parentId.toString()) || 0) + 1)
+            processedInThisProduct.add(parentId)
+          }
+        }
       })
     }
 

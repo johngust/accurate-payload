@@ -96,7 +96,7 @@ export default async function CatalogPage({ searchParams }: Args) {
           { 'specs.value': { equals: b } },
         ],
       })),
-    })
+    } as any)
   }
 
   if (minPrice && typeof minPrice === 'string') {

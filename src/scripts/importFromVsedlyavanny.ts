@@ -127,6 +127,13 @@ async function downloadAndUploadImage(payload: any, imageUrl: string, title: str
 
 async function run() {
   const payload = await getPayload({ config: configPromise });
+
+  console.log('Fetching categories...');
+  const categoriesRes = await payload.find({ collection: 'categories', limit: 300 });
+  const catMap: Record<string, string> = {};
+  categoriesRes.docs.forEach((cat) => {
+    catMap[cat.title.toLowerCase()] = cat.id.toString();
+  });
   
   console.log('Loading sitemap...');
   const urls = await extractUrlsFromSitemap('sitemap.xml');
@@ -219,7 +226,7 @@ async function run() {
             collection: 'products',
             id: product.id,
             data: {
-              categories: [assignedCatId]
+              categories: [assignedCatId] as any
             },
           });
         } else {

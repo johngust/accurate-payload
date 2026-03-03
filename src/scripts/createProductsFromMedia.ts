@@ -33,11 +33,11 @@ async function run() {
   console.log(`Found ${productMedia.length} media items to turn into products`)
 
   for (const m of productMedia) {
-    const title = m.alt?.replace('Product Mock - ', '') || m.filename.split('.')[0].replace(/_/g, ' ')
+    const title = m.alt?.replace('Product Mock - ', '') || (m.filename ? m.filename.split('.')[0].replace(/_/g, ' ') : 'Untitled')
     const slug = title.toLowerCase().replace(/[^a-z0-9]/g, '-')
     
     // Simple heuristic for categories
-    let categoryIds: string[] = []
+    const categoryIds: any[] = []
     if (title.toLowerCase().includes('унитаз') || title.toLowerCase().includes('cersanit')) {
        const cat = categories.docs.find(c => c.title.toLowerCase().includes('унитаз'))
        if (cat) categoryIds.push(cat.id)

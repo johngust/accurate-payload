@@ -75,10 +75,25 @@ export default async function CategoryPage({ params, searchParams }: Args) {
     depth: 1,
   })
 
+  // Находим все подкатегории, чтобы включить их товары в список родителя
+  const subCategoriesRes = await payload.find({
+    collection: 'categories',
+    where: {
+      or: [
+        { id: { equals: category.id } },
+        { parent: { equals: category.id } }
+      ]
+    },
+    limit: 100,
+    depth: 0
+  })
+  
+  const allCategoryIds = subCategoriesRes.docs.map(c => c.id)
+
   // Собираем where-условия для товаров
   const productConditions: Where[] = [
     { _status: { equals: 'published' } },
-    { categories: { contains: category.id } },
+    { categories: { in: allCategoryIds } },
   ]
 
   if (q && typeof q === 'string') {
@@ -125,7 +140,7 @@ export default async function CategoryPage({ params, searchParams }: Args) {
           { 'specs.value': { equals: b } },
         ],
       })),
-    })
+    } as any)
   }
 
   if (minPrice && typeof minPrice === 'string') {

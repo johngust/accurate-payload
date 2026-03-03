@@ -1,8 +1,16 @@
 {
   "mcpServers": {
     "supabase": {
-      "type": "http",
-      "url": "https://mcp.supabase.com/mcp?project_ref=dnidncscnxxgzebkblud"
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "mcp-server-supabase"
+      ],
+      "env": {
+        "SUPABASE_URL": "https://dnidncscnxxgzebkblud.supabase.co",
+        "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRuaWRuY3Njbnh4Z3plYmtibHVkIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3MTI5OTAzMiwiZXhwIjoyMDg2ODc1MDMyfQ.6WxpNc_CKpt7Sc3sv1Rq2_Xdq957vnVXpOXICLTdRDE",
+        "SUPABASE_ACCESS_TOKEN": "sbp_0988b4215bdb9772979b637f5050180fd63ecd04"
+      }
     }
   }
 }
