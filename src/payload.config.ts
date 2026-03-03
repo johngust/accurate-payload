@@ -1,4 +1,5 @@
 import { postgresAdapter } from '@payloadcms/db-postgres'
+import { nodemailerAdapter } from '@payloadcms/email-nodemailer'
 import {
   BoldFeature,
   EXPERIMENTAL_TableFeature,
@@ -32,6 +33,7 @@ const dirname = path.dirname(filename)
 
 export default buildConfig({
   admin: {
+    disable: process.env.BUILD_TARGET === 'FRONTEND',
     components: {
       // The `BeforeLogin` component renders a message that you see while logging into your admin panel.
       // Feel free to delete this at any time. Simply remove the line below and the import `BeforeLogin` statement on line 15.
@@ -83,7 +85,20 @@ export default buildConfig({
       ]
     },
   }),
-  //email: nodemailerAdapter(),
+  email: process.env.SMTP_HOST
+    ? nodemailerAdapter({
+        defaultFromAddress: process.env.SMTP_FROM_ADDRESS || 'info@payload-test.com',
+        defaultFromName: process.env.SMTP_FROM_NAME || 'Payload Commerce',
+        transportOptions: {
+          host: process.env.SMTP_HOST,
+          port: Number(process.env.SMTP_PORT) || 587,
+          auth: {
+            user: process.env.SMTP_USER,
+            pass: process.env.SMTP_PASS,
+          },
+        },
+      })
+    : undefined,
   endpoints: [],
   globals: [Header, Footer],
   i18n: {
