@@ -5,9 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS=--no-deprecation BUILD_TARGET=FRONTEND rm -rf src/app/\\(payload\\)/admin && payload migrate && next build",
-    "build:cms": "cross-env NODE_OPTIONS=--no-deprecation BUILD_TARGET=CMS rm -rf src/app/\\(app\\) && payload migrate && next build",
-    "build:frontend": "cross-env NODE_OPTIONS=--no-deprecation BUILD_TARGET=FRONTEND rm -rf src/app/\\(payload\\)/admin && payload migrate && next build",
+    "build": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=4096' BUILD_TARGET=FRONTEND next build",
+    "build:cms": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=4096' BUILD_TARGET=CMS next build",
+    "build:frontend": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=4096' BUILD_TARGET=FRONTEND next build",
     "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
     "dev:prod": "cross-env NODE_OPTIONS=--no-deprecation rm -rf .next && pnpm build && pnpm start",
     "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
