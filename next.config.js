@@ -13,9 +13,7 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   productionBrowserSourceMaps: false,
-  experimental: {
-    serverExternalPackages: ['payload', 'sharp'],
-  },
+  serverExternalPackages: ['payload', 'sharp'],
   images: {
     remotePatterns: [
       ...[NEXT_PUBLIC_SERVER_URL /* 'https://example.com' */].map((item) => {

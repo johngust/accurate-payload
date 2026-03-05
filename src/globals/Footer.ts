@@ -4,6 +4,7 @@
 import type { GlobalConfig } from 'payload'
 
 import { link } from '@/fields/link'
+import { revalidateGlobal } from './hooks/revalidateGlobal'
 
 export const Footer: GlobalConfig = {
   slug: 'footer',
@@ -50,4 +51,7 @@ export const Footer: GlobalConfig = {
       label: 'Email',
     },
   ],
+  hooks: {
+    afterChange: [revalidateGlobal],
+  },
 }

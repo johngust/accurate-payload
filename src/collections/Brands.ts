@@ -4,6 +4,7 @@
 import type { CollectionConfig } from 'payload'
 
 import { adminOnly } from '@/access/adminOnly'
+import { revalidateCollection, revalidateCollectionDelete } from './hooks/revalidateCollection'
 
 export const Brands: CollectionConfig = {
   slug: 'brands',
@@ -22,4 +23,8 @@ export const Brands: CollectionConfig = {
     },
     { name: 'sortOrder', type: 'number', defaultValue: 0, label: 'Порядок' },
   ],
+  hooks: {
+    afterChange: [revalidateCollection],
+    afterDelete: [revalidateCollectionDelete],
+  },
 }

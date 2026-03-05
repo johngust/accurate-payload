@@ -4,6 +4,7 @@
 import type { CollectionConfig } from 'payload'
 
 import { adminOnly } from '@/access/adminOnly'
+import { revalidatePromotion, revalidatePromotionDelete } from './hooks/revalidatePromotion'
 
 export const Promotions: CollectionConfig = {
   slug: 'promotions',
@@ -43,4 +44,8 @@ export const Promotions: CollectionConfig = {
       label: 'Категории (пусто = глобальная)',
     },
   ],
+  hooks: {
+    afterChange: [revalidatePromotion],
+    afterDelete: [revalidatePromotionDelete],
+  },
 }

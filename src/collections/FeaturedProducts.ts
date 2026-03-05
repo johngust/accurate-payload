@@ -4,6 +4,7 @@
 import type { CollectionConfig } from 'payload'
 
 import { adminOnly } from '@/access/adminOnly'
+import { revalidateCollection, revalidateCollectionDelete } from './hooks/revalidateCollection'
 
 export const FeaturedProducts: CollectionConfig = {
   slug: 'featuredProducts',
@@ -23,4 +24,8 @@ export const FeaturedProducts: CollectionConfig = {
       label: 'Категории (пусто = глобальный)',
     },
   ],
+  hooks: {
+    afterChange: [revalidateCollection],
+    afterDelete: [revalidateCollectionDelete],
+  },
 }
