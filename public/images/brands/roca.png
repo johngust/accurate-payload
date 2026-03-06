@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" class="  ">
+	<head>
+		<title>Страница не найдена</title>
+        <link href="/local/templates/aspro-premier/fonts/ntsomic/stylesheet.css"  rel="stylesheet" />
+		<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1" />
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="yes" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Интернет-магазин" />
+<link href="/bitrix/cache/css/s1/aspro-premier/page_14f03554793ce5d7edc1e7bd9fede618/page_14f03554793ce5d7edc1e7bd9fede618_v1.css?1770888292854"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/aspro-premier/template_95d138ba1ef0d0e8e9a94fb200e6649c/template_95d138ba1ef0d0e8e9a94fb200e6649c_v1.css?1770888292277220"  data-template-style="true" rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.min.js?1769424641229643"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"pull.protobuf","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"rest.client","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"N","pull_config_timestamp":0,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1769424643});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.client","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_file_input","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_cookie","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_metrika.goals","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_logo","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_scroll_to_top","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_dropdown_select","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_collaps","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_brands","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_ui-card","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_ui-card.ratio","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_phones_dropdown","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"CT_BST_SEARCH_BUTTON2":"Найти","SEARCH_IN_SITE_FULL":"По всему сайту","SEARCH_IN_SITE":"Везде","SEARCH_IN_CATALOG_FULL":"По каталогу","SEARCH_IN_CATALOG":"Каталог","SEARCH_AREA_ALL":"Поиск по сайту","SEARCH_AREA_CATALOG":"Поиск по каталогу"});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_searchtitle","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"aspro_searchtitle.desktop","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1772784032,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"c46f0519629157e82fdea909abc138e3"});</script>
+
+
+<script src="/bitrix/js/pull/protobuf/protobuf.min.js?176942464376433"></script>
+<script src="/bitrix/js/pull/protobuf/model.min.js?176942464314190"></script>
+<script src="/bitrix/js/rest/client/rest.client.min.js?17694246439240"></script>
+<script src="/bitrix/js/pull/client/pull.client.min.js?176942464349849"></script>
+<script src="/bitrix/js/main/ajax.min.js?176942464022194"></script>
+<script>BX.setJSList(["\/local\/templates\/aspro-premier\/js\/observer.js","\/local\/templates\/aspro-premier\/js\/lite.bootstrap.js","\/local\/templates\/aspro-premier\/vendor\/jquery.cookie.js","\/local\/templates\/aspro-premier\/vendor\/jquery.validate.min.js","\/local\/templates\/aspro-premier\/vendor\/js\/ripple.js","\/local\/templates\/aspro-premier\/js\/detectmobilebrowser.js","\/local\/templates\/aspro-premier\/js\/matchMedia.js","\/local\/templates\/aspro-premier\/js\/jquery.actual.min.js","\/local\/templates\/aspro-premier\/js\/jquery.plugin.min.js","\/local\/templates\/aspro-premier\/js\/jqModal.js","\/local\/templates\/aspro-premier\/js\/scrollTabs.js","\/local\/templates\/aspro-premier\/js\/conditional\/file-input.js","\/local\/templates\/aspro-premier\/js\/autoload\/accordion.js","\/local\/templates\/aspro-premier\/js\/autoload\/controls.js","\/local\/templates\/aspro-premier\/js\/autoload\/dropdown-product.js","\/local\/templates\/aspro-premier\/js\/autoload\/section-toggle.js","\/local\/templates\/aspro-premier\/js\/autoload\/tabs-history.js","\/local\/templates\/aspro-premier\/js\/general.js","\/local\/templates\/aspro-premier\/js\/mobile.js","\/local\/templates\/aspro-premier\/js\/custom.js","\/local\/templates\/aspro-premier\/js\/metrika.goals.min.js","\/local\/templates\/aspro-premier\/js\/logo.min.js","\/local\/templates\/aspro-premier\/js\/scroll_to_top.min.js","\/local\/templates\/aspro-premier\/components\/bitrix\/menu\/header\/script.js","\/local\/templates\/aspro-premier\/js\/conditional\/collaps.js","\/local\/templates\/aspro-premier\/components\/bitrix\/menu\/bottom\/script.js","\/local\/templates\/aspro-premier\/js\/phones.js","\/bitrix\/components\/bitrix\/search.title\/script.js","\/local\/templates\/aspro-premier\/js\/conditional\/search_title\/search-title.js","\/local\/templates\/aspro-premier\/js\/conditional\/search_title\/search-title-handlers.desktop.js","\/bitrix\/components\/aspro\/search.title.options\/templates\/.default\/script.js","\/bitrix\/components\/aspro\/smartsearch.input\/script.js","\/bitrix\/components\/awz\/cookies.sett\/templates\/.default\/script.js","\/local\/templates\/aspro-premier\/js\/jquery.inputmask.bundle.min.js","\/local\/templates\/aspro-premier\/components\/bitrix\/subscribe.edit\/footer_compact\/script.js"]);</script>
+<script>BX.setCSSList(["\/local\/templates\/aspro-premier\/css\/error_404.css","\/local\/templates\/aspro-premier\/css\/fonts\/golos-text\/css\/golos-text.min.css","\/local\/templates\/aspro-premier\/css\/lite.bootstrap.css","\/local\/templates\/aspro-premier\/vendor\/css\/ripple.css","\/local\/templates\/aspro-premier\/css\/buttons.css","\/local\/templates\/aspro-premier\/css\/svg.css","\/local\/templates\/aspro-premier\/css\/header.css","\/local\/templates\/aspro-premier\/css\/footer.css","\/local\/templates\/aspro-premier\/css\/mobile-header.css","\/local\/templates\/aspro-premier\/css\/mobile-menu.css","\/local\/templates\/aspro-premier\/css\/page-title-breadcrumb-pagination.css","\/local\/templates\/aspro-premier\/css\/social-icons.css","\/local\/templates\/aspro-premier\/css\/left-menu.css","\/local\/templates\/aspro-premier\/css\/tabs.css","\/local\/templates\/aspro-premier\/css\/bg-banner.css","\/local\/templates\/aspro-premier\/css\/item-views.css","\/local\/templates\/aspro-premier\/css\/autoload\/accordion.css","\/local\/templates\/aspro-premier\/css\/autoload\/base-tags.css","\/local\/templates\/aspro-premier\/css\/autoload\/border.css","\/local\/templates\/aspro-premier\/css\/autoload\/category-separator.css","\/local\/templates\/aspro-premier\/css\/autoload\/countdown.css","\/local\/templates\/aspro-premier\/css\/autoload\/cross.css","\/local\/templates\/aspro-premier\/css\/autoload\/dark-light-theme.css","\/local\/templates\/aspro-premier\/css\/autoload\/flexbox.css","\/local\/templates\/aspro-premier\/css\/autoload\/fonts.css","\/local\/templates\/aspro-premier\/css\/autoload\/grid-list.css","\/local\/templates\/aspro-premier\/css\/autoload\/gutters.css","\/local\/templates\/aspro-premier\/css\/autoload\/icon-block.css","\/local\/templates\/aspro-premier\/css\/autoload\/images.css","\/local\/templates\/aspro-premier\/css\/autoload\/line-block.css","\/local\/templates\/aspro-premier\/css\/autoload\/mobile-scrolled.css","\/local\/templates\/aspro-premier\/css\/autoload\/popup.css","\/local\/templates\/aspro-premier\/css\/autoload\/position.css","\/local\/templates\/aspro-premier\/css\/autoload\/scroller.css","\/local\/templates\/aspro-premier\/css\/autoload\/section-toggle.css","\/local\/templates\/aspro-premier\/css\/autoload\/shadow.css","\/local\/templates\/aspro-premier\/css\/autoload\/social-list.css","\/local\/templates\/aspro-premier\/css\/autoload\/sticky.css","\/bitrix\/templates\/.default\/ajax\/ajax.css","\/local\/templates\/aspro-premier\/css\/scroll_to_top.min.css","\/local\/templates\/aspro-premier\/components\/bitrix\/menu\/header\/style.css","\/local\/templates\/aspro-premier\/css\/conditional\/dropdown-select.min.css","\/local\/templates\/aspro-premier\/css\/conditional\/brands.min.css","\/local\/templates\/aspro-premier\/css\/conditional\/ui-card.min.css","\/local\/templates\/aspro-premier\/css\/conditional\/ui-card.ratio.min.css","\/local\/templates\/aspro-premier\/css\/conditional\/phones-dropdown.css","\/bitrix\/components\/aspro\/marketing.popup\/templates\/premier\/style.css","\/local\/templates\/aspro-premier\/css\/conditional\/search-title.min.css","\/bitrix\/components\/aspro\/search.title.options\/templates\/.default\/style.css","\/bitrix\/components\/awz\/cookies.sett\/templates\/.default\/style.css","\/local\/templates\/aspro-premier\/styles.css","\/local\/templates\/aspro-premier\/template_styles.css","\/local\/templates\/aspro-premier\/css\/form.css","\/local\/templates\/aspro-premier\/css\/colored.css","\/local\/templates\/aspro-premier\/css\/responsive.css","\/local\/templates\/aspro-premier\/css\/custom.css"]);</script>
+<script>void 0===BX.Aspro?.Captcha&&(BX.namespace("Aspro.Captcha"),(()=>{const e="captchaApiLoader";let t={};BX.Aspro.Captcha=new class{constructor(){}get options(){return JSON.parse(JSON.stringify(t.options))}get params(){let e=t.options.params;return JSON.parse(JSON.stringify(e))}get key(){return t.options.key}get hl(){return t.options.params.hl}get type(){return t.options.type}isYandexSmartCaptcha(){return"ya.smartcaptcha"==this.type}isGoogleRecaptcha(){return!this.isYandexSmartCaptcha()}isGoogleRecaptcha3(){return this.isGoogleRecaptcha()&&3==t.options.ver}isInvisible(){return this.isYandexSmartCaptcha()?t.options.params.invisible:this.isGoogleRecaptcha()&&!this.isGoogleRecaptcha3()?"invisible"==t.options.params.size:void 0}get className(){return this.isYandexSmartCaptcha()?"smart-captcha":this.isGoogleRecaptcha()?"g-recaptcha":""}get selector(){return"."+this.className}get clientResponseSelector(){return this.isYandexSmartCaptcha()?'[name="smart-token"]':this.isGoogleRecaptcha()?".g-recaptcha-response":""}get api(){return this.isYandexSmartCaptcha()?window.smartCaptcha||null:this.isGoogleRecaptcha()&&window.grecaptcha||null}getApiResponse(e){return void 0!==e?this.api.getResponse(e):""}init(e){t.options||(t.options="object"==typeof e&&e?e:{},window.onLoadCaptcha=window.onLoadCaptcha||this.onLoad.bind(this),window.renderCaptcha=window.renderCaptcha||this.render.bind(this),window.onPassedCaptcha=window.onPassedCaptcha||this.onPassed.bind(this),window.renderRecaptchaById=window.renderRecaptchaById||window.renderCaptcha,this.isYandexSmartCaptcha()&&(window.asproRecaptcha=t.options),this.isGoogleRecaptcha()&&(window.asproRecaptcha.params={sitekey:t.options.key,recaptchaLang:t.options.params.hl,callback:t.options.params.callback},this.isGoogleRecaptcha3()||(window.asproRecaptcha.params.recaptchaSize=t.options.params.size,window.asproRecaptcha.params.recaptchaColor=t.options.params.theme,window.asproRecaptcha.params.recaptchaLogoShow=t.options.params.showLogo,window.asproRecaptcha.params.recaptchaBadge=t.options.params.badge)))}load(){return t.loadPromise=t.loadPromise||new Promise(((a,o)=>{try{if(t.onResolveLoadPromise=()=>{a()},document.getElementById(e))throw"Another Api loader already exists";let o=document.createElement("script");o.id=e,this.isYandexSmartCaptcha()?o.src="https://smartcaptcha.yandexcloud.net/captcha.js?render=onload&onload=onLoadCaptcha":o.src="//www.google.com/recaptcha/api.js?hl="+this.hl+"&onload=onLoadCaptcha&render="+(this.isGoogleRecaptcha3()?this.key:"explicit"),document.head.appendChild(o)}catch(e){console.error(e),o(e)}})),t.loadPromise}onLoad(){"function"==typeof t.onResolveLoadPromise&&t.onResolveLoadPromise()}validate(e){if(e){let t=e.closest("form")?.querySelector(this.selector);if(t){let e=t.getAttribute("data-widgetid");if(void 0!==e)return""!=this.getApiResponse(e)}}return!0}onPassed(e){e&&document.querySelectorAll(this.selector).forEach((t=>{let a=t.getAttribute("data-widgetid");if(void 0!==a){if(this.getApiResponse(a)==e){let a=t.closest("form");if(a)if(this.isInvisible()){let t=this.clientResponseSelector;a.querySelector(t)&&!a.querySelector(t).value&&(a.querySelector(t).value=e),document.querySelectorAll('iframe[src*="recaptcha"]').forEach((e=>{let t=e.parentElement?.parentElement;t&&(t.classList.contains("grecaptcha-badge")||(t.style.width="100%"))})),"one_click_buy_form"==a.getAttribute("id")?BX.submit(BX("one_click_buy_form")):"form_comment"==a.getAttribute("name")?BX.submit(BX("form_comment")):-1!==a.getAttribute("id")?.indexOf("auth-page-form")?BX.submit(a):a.submit()}else this.Replacer.addValidationInput(a),a.querySelector("input.recaptcha")&&this.api&&$(a.querySelector("input.recaptcha")).valid()}}}))}onSubmit(e){return new Promise(((t,a)=>{try{if("object"==typeof e&&e&&e.form&&this.api){let a=e.form.querySelector(this.selector);if(a){let o=a.getAttribute("data-widgetid");if(void 0!==o){let a=this.clientResponseSelector;e.form.querySelector(a)&&!e.form.querySelector(a).value&&(this.isInvisible()?(this.api.execute(o),t(!1)):this.isGoogleRecaptcha3()&&(this.api.execute(this.key,{action:"maxscore"}).then((t=>{e.form.querySelector(a).value=t,"one_click_buy_form"==e.form.getAttribute("id")?BX.submit(BX("one_click_buy_form")):"form_comment"==e.form.getAttribute("name")?BX.submit(BX("form_comment")):-1!==e.form.getAttribute("id")?.indexOf("auth-page-form")?BX.submit(e.form):e.form.submit()})),t(!1)))}}}t(!0)}catch(e){console.error(e),a(e)}}))}render(e){return new Promise(((t,a)=>{this.load().then((()=>{try{if(!this.api)throw"Captcha api not loaded";const a=a=>{if(!a.classList.contains(this.className))throw"Node is not a captcha #"+e;let o;this.isGoogleRecaptcha3()?(a.innerHTML='<textarea class="g-recaptcha-response" style="display:none;resize:0;" name="g-recaptcha-response"></textarea>',t(a)):(a.children.length&&t(a),o=this.api.render(a,this.params),a.setAttribute("data-widgetid",o),t(a))};let o=document.getElementById(e);if(o)a(o);else{let t=0;const s=setInterval((()=>{if(o=document.getElementById(e),o)clearInterval(s),a(o);else if(++t>=10)throw clearInterval(s),"Captcha not finded #"+e}),100)}}catch(e){console.error(e),a(e)}})).catch((e=>{console.error(e),a(e)}))}))}reset(){(this.isGoogleRecaptcha()||this.isYandexSmartCaptcha())&&this.api.reset()}};BX.Aspro.Captcha.Replacer=new class{constructor(){this.bindEvents()}bindEvents(){BX.addCustomEvent(window,"onRenderCaptcha",BX.proxy(this.replace,this)),BX.addCustomEvent(window,"onAjaxSuccess",BX.proxy(this.replace,this))}replace(e){try{this.fixExists();let e=this.getForms();for(let t=0;t<e.length;++t){let a=e[t];this.hideLabel(a),this.removeReload(a),BX.Aspro.Captcha.isGoogleRecaptcha3()&&this.hideRow(a),BX.Aspro.Captcha.isGoogleRecaptcha3()||BX.Aspro.Captcha.isInvisible()||this.addValidationInput(a);let o=this.getInputs(a);for(let e=0;e<o.length;++e)this.replaceInput(o[e]);let s=this.getImages(a);for(let e=0;e<s.length;++e)this.hideImage(s[e])}return!0}catch(e){return console.error(e),!1}}fixExists(){let e=document.getElementsByClassName(BX.Aspro.Captcha.className);if(e.length)for(let t=0;t<e.length;++t){let a=e[t],o=a.id;if("string"==typeof o&&0!==o.length){let e=a.closest("form");if(e&&(this.hideLabel(e),this.removeReload(e),BX.Aspro.Captcha.isGoogleRecaptcha()&&BX.Aspro.Captcha.isGoogleRecaptcha3()&&this.hideRow(e),BX.Aspro.Captcha.isGoogleRecaptcha3()||BX.Aspro.Captcha.isInvisible()||this.addValidationInput(e),BX.Aspro.Captcha.isYandexSmartCaptcha()||!BX.Aspro.Captcha.isGoogleRecaptcha3())){let e=a.closest(".captcha-row");e&&(BX.Aspro.Captcha.isYandexSmartCaptcha()?BX.Aspro.Captcha.isInvisible()&&e.classList.add((BX.Aspro.Captcha.params.hideShield,"n"),BX.Aspro.Captcha.params.shieldPosition):e.classList.add("logo_captcha_"+BX.Aspro.Captcha.params.showLogo,window.BX.Aspro.Captcha.params.badge),BX.Aspro.Captcha.isInvisible()&&e.classList.add("invisible"),e.querySelector(".captcha_image")?.classList.add("recaptcha_tmp_img"),e.querySelector(".captcha_input")?.classList.add("recaptcha_text"))}}}}getForms(){let e=[],t=this.getInputs();for(let a=0;a<t.length;++a){let o=t[a].closest("form");o&&e.push(o)}return e}getInputs(e=null){let t=[];return(e=e||document).querySelectorAll('form input[name="captcha_word"]').forEach((e=>{t.push(e)})),t}getImages(e=null){let t=[];return(e=e||document).querySelectorAll("img[src]").forEach((e=>{(/\/bitrix\/tools\/captcha.php\?(captcha_code|captcha_sid)=[^>]*?/i.test(e.src)||"captcha"===e.id)&&t.push(e)})),t}replaceInput(e){if(!e)return;let t="recaptcha-dynamic-"+(new Date).getTime();if(null!==document.getElementById(t)){let e=!1,a=null,o=65535;do{a=Math.floor(Math.random()*o),e=null!==document.getElementById(t+a)}while(e);t+=a}let a=document.createElement("div");a.id=t,a.className=BX.Aspro.Captcha.className,a.setAttribute("data-sitekey",BX.Aspro.Captcha.key),e.parentNode&&(e.parentNode.classList.add("recaptcha_text"),e.parentNode.replaceChild(a,e)),BX.Aspro.Captcha.render(t)}hideImage(e){if(!e)return;e.style.display="none";e.setAttribute("src","data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"),e.parentNode&&e.parentNode.classList.add("recaptcha_tmp_img")}hideLabel(e=null){(e=e||document).querySelectorAll(".captcha-row label").forEach((e=>{e.style.display="none"}))}removeReload(e=null){(e=e||document).querySelectorAll(".captcha-row .refresh").forEach((e=>{e.remove()})),e.querySelectorAll(".captcha_reload").forEach((e=>{e.remove()}))}hideRow(e=null){(e=e||document).querySelectorAll(".captcha-row").forEach((e=>{e.style.display="none"}))}addValidationInput(e=null){(e=e||document).querySelectorAll(".captcha-row").forEach((e=>{e.querySelector("input.recaptcha")||e.appendChild(BX.create({tag:"input",attrs:{type:"text",class:"recaptcha"},html:""}))}))}}})());</script>
+<script>window['asproRecaptcha'] = {"type":"g.recaptcha","key":"6Ld9OIMoAAAAAFklc6jR5rYq4_ogXoadvr4GjpRe","ver":"3","params":{"sitekey":"6Ld9OIMoAAAAAFklc6jR5rYq4_ogXoadvr4GjpRe","hl":"ru","callback":"onPassedCaptcha"}};</script><script>BX.Aspro.Captcha.init({"type":"g.recaptcha","key":"6Ld9OIMoAAAAAFklc6jR5rYq4_ogXoadvr4GjpRe","ver":"3","params":{"sitekey":"6Ld9OIMoAAAAAFklc6jR5rYq4_ogXoadvr4GjpRe","hl":"ru","callback":"onPassedCaptcha"}});</script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_s1");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("s1")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<script>BX.message({'JS_REQUIRED':'Заполните это поле!','JS_FORMAT':'Неверный формат!','JS_FILE_EXT':'Недопустимое расширение файла!','JS_LOGIN_LENGTH':'Минимум 3 символа!','JS_PASSWORD_COPY':'Пароли не совпадают!','JS_PASSWORD_LENGTH':'Минимум 6 символов!','JS_ERROR':'Неверно заполнено поле!','JS_FILE_SIZE':'Максимальный размер 5мб!','JS_FILE_BUTTON_NAME':'Выберите файл','JS_FILE_DEFAULT':'Файл не найден','JS_DATE':'Некорректная дата!','JS_DATETIME':'Некорректная дата/время!','JS_REQUIRED_LICENSES':'Согласитесь с условиями','JS_REQUIRED_OFFER':'Согласитесь с условиями','JS_INVALID_NUMBER':'Неверный номер','JS_INVALID_COUNTRY_CODE':'Неверный код страны','JS_TOO_SHORT':'Номер слишком короткий','JS_TOO_LONG':'Номер слишком длинный','S_CALLBACK':'Заказать звонок','S_QUESTION':'Задать вопрос','S_ASK_QUESTION':'Задать вопрос','S_FEEDBACK':'Оставить отзыв','ERROR_INCLUDE_MODULE_DIGITAL_TITLE':'Ошибка подключения модуля &laquo;Аспро: Премьер&raquo;','ERROR_INCLUDE_MODULE_DIGITAL_TEXT':'Ошибка подключения модуля &laquo;Аспро: Премьер&raquo;.<br />Пожалуйста установите модуль и повторите попытку','S_SERVICES':'Наши услуги','S_SERVICES_SHORT':'Услуги','S_TO_ALL_SERVICES':'Все услуги','S_CATALOG':'Каталог товаров','S_CATALOG_SHORT':'Каталог','S_TO_ALL_CATALOG':'Весь каталог','S_CATALOG_FAVORITES':'Наши товары','S_CATALOG_FAVORITES_SHORT':'Товары','S_NEWS':'Новости','S_TO_ALL_NEWS':'Все новости','S_COMPANY':'О компании','S_OTHER':'Прочее','S_CONTENT':'Контент','T_JS_ARTICLE':'Артикул: ','T_JS_NAME':'Наименование: ','T_JS_PRICE':'Цена: ','T_JS_QUANTITY':'Количество: ','T_JS_SUMM':'Сумма: ','FANCY_CLOSE':'Закрыть','FANCY_NEXT':'Вперед','FANCY_PREV':'Назад','CUSTOM_COLOR_CHOOSE':'Выбрать','CUSTOM_COLOR_CANCEL':'Отмена','S_MOBILE_MENU':'Меню','DIGITAL_T_MENU_BACK':'Назад','DIGITAL_T_MENU_CALLBACK':'Обратная связь','DIGITAL_T_MENU_CONTACTS_TITLE':'Будьте на связи','TITLE_BASKET':'В корзине товаров на #SUMM#','BASKET_SUMM':'#SUMM#','EMPTY_BASKET':'Корзина пуста','TITLE_BASKET_EMPTY':'Корзина пуста','BASKET':'Корзина','SEARCH_TITLE':'Поиск','SOCIAL_TITLE':'Оставайтесь на связи','LOGIN':'Войти','MY_CABINET':'Кабинет','SUBSCRIBE_TITLE':'Будьте всегда в курсе','HEADER_SCHEDULE':'Время работы','SEO_TEXT':'SEO описание','COMPANY_IMG':'Картинка компании','COMPANY_TEXT':'Описание компании','JS_RECAPTCHA_ERROR':'Пройдите проверку','JS_PROCESSING_ERROR':'Согласитесь с условиями!','CONFIG_SAVE_SUCCESS':'Настройки сохранены','CONFIG_SAVE_FAIL':'Ошибка сохранения настроек','CLEAR_FILE':'Отменить','ALL_SECTIONS_PROJECT':'Все проекты','RELOAD_PAGE':'Обновить страницу','REFRESH':'Поменять картинку','RECAPTCHA_TEXT':'Подтвердите, что вы не робот','SHOW':'Еще','HIDE':'Скрыть','FILTER_EXPAND_VALUES':'+ Еще','FILTER_HIDE_VALUES':'Свернуть','COUNTDOWN_SEC':'сек','COUNTDOWN_MIN':'мин','COUNTDOWN_HOUR':'час','COUNTDOWN_DAY0':'дн','COUNTDOWN_DAY1':'дн','COUNTDOWN_DAY2':'дн','COUNTDOWN_WEAK0':'Недель','COUNTDOWN_WEAK1':'Неделя','COUNTDOWN_WEAK2':'Недели','COUNTDOWN_MONTH0':'Месяцев','COUNTDOWN_MONTH1':'Месяц','COUNTDOWN_MONTH2':'Месяца','COUNTDOWN_YEAR0':'Лет','COUNTDOWN_YEAR1':'Год','COUNTDOWN_YEAR2':'Года','COUNTDOWN_COMPACT_SEC':'с','COUNTDOWN_COMPACT_MIN':'м','COUNTDOWN_COMPACT_HOUR':'ч','COUNTDOWN_COMPACT_DAY':'д','COUNTDOWN_COMPACT_WEAK':'н','COUNTDOWN_COMPACT_MONTH':'м','COUNTDOWN_COMPACT_YEAR0':'л','COUNTDOWN_COMPACT_YEAR1':'г','BASKET_PRINT_BUTTON':'Распечатать','BASKET_CLEAR_ALL_BUTTON':'Очистить','BASKET_QUICK_ORDER_BUTTON':'Быстрый заказ','BASKET_CONTINUE_BUTTON':'Продолжить покупки','BASKET_ORDER_BUTTON':'Оформить заказ','SHARE_BUTTON':'Поделиться','BASKET_CHANGE_TITLE':'Ваш заказ','BASKET_CHANGE_LINK':'Изменить','MORE_INFO_SKU':'Купить','ITEM_ECONOMY':'Экономия','ITEM_ARTICLE':'Артикул: ','JS_FORMAT_ORDER':'имеет неверный формат','JS_BASKET_COUNT_TITLE':'В корзине товаров на SUMM','POPUP_VIDEO':'Видео','POPUP_GIFT_TEXT':'Нашли что-то особенное? Намекните другу о подарке!','ORDER_FIO_LABEL':'Ф.И.О.','ORDER_PHONE_LABEL':'Телефон','ORDER_REGISTER_BUTTON':'Регистрация','PRICES_TYPE':'Варианты цен','FILTER_HELPER_VALUES':' знач.','SHOW_MORE_SCU_MAIN':'Еще #COUNT#','SHOW_MORE_SCU_1':'предложение','SHOW_MORE_SCU_2':'предложения','SHOW_MORE_SCU_3':'предложений','PARENT_ITEM_NOT_FOUND':'Не найден основной товар для услуги в корзине. Обновите страницу и попробуйте снова.','S_FAVORITE':'Избранное','S_COMPARE':'Сравнение'})</script>
+<style>html {--theme-base-color:#ffffff;--theme-base-opacity-color:#ffffff1a;--theme-more-color:#0aa360;--theme-text-transform:none;--theme-letter-spacing:normal;--theme-button-font-size:0%;--theme-button-color-light:var(--OFF_toggle);--theme-button-color-dark:var(--ON_toggle);--theme-button-padding-2px:0%;--theme-button-padding-1px:0%;--theme-button-border-radius:0;--theme-sticker-border-radius:4px;--theme-outer-border-radius:0;--theme-image-border-radius:0;--theme-more-color-hue:154;--theme-more-color-saturation:88%;--theme-more-color-lightness:34%;--theme-base-color-hue:0;--theme-base-color-saturation:0%;--theme-base-color-lightness:100%;--theme-lightness-hover-diff:-6%;--theme-items-gap:12px;}</style>
+<style>html {font-size:16px;--theme-font-family:'NT Somic';--theme-font-title-family:var(--theme-font-family);--theme-font-title-weight:600;}</style>
+<style>html {--theme-page-width: 1696px;--theme-page-width-padding: 32px}</style>
+
+            <script src="/local/templates/aspro-premier/js/app.min.js?17694285272417"></script>
+            <script data-skip-moving="true" src="/bitrix/js/main/jquery/jquery-3.6.0.min.js"></script>
+            <script data-skip-moving="true" src="/local/templates/aspro-premier/js/dotmenu.min.js?17694285276627"></script>
+        
+<link href="/local/templates/aspro-premier/css/print.min.css?176942852713386" data-template-style="true" rel="stylesheet" media="print">
+<script>window.lazySizesConfig = window.lazySizesConfig || {};lazySizesConfig.loadMode = 1;lazySizesConfig.expand = 200;lazySizesConfig.expFactor = 1;lazySizesConfig.hFac = 0.1;window.lazySizesConfig.loadHidden = false;</script>
+<script src="/local/templates/aspro-premier/vendor/ls.unveilhooks.min.js" data-skip-moving="true" defer=""></script>
+<script src="/local/templates/aspro-premier/vendor/lazysizes.min.js" data-skip-moving="true" defer=""></script>
+<link rel="shortcut icon" href="/favicon.jpg" type="image/jpeg" />
+<link rel="apple-touch-icon" sizes="180x180" href="/upload/CPremier/309/bwqfcvfet81igv1y9kdpbe2wb2ybl3ho.jpg" />
+<meta property="og:title" content="Страница не найдена" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="https://roxa.ru/upload/CPremier/309/bwqfcvfet81igv1y9kdpbe2wb2ybl3ho.jpg" />
+<link rel="image_src" href="https://roxa.ru/upload/CPremier/309/bwqfcvfet81igv1y9kdpbe2wb2ybl3ho.jpg"  />
+<meta property="og:url" content="https://roxa.ru/resources/images/logo-roca.png" />
+<meta property="og:description" content="Интернет-магазин" />
+<script>BX.message({'SEARCH_AREA_ALL':'Поиск по сайту','SEARCH_AREA_CATALOG':'Поиск по каталогу','SEARCH_AREA_DEFAULT':'Поиск по каталогу','SEARCH_AREA_COOKIE_NAME':'search_title_area'})</script>
+
+
+
+<script  src="/bitrix/cache/js/s1/aspro-premier/template_5ca1838efd957e6c64c04d9dc426324e/template_5ca1838efd957e6c64c04d9dc426324e_v1.js?1770888279292589"></script>
+<script  src="/bitrix/cache/js/s1/aspro-premier/default_460ce3d5947b4285ac0396e76ca7cb78/default_460ce3d5947b4285ac0396e76ca7cb78_v1.js?1770888279688"></script>
+
+				<style>html {--header-height:88px;}</style>                        <script data-skip-moving="true">
+            var solutionName = 'arPremierOptions';
+            var arAsproOptions = window[solutionName] = ({});
+            var arAsproCounters = {};
+            var arBasketItems = {};
+        </script>
+        <script src="/local/templates/aspro-premier/js/setTheme.php?site_id=s1&site_dir=/" data-skip-moving="true"></script>
+        <script>
+
+        if (arAsproOptions.SITE_ADDRESS) {
+            arAsproOptions.SITE_ADDRESS = arAsproOptions.SITE_ADDRESS.replace(/'/g, "");
+        }
+
+        window.basketJSParams = window.basketJSParams || [];
+                BX.message({'MIN_ORDER_PRICE_TEXT':'<b>Минимальная сумма заказа #PRICE#<\/b><br/>Пожалуйста, добавьте еще товаров в корзину','LICENSES_TEXT':'Продолжая, вы соглашаетесь с <a href=\"/company/pd/\" target=\"_blank\">политикой конфиденциальности<\/a> и даёте согласие на обработку персональных данных','OFFER_TEXT':'Продолжая, вы соглашаетесь с <a href=\"/company/oferta/\" target=\"_blank\">публичной офертой<\/a>'});
+        arAsproOptions.PAGES.FRONT_PAGE = window[solutionName].PAGES.FRONT_PAGE = "";
+        arAsproOptions.PAGES.BASKET_PAGE = window[solutionName].PAGES.BASKET_PAGE = "";
+        arAsproOptions.PAGES.ORDER_PAGE = window[solutionName].PAGES.ORDER_PAGE = "";
+        arAsproOptions.PAGES.PERSONAL_PAGE = window[solutionName].PAGES.PERSONAL_PAGE = "";
+        arAsproOptions.PAGES.CATALOG_PAGE = window[solutionName].PAGES.CATALOG_PAGE = "";
+        </script>
+        <!--'start_frame_cache_options-block'-->            <script>
+            var arAsproCounters = {'BASKET':{'ITEMS':[],'COUNT':'0','TITLE':'Корзина пуста'},'DELAY':{'ITEMS':[],'COUNT':'0'},'NOT_AVAILABLE':{'ITEMS':[],'COUNT':'0'},'COMPARE':{'ITEMS':[],'COUNT':'0','TITLE':'Список сравниваемых элементов'},'FAVORITE':{'ITEMS':[],'COUNT':'0','TITLE':'Избранные товары'},'SUBSCRIBE':{'ITEMS':[],'COUNT':'0','TITLE':'Подписка на товары'},'SERVICE':{'ITEMS':[],'COUNT':'0','TITLE':''}};
+            </script>
+            <!--'end_frame_cache_options-block'-->	</head>
+	<body class=" site_s1   side_left hide_menu_page region_confirm_normal header_fill_ fixed_n mfixed_y mfixed_view_always title_position_left mmenu_leftside mheader-v1 footer-v2 fill_bg_ header-v5 title-v1 bottom-icons-panel_n catalog-img-aspect-normal grey-bg-goods-y with_phones theme-dark" id="main" data-site="/">
+		<div class="bx_areas"></div>
+
+		
+		
+
+
+				
+		<div class="layout layout--left-column- flex-1">
+			<div class="layout__right-column flexbox">
+				<div id="panel"></div>
+				
+				<div class="body relative  hover_">
+					<div class="body_media"></div>
+
+										                     <div class="headers-container d-none d-lg-block">
+                                                  <header class="custom-header header header--narrow  ">
+    <div class="header__inner header__inner--no-pt header__inner--bordered">
+                        <div class="awz-header-new">
+            <div class="awz-menu-wrap">
+                                                    <div class="line-block__item">
+                        <div class="header__bottom-item header__top-sections flex-1">
+                            <div class="catalog_icons_">
+	<div class="header-menu__wrapper">
+								<div class="header-menu__item unvisible header-menu__item--first color-dark-parent fill-dark-parent-all">
+														<a class="header-menu__link header-menu__link--top-level color-dark-target rounded-x light-opacity-hover dark_link fill-dark-light-block link-button-color-target" href="/catalog/" title="Каталог">
+																		
+												<span class="header-menu__title-wrapper icon-block flex-1 font_13">
+							<span class="header-menu__title flex-1">
+								Каталог							</span>
+													</span>
+											</a>
+																			</div>
+											<div class="header-menu__item unvisible color-dark-parent fill-dark-parent-all">
+														<a class="header-menu__link header-menu__link--top-level color-dark-target rounded-x light-opacity-hover dark_link fill-dark-light-block link-button-color-target" href="/company/" title="О нас">
+																		
+												<span class="header-menu__title-wrapper icon-block flex-1 font_13">
+							<span class="header-menu__title flex-1">
+								О нас							</span>
+													</span>
+											</a>
+																			</div>
+											<div class="header-menu__item unvisible header-menu__item--last color-dark-parent fill-dark-parent-all">
+														<a class="header-menu__link header-menu__link--top-level color-dark-target rounded-x light-opacity-hover dark_link fill-dark-light-block link-button-color-target" href="/company/vacancy/" title="Карьера">
+																		
+												<span class="header-menu__title-wrapper icon-block flex-1 font_13">
+							<span class="header-menu__title flex-1">
+								Карьера							</span>
+													</span>
+											</a>
+																			</div>
+					
+					<div class="header-menu__item header-menu__item--more-items unvisible">
+				<div class="header-menu__link banner-light-icon-fill fill-dark-light light-opacity-hover">
+					<span class="font_22">
+						<i class="svg inline fill-dark-target fill-button-color-target inline " aria-hidden="true"><svg width="15" height="3" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#dots-15-3"></use></svg></i>					</span>
+				</div>
+
+				<div class="header-menu__dropdown-menu dropdown-menu-wrapper dropdown-menu-wrapper--visible dropdown-menu-wrapper--woffset theme-root">
+					<ul class="header-menu__more-items-list dropdown-menu-inner rounded-x"></ul>
+				</div>
+			</div>
+			</div>
+</div>
+<script data-skip-moving="true">
+	if (typeof topMenuAction !== 'function'){
+		function topMenuAction() {
+			if (typeof CheckTopMenuDotted !== 'function'){
+				let timerID = setInterval(function(){
+					if (typeof CheckTopMenuDotted === 'function'){
+						CheckTopMenuDotted();
+						clearInterval(timerID);
+					}
+				}, 100);
+			} else {
+				CheckTopMenuDotted();
+			}
+		}
+	}
+</script>
+                                                    </div>
+                    </div>
+                                                <div class="awz-search-wrap">
+                                                                    <div class="line-block__item" data-ajax-load-block="HEADER_TOGGLE_SEARCH">
+                                                                                <button type="button" class="btn--no-btn-appearance header-search banner-light-icon-fill fill-dark-light-block menu-light-icon-fill light-opacity-hover" title="Поиск">
+                                <i class="svg inline wrapper header-search__icon inline " aria-hidden="true"><svg width="18" height="18" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#search-18-18"></use></svg></i>                                                            </button>
+                                            
+                    </div>
+
+                                            </div>
+            </div>
+
+
+            <div class="awz-logo-wrap">
+
+
+
+                <a class="menu-light-icon-fill banner-light-icon-fill flexbox flexbox--justify-center flexbox--align-center height-100 width-100" href="/"><img src="/upload/CPremier/c6a/2jv8ykhpjgpa6tf54ppj3hgnoigd96wz.jpg" alt="ROXA" title="ROXA" data-src="" class="img-responsive" /></a>            </div>
+        </div>
+                            </div>
+</header>
+
+        <script data-skip-moving="true">if(typeof topMenuAction !== 'undefined') topMenuAction()</script>
+                             </div>
+                    					
+					<div id="mobileheader">
+						<div class="visible-991">
+							<div class="mobileheader mobileheader_1 line-block line-block--gap border-bottom mobileheader--color-white" data-ajax-load-block="HEADER_MOBILE_MAIN_PART">
+    <div class="mobileheader__inner min-width-0 flex-1 p-block p-block--18">
+        <div class="maxwidth-theme">
+            <div class="mobileheader__inner-part line-block line-block--gap line-block--gap-32 flex-1">
+                                        <div class="line-block__item mobileheader__burger no-shrinked" data-ajax-load-block="HEADER_MOBILE_TOGGLE_BURGER_LEFT">
+                                <button type="button" class="btn--no-btn-appearance burger js-burger light-opacity-hover fill-theme-hover banner-light-icon-fill menu-light-icon-fill fill-dark-light-block" title="Mobile menu">
+                        <i class="svg inline  inline " aria-hidden="true"><svg width="16" height="12" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#burger-16-12"></use></svg></i>                    </button>
+                        </div>
+        
+                                <div class="line-block__item logo ">
+                    <a class="menu-light-icon-fill banner-light-icon-fill flexbox flexbox--justify-center flexbox--align-center height-100 width-100" href="/"><img src="/upload/CPremier/c6a/2jv8ykhpjgpa6tf54ppj3hgnoigd96wz.jpg" alt="ROXA" title="ROXA" data-src="" class="img-responsive" /></a>                </div>
+
+                <div class="flex-1"></div>
+
+                                        <div class="line-block__item no-shrinked" data-ajax-load-block="HEADER_MOBILE_TOGGLE_PHONE">
+                                <div class="icon-block--with_icon icon-block--only_icon">
+                        <div class="phones">
+                            <div class="phones__phones-wrapper">
+                                <div class="phones__inner phones__inner--with_dropdown fill-theme-parent ">
+			<span class="icon-block__only-icon fill-theme-hover menu-light-icon-fill fill-dark-light-block fill-theme-target">
+			<i class="svg inline header__icon inline " aria-hidden="true"><svg width="14" height="18" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#phone-14-18"></use></svg></i>		</span>
+	
+	<div id="mobilephones" class="phones__dropdown">
+		<div class="mobilephones__menu-dropdown dropdown dropdown--relative scrollbar mobile-scroll">
+			<span class="mobilephones__close fill-dark-light fill-theme-hover" title="Закрыть">
+				<i class="svg inline  inline " aria-hidden="true"><svg width="16" height="16" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#close-16-16"></use></svg></i>			</span>
+
+			<div class="mobilephones__menu-item mobilephones__menu-item--title">
+				<span class="font_18 fw-500 color_dark">
+					Телефоны				</span>
+			</div>
+
+							<div class="mobilephones__menu-item">
+					<div class="link-wrapper bg-opacity-theme-parent-hover fill-theme-parent-all">
+						<a class="dark_link phone" href="tel:+78002001640" rel="nofollow">
+							<span class="mobilephones__menu-item-content flexbox flexbox--direction-row flexbox--justify-between">
+								<span class="mobilephones__menu-item-text">
+									<span class="font_14">8 800 200-16-40 </span>
+
+																			<span class="phones__phone-descript font_13 secondary-color">Звонки из любых регионов России бесплатные</span>
+																	</span>
+
+															</span>
+						</a>
+					</div>
+				</div>
+			
+			
+							<div class="mobilephones__additional-blocks">
+											<div class="mobilephones__menu-item mobilephones__menu-item--with-padding">
+
+            <div class="email__title phones__dropdown-title font_13 secondary-color">
+            E-mail        </div>
+    
+    <div class="phones__dropdown-value color_dark">
+        
+        <div
+         class="email__text font_14"        >
+            <a class="no-decoration" href="mailto:roxa@prof100.ru">roxa@prof100.ru</a>        </div>
+    </div>
+
+</div>																																										</div>
+					</div>
+	</div>
+</div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+        
+                                        <div class="line-block__item no-shrinked icon-block--only_icon" data-ajax-load-block="HEADER_MOBILE_TOGGLE_SEARCH">
+                                <button type="button" class="btn--no-btn-appearance header-search__mobile banner-light-icon-fill fill-dark-light-block menu-light-icon-fill light-opacity-hover" title="Поиск">
+                        <i class="svg inline header__icon header-search__icon wrapper inline " aria-hidden="true"><svg width="18" height="18" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#search-18-18"></use></svg></i>                    </button>
+                        </div>
+        
+                                
+                                
+                                
+                                            </div>
+        </div>
+    </div>
+</div>
+						</div>
+						<div id="mobilemenu" class="mobile-scroll scrollbar">
+							<div class="mobilemenu mobilemenu_1 relative" data-ajax-load-block="MOBILE_MENU_MAIN_PART">
+        <button type="button" class="mobilemenu__close btn--no-btn-appearance fill-black-parent-all flexbox" title="Закрыть" aria-label="Закрыть">
+        <i class="svg inline wrapper wrapper--32 wrapper--hover button-rounded-x fill-black-target fill-use-icon-on-card inline " aria-hidden="true"><svg width="14" height="14" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#close-16-16"></use></svg></i>    </button>
+    <div class="mobilemenu__inner p-inline p-inline--12 pt pt--20 pb pb--32">
+        <div class="line-block line-block--column line-block--align-normal line-block--gap line-block--gap-24">
+            <div class="line-block__item mobilemenu__regions-wrapper font_28">
+                                            </div>
+
+            <div class="line-block__item">
+                <div class="line-block line-block--gap line-block--gap-20 line-block--column line-block--align-normal">
+                                        <div class="mobilemenu__item">
+                                                                                <div class="loadings" style="height:38px;" data-nlo="menu-mobile">                            </div>                                            </div>
+
+                                        
+                                        <div class="mobilemenu__item">
+                        <!-- noindex -->
+                        
+<div class="mobilemenu__menu mobilemenu__menu--with-hover mobilemenu__menu--top">
+	<ul class="mobilemenu__menu-list">
+								<li class="mobilemenu__menu-item">
+				<div class=" link-wrapper">
+											<a class="mobilemenu__item-link no-decoration" href="/company/" title="О нас">
+							<span class="font_15">О нас</span>
+													</a>
+															</div>
+
+							</li>
+								<li class="mobilemenu__menu-item">
+				<div class=" link-wrapper">
+											<a class="mobilemenu__item-link no-decoration" href="/company/vacancy/" title="Карьера">
+							<span class="font_15">Карьера</span>
+													</a>
+															</div>
+
+							</li>
+			</ul>
+</div>
+                        <!-- /noindex -->
+                    </div>
+
+                                                                <div class="mobilemenu__separator"></div>
+
+                        <div class="mobilemenu__item mobilemenu__footer">
+                            <div class="line-block line-block--column line-block--align-normal line-block--gap line-block--gap-32">
+                                                                                                    <div class="line-block__item line-block line-block--column line-block--align-normal line-block--gap line-block--gap-12">
+                                                                                        <div  data-ajax-load-block="MOBILE_MENU_TOGGLE_PHONE">
+            <div class="mobilemenu__menu">
+	<div class="mobilemenu__menu-item mobilemenu__menu-item--parent">
+		<div class="link-wrapper fill-dark-parent-all color-dark-parent-all">
+			<a class="icon-block no-decoration color-dark-target" href="tel:+78002001640" rel="nofollow">
+				<span class="icon-block__content">
+					<span class="font_15 fw-500">8 800 200-16-40 </span>
+
+											<span class="phones__phone-descript font_13 secondary-color">Звонки из любых регионов России бесплатные</span>
+										
+					<i class="svg inline down menu-arrow fill-dark-light-block fill-dark-target inline " aria-hidden="true"><svg width="3" height="5" ><use xlink:href="/local/templates/aspro-premier/images/svg/arrows.svg?1769428527#right"></use></svg></i>				</span>
+			</a>
+			<span class="toggle_block"></span>
+		</div>
+		
+		<ul class="mobilemenu__menu-dropdown dropdown dropdown--no-shadow line-block--gap-0">
+			<li class="mobilemenu__menu-item mobilemenu__menu-item--no-hover mb mb--20">
+    <button type="button" class="stroke-black-parent-all wrapper-hover-parent-all mobilemenu__menu-item-back btn--no-btn-appearance ml ml--4" title="Назад" aria-label="Назад">
+        <i class="svg inline wrapper wrapper--32 wrapper-hover-target button-rounded-x arrow-all__item-arrow stroke-black-target stroke-use-icon-on-card inline " aria-hidden="true"><svg width="16" height="17" ><use xlink:href="/local/templates/aspro-premier/images/svg/arrows.svg?1769428527#left-16-17"></use></svg></i>    </button>
+</li>			
+							<li class="mobilemenu__menu-item mobilemenu__menu-item--title">
+					<div class="link-wrapper">
+						<span class="flexbox pt pt--8 mb mb--16">
+							<span class="line-block line-block--gap line-block--gap-16">
+								<span class="font_18 fw-500 color_dark">Телефоны</span>
+							</span>
+						</span>
+					</div>
+				</li>
+			
+							<li class="mobilemenu__menu-item">
+					<div class="link-wrapper fill-dark-parent-all">
+						<a class="dark_link phone flexbox flexbox--direction-row flexbox--justify-between p-block p-block--12" href="tel:+78002001640" rel="nofollow">
+							<div class="mobile__menu-item-text">
+								<span class="font_15 fw-500">8 800 200-16-40 </span>
+								
+																	<span class="phones__phone-descript font_13 secondary-color">
+										Звонки из любых регионов России бесплатные									</span>
+															</div>
+
+													</a>
+					</div>
+				</li>
+			
+					</ul>
+	</div>
+</div>        </div>
+        
+                                                                                        <div  data-ajax-load-block="MOBILE_MENU_TOGGLE_CONTACTS">
+                                <div class="mobilemenu__menu mobilemenu__menu--contacts">
+                        <ul class="mobilemenu__menu-list line-block line-block--column line-block--align-normal line-block--gap line-block--gap-16">
+                                                                                                                                                                <li class="mobilemenu__menu-item"><div class="email link-wrapper">
+
+    
+    <div class="link-wrapper fill-dark-parent-all color-dark-parent-all">
+        
+        <div
+         class="email__text font_15"        >
+            <a class="no-decoration" href="mailto:roxa@prof100.ru">roxa@prof100.ru</a>        </div>
+    </div>
+
+</div></li>
+                                                            
+                                                                                                                                                        
+                                                                                                                                                                                </ul>
+                    </div>
+                            </div>
+                                            </div>
+                                
+                                                                        <div class="line-block__item" data-ajax-load-block="MOBILE_MENU_TOGGLE_SOCIAL">
+                                                                                </div>
+                                    </div>
+                        </div>
+
+                        <div class="mobilemenu__separator"></div>
+                    
+                                                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+						</div>
+					</div>
+					<div id="mobilefilter" class="scrollbar-filter"></div>
+					
+					<div role="main" class="main banner-auto">
+						
+						<div class="container  with_error">
+															<div class="row">
+																			<div class="maxwidth-theme">
+																												<div class="col-md-12 col-sm-12 col-xs-12 content-md">
+																							<style>.right_block.wide_, .right_block.wide_N{float:none !important;width:100% !important;}.page-top{display: none;}</style>
+<div class="maxwidth-theme">
+	<div class="page_error_block">
+		<div class="page_not_found" width="100%" border="0" cellpadding="0" cellspacing="0">
+			<div class="image">
+				<svg width="317" height="113" viewBox="0 0 317 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<g opacity="0.1">
+					<path d="M74.5291 28.1476C77.209 30.0966 77.8015 33.8491 75.8524 36.529L42.7826 82H69V70C69 66.6863 71.6863 64 75 64C78.3137 64 81 66.6863 81 70V82H93C96.3137 82 99 84.6863 99 88C99 91.3137 96.3137 94 93 94H81V107C81 110.314 78.3137 113 75 113C71.6863 113 69 110.314 69 107V94H31C28.7433 94 26.6774 92.7337 25.6533 90.7227C24.6293 88.7116 24.8203 86.2961 26.1476 84.471L66.1476 29.471C68.0966 26.7911 71.8491 26.1985 74.5291 28.1476Z" fill="#3761E9"/>
+					<path d="M292.529 28.1476C295.209 30.0966 295.801 33.8491 293.852 36.529L260.783 82H287V70C287 66.6863 289.686 64 293 64C296.314 64 299 66.6863 299 70V82H311C314.314 82 317 84.6863 317 88C317 91.3137 314.314 94 311 94H299V107C299 110.314 296.314 113 293 113C289.686 113 287 110.314 287 107V94H249C246.743 94 244.677 92.7337 243.653 90.7227C242.629 88.7116 242.82 86.2961 244.148 84.471L284.148 29.471C286.097 26.7911 289.849 26.1985 292.529 28.1476Z" fill="#3761E9"/>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M171 27C147.252 27 128 46.2518 128 70C128 93.7482 147.252 113 171 113C194.748 113 214 93.7482 214 70C214 46.2518 194.748 27 171 27ZM140 70C140 52.8792 153.879 39 171 39C188.121 39 202 52.8792 202 70C202 87.1208 188.121 101 171 101C153.879 101 140 87.1208 140 70Z" fill="#3761E9"/>
+					</g>
+					<path class="fill-theme-svg" d="M55.5018 1.1279C58.1926 3.0619 58.8061 6.81103 56.8721 9.50181L17.7015 64H51V47C51 43.6863 53.6863 41 57 41C60.3137 41 63 43.6863 63 47V64H78C81.3137 64 84 66.6863 84 70C84 73.3137 81.3137 76 78 76H63V92C63 95.3137 60.3137 98 57 98C53.6863 98 51 95.3137 51 92V76H6.00002C3.74932 76 1.6879 74.7404 0.660974 72.7376C-0.365956 70.7348 -0.185663 68.3258 1.12793 66.4982L47.1279 2.49818C49.0619 -0.192605 52.8111 -0.806099 55.5018 1.1279Z" fill="#3761E9"/>
+					<path class="fill-theme-svg" fill-rule="evenodd" clip-rule="evenodd" d="M102 49C102 21.938 123.938 -6.76274e-06 151 -6.76274e-06C178.062 -6.76274e-06 200 21.938 200 49C200 76.0619 178.062 98 151 98C123.938 98 102 76.0619 102 49ZM151 12C130.565 12 114 28.5655 114 49C114 69.4345 130.565 86 151 86C171.435 86 188 69.4345 188 49C188 28.5655 171.435 12 151 12Z" fill="#3761E9"/>
+					<path class="fill-theme-svg" d="M274.872 9.50181C276.806 6.81103 276.193 3.0619 273.502 1.1279C270.811 -0.806099 267.062 -0.192605 265.128 2.49818L219.128 66.4982C217.814 68.3258 217.634 70.7348 218.661 72.7376C219.688 74.7404 221.749 76 224 76H269V92C269 95.3137 271.686 98 275 98C278.314 98 281 95.3137 281 92V76H296C299.314 76 302 73.3137 302 70C302 66.6863 299.314 64 296 64H281V47C281 43.6863 278.314 41 275 41C271.686 41 269 43.6863 269 47V64H235.702L274.872 9.50181Z" fill="#3761E9"/>
+				</svg>
+			</div>
+			<div class="description">
+				<div class="subtitle404 option-font-bold">Страница не найдена</div>
+				<div class="descr_text404">Неправильно набран адрес или такой страницы не существует</div>
+				<a class="btn btn-transparent-border btn-lg btn-mainpage" onclick="history.back()">Вернуться назад</a>
+				<a class="btn btn-default btn-lg btn-mainpage" href="/"><span>На главную</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+																																																														</div>
+																												</div>																	</div>													</div>											</div>				</div>				
+    
+<footer id="footer" class="footer footer__divider--top footer-2 footer--color-dark theme-dark">
+    <div class="footer__main-part">
+        <div class="maxwidth-theme">
+            <div class="footer__main-part-inner p-block p-block--48">
+                <div class="footer__main-part-menu flexbox flexbox--direction-row flexbox--wrap gap gap--12">
+                    <div class="footer__part-item">
+                            
+    <div class="bottom-menu">
+        <div class="items">
+                                                                                            <div class="item-link items-child line-block line-block--gap line-block--gap-12 flexbox--justify-between pointer fill-dark-parent-all" data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class="title font_15 fw-500">
+                                                                    <span>Категории</span>
+                                                            </div>
+                        </div>
+
+                                                    <i class="svg inline fill-dark-light-block fill-dark-target visible-767 wrapper wrapper--12 inline " aria-hidden="true"><svg width="5" height="3" ><use xlink:href="/local/templates/aspro-premier/images/svg/arrows.svg?1769428527#down"></use></svg></i>                                            </div>
+
+                                                                                                        <div id="bottom1" class="wrap_menu_compact_mobile hide-768 overflow-block">
+                        <div class="min-height-0">
+                            <div class="wrap">
+                                                        <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/bath/">Ванны</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/toilets/">Унитазы</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/sinks/">Раковины</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/faucets/">Смесители</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/bathroom-furniture/">Мебель для ванны</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/installation-systems/">Системы инсталяции</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom1" data-target="#bottom1">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/catalog/shower-equipment/">Душевое оборудование</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                            </div>
+                        </div>
+                    </div>
+                                                                            </div>
+    </div>
+                    </div>
+
+                    <div class="footer__part-item">
+                            
+    <div class="bottom-menu">
+        <div class="items">
+                                                                                            <div class="item-link items-child line-block line-block--gap line-block--gap-12 flexbox--justify-between pointer fill-dark-parent-all" data-parent="#bottom2" data-target="#bottom2">
+                        <div class="item">
+                            <div class="title font_15 fw-500">
+                                                                    <span>О нас</span>
+                                                            </div>
+                        </div>
+
+                                                    <i class="svg inline fill-dark-light-block fill-dark-target visible-767 wrapper wrapper--12 inline " aria-hidden="true"><svg width="5" height="3" ><use xlink:href="/local/templates/aspro-premier/images/svg/arrows.svg?1769428527#down"></use></svg></i>                                            </div>
+
+                                                                                                        <div id="bottom2" class="wrap_menu_compact_mobile hide-768 overflow-block">
+                        <div class="min-height-0">
+                            <div class="wrap">
+                                                        <div class="item-link " data-parent="#bottom2" data-target="#bottom2">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/company/">Наш бренд</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom2" data-target="#bottom2">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/company/vacancy/">Карьера</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                            </div>
+                        </div>
+                    </div>
+                                                                            </div>
+    </div>
+                    </div>
+
+                    <div class="footer__part-item">
+                            
+    <div class="bottom-menu">
+        <div class="items">
+                                                                                            <div class="item-link items-child line-block line-block--gap line-block--gap-12 flexbox--justify-between pointer fill-dark-parent-all" data-parent="#bottom3" data-target="#bottom3">
+                        <div class="item">
+                            <div class="title font_15 fw-500">
+                                                                    <span>ПОДДЕРЖКА</span>
+                                                            </div>
+                        </div>
+
+                                                    <i class="svg inline fill-dark-light-block fill-dark-target visible-767 wrapper wrapper--12 inline " aria-hidden="true"><svg width="5" height="3" ><use xlink:href="/local/templates/aspro-premier/images/svg/arrows.svg?1769428527#down"></use></svg></i>                                            </div>
+
+                                                                                                        <div id="bottom3" class="wrap_menu_compact_mobile hide-768 overflow-block">
+                        <div class="min-height-0">
+                            <div class="wrap">
+                                                        <div class="item-link " data-parent="#bottom3" data-target="#bottom3">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/company/pd2/">Политика конфиденциальности</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom3" data-target="#bottom3">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/company/cookie/">Политика обработки файлов cookie</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                                                                                                            <div class="item-link " data-parent="#bottom3" data-target="#bottom3">
+                        <div class="item">
+                            <div class=" font_14">
+                                                                    <a class="no-decoration base-to-title-hover" href="/company/pd/">Соглашение на обработку персональных данных</a>
+                                                            </div>
+                        </div>
+
+                                            </div>
+
+                                            </div>
+                        </div>
+                    </div>
+                                                                            </div>
+    </div>
+                    </div>
+
+                    
+                                                                                        <div class="footer__part-item " data-ajax-load-block="FOOTER_ALL_BLOCK" data-ajax-check-visible="">
+
+                            <div class="footer__title font_15 fw-500">
+                    Связаться с нами                </div>
+            
+                            <div class="footer__info font_14">
+            
+                                                            <div class="footer__phone footer__info-item " data-ajax-load-block="FOOTER_TOGGLE_PHONE" data-ajax-check-visible="">
+
+            
+            
+                                                    <div class="">
+                            <div class="phones">
+                                                                <div class="phones__phones-wrapper">
+                                    <div class="phones__inner fill-theme-parent">
+			<a
+			class="phones__phone-link phones__phone-first dark_link font_14 fw-500 banner-light-text menu-light-text icon-block__name"
+			href="tel:+78002001640"
+			onclick="return false;"
+		>
+		   8 800 200-16-40 		</a>
+
+		<div class="phones__dropdown p p--20 outer-rounded-x theme-root phones__dropdown--top">
+			<div class="dropdown dropdown--relative dropdown--no-shadow">
+				<div class="flexbox gap gap--24 dropdown--top-reverse">
+					<div class="phones__dropdown-items phones__dropdown-items--phones dropdown--top-reverse flexbox gap gap--20">
+													<div class="phones__dropdown-item ">
+								<a class="dark_link flexbox flexbox--direction-row flexbox--justify-between " rel="nofollow" href="tel:+78002001640">
+									<span class="phones__phone-link-text flexbox dropdown--top-reverse gap gap--2">
+										<span class="phones__phone-title font_14 fw-500">8 800 200-16-40 </span>
+
+																					<span class="phones__phone-descript font_13 secondary-color">Звонки из любых регионов России бесплатные</span>
+																			</span>
+
+																	</a>
+							</div>
+											</div>
+
+											
+									</div>
+			</div>
+
+							<div class="dropdown dropdown--relative dropdown--no-shadow dropdown--top-reverse">
+																		<div class="phones__dropdown-items phones__dropdown-items--additional-d dropdown--top-reverse flexbox gap gap--12">
+																	<div class="phones__dropdown-item phones__dropdown-item--email">
+
+            <div class="email__title phones__dropdown-title font_13 secondary-color">
+            E-mail        </div>
+    
+    <div class="phones__dropdown-value color_dark">
+        
+        <div
+         class="email__text font_14"        >
+            <a class="no-decoration" href="mailto:roxa@prof100.ru">roxa@prof100.ru</a>        </div>
+    </div>
+
+</div>																																																																		</div>
+															</div>
+					</div>
+
+					<span class="more-arrow banner-light-icon-fill menu-light-icon-fill fill-dark-light-block">
+				<i class="svg inline  inline " aria-hidden="true"><svg width="5" height="3" ><use xlink:href="/local/templates/aspro-premier/images/svg/arrows.svg?1769428527#down"></use></svg></i>			</span>
+			</div>
+                                </div>
+
+                                                            </div>
+                        </div>
+                                    
+                    </div>
+
+                <div class="footer__info-item " data-ajax-load-block="FOOTER_TOGGLE_EMAIL" data-ajax-check-visible="">
+
+            
+            
+                                                    <div class="icon-block--with_icon">
+                            
+    
+    <div class="email">
+        
+        <div
+         class="email__text font_14"        >
+            <a class="no-decoration" href="mailto:roxa@prof100.ru">roxa@prof100.ru</a>        </div>
+    </div>
+
+                        </div>
+                                    
+                    </div>
+
+                <div class="footer__address footer__info-item " data-ajax-load-block="FOOTER_TOGGLE_ADDRESS" data-ajax-check-visible="">
+
+            
+            
+                                                    <div class="">
+                                                    </div>
+                                    
+                    </div>
+
+                <div class="footer__social " data-ajax-load-block="FOOTER_TOGGLE_SOCIAL" data-ajax-check-visible="">
+
+            
+            
+                                                    
+<div class="social social-footer">
+    <ul class="social__items flexbox flexbox--row flexbox--wrap m m--0 gap-32">
+        <li class="social__item grid-list__item hover_blink vk">
+            <a class="flexbox" href="https://vk.com/roxa_russia" target="_blank" rel="nofollow" title="">
+                <svg width="15" height="9" viewBox="0 0 15 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M8.95125 0.779503V4.03225C8.94767 4.08596 8.95692 4.1398 8.97823 4.18921C8.99954 4.23862 9.03229 4.28219 9.07376 4.31636C9.11523 4.35054 9.16424 4.37435 9.2167 4.38573C9.26916 4.39711 9.32353 4.39577 9.37537 4.38183C9.67408 4.36186 10.3492 1.58543 10.6489 0.986205C10.8081 0.644817 11.0636 0.357723 11.3837 0.16031C11.4848 0.069078 11.6135 0.0145305 11.7491 0.00548164H14.6147C14.6921 0.0185428 14.7648 0.0511498 14.8261 0.100208C14.8875 0.149265 14.9353 0.213147 14.9651 0.28588C14.995 0.358613 15.006 0.437788 14.9969 0.515929C14.9879 0.59407 14.9591 0.668644 14.9134 0.732567C14.6894 1.23192 12.7677 4.33786 12.6681 4.46369C12.5483 4.62608 12.4675 4.81406 12.4321 5.01297C12.4715 5.24768 12.5797 5.46537 12.7428 5.6382C12.942 5.8649 14.551 7.64157 14.7013 7.79038C14.8429 7.9541 14.9375 8.15327 14.9752 8.36666C14.9393 8.54838 14.8386 8.71078 14.692 8.82346C14.5454 8.93614 14.3629 8.99135 14.1786 8.97884C13.5553 8.97884 12.0219 8.97884 11.8467 8.97884C11.4964 8.8559 11.1742 8.66406 10.8988 8.41457C10.6748 8.21483 9.84435 7.26408 9.71989 7.13924C9.67776 7.08843 9.62394 7.04866 9.56304 7.02343C9.50214 6.99819 9.43599 6.98823 9.37039 6.99441C9.22104 6.99441 8.93727 7.00944 8.95021 7.5777C8.98557 7.97238 8.9031 8.36865 8.71326 8.71618C8.61604 8.80968 8.50083 8.8823 8.37464 8.92953C8.24845 8.97675 8.11396 8.99762 7.97944 8.99085C6.96096 9.05277 5.94811 8.79933 5.078 8.2648C3.51078 7.28806 1.72649 4.68041 0.896085 3.01757C0.400758 2.19151 0.0947066 1.26538 0 0.306117C0.0497845 0.130345 0.0497369 0.00645693 0.224978 0.00645693C0.40022 0.00645693 2.60372 0.00645693 2.81381 0.00645693C2.95931 0.0791652 3.08071 0.192622 3.16331 0.33306C3.23799 0.432931 3.80748 2.14269 3.98173 2.4433C4.15597 2.74391 5.01524 4.39079 5.48122 4.39079C5.63594 4.36032 5.77239 4.26975 5.8608 4.1388C5.94921 4.00784 5.98241 3.8471 5.95318 3.69168C5.95318 3.2922 5.95318 1.71525 5.95318 1.51451C5.76377 1.07168 5.41659 0.715592 4.97942 0.515807C5.08829 0.370757 5.22716 0.251073 5.38648 0.164882C5.54579 0.0786915 5.72179 0.0280331 5.90243 0.0164537C6.49984 -0.0085139 7.99835 -0.00846611 8.32195 0.0404705C8.49466 0.0742147 8.65089 0.165632 8.76516 0.299839C8.87944 0.434046 8.94504 0.603121 8.95125 0.779503Z" fill="#333333"/>
+                </svg>
+            </a>
+        </li>
+        <li class="social__item grid-list__item hover_blink">
+            <a class="flexbox" href="https://t.me/brand_roxa" target="_blank" rel="nofollow" title="">
+                <svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9849 11.0426C11.9664 11.2403 11.8889 11.4281 11.7623 11.5816C11.6358 11.7351 11.466 11.8474 11.2747 11.9038C11.0835 11.9603 10.8797 11.9584 10.6895 11.8985C10.4993 11.8386 10.3315 11.7233 10.2077 11.5675C9.1195 10.7066 7.42235 9.46583 7.42235 9.46583C7.42235 9.46583 6.19427 11.6202 5.97463 11.8409C5.90207 11.9016 5.81761 11.9466 5.72662 11.973C5.63563 11.9993 5.54013 12.0065 5.44619 11.9941C5.35225 11.9816 5.26191 11.9498 5.181 11.9007C5.10009 11.8516 5.03037 11.7862 4.97625 11.7087C4.96505 11.6748 4.95179 11.6415 4.9364 11.6092L5.62522 8.17744L10.5373 3.37265L3.83809 7.17927C3.83809 7.17927 0.813035 6.27855 0.363766 6.10259C0.24787 6.03955 0.152297 5.94511 0.0880913 5.8302C0.023886 5.71529 -0.00623899 5.58462 0.00107471 5.45333C0.00838841 5.32203 0.0528319 5.19548 0.129406 5.08834C0.20598 4.98121 0.311534 4.89788 0.43372 4.84799C1.07268 4.5239 12.3443 0.237053 12.7237 0.126701C13.103 0.0163493 14.1014 -0.270965 13.9916 0.696353C13.8818 1.66367 12.0947 10.5107 11.9849 11.0426Z" fill="#333333"/>
+                </svg>
+            </a>
+        </li>
+        
+    
+    </ul>
+</div>
+                                    
+                    </div>
+
+                <div class="footer__subscribe footer__info-item mt mt--20 " data-ajax-load-block="FOOTER_TOGGLE_SUBSCRIBE" data-ajax-check-visible="">
+
+            
+            
+                                                                                                                                        
+
+
+<!--'start_frame_cache_footer-subscribe'-->			<div class="subscribe-edit"
+     style="
+       font-weight: 400;
+       font-style: normal;
+       font-size: 13px;
+       line-height: 1;
+       letter-spacing: 0.3em;
+       text-transform: uppercase;
+       vertical-align: middle;
+     ">
+  ВСЕ ПРАВА ЗАЩИЩЕНЫ &copy; 2026 ROXA
+</div>	<!--'end_frame_cache_footer-subscribe'-->                                                                                        
+                    </div>
+
+                                            
+                            </div>
+                    </div>
+
+                        </div>
+                <div class="roxa-image-bg">
+                    <img class="lazyload "  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="/local/templates/aspro-premier/images/logo_foot_bg.png" alt="Roxa"/>
+                </div>
+            </div>
+
+                    </div>
+    </div>
+
+    <div class="footer__bottom-part secondary-color font_13">
+        <div class="maxwidth-theme">
+            <div class="footer__bottom-part-inner footer__divider--top p-block p-block--48">
+                <div class="footer__bottom-part-items-wrapper gap gap--8 column-gap column-gap--24 row-gap row-gap--32">
+                    <div class="footer__part-item">
+                        <div class="footer__copy">
+                                                    </div>
+                    </div>
+
+                    <div class="footer__part-item line-block--gap line-block line-block--gap-32 line-block--flex-wrap line-block--shrink line-block--row-gap line-block--row-gap-16">
+                                                                                <div class="footer__part-item footer__part-item-lang hidden" data-ajax-load-block="FOOTER_TOGGLE_LANG" data-ajax-check-visible="">
+
+            
+            
+            
+                    </div>
+
+        
+                                                                                <div class="footer__part-item footer__part-item-theme hidden" data-ajax-load-block="FOOTER_TOGGLE_THEME_SELECTOR" data-ajax-check-visible="">
+
+            
+            
+            
+                    </div>
+
+        
+                        <div class="footer__part-item">
+                            <div class="footer__license">
+                                                            </div>
+                        </div>
+
+                                                    <div class="footer__part-item">
+                                <div class="footer__offer">
+                                                                    </div>
+                            </div>
+                                            </div>
+
+                    <div id="bx-composite-banner" class="footer__part-item"></div>
+
+                                                                    <div class="footer__part-item footer__developer hidden" data-ajax-load-block="FOOTER_TOGGLE_DEVELOPER" data-ajax-check-visible="">
+
+            
+            
+            
+                    </div>
+
+                        </div>
+
+                                                        <div class="footer__part-item footer__part-item-text pt pt--48 " data-ajax-load-block="FOOTER_TOGGLE_TEXT" data-ajax-check-visible="">
+
+            
+            
+                                                                                        
+                    </div>
+
+                    </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- marketnig popups -->
+<!--'start_frame_cache_cdmcEY'-->	<!--'end_frame_cache_cdmcEY'--><!-- /marketnig popups -->
+<div class="bx_areas">
+<!-- Yandex.Metrika counter -->
+<script>
+    (function(m,e,t,r,i,k,a){
+        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=104549103', 'ym');
+
+    ym(104549103, 'init', {ssr:true, webvisor:true, clickmap:true, referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+</script>
+<noscript><div><img class="lazyload "  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="https://mc.yandex.ru/watch/104549103" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+
+</div>
+
+    <div class="inline-search-block inline-search-block--big fixed with-close button-rounded-x rounded--to-992 rounded--bottom-to-992">
+        <div class="flexbox flexbox--row flexbox--align-start p-inline p-inline--12 relative black-bg-black z-index-1">
+            <div id="title-search_fixed-desktop" class="search-title search-title--fixed search-wrapper width-100 pt pt--24 pb pb--24 relative mi mi--auto">
+                <div class="search-title__form-container line-block line-block--gap line-block--gap line-block--gap-12 line-block--conditional-to-992 line-block--align-center">
+                    <form action="/catalog/" class="search-title__form search form-control width-100 line-block line-block--gap line-block--gap-0 bg-glass p p--0 flex-1">
+                        <input type="text" class="search-title__input search-input font_15 banner-light-text visible-by-text-condition border-none height-100 width-100 pl pl--16 transparent-bg no-appearance primary-color flex-1" id="title-search-input_fixed-desktop" name="q" placeholder="Поиск по каталогу" size="40" maxlength="50" autocomplete="off" value="">
+
+                        
+<button class="btn btn--no-rippple btn-clear-search fill-dark-light banner-light-icon-fill theme-root visible-by-text-condition__target ml ml--12"
+    type="button"
+    name="rs"
+    title="Очистить"
+    >
+    <i class="svg inline clear  inline " aria-hidden="true"><svg width="10" height="10" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#close-9-9"></use></svg></i></button>
+
+                        <div class="search-title__options search-title-options dropdown-select dropdown-select--with-dropdown searchtype height-100">
+    <input type="hidden" name="type" value="catalog">
+
+    </div>
+
+                        <button class="search-title__submit btn-search btn btn--no-ripple relative height-100 fill-dark-light-block noradius hide-600" type="submit" name="s" title="Найти">
+                            <i class="svg inline  inline " aria-hidden="true"><svg width="18" height="18" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#search-18-18"></use></svg></i>                        </button>
+                    </form>
+
+                    <button type="button" onclick="BX.Aspro?.Search?.Type?.close?.()" class="search-title__close btn--no-ripple btn--no-btn-appearance inline-search-hide search-input-close btn-close fill-use-icon-on-card fill-use-icon-on-card--hover visible-991">
+                        <i class="svg inline clear wrapper wrapper--hover wrapper--32 button-rounded-x inline " aria-hidden="true"><svg width="14" height="14" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#close-16-16"></use></svg></i>                    </button>
+                </div>
+
+                                <!--'start_frame_cache_smartsearch-input--fixed'--><script>
+BX.ready(() => {
+	if (BX.Aspro.Utils.isFunction(BX.Aspro.SmartSearch?.Input)) {
+		new BX.Aspro.SmartSearch.Input(
+			'#title-search-input_fixed-desktop',
+			{'INPUT':'#title-search-input_fixed-desktop','MIN_QUERY_LEN':'2','MAXWIDTH_THEME':'Y','CACHE_TYPE':'A','~INPUT':'#title-search-input_fixed-desktop','~MIN_QUERY_LEN':'2','~MAXWIDTH_THEME':'Y','~CACHE_TYPE':'A'},
+			{'suggest':{'enabled':'1','params':[],'load':{'ext':['aspro.smartsearch.suggest']}},'history':{'enabled':'1','params':{'min_query_len':'2','maxwidth_theme':true,'template':'/local/templates/aspro-premier/components/aspro/smartsearch.input/fixed/history.min.js?17694285261969'},'hash':'','load':{'ext':['aspro.smartsearch.history','aspro_chip']}}}		);
+	}
+});
+</script>
+<!--'end_frame_cache_smartsearch-input--fixed'-->                            </div>
+
+            <button type="button" onclick="BX.Aspro?.Search?.Type?.close?.()" class="search-title__close btn--no-ripple btn--no-btn-appearance inline-search-hide search-input-close btn-close fill-use-icon-on-card fill-use-icon-on-card--hover absolute offset--top-right mr mr--8 mt mt--8 hide-991">
+                <i class="svg inline clear wrapper wrapper--hover wrapper--32 button-rounded-x inline " aria-hidden="true"><svg width="14" height="14" ><use xlink:href="/local/templates/aspro-premier/images/svg/header_icons.svg?1769428527#close-16-16"></use></svg></i>            </button>
+        </div>
+    </div>
+
+<script>
+var jsControl2 = new JCTitleSearch2({
+    'AJAX_PAGE' : '/resources/images/logo-roca.png',
+    'CONTAINER_ID': 'title-search_fixed-desktop',
+    'INPUT_ID': 'title-search-input_fixed-desktop',
+    'INPUT_ID_TMP': 'title-search-input_fixed-desktop',
+    'DROPDOWN_TYPE': 'relative',
+    'MIN_QUERY_LEN': 2,
+});
+</script>
+<!--'start_frame_cache_bottom-panel-block'--><div class="bottom-icons-panel swipeignore">
+        </div>
+<!--'end_frame_cache_bottom-panel-block'--><div id="body_iframe_wrapper"></div>
+<div id="popup_iframe_wrapper"></div>			</div>
+					</div>		
+		
+
+<!--'start_frame_cache_awz_cookies_KQiEpu'--><div class="awz_cookies_sett__message awz_cookies_sett__message_bottom_center awz_cookies_sett__bg1 awz_cookies_sett__color2">
+    <div class="awz_cookies_sett__container">
+        <div class="awz_cookies_sett__row">
+            <div class="awz_cookies_sett__col" id="awz_cookies_sett__msg">
+                                Мы используем cookie-файлы и другие технологии, чтобы помочь в навигации, а также для предоставления лучшего пользовательского опыта и анализа использования нашего ресурса. Подробнее об этом вы можете узнать в <a class="awz_cookies_sett__agr_link awz_cookies_sett__color2" href="/company/cookie/">Политике cookie</a>.<style>.awz_cookies_sett__message,.awz_cookies_sett__btn{border-radius:0!important;}.awz_cookies_sett__message{border:1px solid #fff;}</style>            </div>
+            <div class="awz_cookies_sett__col awz_cookies_sett__col__right">
+                                    <span class="awz_cookies_sett__btn awz_cookies_sett__bg3 awz_cookies_sett__color3" id="awz_cookies_sett__all">Хорошо</span>
+                                                            </div>
+        </div>
+    </div>
+</div><script>
+        var awz_cmp_cookies_1SYT4w = new window.AwzCookiesSettComponent({'siteId':'s1','templateName':'.default','templateFolder':'/bitrix/components/awz/cookies.sett/templates/.default','componentName':'awz:cookies.sett','signedParameters':'YToxOntzOjc6IlNJVEVfSUQiO3M6MjoiczEiO30=.01b7eaf037b861f48f19c389f0fea3ef353af134c50a1f83b82dba6bb35be803','cmpId':'awz_cmp_cookies_1SYT4w','lang':[]});
+</script>
+<!--'end_frame_cache_awz_cookies_KQiEpu'--><style>
+        .awz_cookies_sett__bg1{background:#0e0e0e;}
+    .awz_cookies_sett__bg2{background:#0e0e0e;}
+    .awz_cookies_sett__bg2:hover{background:#000000;}
+    .awz_cookies_sett__bg3{background:#ffffff;}
+    .awz_cookies_sett__bg3:hover{background:#dbdde0;}
+    .awz_cookies_sett__color1{color:#ffffff;}
+    .awz_cookies_sett__color2{color:#ffffff;}
+    a.awz_cookies_sett__color2:hover{color:#00A9E0;}
+    .awz_cookies_sett__color3{color:#0e0e0e;}
+    </style>
+	</body>
+</html>

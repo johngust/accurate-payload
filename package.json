@@ -5,8 +5,9 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=2048' NEXT_TELEMETRY_DISABLED=1 PAYLOAD_TELEMETRY_DISABLED=1 BUILD_TARGET=FRONTEND rm -rf src/app/\\(payload\\)/admin && next build",
+    "build": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=2048' NEXT_TELEMETRY_DISABLED=1 PAYLOAD_TELEMETRY_DISABLED=1 next build",
     "build:cms": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=2048' NEXT_TELEMETRY_DISABLED=1 PAYLOAD_TELEMETRY_DISABLED=1 BUILD_TARGET=CMS rm -rf src/app/\\(app\\) && next build",
+    "build:fast": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=2048' NEXT_TELEMETRY_DISABLED=1 PAYLOAD_TELEMETRY_DISABLED=1 BUILD_TARGET=FRONTEND rm -rf src/app/\\(payload\\)/admin && next build",
     "build:frontend": "cross-env NODE_OPTIONS='--no-deprecation --max-old-space-size=2048' NEXT_TELEMETRY_DISABLED=1 PAYLOAD_TELEMETRY_DISABLED=1 BUILD_TARGET=FRONTEND rm -rf src/app/\\(payload\\)/admin && next build",
     "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev",
     "dev:prod": "cross-env NODE_OPTIONS=--no-deprecation rm -rf .next && pnpm build && pnpm start",

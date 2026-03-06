@@ -1,0 +1,2396 @@
+<!DOCTYPE html>
+<html lang="ru" data-cookie-prefix="BITRIX_SM_CERS" data-yandex-key="92f53e29-0d77-4bd7-9c6d-3a6e0c485c94" data-suggest-yandex-key="0fd2c097-fab3-4b64-8eec-74191cb5c1c5" data-svg-path="/local/templates/2019/svg/all.svg?1764669175">
+	<head>
+		<title>Страница не найдена</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/Safari/i.test(ua) && !/Chrome/i.test(ua)){cl += " bx-safari";}else if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+<link href="/bitrix/cache/css/s1/2019/template_db9f065bc25a3c6cd932ccc1b1f99793/template_db9f065bc25a3c6cd932ccc1b1f99793_v1.css?1772635979322122" type="text/css" rel="stylesheet" data-template-style="true"/>
+
+
+
+<link rel="preload" as="font" type="font/woff2" href="/local/templates/2019/font/lato-new/Lato-Regular.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/local/templates/2019/font/lato-new/Lato-Medium.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/local/templates/2019/font/lato-new/Lato-Light.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/local/templates/2019/font/lato-new/Lato-Semibold.woff2" crossorigin><link rel="preload" as="font" type="font/woff2" href="/local/templates/2019/font/lato-new/Lato-Bold.woff2" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#2e3d8c">
+<meta name="msapplication-TileColor" content="#2e3d8c">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+			</head>
+	<body class=""><div class="header-bar">
+			<div class="container-fluid">
+				<div class="row no-gutters align-items-center">
+					<div class="col">
+						<!--'start_frame_cache_Gf1Br4'--><span class="city-modal-link js-city-confirm-anchor js-city-modal-open js-location" data-city-id="KAZ">
+	<svg class="icon icon--pin"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#pin"></use></svg>	<span>Казахстан</span>
+	<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg></span><div class="d-none">
+		<div class="js-city-confirm">
+			<div class="city-confirm">
+				<div class="city-confirm__title">
+					Ваша страна — Казахстан?
+				</div>
+				<div class="city-confirm__btn">
+					<button class="btn js-city-confirm-close">Да, верно</button>
+					<span class="city-confirm__modal js-city-modal-open js-city-confirm-close">Выбрать другую</span>
+				</div>
+			</div>
+		</div>
+	</div><!--'end_frame_cache_Gf1Br4'-->					</div>
+					<div class="col-auto">
+						<nav class="top-menu"><a class="top-menu__link" href="/info/">
+		О компании	</a><a class="top-menu__link" href="/services/">
+		Сервис и гарантия	</a><a class="top-menu__link" href="/download/">
+		Файлы для скачивания	</a></nav>					</div>
+					<div class="col text-right">
+						<div class="social"><a target="_blank" href="https://dzen.ru/cersanit_o_remonte">
+	<svg class="icon icon--dzen"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#dzen"></use></svg></a>
+<a target="_blank" href="https://vk.com/cersanit_russia">
+	<svg class="icon icon--vk"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#vk"></use></svg></a>
+<a target="_blank" href="https://www.pinterest.ru/Cersanit_russia/">
+	<svg class="icon icon--pinterest"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#pinterest"></use></svg></a>
+<a target="_blank" href="https://t.me/cersanit_russia">
+	<svg class="icon icon--tg"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tg"></use></svg></a>
+<a target="_blank" href="https://rutube.ru/channel/26724463/">
+    <svg class="icon icon--rutube"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#rutube"></use></svg></a></div>					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header js-header">
+			<div class="container-spread">
+				<div class="row align-items-center justify-content-between flex-nowrap">
+					<div class="col col-lg-auto">
+						<div class="header__logo row align-items-center justify-content-between">
+							<div class="col-auto col-lg pr-2 pr-xl-4"><!--'start_frame_cache_header-btn'--><a
+									href="/catalog/"
+									class="header-catalog-btn  js-panel-menu-toggle js-city-confirm-anchor-xs"
+									data-target="js-panel-menu"
+								>
+									<svg class="icon icon--hamburger"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#hamburger"></use></svg>									<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>								</a><!--'end_frame_cache_header-btn'--></div>
+							<div class="col col-lg-auto text-center text-lg-left">
+								<a href="/" class="logo"><svg class="icon icon--logo"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#logo"></use></svg></a>							</div>
+						</div>
+					</div>
+					<div class="col-auto d-none d-lg-block position-static"><div class="menu-main menu-main--header js-menu-main"><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+			href="/catalog/3d-be/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=10&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Сантехника и мебель			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Сантехника и мебель</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners"><div class="banners-menu
+        "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/3d-be/collections/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aab/a4xcu86dyu5tj0g8bkvj2hwi80t3tcf4/Banner.webp?1752188511 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aab/a4xcu86dyu5tj0g8bkvj2hwi80t3tcf4/Banner.png?1751974590 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Все Коллекции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Все Коллекции<span>Сантехника и мебель Cersanit</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/promo/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/7b2/b7n18xlkh8ne2vrt1d15jm4iaht5t13h/sale.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/ef05a067edcab3be6b4e4826597e705d/sale.png?1772169382 1x, /upload/iblock/7b2/b7n18xlkh8ne2vrt1d15jm4iaht5t13h/sale.png?1755000797 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Акции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Акции<span>Скидки</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/3d-be/collections/f/new-is-y/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aa5/c3o5b5os7ivrn2qyx056b6ufhfs7mzfx/new.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/b518b5108d6f9ffebddebd6938baac32/new.png?1772169407 1x, /upload/iblock/aa5/c3o5b5os7ivrn2qyx056b6ufhfs7mzfx/new.png?1755000804 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Новинки"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Новинки<span>Коллекции смесителей</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col-auto pl-xl-0">
+										<div class="menu-main-catalog menu-main-catalog--left"><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/3d-be/" class="menu-main-catalog__title panel-menu__link">
+														Все товары													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item--moblie">
+													<a href="/catalog/3d-be/collections/" class="menu-main-catalog__title panel-menu__link">
+														Все коллекции													</a>
+												</div></div>
+									</div><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/unitazy-bide-pissuary/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Унитазы, биде, писсуары										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/unitazy-kompakty/"
+																												class="menu-main-catalog__child-link"
+													>
+														Унитазы компакты													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/unitazy-podvesnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Унитазы подвесные													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/sets/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты (готовые решения)													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/sidenya-dlya-unitazov/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сиденья для унитазов													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/spare-toilet/"
+																												class="menu-main-catalog__child-link"
+													>
+														Запчасти													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/rakoviny-i-pedestaly/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Раковины и пьедесталы										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/rakoviny-i-pedestaly/rakoviny/"
+																												class="menu-main-catalog__child-link"
+													>
+														Раковины в ванную комнату													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/rakoviny-i-pedestaly/polu-i-pedestaly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Полу- и пьедесталы													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/installyatsii-i-komplekty/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Инсталляции и комплекты										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/installyatsionnye-sistemy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Инсталляционные системы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/knopki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кнопки													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/komplekty-gotovye-resheniya/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты (готовые решения)													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/spare-complects/"
+																												class="menu-main-catalog__child-link"
+													>
+														Запчасти													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/akrilovye-vanny/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Акриловые ванны										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/pryamougolnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Прямоугольные ванны													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/uglovye-asimmetrichnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Угловые асимметричные ванны													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/nozhki-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Ножки для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/paneli-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Панели для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/ramy-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Рамы для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/sifony-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сифоны для ванн													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/mebel-dlya-vannoy/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Мебель для ванной										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/tumby-dlya-rakovin/"
+																												class="menu-main-catalog__child-link"
+													>
+														Тумбы для раковин													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/zerkala/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зеркала													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/zerkala-shkafchiki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зеркала-шкафчики													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/penaly-polupenaly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Пеналы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/shkafchiki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Шкафчики													</a></div><div class="js-menu-child-spoiler">
+															<div class="menu-main-catalog__spoiler-area"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/komplekty/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/tabletops/"
+																												class="menu-main-catalog__child-link"
+													>
+														Столешницы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/komplektuyushchie-dlya-mebeli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплектующие для мебели													</a></div></div>
+														<div class="menu-main-catalog__spoiler-link">
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Ещё</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Скрыть</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+														</div>
+													</div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Смесители для ванной, кухни и душевое оборудование										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/kuhonnye-smesiteli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кухонные смесители													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/smesiteli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Смесители и гигиенические души													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/dushevoe-oborudovanie/"
+																												class="menu-main-catalog__child-link"
+													>
+														Душевое оборудование													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/komplekty-smesiteley/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты смесителей													</a></div></div>
+										</div></div>
+								</div>
+							</div></div>
+					</div>
+				</div>
+			</div></div><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+			href="/catalog/2d/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=11&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Керамическая плитка			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Керамическая плитка</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners"><div class="banners-menu
+        "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/2d/collections/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/76b/r8eolrsc1v4pcj0idayj5ds6wpajzr73/Mudbord-1.3.webp?1752188506 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/76b/r8eolrsc1v4pcj0idayj5ds6wpajzr73/Mudbord-1.3.jpg?1751975855 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Все Коллекции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Все Коллекции<span>Плитка и керамогранит Cersanit</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/promo/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/abf/6aobjt5nx2s7l7fh31gxgtl7nhd6srqs/sale.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/7370066efa02bd974a3a1586f12b5fe5/sale.png?1772169414 1x, /upload/iblock/abf/6aobjt5nx2s7l7fh31gxgtl7nhd6srqs/sale.png?1755000790 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Акции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Акции<span>Скидки</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/2d/f/new-is-y/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/988/2vhs083cxe82m40025cmsay4ucv46gut/new.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/da2ef64c0346251794f5b107f4a2e345/new.png?1772169415 1x, /upload/iblock/988/2vhs083cxe82m40025cmsay4ucv46gut/new.png?1755000784 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Новинки"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Новинки<span>Коллекция формата 30х60</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col-auto pl-xl-0">
+										<div class="menu-main-catalog menu-main-catalog--left"><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/" class="menu-main-catalog__title panel-menu__link">
+														Все товары													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item--moblie">
+													<a href="/catalog/2d/collections/" class="menu-main-catalog__title panel-menu__link">
+														Все коллекции													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/f/tip_plitki-is-plitka/" class="menu-main-catalog__title panel-menu__link">
+														Настенная плитка													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/f/tip_plitki-is-keramogranit/" class="menu-main-catalog__title panel-menu__link">
+														Керамогранит													</a>
+												</div></div>
+									</div><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Формат</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-60x120/"
+																												class="menu-main-catalog__child-link"
+													>
+														60х120													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-45x90/"
+																												class="menu-main-catalog__child-link"
+													>
+														45х90													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-22x90/"
+																												class="menu-main-catalog__child-link"
+													>
+														22x90													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-60x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														60x60													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-30x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														30х60													</a></div><div class="js-menu-child-spoiler">
+															<div class="menu-main-catalog__spoiler-area"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-18x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														18х60													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-20x44/"
+																												class="menu-main-catalog__child-link"
+													>
+														20х44													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-42x42/"
+																												class="menu-main-catalog__child-link"
+													>
+														42х42													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-30x30/"
+																												class="menu-main-catalog__child-link"
+													>
+														30х30													</a></div></div>
+														<div class="menu-main-catalog__spoiler-link">
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Ещё</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Скрыть</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+														</div>
+													</div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Цвет</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-bezhevyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Бежевый													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-belyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Белый													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-goluboy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Голубой													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-dekorirovannyy-zolotistyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Декорированный													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-zelenyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зелёный													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-krasnyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Красный													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Коммерческие помещения</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vannaya-komnata/"
+																												class="menu-main-catalog__child-link"
+													>
+														Ванная комната													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-sanuzly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Санузлы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-kukhnya/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кухня													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vkhodnye-gruppy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Входные группы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vnutrennyaya-otdelka/"
+																												class="menu-main-catalog__child-link"
+													>
+														Внутренняя отделка													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-balkony/"
+																												class="menu-main-catalog__child-link"
+													>
+														Балконы													</a></div></div>
+										</div></div>
+								</div>
+							</div><div class="banners-tiles">
+	<div class="row"><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-beton/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/438/3ek4uc6sltxhl7see5lz1ms7iqvc91ck/Plitki-3.webp?1752188501 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/438/3ek4uc6sltxhl7see5lz1ms7iqvc91ck/Plitki-3.jpg?1751976937 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Бетон"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Бетон</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-kamen/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/01a/gqvfbb2n97t5abldgtyy0czghrw9zfp8/Montazhnaya-oblast-4.webp?1753657290 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/01a/gqvfbb2n97t5abldgtyy0czghrw9zfp8/Montazhnaya-oblast-4.jpg?1753431025 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Камень"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Камень</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-derevo/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/423/ubzmanvopoy9x62j3meh8i6ugpf24nrb/Plitki-1.webp?1752188502 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/423/ubzmanvopoy9x62j3meh8i6ugpf24nrb/Plitki-1.jpg?1751976924 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Дерево"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Дерево</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/f/faktura_poverhnosti-is-relefnaya/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/715/ziz61yp0qhcdaz7l093quno0wdbhsg7m/Plitki-4.webp?1752188510 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/715/ziz61yp0qhcdaz7l093quno0wdbhsg7m/Plitki-4.jpg?1751977112 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Рельефы"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Рельефы</span>
+				</a>
+			</div><div class="col">
+				<a href="https://cersanit.ru/catalog/2d/f/dizajn_segment-is-uzory/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/6dc/c75q8lil2xke9s84kw4irt3b2qbm3ili/Plitki-5.webp?1752188509 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/6dc/c75q8lil2xke9s84kw4irt3b2qbm3ili/Plitki-5.jpg?1751976989 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Узоры"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Узоры</span>
+				</a>
+			</div></div>
+</div></div>
+					</div>
+				</div>
+			</div></div><div class="menu-main__item js-menu-item panel-menu__item  js-panel-menu-empty menu-main__item--hide"><a
+			href="/guide/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=12&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Гид по ремонту			</span>
+					</a></div><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child js-panel-menu-item menu-main__item--hide"><!--'start_frame_cache_XEVOpk'--><a
+			href="/where-to-buy/kazakhstan/"
+			 data-goal-type="click-where-buy" data-goal-metric="hb"			class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=9&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Где купить			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><!--'end_frame_cache_XEVOpk'--><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Где купить</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners d-none d-lg-block"><div class="banners-menu
+     banners-menu--alone    "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/online/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/4d2/hp1tuoli4owjp4b7gih9dxofblbrxvpp/800x433.webp?1747436492 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/d1e18106d5b240c43ebc90b2ad358a22/800x433.jpg?1772169417 1x, /upload/iblock/4d2/hp1tuoli4owjp4b7gih9dxofblbrxvpp/800x433.jpg?1747216880 2x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Купить онлайн"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Купить онлайн<span>Покупайте продукцию Cersanit на маркетплейсах</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_wAkIZ0'--><a
+											href="/where-to-buy/kazakhstan/"
+											 data-goal-type="click-where-buy" data-goal-metric="hb"											class="menu-main-catalog__title js-send-goal panel-menu__link"
+										>
+											Розничные магазины										</a><!--'end_frame_cache_wAkIZ0'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><!--'start_frame_cache_4kaDKI'--><a
+														href="/where-to-buy/kazakhstan/?exclusive=Y"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Эксклюзивные товары													</a><!--'end_frame_cache_4kaDKI'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_bgawd1'--><a
+														href="/where-to-buy/kazakhstan/?3d=Y"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Сантехника и мебель													</a><!--'end_frame_cache_bgawd1'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_UN2Iow'--><a
+														href="/where-to-buy/kazakhstan/?2d=Y"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Керамическая плитка													</a><!--'end_frame_cache_UN2Iow'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_SVLTfm'--><a
+														href="/where-to-buy/kazakhstan/?type_product=smesiteli"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Смесители													</a><!--'end_frame_cache_SVLTfm'--></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_yHcwcB'--><a
+											href="/online/kazakhstan/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Интернет-магазины										</a><!--'end_frame_cache_yHcwcB'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><!--'start_frame_cache_IDhqXN'--><a
+														href="/online/kazakhstan/?3d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Сантехника и мебель													</a><!--'end_frame_cache_IDhqXN'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_KhPrwq'--><a
+														href="/online/kazakhstan/?2d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Керамическая плитка													</a><!--'end_frame_cache_KhPrwq'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_Hpzk4m'--><a
+														href="/online/kazakhstan/?type_product=smesiteli"
+																												class="menu-main-catalog__child-link"
+													>
+														Смесители													</a><!--'end_frame_cache_Hpzk4m'--></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_5wKVpg'--><a
+											href="/services/map/kazakhstan/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Сервисные центры										</a><!--'end_frame_cache_5wKVpg'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/services/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сервис и гарантия													</a></div><div class="menu-main-catalog__child"><!--'start_frame_cache_IMD4Ns'--><a
+														href="/services/map/kazakhstan/"
+																												class="menu-main-catalog__child-link"
+													>
+														Найти сервисный центр													</a><!--'end_frame_cache_IMD4Ns'--></div><div class="menu-main-catalog__child"><a
+														href="/services/complaint/"
+																												class="menu-main-catalog__child-link"
+													>
+														Отправить претензию													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_bc0UJl'--><a
+											href="/distributors/kazakhstan/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Оптовые поставки										</a><!--'end_frame_cache_bc0UJl'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><!--'start_frame_cache_AweuB2'--><a
+														href="/distributors/kazakhstan/?3d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Сантехника и мебель													</a><!--'end_frame_cache_AweuB2'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_VGgJr5'--><a
+														href="/distributors/kazakhstan/?2d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Керамическая плитка													</a><!--'end_frame_cache_VGgJr5'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_YOBpva'--><a
+														href="/distributors/kazakhstan/?type_partner=distr"
+																												class="menu-main-catalog__child-link"
+													>
+														Дистрибьютор													</a><!--'end_frame_cache_YOBpva'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_VCUvvm'--><a
+														href="/distributors/kazakhstan/?type_partner=partner"
+																												class="menu-main-catalog__child-link"
+													>
+														Партнер в проектном отделе													</a><!--'end_frame_cache_VCUvvm'--></div></div>
+										</div></div>
+								</div>
+							</div></div>
+					</div>
+				</div>
+			</div></div><div class="menu-main__item js-menu-item panel-menu__item  js-panel-menu-empty menu-main__item--hide"><a
+			href="/blog/"
+						class="menu-main__link panel-menu__link"
+					><span class="menu-main__text panel-menu__text">
+				Блог			</span>
+					</a></div></div></div>
+					<div class="col-auto">
+						<form class="search" action="/search/" method="get">
+	<input type="text" placeholder="Поиск по сайту" name="q" class="form-control d-none d-xl-block">
+	<button class="search__btn" type="submit">
+		<svg class="icon icon--search"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#search"></use></svg>	</button>
+</form>					</div>
+				</div>
+				<div class="panel-menu-wrap">
+	<div class="panel-menu-wrap__toggle">
+		<div class="panel-menu__scroll">
+			<div class="panel-menu js-panel-menu"><div class="panel-menu__city d-lg-none">
+		<div class="panel-menu__city-title">Ваш город</div>
+		<!--'start_frame_cache_0cg3n1'--><span class="city-modal-link js-city-modal-open js-location" data-city-id="KAZ">
+	<svg class="icon icon--pin"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#pin"></use></svg>	<span>Казахстан</span>
+	<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg></span><!--'end_frame_cache_0cg3n1'-->	</div>
+	<div class="panel-menu__left"><div class=" panel-menu__item  js-panel-menu-empty">
+			<a href="/catalog/promo/" class=" panel-menu__link"><span class="panel-menu__icon">
+						<svg class="icon icon--percent"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#percent"></use></svg>					</span><span class=" panel-menu__text">
+					Акции				</span></a></div><div class=" panel-menu__item  js-panel-menu-empty">
+			<a href="/catalog/new/" class=" panel-menu__link"><span class="panel-menu__icon">
+						<svg class="icon icon--spark"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#spark"></use></svg>					</span><span class=" panel-menu__text">
+					Новинки				</span></a></div><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+			href="/catalog/3d-be/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=10&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Сантехника и мебель			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Сантехника и мебель</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners"><div class="banners-menu
+        "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/3d-be/collections/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aab/a4xcu86dyu5tj0g8bkvj2hwi80t3tcf4/Banner.webp?1752188511 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aab/a4xcu86dyu5tj0g8bkvj2hwi80t3tcf4/Banner.png?1751974590 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Все Коллекции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Все Коллекции<span>Сантехника и мебель Cersanit</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/promo/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/7b2/b7n18xlkh8ne2vrt1d15jm4iaht5t13h/sale.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/ef05a067edcab3be6b4e4826597e705d/sale.png?1772169382 1x, /upload/iblock/7b2/b7n18xlkh8ne2vrt1d15jm4iaht5t13h/sale.png?1755000797 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Акции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Акции<span>Скидки</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/3d-be/collections/f/new-is-y/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aa5/c3o5b5os7ivrn2qyx056b6ufhfs7mzfx/new.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/b518b5108d6f9ffebddebd6938baac32/new.png?1772169407 1x, /upload/iblock/aa5/c3o5b5os7ivrn2qyx056b6ufhfs7mzfx/new.png?1755000804 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Новинки"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Новинки<span>Коллекции смесителей</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col-auto pl-xl-0">
+										<div class="menu-main-catalog menu-main-catalog--left"><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/3d-be/" class="menu-main-catalog__title panel-menu__link">
+														Все товары													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item--moblie">
+													<a href="/catalog/3d-be/collections/" class="menu-main-catalog__title panel-menu__link">
+														Все коллекции													</a>
+												</div></div>
+									</div><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/unitazy-bide-pissuary/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Унитазы, биде, писсуары										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/unitazy-kompakty/"
+																												class="menu-main-catalog__child-link"
+													>
+														Унитазы компакты													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/unitazy-podvesnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Унитазы подвесные													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/sets/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты (готовые решения)													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/sidenya-dlya-unitazov/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сиденья для унитазов													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/spare-toilet/"
+																												class="menu-main-catalog__child-link"
+													>
+														Запчасти													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/rakoviny-i-pedestaly/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Раковины и пьедесталы										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/rakoviny-i-pedestaly/rakoviny/"
+																												class="menu-main-catalog__child-link"
+													>
+														Раковины в ванную комнату													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/rakoviny-i-pedestaly/polu-i-pedestaly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Полу- и пьедесталы													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/installyatsii-i-komplekty/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Инсталляции и комплекты										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/installyatsionnye-sistemy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Инсталляционные системы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/knopki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кнопки													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/komplekty-gotovye-resheniya/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты (готовые решения)													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/spare-complects/"
+																												class="menu-main-catalog__child-link"
+													>
+														Запчасти													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/akrilovye-vanny/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Акриловые ванны										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/pryamougolnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Прямоугольные ванны													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/uglovye-asimmetrichnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Угловые асимметричные ванны													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/nozhki-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Ножки для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/paneli-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Панели для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/ramy-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Рамы для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/sifony-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сифоны для ванн													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/mebel-dlya-vannoy/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Мебель для ванной										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/tumby-dlya-rakovin/"
+																												class="menu-main-catalog__child-link"
+													>
+														Тумбы для раковин													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/zerkala/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зеркала													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/zerkala-shkafchiki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зеркала-шкафчики													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/penaly-polupenaly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Пеналы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/shkafchiki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Шкафчики													</a></div><div class="js-menu-child-spoiler">
+															<div class="menu-main-catalog__spoiler-area"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/komplekty/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/tabletops/"
+																												class="menu-main-catalog__child-link"
+													>
+														Столешницы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/komplektuyushchie-dlya-mebeli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплектующие для мебели													</a></div></div>
+														<div class="menu-main-catalog__spoiler-link">
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Ещё</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Скрыть</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+														</div>
+													</div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Смесители для ванной, кухни и душевое оборудование										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/kuhonnye-smesiteli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кухонные смесители													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/smesiteli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Смесители и гигиенические души													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/dushevoe-oborudovanie/"
+																												class="menu-main-catalog__child-link"
+													>
+														Душевое оборудование													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/komplekty-smesiteley/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты смесителей													</a></div></div>
+										</div></div>
+								</div>
+							</div></div>
+					</div>
+				</div>
+			</div></div><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+			href="/catalog/2d/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=11&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Керамическая плитка			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Керамическая плитка</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners"><div class="banners-menu
+        "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/2d/collections/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/76b/r8eolrsc1v4pcj0idayj5ds6wpajzr73/Mudbord-1.3.webp?1752188506 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/76b/r8eolrsc1v4pcj0idayj5ds6wpajzr73/Mudbord-1.3.jpg?1751975855 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Все Коллекции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Все Коллекции<span>Плитка и керамогранит Cersanit</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/promo/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/abf/6aobjt5nx2s7l7fh31gxgtl7nhd6srqs/sale.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/7370066efa02bd974a3a1586f12b5fe5/sale.png?1772169414 1x, /upload/iblock/abf/6aobjt5nx2s7l7fh31gxgtl7nhd6srqs/sale.png?1755000790 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Акции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Акции<span>Скидки</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/2d/f/new-is-y/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/988/2vhs083cxe82m40025cmsay4ucv46gut/new.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/da2ef64c0346251794f5b107f4a2e345/new.png?1772169415 1x, /upload/iblock/988/2vhs083cxe82m40025cmsay4ucv46gut/new.png?1755000784 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Новинки"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Новинки<span>Коллекция формата 30х60</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col-auto pl-xl-0">
+										<div class="menu-main-catalog menu-main-catalog--left"><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/" class="menu-main-catalog__title panel-menu__link">
+														Все товары													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item--moblie">
+													<a href="/catalog/2d/collections/" class="menu-main-catalog__title panel-menu__link">
+														Все коллекции													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/f/tip_plitki-is-plitka/" class="menu-main-catalog__title panel-menu__link">
+														Настенная плитка													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/f/tip_plitki-is-keramogranit/" class="menu-main-catalog__title panel-menu__link">
+														Керамогранит													</a>
+												</div></div>
+									</div><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Формат</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-60x120/"
+																												class="menu-main-catalog__child-link"
+													>
+														60х120													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-45x90/"
+																												class="menu-main-catalog__child-link"
+													>
+														45х90													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-22x90/"
+																												class="menu-main-catalog__child-link"
+													>
+														22x90													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-60x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														60x60													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-30x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														30х60													</a></div><div class="js-menu-child-spoiler">
+															<div class="menu-main-catalog__spoiler-area"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-18x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														18х60													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-20x44/"
+																												class="menu-main-catalog__child-link"
+													>
+														20х44													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-42x42/"
+																												class="menu-main-catalog__child-link"
+													>
+														42х42													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-30x30/"
+																												class="menu-main-catalog__child-link"
+													>
+														30х30													</a></div></div>
+														<div class="menu-main-catalog__spoiler-link">
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Ещё</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Скрыть</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+														</div>
+													</div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Цвет</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-bezhevyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Бежевый													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-belyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Белый													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-goluboy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Голубой													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-dekorirovannyy-zolotistyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Декорированный													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-zelenyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зелёный													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-krasnyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Красный													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Коммерческие помещения</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vannaya-komnata/"
+																												class="menu-main-catalog__child-link"
+													>
+														Ванная комната													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-sanuzly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Санузлы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-kukhnya/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кухня													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vkhodnye-gruppy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Входные группы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vnutrennyaya-otdelka/"
+																												class="menu-main-catalog__child-link"
+													>
+														Внутренняя отделка													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-balkony/"
+																												class="menu-main-catalog__child-link"
+													>
+														Балконы													</a></div></div>
+										</div></div>
+								</div>
+							</div><div class="banners-tiles">
+	<div class="row"><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-beton/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/438/3ek4uc6sltxhl7see5lz1ms7iqvc91ck/Plitki-3.webp?1752188501 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/438/3ek4uc6sltxhl7see5lz1ms7iqvc91ck/Plitki-3.jpg?1751976937 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Бетон"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Бетон</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-kamen/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/01a/gqvfbb2n97t5abldgtyy0czghrw9zfp8/Montazhnaya-oblast-4.webp?1753657290 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/01a/gqvfbb2n97t5abldgtyy0czghrw9zfp8/Montazhnaya-oblast-4.jpg?1753431025 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Камень"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Камень</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-derevo/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/423/ubzmanvopoy9x62j3meh8i6ugpf24nrb/Plitki-1.webp?1752188502 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/423/ubzmanvopoy9x62j3meh8i6ugpf24nrb/Plitki-1.jpg?1751976924 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Дерево"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Дерево</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/f/faktura_poverhnosti-is-relefnaya/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/715/ziz61yp0qhcdaz7l093quno0wdbhsg7m/Plitki-4.webp?1752188510 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/715/ziz61yp0qhcdaz7l093quno0wdbhsg7m/Plitki-4.jpg?1751977112 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Рельефы"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Рельефы</span>
+				</a>
+			</div><div class="col">
+				<a href="https://cersanit.ru/catalog/2d/f/dizajn_segment-is-uzory/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/6dc/c75q8lil2xke9s84kw4irt3b2qbm3ili/Plitki-5.webp?1752188509 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/6dc/c75q8lil2xke9s84kw4irt3b2qbm3ili/Plitki-5.jpg?1751976989 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Узоры"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Узоры</span>
+				</a>
+			</div></div>
+</div></div>
+					</div>
+				</div>
+			</div></div><!--'start_frame_cache_menu-humburger-3'--><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child js-panel-menu-item menu-main__item--hide"><!--'start_frame_cache_XEVOpk'--><a
+			href="/where-to-buy/kazakhstan/"
+			 data-goal-type="click-where-buy" data-goal-metric="hb"			class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=9&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Где купить			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><!--'end_frame_cache_XEVOpk'--><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Где купить</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners d-none d-lg-block"><div class="banners-menu
+     banners-menu--alone    "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/online/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/4d2/hp1tuoli4owjp4b7gih9dxofblbrxvpp/800x433.webp?1747436492 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/d1e18106d5b240c43ebc90b2ad358a22/800x433.jpg?1772169417 1x, /upload/iblock/4d2/hp1tuoli4owjp4b7gih9dxofblbrxvpp/800x433.jpg?1747216880 2x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Купить онлайн"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Купить онлайн<span>Покупайте продукцию Cersanit на маркетплейсах</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_wAkIZ0'--><a
+											href="/where-to-buy/kazakhstan/"
+											 data-goal-type="click-where-buy" data-goal-metric="hb"											class="menu-main-catalog__title js-send-goal panel-menu__link"
+										>
+											Розничные магазины										</a><!--'end_frame_cache_wAkIZ0'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><!--'start_frame_cache_4kaDKI'--><a
+														href="/where-to-buy/kazakhstan/?exclusive=Y"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Эксклюзивные товары													</a><!--'end_frame_cache_4kaDKI'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_bgawd1'--><a
+														href="/where-to-buy/kazakhstan/?3d=Y"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Сантехника и мебель													</a><!--'end_frame_cache_bgawd1'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_UN2Iow'--><a
+														href="/where-to-buy/kazakhstan/?2d=Y"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Керамическая плитка													</a><!--'end_frame_cache_UN2Iow'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_SVLTfm'--><a
+														href="/where-to-buy/kazakhstan/?type_product=smesiteli"
+														 data-goal-type="click-where-buy" data-goal-metric="hb"														class="menu-main-catalog__child-link js-send-goal"
+													>
+														Смесители													</a><!--'end_frame_cache_SVLTfm'--></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_yHcwcB'--><a
+											href="/online/kazakhstan/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Интернет-магазины										</a><!--'end_frame_cache_yHcwcB'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><!--'start_frame_cache_IDhqXN'--><a
+														href="/online/kazakhstan/?3d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Сантехника и мебель													</a><!--'end_frame_cache_IDhqXN'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_KhPrwq'--><a
+														href="/online/kazakhstan/?2d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Керамическая плитка													</a><!--'end_frame_cache_KhPrwq'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_Hpzk4m'--><a
+														href="/online/kazakhstan/?type_product=smesiteli"
+																												class="menu-main-catalog__child-link"
+													>
+														Смесители													</a><!--'end_frame_cache_Hpzk4m'--></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_5wKVpg'--><a
+											href="/services/map/kazakhstan/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Сервисные центры										</a><!--'end_frame_cache_5wKVpg'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/services/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сервис и гарантия													</a></div><div class="menu-main-catalog__child"><!--'start_frame_cache_IMD4Ns'--><a
+														href="/services/map/kazakhstan/"
+																												class="menu-main-catalog__child-link"
+													>
+														Найти сервисный центр													</a><!--'end_frame_cache_IMD4Ns'--></div><div class="menu-main-catalog__child"><a
+														href="/services/complaint/"
+																												class="menu-main-catalog__child-link"
+													>
+														Отправить претензию													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><!--'start_frame_cache_bc0UJl'--><a
+											href="/distributors/kazakhstan/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Оптовые поставки										</a><!--'end_frame_cache_bc0UJl'--><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><!--'start_frame_cache_AweuB2'--><a
+														href="/distributors/kazakhstan/?3d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Сантехника и мебель													</a><!--'end_frame_cache_AweuB2'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_VGgJr5'--><a
+														href="/distributors/kazakhstan/?2d=Y"
+																												class="menu-main-catalog__child-link"
+													>
+														Керамическая плитка													</a><!--'end_frame_cache_VGgJr5'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_YOBpva'--><a
+														href="/distributors/kazakhstan/?type_partner=distr"
+																												class="menu-main-catalog__child-link"
+													>
+														Дистрибьютор													</a><!--'end_frame_cache_YOBpva'--></div><div class="menu-main-catalog__child"><!--'start_frame_cache_VCUvvm'--><a
+														href="/distributors/kazakhstan/?type_partner=partner"
+																												class="menu-main-catalog__child-link"
+													>
+														Партнер в проектном отделе													</a><!--'end_frame_cache_VCUvvm'--></div></div>
+										</div></div>
+								</div>
+							</div></div>
+					</div>
+				</div>
+			</div></div><!--'end_frame_cache_menu-humburger-3'--><div class="menu-main__item js-menu-item panel-menu__item  js-panel-menu-empty menu-main__item--hide"><a
+			href="/guide/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=12&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Гид по ремонту			</span>
+					</a></div><div class="menu-main__item js-menu-item panel-menu__item  js-panel-menu-empty menu-main__item--hide"><a
+			href="/blog/"
+						class="menu-main__link panel-menu__link"
+					><span class="menu-main__text panel-menu__text">
+				Блог			</span>
+					</a></div><div class="panel-menu__item js-panel-menu-empty"><!--'start_frame_cache_9J9wbd'--><a
+	href="/catalog/compare/?ID="
+	class="panel-menu__link js-compares"
+	data-count="0"
+	data-items=""
+>
+	<span class="panel-menu__icon">
+		<svg class="icon icon--compare"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#compare"></use></svg>		<span class="compare-count js-compare-count d-none">
+			<span>0</span>
+		</span>
+	</span>
+	<span class="panel-menu__text">
+		Списки сравнения
+	</span>
+</a><!--'end_frame_cache_9J9wbd'--></div><!--'start_frame_cache_6cRZPp'--><span class=" panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+		class="footer-menu__link panel-menu__link"
+						href="/partners/"
+	>
+		<span class=" panel-menu__text">
+			Партнерам		</span>
+		<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>	</a><span class="panel-submenu js-panel-menu-content">
+			<span class="h2">
+				<span>Партнерам</span>
+				<span class="js-close-panel">
+					<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>				</span>
+			</span>
+			<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+				<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>				<span>Вернуться назад</span>
+			</span><a
+		class="footer-menu__link panel-menu__link"
+						href="/project-sales/"
+	>
+		<span class=" panel-menu__text">
+			Отдел проектных продаж		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/regional-delegates/"
+	>
+		<span class=" panel-menu__text">
+			Региональные представители		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/distributors/kazakhstan/"
+	>
+		<span class=" panel-menu__text">
+			Оптовые поставки		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/info/suppliers/"
+	>
+		<span class=" panel-menu__text">
+			Поставщикам		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="https://pvi.cersanit.ru/"
+	>
+		<span class=" panel-menu__text">
+			Продуктовый портал PVI		</span>
+			</a></span></span><!--'end_frame_cache_6cRZPp'--><!--'start_frame_cache_iLGDR2'--><span class=" panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+		class="footer-menu__link panel-menu__link"
+						href="/"
+	>
+		<span class=" panel-menu__text">
+			Полезная информация		</span>
+		<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>	</a><span class="panel-submenu js-panel-menu-content">
+			<span class="h2">
+				<span>Полезная информация</span>
+				<span class="js-close-panel">
+					<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>				</span>
+			</span>
+			<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+				<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>				<span>Вернуться назад</span>
+			</span><a
+		class="footer-menu__link panel-menu__link"
+						href="/services/"
+	>
+		<span class=" panel-menu__text">
+			Сервис и Гарантия		</span>
+			</a><a
+		class="footer-menu__link js-send-goal panel-menu__link"
+				 data-goal-type="click-where-buy" data-goal-metric="hb"		href="/where-to-buy/kazakhstan/"
+	>
+		<span class=" panel-menu__text">
+			Где купить		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/online/kazakhstan/"
+	>
+		<span class=" panel-menu__text">
+			Купить online		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/guide/"
+	>
+		<span class=" panel-menu__text">
+			Гид по ремонту		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/constructor/"
+	>
+		<span class=" panel-menu__text">
+			Конструктор		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/faq/"
+	>
+		<span class=" panel-menu__text">
+			Вопросы и ответы		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/download/"
+	>
+		<span class=" panel-menu__text">
+			Файлы для скачивания		</span>
+			</a></span></span><!--'end_frame_cache_iLGDR2'--><!--'start_frame_cache_QCJ7Jg'--><span class=" panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+		class="footer-menu__link panel-menu__link"
+						href="/info/"
+	>
+		<span class=" panel-menu__text">
+			О компании		</span>
+		<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>	</a><span class="panel-submenu js-panel-menu-content">
+			<span class="h2">
+				<span>О компании</span>
+				<span class="js-close-panel">
+					<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>				</span>
+			</span>
+			<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+				<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>				<span>Вернуться назад</span>
+			</span><a
+		class="footer-menu__link panel-menu__link"
+						href="/blog/"
+	>
+		<span class=" panel-menu__text">
+			Блог		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/info/group-information/"
+	>
+		<span class=" panel-menu__text">
+			О бренде		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/contact/"
+	>
+		<span class=" panel-menu__text">
+			Контакты		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/career/"
+	>
+		<span class=" panel-menu__text">
+			Карьера		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/disclaimer/"
+	>
+		<span class=" panel-menu__text">
+			Официальное извещение		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/cookies-policy/"
+	>
+		<span class=" panel-menu__text">
+			Политика конфиденциальности		</span>
+			</a></span></span><!--'end_frame_cache_QCJ7Jg'--><div class=" panel-menu__item  panel-menu__item--child js-panel-menu-item">
+			<a href="/catalog/mito/" class=" panel-menu__link"><span class="panel-menu__icon">
+						<svg class="icon icon--tiles"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tiles"></use></svg>					</span><span class=" panel-menu__text">
+					Каталог Mito				</span><span class="panel-menu__icon">
+						<svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg>					</span></a><span class="panel-submenu js-panel-menu-content">
+					<span class="h2">
+						<span>Каталог Mito</span>
+						<span class="js-close-panel">
+							<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>						</span>
+					</span>
+					<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+						<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>						<span>Вернуться назад</span>
+					</span><div class=" panel-menu__item ">
+			<a href="/catalog/mito/3d-be/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сантехника и мебель				</span></a></div><div class=" panel-menu__item ">
+			<a href="/catalog/mito/2d/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Керамическая плитка				</span></a></div></div></div>
+	<div class="panel-menu__bottom">
+		<a href="https://t.me/cersanit_bot" target="_blank" rel="nofollow noreferrer noopener" class="tg-panel-link">
+	<span>Чат-бот в Telegram</span>
+	<svg class="icon icon--follow"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#follow"></use></svg></a>		<div class="phone"><a href="tel:84951343939">8 495 134 39 39</a></div>		<div class="hours">ПН-ЧТ с&nbsp;9:00 до&nbsp;18:00, ПТ&nbsp;с&nbsp;9:00&nbsp;до&nbsp;15:30</div>		<div class="d-lg-none">
+			<div class="social"><a target="_blank" href="https://dzen.ru/cersanit_o_remonte">
+	<svg class="icon icon--dzen"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#dzen"></use></svg></a>
+<a target="_blank" href="https://vk.com/cersanit_russia">
+	<svg class="icon icon--vk"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#vk"></use></svg></a>
+<a target="_blank" href="https://www.pinterest.ru/Cersanit_russia/">
+	<svg class="icon icon--pinterest"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#pinterest"></use></svg></a>
+<a target="_blank" href="https://t.me/cersanit_russia">
+	<svg class="icon icon--tg"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tg"></use></svg></a>
+<a target="_blank" href="https://rutube.ru/channel/26724463/">
+    <svg class="icon icon--rutube"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#rutube"></use></svg></a></div>		</div>
+	</div></div></div></div></div>			</div>
+		</div>
+		<main class="main flex-column"><div class="content "><div class="breadcrumbs-wrap ">
+						<div class="container-fluid d-flex align-items-center justify-content-between"><nav class="breadcrumbs js-breadcumbs-ajax"><span class="breadcrumbs__item"><a class="breadcrumbs__link" href="/">Главная</a></span></nav><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"/","name":"Главная"}}]}</script></div>
+					</div><div class="container-fluid">
+	<h1>Страница не найдена</h1>
+	<p>К сожалению, мы не можем найти запрашиваемую вами страницу.</p>
+</div></div></main><footer class="footer">
+			<div class="footer__top">
+				<div class="container-fluid">
+					<div class="row no-gutters justify-content-between">
+						<div class="col-md-3 col-lg-4 col-xl-3 footer-contacts">
+							<a href="/" class="logo"><svg class="icon icon--logo"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#logo"></use></svg></a>							<div class="phone"><a href="tel:84951343939">8 495 134 39 39</a></div>							<div class="hours">ПН-ЧТ с&nbsp;9:00 до&nbsp;18:00, ПТ&nbsp;с&nbsp;9:00&nbsp;до&nbsp;15:30</div>						</div><div class="col-6 col-lg pl-xl-4 order-1 order-md-3 order-xl-2"><nav class="footer-menu"><a
+		class="footer-menu__link"
+		onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=13&a.ct=d'"				href="/catalog/"
+	>
+		<span class="">
+			Каталог		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/2d/f/tip_plitki-is-keramogranit/"
+	>
+		<span class="">
+			Керамогранит		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/2d/f/naznachenie-is-stena/"
+	>
+		<span class="">
+			Настенная плитка		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/3d-be/unitazy-bide-pissuary/"
+	>
+		<span class="">
+			Унитазы, биде, писсуары		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/3d-be/installyatsii-i-komplekty/"
+	>
+		<span class="">
+			Инсталляции и комплекты		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/3d-be/rakoviny-i-pedestaly/"
+	>
+		<span class="">
+			Раковины и пьедесталы		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/3d-be/mebel-dlya-vannoy/"
+	>
+		<span class="">
+			Мебель для ванных комнат		</span>
+			</a><a
+		class="footer-menu__link"
+						href="https://cersanit.ru/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/"
+	>
+		<span class="">
+			Смесители и душевое оборудование		</span>
+			</a><a
+		class="footer-menu__link"
+						href="/catalog/3d-be/akrilovye-vanny/"
+	>
+		<span class="">
+			Акриловые ванны		</span>
+			</a></nav></div><div class="col-6 col-lg pl-xl-4 order-1 order-md-3 order-xl-2"><nav class="footer-menu"><span class=" panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+		class="footer-menu__link panel-menu__link"
+						href="/partners/"
+	>
+		<span class=" panel-menu__text">
+			Партнерам		</span>
+		<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>	</a><span class="panel-submenu js-panel-menu-content">
+			<span class="h2">
+				<span>Партнерам</span>
+				<span class="js-close-panel">
+					<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>				</span>
+			</span>
+			<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+				<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>				<span>Вернуться назад</span>
+			</span><a
+		class="footer-menu__link panel-menu__link"
+						href="/project-sales/"
+	>
+		<span class=" panel-menu__text">
+			Отдел проектных продаж		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/regional-delegates/"
+	>
+		<span class=" panel-menu__text">
+			Региональные представители		</span>
+			</a><!--'start_frame_cache_NMQc3w'--><a
+		class="footer-menu__link panel-menu__link"
+						href="/distributors/kazakhstan/"
+	>
+		<span class=" panel-menu__text">
+			Оптовые поставки		</span>
+			</a><!--'end_frame_cache_NMQc3w'--><a
+		class="footer-menu__link panel-menu__link"
+						href="/info/suppliers/"
+	>
+		<span class=" panel-menu__text">
+			Поставщикам		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="https://pvi.cersanit.ru/"
+	>
+		<span class=" panel-menu__text">
+			Продуктовый портал PVI		</span>
+			</a></span></span></nav></div><div class="col-6 col-lg pl-xl-4 order-1 order-md-3 order-xl-2"><nav class="footer-menu"><span class=" panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+		class="footer-menu__link panel-menu__link"
+						href="/"
+	>
+		<span class=" panel-menu__text">
+			Полезная информация		</span>
+		<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>	</a><span class="panel-submenu js-panel-menu-content">
+			<span class="h2">
+				<span>Полезная информация</span>
+				<span class="js-close-panel">
+					<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>				</span>
+			</span>
+			<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+				<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>				<span>Вернуться назад</span>
+			</span><a
+		class="footer-menu__link panel-menu__link"
+						href="/services/"
+	>
+		<span class=" panel-menu__text">
+			Сервис и Гарантия		</span>
+			</a><!--'start_frame_cache_mKUqxK'--><a
+		class="footer-menu__link js-send-goal panel-menu__link"
+				 data-goal-type="click-where-buy" data-goal-metric="hb"		href="/where-to-buy/kazakhstan/"
+	>
+		<span class=" panel-menu__text">
+			Где купить		</span>
+			</a><!--'end_frame_cache_mKUqxK'--><!--'start_frame_cache_GMvHpP'--><a
+		class="footer-menu__link panel-menu__link"
+						href="/online/kazakhstan/"
+	>
+		<span class=" panel-menu__text">
+			Купить online		</span>
+			</a><!--'end_frame_cache_GMvHpP'--><a
+		class="footer-menu__link panel-menu__link"
+						href="/guide/"
+	>
+		<span class=" panel-menu__text">
+			Гид по ремонту		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/constructor/"
+	>
+		<span class=" panel-menu__text">
+			Конструктор		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/faq/"
+	>
+		<span class=" panel-menu__text">
+			Вопросы и ответы		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/download/"
+	>
+		<span class=" panel-menu__text">
+			Файлы для скачивания		</span>
+			</a></span></span></nav></div><div class="col-6 col-lg pl-xl-4 order-1 order-md-3 order-xl-2"><nav class="footer-menu"><span class=" panel-menu__item  panel-menu__item--child js-panel-menu-item"><a
+		class="footer-menu__link panel-menu__link"
+						href="/info/"
+	>
+		<span class=" panel-menu__text">
+			О компании		</span>
+		<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>	</a><span class="panel-submenu js-panel-menu-content">
+			<span class="h2">
+				<span>О компании</span>
+				<span class="js-close-panel">
+					<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>				</span>
+			</span>
+			<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+				<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>				<span>Вернуться назад</span>
+			</span><a
+		class="footer-menu__link panel-menu__link"
+						href="/blog/"
+	>
+		<span class=" panel-menu__text">
+			Блог		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/info/group-information/"
+	>
+		<span class=" panel-menu__text">
+			О бренде		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/contact/"
+	>
+		<span class=" panel-menu__text">
+			Контакты		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/career/"
+	>
+		<span class=" panel-menu__text">
+			Карьера		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/disclaimer/"
+	>
+		<span class=" panel-menu__text">
+			Официальное извещение		</span>
+			</a><a
+		class="footer-menu__link panel-menu__link"
+						href="/cookies-policy/"
+	>
+		<span class=" panel-menu__text">
+			Политика конфиденциальности		</span>
+			</a></span></span></nav></div><div class="d-md-flex d-xl-block align-items-end justify-content-end col-12 col-md-6 col-lg-8 col-xl-12 order-3 order-md-2 order-xl-4">
+							<div class="subscribe-block">
+	<div class="subscribe-block__info">
+		<div class="subscribe-block__title">Будь в курсе новостей CERSANIT!</div>
+		<div class="subscribe-block__text">Cообщим вам о&nbsp;новостях, новых продуктах и&nbsp;выгодных&nbsp;предложениях</div>
+	</div>
+	<div class="subscribe-block__input">
+		<button class="btn btn--orange js-modal" type="button" data-content-type="popup" data-mfp-src="#subscribeModal" data-slick-index="0" aria-hidden="false" tabindex="0">
+			Подписаться
+		</button>
+	</div>
+	<div class="d-none">
+		<div id="subscribeModal" class="modal-popup subscribe-modal">
+			<div class="substrate subscribe-popup">
+				<div class="subscribe-popup__title">Будь в курсе новостей CERSANIT!</div>
+				<div class="subscribe-popup__text">
+					Сообщим вам о новостях, новых продуктах и выгодных предложениях
+				</div>
+				<form class="subscribe-input js-subscribe-form" action="/local/ajax/subscribe/add/" method="post">
+					<div class="subscribe-group">
+						<input type="email" placeholder="Ваш e-mail" name="email" class="form-control form-control--gray placeholder-shown" required>
+						<div class="ckeck-custom">
+							<input type="checkbox" id="subscribe-agreement" name="form_checkbox_AGREEMENT" value="Y" required>
+							<div class="filter-link">
+								<label class="ckeck-custom" for="subscribe-agreement">
+									<span>Принимаю условия <a href="/cookies-policy/" target="_blank">пользовательского соглашения</a>.</span>
+								</label>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn--orange js-subscribe" type="submit">
+						Подписаться
+					</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+						</div>
+						<div class="footer__delim col-12 order-2 order-xl-3">
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container-fluid">
+					<div class="row no-gutters align-items-center justify-content-between">
+						<div class="col-12 col-md-7 col-lg-4 col-xl-3 order-2 order-lg-1 pb-4 pb-lg-0">Цвет и текстура продуктов могут незначительно отличаться из-за особенностей цветопередачи монитора.</div>
+						<div class="col-12 col-lg-auto order-3 order-lg-2">© 2026 Cersanit. Все права защищены.</div>
+						<div class="col-12  col-lg-4 col-xl-3 order-1 order-lg-3 pb-4 pb-lg-0 justify-content-lg-end d-flex">
+							<div class="social"><a target="_blank" href="https://dzen.ru/cersanit_o_remonte">
+	<svg class="icon icon--dzen"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#dzen"></use></svg></a>
+<a target="_blank" href="https://vk.com/cersanit_russia">
+	<svg class="icon icon--vk"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#vk"></use></svg></a>
+<a target="_blank" href="https://www.pinterest.ru/Cersanit_russia/">
+	<svg class="icon icon--pinterest"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#pinterest"></use></svg></a>
+<a target="_blank" href="https://t.me/cersanit_russia">
+	<svg class="icon icon--tg"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tg"></use></svg></a>
+<a target="_blank" href="https://rutube.ru/channel/26724463/">
+    <svg class="icon icon--rutube"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#rutube"></use></svg></a></div>						</div>
+					</div>
+				</div>
+			</div>
+		</footer><!-- Yandex.Metrika counter -->
+<noscript><div><img src="https://mc.yandex.ru/watch/50457631" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+<div class="block-popup">
+	<div class="container-spread">
+		<div class="block-warning block-warning--cookie d-none js-warning js-warning-cookie">
+			<div class="block-warning__inner">
+				<div class="block-warning__text">
+					<b>Мы используем
+	cookie.</b> Продолжая пользоваться сайтом Cersanit вы соглашаетесь с&nbsp;политикой в отношении обработки персональных данных.
+<a href="/cookies-policy/">Узнать&nbsp;подбронее</a>.				</div>
+				<div class="block-warning__btn js-close-warning">
+					<button class="btn js-subscribe" type="button">
+						Согласен
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!--'start_frame_cache_eKYvv6'--><div class="tg-bot-link tg-bot-link--hide js-tg-bot js-tg-bot-open">
+		<div class="tg-bot-link__wrapper">
+			<div class="tg-bot-link__header">
+				<div class="tg-bot-link__icon"><svg class="icon icon--tg"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tg"></use></svg></div>
+				<div class="tg-bot-link__title">Чат-бот Cersanit в Telegram</div>
+				<div class="tg-bot-link__close js-tg-bot-close"><svg class="icon icon--close"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close"></use></svg></div>
+			</div>
+			<div class="tg-bot-link__container">
+				<div class="tg-bot-link__text">Ваш удобный помощник для коммуникации с брендом Cersanit</div>
+				<a href="https://t.me/cersanit_bot" target="_blank" rel="nofollow noreferrer noopener" class="tg-bot-link__btn">
+					Открыть Telegram
+				</a>
+			</div>
+		</div>
+	</div><!--'end_frame_cache_eKYvv6'--><nav class="mobile-menu d-lg-none"><a
+		href="/"
+				class="mobile-menu__link"
+			>
+		<svg class="icon icon--home"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#home"></use></svg>		<span>Главная</span>
+	</a><a
+		href="/catalog/"
+				class="mobile-menu__link js-panel-menu-toggle"
+		data-target="js-panel-menu-catalog"	>
+		<svg class="icon icon--tiles"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tiles"></use></svg>		<span>Каталог</span>
+	</a><!--'start_frame_cache_6G4w5O'--><a
+		href="/where-to-buy/kazakhstan/"
+		 data-goal-type="click-where-buy" data-goal-metric="hb"		class="mobile-menu__link js-panel-menu-toggle"
+		data-target="js-panel-menu-shops"	>
+		<svg class="icon icon--shop"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#shop"></use></svg>		<span>Где купить</span>
+	</a><!--'end_frame_cache_6G4w5O'--><!--'start_frame_cache_4p4Xju'--><span class="mobile-menu__link js-tg-bot-open">
+		<svg class="icon icon--tg-chat"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tg-chat"></use></svg>		<span>Чат-бот</span>
+	</span><!--'end_frame_cache_4p4Xju'--></nav><div class="panel-menu-wrap fixed">
+	<div class="panel-menu-wrap__toggle">
+		<div class="panel-menu__scroll">
+			<div class="panel-menu js-panel-menu-shops"><div class="panel-menu__left"><!--'start_frame_cache_menu-mobile-shops'--><span class="h2">
+	<span>Магазины</span>
+	<span class="js-close-panel">
+		<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>	</span>
+</span><div class=" panel-menu__item  panel-menu__item--child js-panel-menu-item">
+			<a href="/where-to-buy/kazakhstan/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Розничные магазины				</span><span class="panel-menu__icon">
+						<svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg>					</span></a><span class="panel-submenu js-panel-menu-content">
+					<span class="h2">
+						<span>Розничные магазины</span>
+						<span class="js-close-panel">
+							<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>						</span>
+					</span>
+					<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+						<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>						<span>Вернуться назад</span>
+					</span><div class=" panel-menu__item ">
+			<a href="/where-to-buy/kazakhstan/?exclusive=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Эксклюзивные товары				</span></a></div><div class=" panel-menu__item ">
+			<a href="/where-to-buy/kazakhstan/?3d=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сантехника и мебель				</span></a></div><div class=" panel-menu__item ">
+			<a href="/where-to-buy/kazakhstan/?2d=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Керамическая плитка				</span></a></div><div class=" panel-menu__item ">
+			<a href="/where-to-buy/kazakhstan/?type_product=smesiteli" class=" panel-menu__link"><span class=" panel-menu__text">
+					Смесители				</span></a></div></div><div class=" panel-menu__item  panel-menu__item--child js-panel-menu-item">
+			<a href="/online/kazakhstan/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Интернет-магазины				</span><span class="panel-menu__icon">
+						<svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg>					</span></a><span class="panel-submenu js-panel-menu-content">
+					<span class="h2">
+						<span>Интернет-магазины</span>
+						<span class="js-close-panel">
+							<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>						</span>
+					</span>
+					<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+						<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>						<span>Вернуться назад</span>
+					</span><div class=" panel-menu__item ">
+			<a href="/online/kazakhstan/?3d=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сантехника и мебель				</span></a></div><div class=" panel-menu__item ">
+			<a href="/online/kazakhstan/?2d=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Керамическая плитка				</span></a></div><div class=" panel-menu__item ">
+			<a href="/online/kazakhstan/?type_product=smesiteli" class=" panel-menu__link"><span class=" panel-menu__text">
+					Смесители				</span></a></div></div><div class=" panel-menu__item  panel-menu__item--child js-panel-menu-item">
+			<a href="/services/map/kazakhstan/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сервисные центры				</span><span class="panel-menu__icon">
+						<svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg>					</span></a><span class="panel-submenu js-panel-menu-content">
+					<span class="h2">
+						<span>Сервисные центры</span>
+						<span class="js-close-panel">
+							<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>						</span>
+					</span>
+					<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+						<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>						<span>Вернуться назад</span>
+					</span><div class=" panel-menu__item ">
+			<a href="/services/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сервис и гарантия				</span></a></div><div class=" panel-menu__item ">
+			<a href="/services/map/kazakhstan/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Найти сервисный центр				</span></a></div><div class=" panel-menu__item ">
+			<a href="/services/complaint/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Отправить претензию				</span></a></div></div><div class=" panel-menu__item  panel-menu__item--child js-panel-menu-item">
+			<a href="/distributors/kazakhstan/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Оптовые поставки				</span><span class="panel-menu__icon">
+						<svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg>					</span></a><span class="panel-submenu js-panel-menu-content">
+					<span class="h2">
+						<span>Оптовые поставки</span>
+						<span class="js-close-panel">
+							<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>						</span>
+					</span>
+					<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+						<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>						<span>Вернуться назад</span>
+					</span><div class=" panel-menu__item ">
+			<a href="/distributors/kazakhstan/?3d=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сантехника и мебель				</span></a></div><div class=" panel-menu__item ">
+			<a href="/distributors/kazakhstan/?2d=Y" class=" panel-menu__link"><span class=" panel-menu__text">
+					Керамическая плитка				</span></a></div><div class=" panel-menu__item ">
+			<a href="/distributors/kazakhstan/?type_partner=distr" class=" panel-menu__link"><span class=" panel-menu__text">
+					Дистрибьютор				</span></a></div><div class=" panel-menu__item ">
+			<a href="/distributors/kazakhstan/?type_partner=partner" class=" panel-menu__link"><span class=" panel-menu__text">
+					Партнер в проектном отделе				</span></a></div></div><!--'end_frame_cache_menu-mobile-shops'--></div></div></div></div></div><div class="panel-menu-wrap fixed">
+	<div class="panel-menu-wrap__toggle">
+		<div class="panel-menu__scroll">
+			<div class="panel-menu js-panel-menu-catalog"><div class="panel-menu__left"><div class="catalog-mobile-header">
+		<span class="h2">
+			<span>Каталог</span>
+			<span class="js-close-panel"><svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg></span>
+		</span><div class="banners"><a href="/catalog/new/vstrechayte-obnovlyennye-installyatsii-aqua-/" class="banners__item js-send-goal" data-goal-type="banner-click"
+							data-goal-metric="ga, mc"
+							data-param-mc-dimensions='[{"banner":"\u0411\u0430\u043d\u043d\u0435\u0440 \u0432 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u043c \u043c\u0435\u043d\u044e (24587)"},{"group_banner":"\u0412 \u043c\u043e\u0431\u0438\u043b\u044c\u043d\u043e\u043c \u043c\u0435\u043d\u044e \u043a\u0430\u0442\u0430\u043b\u043e\u0433\u0430 (6146)"}]'
+						data-param-ga-dimension3="В мобильном меню каталога (6146)"
+						data-param-ga-dimension4="Баннер в мобильном меню (24587)" id="bx_290381082_24587"><picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/3d1/pevse31igws82z9mpe5ql1exq3nwu9sc/KV-AQUA-800kh336.webp?1764284505 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/3d1/pevse31igws82z9mpe5ql1exq3nwu9sc/KV-AQUA-800kh336.jpg?1764051406 1x">			<img
+				class="lazyload img-fluid"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Баннер в мобильном меню"
+							>
+		</picture></a></div></div><div class="mobile-catalog-menu-item--title">Сантехника и мебель</div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child"><a href="/catalog/3d-be/collections/" class="panel-menu__link" ><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--сollections"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#сollections"></use></svg></span><span class="menu-main__text panel-menu__text">Коллекции</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></a></div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child js-panel-menu-item"><div class="panel-menu__link"onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=10&a.ct=d'"><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--box"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#box"></use></svg></span><span class="menu-main__text panel-menu__text">Товары</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></div><div class="mobile-catalog-menu-item__view-container"><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child "><a
+			href="/catalog/3d-be/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=10&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Сантехника и мебель			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Сантехника и мебель</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners"><div class="banners-menu
+        "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/3d-be/collections/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aab/a4xcu86dyu5tj0g8bkvj2hwi80t3tcf4/Banner.webp?1752188511 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aab/a4xcu86dyu5tj0g8bkvj2hwi80t3tcf4/Banner.png?1751974590 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Все Коллекции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Все Коллекции<span>Сантехника и мебель Cersanit</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/promo/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/7b2/b7n18xlkh8ne2vrt1d15jm4iaht5t13h/sale.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/ef05a067edcab3be6b4e4826597e705d/sale.png?1772169382 1x, /upload/iblock/7b2/b7n18xlkh8ne2vrt1d15jm4iaht5t13h/sale.png?1755000797 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Акции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Акции<span>Скидки</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/3d-be/collections/f/new-is-y/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/aa5/c3o5b5os7ivrn2qyx056b6ufhfs7mzfx/new.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/b518b5108d6f9ffebddebd6938baac32/new.png?1772169407 1x, /upload/iblock/aa5/c3o5b5os7ivrn2qyx056b6ufhfs7mzfx/new.png?1755000804 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Новинки"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Новинки<span>Коллекции смесителей</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col-auto pl-xl-0">
+										<div class="menu-main-catalog menu-main-catalog--left"><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/3d-be/" class="menu-main-catalog__title panel-menu__link">
+														Все товары													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item--moblie">
+													<a href="/catalog/3d-be/collections/" class="menu-main-catalog__title panel-menu__link">
+														Все коллекции													</a>
+												</div></div>
+									</div><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/unitazy-bide-pissuary/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Унитазы, биде, писсуары										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/unitazy-kompakty/"
+																												class="menu-main-catalog__child-link"
+													>
+														Унитазы компакты													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/unitazy-podvesnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Унитазы подвесные													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/sets/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты (готовые решения)													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/sidenya-dlya-unitazov/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сиденья для унитазов													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/unitazy-bide-pissuary/spare-toilet/"
+																												class="menu-main-catalog__child-link"
+													>
+														Запчасти													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/rakoviny-i-pedestaly/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Раковины и пьедесталы										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/rakoviny-i-pedestaly/rakoviny/"
+																												class="menu-main-catalog__child-link"
+													>
+														Раковины в ванную комнату													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/rakoviny-i-pedestaly/polu-i-pedestaly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Полу- и пьедесталы													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/installyatsii-i-komplekty/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Инсталляции и комплекты										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/installyatsionnye-sistemy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Инсталляционные системы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/knopki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кнопки													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/komplekty-gotovye-resheniya/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты (готовые решения)													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/installyatsii-i-komplekty/spare-complects/"
+																												class="menu-main-catalog__child-link"
+													>
+														Запчасти													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/akrilovye-vanny/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Акриловые ванны										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/pryamougolnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Прямоугольные ванны													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/uglovye-asimmetrichnye/"
+																												class="menu-main-catalog__child-link"
+													>
+														Угловые асимметричные ванны													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/nozhki-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Ножки для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/paneli-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Панели для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/ramy-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Рамы для ванн													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/akrilovye-vanny/sifony-dlya-vann/"
+																												class="menu-main-catalog__child-link"
+													>
+														Сифоны для ванн													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/mebel-dlya-vannoy/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Мебель для ванной										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/tumby-dlya-rakovin/"
+																												class="menu-main-catalog__child-link"
+													>
+														Тумбы для раковин													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/zerkala/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зеркала													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/zerkala-shkafchiki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зеркала-шкафчики													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/penaly-polupenaly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Пеналы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/shkafchiki/"
+																												class="menu-main-catalog__child-link"
+													>
+														Шкафчики													</a></div><div class="js-menu-child-spoiler">
+															<div class="menu-main-catalog__spoiler-area"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/komplekty/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/tabletops/"
+																												class="menu-main-catalog__child-link"
+													>
+														Столешницы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/mebel-dlya-vannoy/komplektuyushchie-dlya-mebeli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплектующие для мебели													</a></div></div>
+														<div class="menu-main-catalog__spoiler-link">
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Ещё</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Скрыть</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+														</div>
+													</div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><a
+											href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/"
+																						class="menu-main-catalog__title panel-menu__link"
+										>
+											Смесители для ванной, кухни и душевое оборудование										</a><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/kuhonnye-smesiteli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кухонные смесители													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/smesiteli/"
+																												class="menu-main-catalog__child-link"
+													>
+														Смесители и гигиенические души													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/dushevoe-oborudovanie/"
+																												class="menu-main-catalog__child-link"
+													>
+														Душевое оборудование													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/3d-be/smesiteli-i-dushevoe-oborudovanie/komplekty-smesiteley/"
+																												class="menu-main-catalog__child-link"
+													>
+														Комплекты смесителей													</a></div></div>
+										</div></div>
+								</div>
+							</div></div>
+					</div>
+				</div>
+			</div></div></div></div><div class="mobile-catalog-menu-item--title">Керамическая плитка</div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child"><a href="/catalog/2d/collections/" class="panel-menu__link" ><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--сollections"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#сollections"></use></svg></span><span class="menu-main__text panel-menu__text">Коллекции</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></a></div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child js-panel-menu-item"><div class="panel-menu__link"onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=11&a.ct=d'"><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--box"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#box"></use></svg></span><span class="menu-main__text panel-menu__text">Товары</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></div><div class="mobile-catalog-menu-item__view-container"><div class="menu-main__item js-menu-item panel-menu__item  panel-menu__item--child "><a
+			href="/catalog/2d/"
+						class="menu-main__link panel-menu__link"
+			onclick="(new Image()).src='https://wcm.weborama-tech.ru/fcgi-bin/dispatch.fcgi?a.A=co&a.si=9709&a.cp=11&a.ct=d'"		><span class="menu-main__text panel-menu__text">
+				Керамическая плитка			</span>
+			<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span>		</a><div class="menu-main__content panel-submenu js-panel-menu-content js-scroll-submenu">
+				<span class="h2">
+					<span>Керамическая плитка</span>
+					<span class="js-close-panel">
+						<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>					</span>
+				</span>
+				<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+					<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>					<span>Вернуться назад</span>
+				</span>
+				<div class="container">
+					<div class="menu-main-catalog-wrap">
+						<div class="menu-main-catalog-wrap__banners"><div class="banners-menu
+        "><div class="banners-menu__item banners-menu__item--wide material">
+			<a href="/catalog/2d/collections/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/76b/r8eolrsc1v4pcj0idayj5ds6wpajzr73/Mudbord-1.3.webp?1752188506 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/76b/r8eolrsc1v4pcj0idayj5ds6wpajzr73/Mudbord-1.3.jpg?1751975855 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Все Коллекции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Все Коллекции<span>Плитка и керамогранит Cersanit</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/promo/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/abf/6aobjt5nx2s7l7fh31gxgtl7nhd6srqs/sale.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/7370066efa02bd974a3a1586f12b5fe5/sale.png?1772169414 1x, /upload/iblock/abf/6aobjt5nx2s7l7fh31gxgtl7nhd6srqs/sale.png?1755000790 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Акции"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Акции<span>Скидки</span></span>
+				</span>
+			</a>
+		</div><div class="banners-menu__item material">
+			<a href="/catalog/2d/f/new-is-y/" class="material__link">
+				<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/988/2vhs083cxe82m40025cmsay4ucv46gut/new.webp?1755212500 2x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/resize_cache/ctpi/da2ef64c0346251794f5b107f4a2e345/new.png?1772169415 1x, /upload/iblock/988/2vhs083cxe82m40025cmsay4ucv46gut/new.png?1755000784 2x">			<img
+				class="lazyload img-fluid d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Новинки"
+							>
+		</picture>				<span class="material__over  material__over--background">
+					<span class="material__title">Новинки<span>Коллекция формата 30х60</span></span>
+				</span>
+			</a>
+		</div></div></div>
+						<div class="menu-main-catalog-wrap__area">
+							<div class="row"><div class="col-auto pl-xl-0">
+										<div class="menu-main-catalog menu-main-catalog--left"><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/" class="menu-main-catalog__title panel-menu__link">
+														Все товары													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item--moblie">
+													<a href="/catalog/2d/collections/" class="menu-main-catalog__title panel-menu__link">
+														Все коллекции													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/f/tip_plitki-is-plitka/" class="menu-main-catalog__title panel-menu__link">
+														Настенная плитка													</a>
+												</div><div class="menu-main-catalog__item menu-main-catalog__item">
+													<a href="/catalog/2d/f/tip_plitki-is-keramogranit/" class="menu-main-catalog__title panel-menu__link">
+														Керамогранит													</a>
+												</div></div>
+									</div><div class="col pl-xl-0">
+									<div class="menu-main-catalog"><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Формат</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-60x120/"
+																												class="menu-main-catalog__child-link"
+													>
+														60х120													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-45x90/"
+																												class="menu-main-catalog__child-link"
+													>
+														45х90													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-22x90/"
+																												class="menu-main-catalog__child-link"
+													>
+														22x90													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-60x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														60x60													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-30x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														30х60													</a></div><div class="js-menu-child-spoiler">
+															<div class="menu-main-catalog__spoiler-area"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-18x60/"
+																												class="menu-main-catalog__child-link"
+													>
+														18х60													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-20x44/"
+																												class="menu-main-catalog__child-link"
+													>
+														20х44													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-42x42/"
+																												class="menu-main-catalog__child-link"
+													>
+														42х42													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/razmer_plity-is-30x30/"
+																												class="menu-main-catalog__child-link"
+													>
+														30х30													</a></div></div>
+														<div class="menu-main-catalog__spoiler-link">
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Ещё</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+															<div class="link-icon js-menu-child-spoiler-toggle">
+																<span>Скрыть</span>
+																<svg class="icon icon--arr-b icon--arr-y"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-b"></use></svg>															</div>
+														</div>
+													</div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Цвет</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-bezhevyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Бежевый													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-belyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Белый													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-goluboy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Голубой													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-dekorirovannyy-zolotistyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Декорированный													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-zelenyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Зелёный													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/cvet-is-krasnyy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Красный													</a></div></div>
+										</div><div class="menu-main-catalog__item menu-main-catalog__item"><span class="menu-main-catalog__title panel-menu__link">Коммерческие помещения</span><div class="menu-main-catalog__childs"><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vannaya-komnata/"
+																												class="menu-main-catalog__child-link"
+													>
+														Ванная комната													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-sanuzly/"
+																												class="menu-main-catalog__child-link"
+													>
+														Санузлы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-kukhnya/"
+																												class="menu-main-catalog__child-link"
+													>
+														Кухня													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vkhodnye-gruppy/"
+																												class="menu-main-catalog__child-link"
+													>
+														Входные группы													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-vnutrennyaya-otdelka/"
+																												class="menu-main-catalog__child-link"
+													>
+														Внутренняя отделка													</a></div><div class="menu-main-catalog__child"><a
+														href="/catalog/2d/f/commercial_room-is-balkony/"
+																												class="menu-main-catalog__child-link"
+													>
+														Балконы													</a></div></div>
+										</div></div>
+								</div>
+							</div><div class="banners-tiles">
+	<div class="row"><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-beton/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/438/3ek4uc6sltxhl7see5lz1ms7iqvc91ck/Plitki-3.webp?1752188501 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/438/3ek4uc6sltxhl7see5lz1ms7iqvc91ck/Plitki-3.jpg?1751976937 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Бетон"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Бетон</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-kamen/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/01a/gqvfbb2n97t5abldgtyy0czghrw9zfp8/Montazhnaya-oblast-4.webp?1753657290 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/01a/gqvfbb2n97t5abldgtyy0czghrw9zfp8/Montazhnaya-oblast-4.jpg?1753431025 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Камень"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Камень</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/keramicheskaya-plitka-pod-derevo/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/423/ubzmanvopoy9x62j3meh8i6ugpf24nrb/Plitki-1.webp?1752188502 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/423/ubzmanvopoy9x62j3meh8i6ugpf24nrb/Plitki-1.jpg?1751976924 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Дерево"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Дерево</span>
+				</a>
+			</div><div class="col">
+				<a href="/catalog/2d/f/faktura_poverhnosti-is-relefnaya/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/715/ziz61yp0qhcdaz7l093quno0wdbhsg7m/Plitki-4.webp?1752188510 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/715/ziz61yp0qhcdaz7l093quno0wdbhsg7m/Plitki-4.jpg?1751977112 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Рельефы"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Рельефы</span>
+				</a>
+			</div><div class="col">
+				<a href="https://cersanit.ru/catalog/2d/f/dizajn_segment-is-uzory/" class="banners-tiles__link">
+					<span class="ratio-box">
+						<picture>
+			<source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/6dc/c75q8lil2xke9s84kw4irt3b2qbm3ili/Plitki-5.webp?1752188509 1x" type="image/webp"><source srcset="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="/upload/iblock/6dc/c75q8lil2xke9s84kw4irt3b2qbm3ili/Plitki-5.jpg?1751976989 1x">			<img
+				class="lazyload img-fluid d-none d-lg-block"
+				src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+				alt="Узоры"
+							>
+		</picture>					</span>
+					<span class="banners-tiles__title">Узоры</span>
+				</a>
+			</div></div>
+</div></div>
+					</div>
+				</div>
+			</div></div></div></div><div class="mobile-catalog-menu-item--title">Другое</div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child"><a href="/guide/" class="panel-menu__link" ><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--guide"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#guide"></use></svg></span><span class="menu-main__text panel-menu__text">Гид по ремонту</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></a></div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child"><a href="/catalog/promo/" class="panel-menu__link" ><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--percent"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#percent"></use></svg></span><span class="menu-main__text panel-menu__text">Акции</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></a></div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child"><a href="/catalog/new/" class="panel-menu__link" ><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--spark"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#spark"></use></svg></span><span class="menu-main__text panel-menu__text">Новинки</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></a></div><div class="mobile-catalog-menu-item panel-menu__item panel-menu__item--child js-panel-menu-item"><div class="panel-menu__link"><span><span class="mobile-catalog-menu-item__icon"><svg class="icon icon--document"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#document"></use></svg></span><span class="menu-main__text panel-menu__text">Каталог MITO</span>
+	</span>
+	<span class="panel-menu__icon"><svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg></span></div><div class="mobile-catalog-menu-item__view-container"><div class=" panel-menu__item  panel-menu__item--child ">
+			<a href="/catalog/mito/" class=" panel-menu__link"><span class="panel-menu__icon">
+						<svg class="icon icon--tiles"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#tiles"></use></svg>					</span><span class=" panel-menu__text">
+					Каталог Mito				</span><span class="panel-menu__icon">
+						<svg class="icon icon--arr-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-round"></use></svg>					</span></a><span class="panel-submenu js-panel-menu-content">
+					<span class="h2">
+						<span>Каталог Mito</span>
+						<span class="js-close-panel">
+							<svg class="icon icon--close-round"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#close-round"></use></svg>						</span>
+					</span>
+					<span class="btn-light btn-light--dark btn-light--extra-small js-panel-menu-back">
+						<svg class="icon icon--arr-l icon--arr-l"><use xlink:href="/local/templates/2019/svg/all.svg?1764669175#arr-l"></use></svg>						<span>Вернуться назад</span>
+					</span><div class=" panel-menu__item ">
+			<a href="/catalog/mito/3d-be/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Сантехника и мебель				</span></a></div><div class=" panel-menu__item ">
+			<a href="/catalog/mito/2d/" class=" panel-menu__link"><span class=" panel-menu__text">
+					Керамическая плитка				</span></a></div></div></div></div></div></div></div></div></div><script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script><script src="/bitrix/js/main/core/core.js?1772635541543783"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.dexie","namespace":"BX.DexieExport","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"fc","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"jquery3","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+<script>BX.Runtime.registerExtension({"name":"window","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM_CERS","SERVER_TZ_OFFSET":"10800","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1772784034,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"bdc42288fba3bcdf9f178402cebd0347"});</script><script src="/bitrix/js/main/core/core_frame_cache.js?177263554116066"></script>
+<script src="/bitrix/js/main/jquery/jquery-3.6.0.min.js?166720018189501"></script>
+<script  src="/bitrix/cache/js/s1/2019/template_1da4bc768adc650287569050b9af2a2a/template_1da4bc768adc650287569050b9af2a2a_v1.js?1772635967761515"></script>
+<script >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+   ym(50457631, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+</body></html>

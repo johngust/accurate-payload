@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="4MCgwmZffRHQSSzM6ySfUOrDyJXXZBHu5SIrqSRlYao" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://bundles.efilli.com">
+    <title>Страница не найдена</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="Страница не найдена" />
+<meta name="description" content="Страница не найдена" />
+<script type="text/javascript" data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";var ieVersion = -1;if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/cache/css/s1/main/template_a18c730601c760b04467ea550882e596/template_a18c730601c760b04467ea550882e596_v1.css?1770209843385812" type="text/css"  data-template-style="true" rel="stylesheet" />
+
+
+
+
+
+
+
+                    
+            <link rel="canonical" href="https://www.vitra-russia.ru/local/templates/vitra/images/logo.png" />
+    
+    <meta name="yandex-verification" content="f811b360b729aae0" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="vitra-russia">
+    <meta property="og:url" content="https://vitra-russia.ru/">
+    <meta property="og:locale" content="ru">
+
+    <meta name="twitter:creator" content="@VITRA">
+    <meta name="twitter:card" content="https://vitra-russia.ru/local/templates/main/img/logo.svg">
+
+    <meta property="og:title" content="VitrA - официальный сайт сантехники и керамической плитки">
+    <meta property="og:description" content="Каталог сантехники и керамической плитки на официальном сайте VitrA. Широкий ассортимент товаров, сертифицированная продукция.">
+    <meta property="og:image" content="https://vitra-russia.ru/local/templates/main/img/logo.svg">
+    <meta property="og:image:width" content="136">
+    <meta property="og:image:height" content="42">
+
+</head>
+<body id="body">
+<div class="layout" id="app">
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__left">
+                <div class="header__burger"><span></span><span></span></div>
+                <div class="header__search"><span></span>
+                    <form class="header__search-input" action="/search/index.php">
+                        <input type="text" name="q" placholder="Поиск" />
+                        <button type="submit"></button>
+                    </form>
+                </div>
+                <a class="header__logo" href="/">
+                    <img src="/local/templates/main/img/logo.svg" alt="VitrA" loading="lazy" />
+                </a>
+                <nav class="header__menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+    <div class="h-menu">
+        <div class="h-menu__item submenu" itemscope itemtype="http://schema.org/MenuItem">
+        <a class="h-menu__item-link" href="/catalog/plumbing/" itemprop="url">
+                        <img class="h-menu__item-icon" itemprop="image" src="/upload/uf/2b0/z71f1pd9dxbcvnhfwdmemlbibckmgy0h.svg" loading="lazy" />
+                        <span class="h-menu__item-title" itemprop="name">Сантехника</span>
+        </a>
+                <div class="h-submenu" itemscope itemtype="http://schema.org/Menu">
+            <div class="wrapper">
+                <div class="h-submenu__menu">
+                    <div class="h-submenu__col" data-hover="h-submenu__content_2">
+                                                    <a href="/catalog/plumbing/keramicheskaya-santekhnika/" class="h-submenu__link active" itemprop="url" data-tab-page="0"><span itemprop="name" >Керамическая сантехника</span></a>
+                                                    <a href="/catalog/plumbing/smesiteli/" class="h-submenu__link" itemprop="url" data-tab-page="1"><span itemprop="name" >Смесители</span></a>
+                                                    <a href="/catalog/plumbing/installyatsii/" class="h-submenu__link" itemprop="url" data-tab-page="2"><span itemprop="name" >Инсталляции</span></a>
+                                                    <a href="/catalog/plumbing/dushevye-sistemy/" class="h-submenu__link" itemprop="url" data-tab-page="3"><span itemprop="name" >Душевые системы</span></a>
+                                                    <a href="/catalog/plumbing/vanny-i-dushevye-zony/" class="h-submenu__link" itemprop="url" data-tab-page="4"><span itemprop="name" >Ванны и душевые зоны</span></a>
+                                                    <a href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/" class="h-submenu__link" itemprop="url" data-tab-page="5"><span itemprop="name" >Мебель для ванной комнаты</span></a>
+                                                    <a href="/catalog/plumbing/aksessuary/" class="h-submenu__link" itemprop="url" data-tab-page="6"><span itemprop="name" >Аксессуары</span></a>
+                                            </div>
+                </div>
+                <div class="h-submenu__content h-submenu__content_2">
+                                        <div class="h-submenu__item active">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/keramicheskaya-santekhnika/unitazy/"><span itemprop="name">Унитазы</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/keramicheskaya-santekhnika/rakoviny/"><span itemprop="name">Раковины</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/keramicheskaya-santekhnika/pissuary/"><span itemprop="name">Писсуары</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/keramicheskaya-santekhnika/bide/"><span itemprop="name">Биде</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/keramicheskaya-santekhnika/komplekty-s-installyatsiey/"><span itemprop="name">Комплекты с инсталляцией</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/keramicheskaya-santekhnika/sidenya-dlya-unitazov/"><span itemprop="name">Сиденья для унитазов</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/keramicheskaya-santekhnika/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/ba1/har0ldi5pp08aaomsmpsl0ibsqof55ev/670_330_2/rubrika_ceramic-sanitaryware.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Керамическая сантехника</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/smesiteli-dlya-rakoviny/"><span itemprop="name">Смесители для раковины</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/smesiteli-dlya-vanny-i-dusha/"><span itemprop="name">Смесители для ванны и душа</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/smesiteli-dlya-bide/"><span itemprop="name">Смесители для биде</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/smesiteli-dlya-kukhni/"><span itemprop="name">Смесители для кухни</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/komplekty/"><span itemprop="name">Комплекты</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/gigienicheskie-dushi/"><span itemprop="name">Гигиенические души</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/sifony-i-donnye-klapany/"><span itemprop="name">Сифоны и донные клапаны</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/smesiteli/komplektuyushchie/"><span itemprop="name">Комплектующие</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/smesiteli/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/473/aqjb59idgcckysapszrk237eg1i1ayo5/670_330_2/rubrika_faucets.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Смесители</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/installyatsii/installyatsii-dlya-unitazov/"><span itemprop="name">Инсталляции для унитазов</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/installyatsii/paneli-smyva/"><span itemprop="name">Панели смыва</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/installyatsii/prochie-installyatsii/"><span itemprop="name">Прочие инсталляции</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/installyatsii/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/cff/wtudxvl8qx7vysg8lftqnxa4itv765lh/670_330_2/rubrika_concealed-cisterns.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Инсталляции</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/dushevye-sistemy/dushevye-sistemy-so-smesitelem/"><span itemprop="name">Душевые системы со смесителем</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/dushevye-sistemy/dushevoy-garnitur/"><span itemprop="name">Душевые гарнитуры</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/dushevye-sistemy/komplektuyushchie/"><span itemprop="name">Комплектующие</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/dushevye-sistemy/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/d58/50yg6b3zp1ze20fkeqoq8bhtrga1vomp/670_330_2/rubrika_shower-systems.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Душевые системы</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/vanny-i-dushevye-zony/vanny/"><span itemprop="name">Ванны</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/vanny-i-dushevye-zony/dushevye-trapy/"><span itemprop="name">Душевые трапы</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/vanny-i-dushevye-zony/paneli-dlya-vanny/"><span itemprop="name">Панели для ванны</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/vanny-i-dushevye-zony/komplektuyushchie/"><span itemprop="name">Комплектующие</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/vanny-i-dushevye-zony/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/393/zrfzmih97g84tm4ukhyvislaa7z4v5d5/670_330_2/rubrika_bathtubs.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Ванны и душевые зоны</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/zerkala/"><span itemprop="name">Зеркала</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/penaly/"><span itemprop="name">Пеналы</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/tumby-s-rakovinoy/"><span itemprop="name">Тумбы с раковиной</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/stoleshnitsy/"><span itemprop="name">Столешницы</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/komplektuyushchie/"><span itemprop="name"> Комплектующие</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/8ff/d1lpq77quevvhhc8c36me24rz3b860k5/670_330_2/rubrika_bathroom-furnituries.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Мебель для ванной комнаты</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/derzhateli-dlya-tualetnoj-bumagi/"><span itemprop="name">Держатели для туалетной бумаги</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/derzhateli-dlya-polotenec/"><span itemprop="name">Держатели для полотенец</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/ershiki-dlya-unitaza/"><span itemprop="name">Ершики для унитаза</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/mylnitsy-i-dozatory-dlya-myla/"><span itemprop="name">Мыльницы и дозаторы для мыла</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/stakany-dlya-zubnykh-shchetok/"><span itemprop="name">Стаканы для зубных щеток</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/prochie-aksessuary/"><span itemprop="name">Для людей с ограниченными возможностями</span></a>
+                                                        <a class="h-submenu__link" itemprop="url" href="/catalog/plumbing/aksessuary/komplektuyushchie/"><span itemprop="name">Комплектующие</span></a>
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/plumbing/aksessuary/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/f8e/b0l7y63penxsj3el31p4u4egtrs3seuo/670_330_2/rubrika_accessories.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Аксессуары</div>
+                                                    </a>
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+            </div>
+        <div class="h-menu__item submenu" itemscope itemtype="http://schema.org/MenuItem">
+        <a class="h-menu__item-link" href="/catalog/tiles/" itemprop="url">
+                        <img class="h-menu__item-icon" itemprop="image" src="/upload/uf/51b/epgr241n0vex2gm017l0u2kjxcnh7ms2.svg" loading="lazy" />
+                        <span class="h-menu__item-title" itemprop="name">Плитка</span>
+        </a>
+                <div class="h-submenu" itemscope itemtype="http://schema.org/Menu">
+            <div class="wrapper">
+                <div class="h-submenu__menu">
+                    <div class="h-submenu__col" data-hover="h-submenu__content_1">
+                                                    <a href="/catalog/tiles/" class="h-submenu__link active" itemprop="url" data-tab-page="0"><span itemprop="name" >Каталог</span></a>
+                                                    <a href="/catalog/tiles/vannaya-komnata/" class="h-submenu__link" itemprop="url" data-tab-page="1"><span itemprop="name" >Ванная комната</span></a>
+                                                    <a href="/catalog/tiles/kukhnya/" class="h-submenu__link" itemprop="url" data-tab-page="2"><span itemprop="name" >Кухня</span></a>
+                                                    <a href="/catalog/tiles/obshchestvennye-prostranstva/" class="h-submenu__link" itemprop="url" data-tab-page="3"><span itemprop="name" >Общественные пространства</span></a>
+                                                    <a href="/collections/tiles/" class="h-submenu__link" itemprop="url" data-tab-page="4"><span itemprop="name" >Коллекции</span></a>
+                                            </div>
+                </div>
+                <div class="h-submenu__content h-submenu__content_1">
+                                        <div class="h-submenu__item active">
+                        <div class="h-submenu__section">
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/tiles/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/483/xvylc2mr6b5e0es4idtqhgz6hv365sxr/670_330_2/P2_3_Microcement_Flakecement_Cream_copy.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Каталог</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/tiles/vannaya-komnata/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/cd4/fhbs187k2a027ccqzc0eeyi7167lswmw/670_330_2/7w7u9cmqoo0kbc0t2emoy9qvi21ncggb.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Ванная комната</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/tiles/kukhnya/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/4d6/chdj2cvwgbdkv1lob82ctjrp4d30zibs/670_330_2/citystone-kitchen_RENDERS_2_RESIZE_VITRA.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Кухня</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                    </div>
+                                                <a class="h-submenu__right" href="/catalog/tiles/obshchestvennye-prostranstva/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/c57/1hzv5ecsln3kgzmiaz1ddgfilgqsu956/670_330_2/pnhv21271uunrv9k0u6wsm7n33vctygp.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Общественные пространства</div>
+                                                    </a>
+                                            </div>
+                                        <div class="h-submenu__item">
+                        <div class="h-submenu__section">
+                                                    </div>
+                                                <a class="h-submenu__right" href="/collections/tiles/" itemprop="url">
+                            <div class="h-submenu__img"><img  itemprop="image" src="/upload/resize_cache/iblock/c60/670_330_2/p4l2spet1wdy39v3omho744l0wyh4fd8.jpg" loading="lazy" fetchpriority="low"/></div>
+                            <div class="h-submenu__title"  itemprop="name">Коллекции</div>
+                                                    </a>
+                                            </div>
+                                    </div>
+            </div>
+        </div>
+            </div>
+    
+        	    	    		            <div class="h-menu__item submenu" itemscope itemtype="http://schema.org/MenuItem">
+                
+                <div class="h-menu__item-link">
+                    <span class="h-menu__item-title" itemprop="name">Коллекции</span>
+                </div>
+                                <div class="h-submenu" itemscope itemtype="http://schema.org/Menu">
+                    <div class="wrapper">
+                        <div class="h-submenu__content h-submenu__content_other_0">
+                            <div class="h-submenu__item active">
+                                <div class="h-submenu__section h-submenu__section--simple">
+    		    	    	        	    	    		                <a href="/collections/plumbing/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Сантехника</span>
+                </a>
+    		    	    	        	    	    		                <a href="/collections/tiles/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Плитка</span>
+                </a>
+    		    	    	        	    		</div></div></div></div></div></div>    	    	    		                <div class="h-menu__item" itemscope itemtype="http://schema.org/MenuItem">
+                    <a class="h-menu__item-link" href="/idea/" itemprop="url">
+                        <span class="h-menu__item-title" itemprop="name">Идеи</span>
+                    </a>
+                </div>
+    		    	    	        	    	    		            <div class="h-menu__item submenu" itemscope itemtype="http://schema.org/MenuItem">
+                                                    <div class="h-menu__item-link">
+                        <span class="h-menu__item-title" style="cursor: default;">О компании</span>
+                    </div>
+                
+                                <div class="h-submenu" itemscope itemtype="http://schema.org/Menu">
+                    <div class="wrapper">
+                        <div class="h-submenu__content h-submenu__content_other_4">
+                            <div class="h-submenu__item active">
+                                <div class="h-submenu__section h-submenu__section--simple">
+    		    	    	        	    	    		                <a href="/history/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">История VitrA</span>
+                </a>
+    		    	    	        	    	    		                <a href="/design/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Дизайн</span>
+                </a>
+    		    	    	        	    	    		                <a href="/innovations/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Инновации</span>
+                </a>
+    		    	    	        	    	    		                <a href="/advantages/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Преимущества</span>
+                </a>
+    		    	    	        	    	    		                <a href="/ecology/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Экологичность</span>
+                </a>
+    		    	    	        	    	    		                <a href="/architects/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">VitrA и архитекторы</span>
+                </a>
+    		    	    	        	    	    		                <a href="/news/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Новости</span>
+                </a>
+    		    	    	        	    	    		                <a href="/projects/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Проекты</span>
+                </a>
+    		    	    	        	    	    		                <a href="/contacts/" class="h-submenu__link" itemprop="url">
+                    <span itemprop="name">Контакты</span>
+                </a>
+    		    	    	    
+        	</div></div></div></div></div></div>        </div>
+</nav>
+            </div>
+            <div class="header__right">
+                <div class="header__nav">
+                    <div class="h-nav">
+                        <a class="h-nav__item h-nav__item--city" href="#" data-popup="#city">Москва</a>
+<div class="popup" id="city">
+	<div class="popup__block">
+		<div class="popup__close"></div>
+		<div class="popup__content">
+			<div class="popup__city">
+				<div class="popup__city-input">
+					<input type="text" data-city-input placeholder="Найти город">
+				</div>
+									<div class="popup__city-list">
+						<div class="pc-list">
+															<a class="pc-list__item" data-city-id="2" href="#">Москва</a>
+															<a class="pc-list__item" data-city-id="51" href="#">Рязань</a>
+															<a class="pc-list__item" data-city-id="52" href="#">Бронницы</a>
+															<a class="pc-list__item" data-city-id="53" href="#">Воскресенск</a>
+															<a class="pc-list__item" data-city-id="54" href="#">Дмитров</a>
+															<a class="pc-list__item" data-city-id="55" href="#">Кашира</a>
+															<a class="pc-list__item" data-city-id="56" href="#">Клин</a>
+															<a class="pc-list__item" data-city-id="57" href="#">Коломна</a>
+															<a class="pc-list__item" data-city-id="58" href="#">Луховицы</a>
+															<a class="pc-list__item" data-city-id="23" href="#">Липецк</a>
+															<a class="pc-list__item" data-city-id="61" href="#">Тверь</a>
+															<a class="pc-list__item" data-city-id="65" href="#">Курск</a>
+															<a class="pc-list__item" data-city-id="66" href="#">Московская область</a>
+															<a class="pc-list__item" data-city-id="3" href="#">Санкт-Петербург</a>
+															<a class="pc-list__item" data-city-id="9" href="#">Барнаул</a>
+															<a class="pc-list__item" data-city-id="68" href="#">Бийск</a>
+															<a class="pc-list__item" data-city-id="8" href="#">Ачинск</a>
+															<a class="pc-list__item" data-city-id="6" href="#">Абакан</a>
+															<a class="pc-list__item" data-city-id="12" href="#">Владивосток</a>
+															<a class="pc-list__item" data-city-id="70" href="#">Находка</a>
+															<a class="pc-list__item" data-city-id="71" href="#">Хабаровск</a>
+															<a class="pc-list__item" data-city-id="5" href="#">Омск</a>
+															<a class="pc-list__item" data-city-id="47" href="#">Томск</a>
+															<a class="pc-list__item" data-city-id="20" href="#">Красноярск</a>
+															<a class="pc-list__item" data-city-id="32" href="#">Новосибирск</a>
+															<a class="pc-list__item" data-city-id="18" href="#">Кемерово</a>
+															<a class="pc-list__item" data-city-id="72" href="#">п. Угловое</a>
+															<a class="pc-list__item" data-city-id="73" href="#">Уссурийск</a>
+															<a class="pc-list__item" data-city-id="74" href="#">Якутск</a>
+															<a class="pc-list__item" data-city-id="75" href="#">Бердск</a>
+															<a class="pc-list__item" data-city-id="42" href="#">Самара</a>
+															<a class="pc-list__item" data-city-id="43" href="#">Саратов</a>
+															<a class="pc-list__item" data-city-id="15" href="#">Казань</a>
+															<a class="pc-list__item" data-city-id="26" href="#">Набережные Челны</a>
+															<a class="pc-list__item" data-city-id="82" href="#">Уфа</a>
+															<a class="pc-list__item" data-city-id="83" href="#">Пенза</a>
+															<a class="pc-list__item" data-city-id="87" href="#">Тольятти</a>
+															<a class="pc-list__item" data-city-id="88" href="#">Йошкар-Ола</a>
+															<a class="pc-list__item" data-city-id="59" href="#">Тамбов</a>
+															<a class="pc-list__item" data-city-id="89" href="#">Кузнецк</a>
+															<a class="pc-list__item" data-city-id="14" href="#">Екатеринбург</a>
+															<a class="pc-list__item" data-city-id="37" href="#">Первоуральск</a>
+															<a class="pc-list__item" data-city-id="29" href="#">Нижний Тагил</a>
+															<a class="pc-list__item" data-city-id="92" href="#">Полевской</a>
+															<a class="pc-list__item" data-city-id="93" href="#">Красноуфимск</a>
+															<a class="pc-list__item" data-city-id="27" href="#">Нижневартовск</a>
+															<a class="pc-list__item" data-city-id="94" href="#">Сургут</a>
+															<a class="pc-list__item" data-city-id="48" href="#">Тюмень</a>
+															<a class="pc-list__item" data-city-id="95" href="#">Новый Уренгой</a>
+															<a class="pc-list__item" data-city-id="38" href="#">Пермь</a>
+															<a class="pc-list__item" data-city-id="1" href="#">Челябинск</a>
+															<a class="pc-list__item" data-city-id="96" href="#">Магнитогорск</a>
+															<a class="pc-list__item" data-city-id="21" href="#">Курган</a>
+															<a class="pc-list__item" data-city-id="19" href="#">Краснодар</a>
+															<a class="pc-list__item" data-city-id="44" href="#">Симферополь</a>
+															<a class="pc-list__item" data-city-id="97" href="#">Ялта</a>
+															<a class="pc-list__item" data-city-id="101" href="#">Туапсе</a>
+															<a class="pc-list__item" data-city-id="46" href="#">Сочи</a>
+															<a class="pc-list__item" data-city-id="99" href="#">Адлер</a>
+															<a class="pc-list__item" data-city-id="102" href="#">Ставрополь</a>
+															<a class="pc-list__item" data-city-id="40" href="#">Пятигорск</a>
+															<a class="pc-list__item" data-city-id="103" href="#">Махачкала</a>
+															<a class="pc-list__item" data-city-id="104" href="#">Грозный</a>
+															<a class="pc-list__item" data-city-id="105" href="#">Владикавказ</a>
+															<a class="pc-list__item" data-city-id="106" href="#">Астрахань</a>
+															<a class="pc-list__item" data-city-id="63" href="#">Калуга</a>
+															<a class="pc-list__item" data-city-id="64" href="#">Владимир</a>
+															<a class="pc-list__item" data-city-id="45" href="#">Смоленск</a>
+															<a class="pc-list__item" data-city-id="67" href="#">Обнинск</a>
+															<a class="pc-list__item" data-city-id="7" href="#">Алматы</a>
+															<a class="pc-list__item" data-city-id="77" href="#">Актобе</a>
+															<a class="pc-list__item" data-city-id="10" href="#">Бишкек</a>
+															<a class="pc-list__item" data-city-id="78" href="#">Атырау</a>
+															<a class="pc-list__item" data-city-id="80" href="#">Костанай</a>
+															<a class="pc-list__item" data-city-id="81" href="#">Караганда</a>
+															<a class="pc-list__item" data-city-id="107" href="#">Киров</a>
+															<a class="pc-list__item" data-city-id="25" href="#">Мурманск</a>
+															<a class="pc-list__item" data-city-id="24" href="#">Минск</a>
+															<a class="pc-list__item" data-city-id="108" href="#">Сыктывкар</a>
+															<a class="pc-list__item" data-city-id="109" href="#">Тула</a>
+															<a class="pc-list__item" data-city-id="110" href="#">Одинцово</a>
+															<a class="pc-list__item" data-city-id="111" href="#">Белгород</a>
+															<a class="pc-list__item" data-city-id="112" href="#">Брянск</a>
+															<a class="pc-list__item" data-city-id="13" href="#">Воронеж</a>
+															<a class="pc-list__item" data-city-id="62" href="#">Мытищи</a>
+															<a class="pc-list__item" data-city-id="11" href="#">Великий Новгород</a>
+															<a class="pc-list__item" data-city-id="114" href="#">Петрозаводск</a>
+															<a class="pc-list__item" data-city-id="115" href="#">Сестрорецк</a>
+															<a class="pc-list__item" data-city-id="28" href="#">Нижний Новгород</a>
+															<a class="pc-list__item" data-city-id="4" href="#">Нижний Новгород</a>
+															<a class="pc-list__item" data-city-id="116" href="#">Саранск</a>
+															<a class="pc-list__item" data-city-id="49" href="#">Чебоксары</a>
+															<a class="pc-list__item" data-city-id="117" href="#">Волгоград</a>
+															<a class="pc-list__item" data-city-id="31" href="#">Новороссийск</a>
+															<a class="pc-list__item" data-city-id="41" href="#">Ростов-на-Дону</a>
+															<a class="pc-list__item" data-city-id="118" href="#">Химки</a>
+															<a class="pc-list__item" data-city-id="119" href="#">Иваново</a>
+															<a class="pc-list__item" data-city-id="120" href="#">Иркутск</a>
+															<a class="pc-list__item" data-city-id="121" href="#">Красногорск</a>
+															<a class="pc-list__item" data-city-id="122" href="#">Солнечногорск</a>
+															<a class="pc-list__item" data-city-id="123" href="#">Ярославль</a>
+															<a class="pc-list__item" data-city-id="124" href="#">Вологда</a>
+															<a class="pc-list__item" data-city-id="125" href="#">М.О., г. Мытищи</a>
+															<a class="pc-list__item" data-city-id="126" href="#">М.О., р-н Одинцовский, д. Малые Вязёмы</a>
+															<a class="pc-list__item" data-city-id="127" href="#">М.О., р-н Шаховской, р.п. Шаховская</a>
+															<a class="pc-list__item" data-city-id="128" href="#">Астана</a>
+															<a class="pc-list__item" data-city-id="129" href="#">Черкесск</a>
+															<a class="pc-list__item" data-city-id="130" href="#">Севастополь</a>
+															<a class="pc-list__item" data-city-id="131" href="#">Дербент</a>
+															<a class="pc-list__item" data-city-id="132" href="#">Грязи</a>
+															<a class="pc-list__item" data-city-id="133" href="#">Лиски</a>
+															<a class="pc-list__item" data-city-id="134" href="#">Борисоглебск</a>
+															<a class="pc-list__item" data-city-id="135" href="#">Россошь</a>
+															<a class="pc-list__item" data-city-id="136" href="#">Ефремов</a>
+															<a class="pc-list__item" data-city-id="137" href="#">Старый Оскол</a>
+															<a class="pc-list__item" data-city-id="138" href="#">Ст.Оскол</a>
+															<a class="pc-list__item" data-city-id="30" href="#">Новокузнецк</a>
+															<a class="pc-list__item" data-city-id="139" href="#">Долгопрудный</a>
+															<a class="pc-list__item" data-city-id="35" href="#">Орел</a>
+															<a class="pc-list__item" data-city-id="140" href="#">Жуковский</a>
+															<a class="pc-list__item" data-city-id="141" href="#">Орехово-Зуево</a>
+															<a class="pc-list__item" data-city-id="142" href="#">Балашиха</a>
+															<a class="pc-list__item" data-city-id="113" href="#">Орёл</a>
+															<a class="pc-list__item" data-city-id="143" href="#">Лермонтов</a>
+															<a class="pc-list__item" data-city-id="16" href="#">Калининград</a>
+															<a class="pc-list__item" data-city-id="144" href="#">Астана (Нур-Султан)</a>
+															<a class="pc-list__item" data-city-id="145" href="#">Стерлитамак</a>
+															<a class="pc-list__item" data-city-id="146" href="#">Октябрьский</a>
+															<a class="pc-list__item" data-city-id="147" href="#">Нефтекамск</a>
+															<a class="pc-list__item" data-city-id="36" href="#">Оренбург</a>
+															<a class="pc-list__item" data-city-id="148" href="#">Реутов</a>
+															<a class="pc-list__item" data-city-id="149" href="#">Электросталь</a>
+															<a class="pc-list__item" data-city-id="150" href="#">Кострома</a>
+															<a class="pc-list__item" data-city-id="50" href="#">Череповец</a>
+															<a class="pc-list__item" data-city-id="152" href="#">с. Усады</a>
+															<a class="pc-list__item" data-city-id="151" href="#">Ижевск</a>
+													</div>
+                        <div id="cityNoResult" style="display: none;">Нет результатов</div>
+					</div>
+							</div>
+		</div>
+	</div>
+</div>                        <a class="h-nav__item h-nav__item--service" href="/services/">Сервисы</a>
+                        <a data-entity="state-favourites" class="h-nav__item h-nav__item--fav" href="/catalog/fav/"></a>
+                        <a data-entity="state-compare" class="h-nav__item h-nav__item--compare" href="/catalog/compare/"></a>
+                        <div class="h-nav__item h-nav__item--language">
+                            <div class="h-language">
+                                <div class="h-language__current"><span>RU</span></div>
+                                <div class="h-language__choice">
+                                    <a class="h-language__choice-item" href="https://www.vitraglobal.com/" target="_blank">EN</a>
+                                    <a class="h-language__choice-item" href="https://www.vitra.com.tr/" target="_blank">TR</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__info">
+                                         
+<div class="header__info-item header__info-item--search" id="title-search">
+    Поиск
+	<div class="h-search">
+		<div class="wrapper">
+			<div id="headerSearchResult" class="h-search__result hide">
+				
+			</div>
+			<div id="headerSearchEmptyResult" class="h-search__section">
+				<div class="hs-section">
+                    <a class="hs-section__item" href="/catalog/plumbing/">
+						<div class="hs-section__item-img"><img src="/local/templates/main/img/frontpage/search-plumb2.jpg" alt="Сантехника" loading="lazy" fetchpriority="low" /></div>
+						<div class="hs-section__item-title">Сантехника</div>
+						<div class="hs-section__item-link">Идеальное решение для ванной комнаты <span>→</span></div>
+					</a>
+                    <a class="hs-section__item" href="/catalog/tiles/">
+						<div class="hs-section__item-img"><img src="/local/templates/main/img/frontpage/search-tile2.jpg" alt="Плитка" loading="lazy" fetchpriority="low" /></div>
+						<div class="hs-section__item-title">Плитка</div>
+						<div class="hs-section__item-link">Познакомьтесь с новинками 2022 <span>→</span></div>
+					</a>
+                </div>
+			</div>
+			<div class="h-search__form">
+				<form class="hs-form" action="/search/">
+                	<div class="hs-form__input">
+                		<input id="title-search-input" name="q" type="text" maxlength="255" placeholder="Хочу купить" autofocus="" autocomplete="off" />
+                                        	</div>
+                                        <div class="hs-form__title">Например</div>
+                    <div class="hs-form__list">
+                        <a class="hs-form__list-item" href="/search/?q=Плитка">Плитка</a>
+                        <a class="hs-form__list-item" href="/search/?q=Смеситель">Смеситель</a>
+                        <a class="hs-form__list-item" href="/search/?q=Унитазы">Унитазы</a>
+                    </div>
+                                    </form>
+			</div>
+		</div>
+	</div>
+</div>
+
+                    <a class="header__info-item header__info-item--where" href="/where-to-buy/">Где купить</a>
+                </div>
+            </div>
+            <div class="header__mobilemenu">
+	<div class="mobilemenu">
+                <div class="mm-cat">
+                        <div class="mm-cat__item" data-menu="plumbing">
+    			<div class="mm-cat__img">
+                                    <img src="/upload/resize_cache/uf/3e0/315_464_2/7sjx243yc1zvgqizvro9nb1nfulvjq8r.jpg" alt="VitrA" loading="lazy" />
+                                    </div>
+    			<div class="mm-cat__title">Сантехника</div>
+    		</div>
+                        <div class="mm-cat__item" data-menu="tiles">
+    			<div class="mm-cat__img">
+                                    <img src="/upload/uf/2a2/zw46a54uuo7jsml4fmz378xylwoun012.jpg" alt="VitrA" loading="lazy" />
+                                    </div>
+    			<div class="mm-cat__title">Плитка</div>
+    		</div>
+                    </div>
+    	<div class="mm-catmenu">
+                		<div class="mm-catmenu__item" data-hidden-menu="plumbing">
+    			<div class="catmenu">
+    				<div class="catmenu__back">Назад</div>
+                        				<a class="catmenu__item" href="/catalog/plumbing/keramicheskaya-santekhnika/">Керамическая сантехника</a>
+                        				<a class="catmenu__item" href="/catalog/plumbing/smesiteli/">Смесители</a>
+                        				<a class="catmenu__item" href="/catalog/plumbing/installyatsii/">Инсталляции</a>
+                        				<a class="catmenu__item" href="/catalog/plumbing/dushevye-sistemy/">Душевые системы</a>
+                        				<a class="catmenu__item" href="/catalog/plumbing/vanny-i-dushevye-zony/">Ванны и душевые зоны</a>
+                        				<a class="catmenu__item" href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/">Мебель для ванной комнаты</a>
+                        				<a class="catmenu__item" href="/catalog/plumbing/aksessuary/">Аксессуары</a>
+                        			</div>
+    		</div>
+                		<div class="mm-catmenu__item" data-hidden-menu="tiles">
+    			<div class="catmenu">
+    				<div class="catmenu__back">Назад</div>
+                        				<a class="catmenu__item" href="/collections/tiles/">Каталог</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Ванная комната</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Кухня</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Общественные пространства</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Beton x</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Newcon</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Terrazzo x</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Архивные позиции</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Бежевая плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Белая матовая плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Белый керамогранит</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Бесшовная плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Глянцевая плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Глянцевая плитка на пол</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Квадратная плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамическая плитка - скандинавский стиль</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит 60х120 белый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит 60х60 матовый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит 60х60 серый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит 60х60 черный</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит бежевый 60х60</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит белый 60х60</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит белый глянец</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит в коридор</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит глянцевый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит для теплого пола</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит коричневый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит Лофт</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит матовый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит под дерево</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит под мрамор 60х120</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит под мрамор 60х60</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит под мрамор глянцевый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит под мрамор матовый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит рельефный</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит с рисунком</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит светлый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит серое дерево</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит серый</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит темный</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Керамогранит черный</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Классический керамогранит</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Крупноформатная плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Матовая плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Напольная плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Напольная плитка под дерево</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Настенная плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Новые поступления</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка 20х80см</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка 60x120 см</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка 60х60 см</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка белый мрамор</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка в гостиную</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка в душевую</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка в коридор</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка в прихожую</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка в спальню</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка для туалета</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка для улицы</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка керамическая стиле модерн</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка керамогранит</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка на балкон</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка на пол под мрамор</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка на фартук</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка напольная серая</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка под бетон</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка под дерево</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка под камень</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка под мрамор</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка под паркет напольная</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка прованс</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка прямоугольная</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Плитка узкая</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Серый матовый керамогранит</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Современный керамогранит</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Фасадная плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Цветная керамическая плитка</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Черная плитка на пол</a>
+                        				<a class="catmenu__item" href="/collections/tiles/">Коллекции</a>
+                        			</div>
+    		</div>
+                	</div>
+                <div class="mm-menu">
+                	        	                                <div class="mm-menu__item arrow">
+                    <span>Коллекции</span>
+                    <div class="submenu-item">
+                        		        	        	                	        	        		        			        			<a href="/collections/plumbing/" class="submenu-item__item">Сантехника</a>
+        			        		        	        	                	        	        		        			        			<a href="/collections/tiles/" class="submenu-item__item">Плитка</a>
+        			        		        	        	                	        		</div></div>        	        	        		        			        			<a href="/idea/" class="mm-menu__item">Идеи</a>
+        			        		        	        	                	        	                                <div class="mm-menu__item arrow">
+                    <span>О компании</span>
+                    <div class="submenu-item">
+                        		        	        	                	        	        		        			        			<a href="/history/" class="submenu-item__item">История VitrA</a>
+        			        		        	        	                	        	        		        			        			<a href="/design/" class="submenu-item__item">Дизайн</a>
+        			        		        	        	                	        	        		        			        			<a href="/innovations/" class="submenu-item__item">Инновации</a>
+        			        		        	        	                	        	        		        			        			<a href="/advantages/" class="submenu-item__item">Преимущества</a>
+        			        		        	        	                	        	        		        			        			<a href="/ecology/" class="submenu-item__item">Экологичность</a>
+        			        		        	        	                	        	        		        			        			<a href="/architects/" class="submenu-item__item">VitrA и архитекторы</a>
+        			        		        	        	                	        	        		        			        			<a href="/news/" class="submenu-item__item">Новости</a>
+        			        		        	        	                	        	        		        			        			<a href="/projects/" class="submenu-item__item">Проекты</a>
+        			        		        	        	                	        	        		        			        			<a href="/contacts/" class="submenu-item__item">Контакты</a>
+        			        		        	        	                	        		</div></div>        	        	        		        			        			<a href="/where-to-buy/" class="mm-menu__item">Где купить</a>
+        			        		        	        	                	        	        		        			        			<a href="/services/" class="mm-menu__item">Сервисы</a>
+        			        		        	        	                        </div>
+        <div class="mm-lang">
+			<div class="mm-lang__title"><span>RUSSIA</span></div>
+			<div class="mm-lang__hidden"><a class="mm-lang__item" href="https://www.vitraglobal.com/" target="_blank">ENGLISH</a></div>
+            <div class="mm-lang__hidden"><a class="mm-lang__item" href="https://www.vitra.com.tr/" target="_blank">TURKISH</a></div>
+		</div>
+    </div>
+</div>
+                    </div>
+    </header>
+    <main id="mainContainer" class="page">
+    <div class="page__top">
+        <div class="wrapper" id="page-top-inner">
+                <h1 class="page-title">Страница не найдена</h1>
+            </div>
+    </div>
+        <style>.page__top{display: none;}</style>
+    <div class="page__error">
+        <div class="wrapper">
+            <div class="pe-text">
+                <div class="pe-text__txt">Ошибка 404</div>
+                <div class="pe-text__title">Страница <br> не найдена</div>
+                <a class="pe-text__link" href="/">На главную страницу  <span>→</span></a>
+            </div>
+            <div class="pe-desc">
+                <div class="pe-desc__txt">Страница которую вы ищите <br> не существует или была удалена</div>
+            </div>
+        </div>
+    </div>
+</main><!-- .page -->
+<footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+    <meta itemprop="copyrightYear" content="2023">
+    <meta itemprop="copyrightHolder" content="Все права защищены VitrA 2023">
+    <div class="wrapper">
+        <div class="footer__top">
+                        <a class="footer__up" href="#">Наверх </a>
+        </div>
+        <nav class="footer__nav">
+            <div class="fn-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                	
+        <a href="/idea/" class="fn-menu__link" itemprop="url"><span itemprop="name">Идеи и вдохновение</span></a>
+	    	
+        <a href="/news/" class="fn-menu__link" itemprop="url"><span itemprop="name">Новости</span></a>
+	    	
+        <a href="/catalogs/" class="fn-menu__link" itemprop="url"><span itemprop="name">Каталоги</span></a>
+	    	
+        <a href="https://www.vitra-russia.ru/catalogs/sertifikaty/" class="fn-menu__link" itemprop="url"><span itemprop="name">Сертификаты</span></a>
+	    	
+        <a href="/where-to-buy/" class="fn-menu__link" itemprop="url"><span itemprop="name">Где купить</span></a>
+	    	
+        <a href="/services/" class="fn-menu__link" itemprop="url"><span itemprop="name">Сервисы</span></a>
+	    	
+        <a href="/faq/" class="fn-menu__link" itemprop="url"><span itemprop="name">Часто задаваемы вопросы</span></a>
+	    	
+        <a href="/sitemap/" class="fn-menu__link" itemprop="url"><span itemprop="name">Карта сайта</span></a>
+	                </div>
+            <div class="fn-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <div class="fn-menu__title">О компании</div>
+                <div class="fn-menu__nav">
+                    	
+        <a href="/history/" class="fn-menu__link" itemprop="url"><span itemprop="name">История VitrA</span></a>
+	    	
+        <a href="/design/" class="fn-menu__link" itemprop="url"><span itemprop="name">Дизайн</span></a>
+	    	
+        <a href="/innovations/" class="fn-menu__link" itemprop="url"><span itemprop="name">Инновации</span></a>
+	    	
+        <a href="/advantages/" class="fn-menu__link" itemprop="url"><span itemprop="name">Преимущества</span></a>
+	    	
+        <a href="/ecology/" class="fn-menu__link" itemprop="url"><span itemprop="name">Экологичность</span></a>
+	    	
+        <a href="/architects/" class="fn-menu__link" itemprop="url"><span itemprop="name">VitrA и архитекторы</span></a>
+	    	
+        <a href="/contacts/" class="fn-menu__link" itemprop="url"><span itemprop="name">Контакты</span></a>
+	                    </div>
+            </div>
+            <div class="fn-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <div class="fn-menu__title">Все продукты</div>
+                <div class="fn-menu__nav">
+                    	
+        <a href="/catalog/plumbing/" class="fn-menu__link" itemprop="url"><span itemprop="name">Сантехника</span></a>
+	    	
+        <a href="/catalog/tiles/" class="fn-menu__link" itemprop="url"><span itemprop="name">Плитка</span></a>
+	    	
+        <a href="/catalog/plumbing/smesiteli/" class="fn-menu__link" itemprop="url"><span itemprop="name">Смесители</span></a>
+	    	
+        <a href="/catalog/plumbing/installyatsii/" class="fn-menu__link" itemprop="url"><span itemprop="name">Системы инсталляций</span></a>
+	    	
+        <a href="/catalog/plumbing/dushevye-sistemy/" class="fn-menu__link" itemprop="url"><span itemprop="name">Душевые системы</span></a>
+	    	
+        <a href="/catalog/plumbing/aksessuary/" class="fn-menu__link" itemprop="url"><span itemprop="name">Аксессуары</span></a>
+	    	
+        <a href="/catalog/plumbing/mebel-dlya-vannoy-komnaty/" class="fn-menu__link" itemprop="url"><span itemprop="name">Мебель</span></a>
+	    	
+        <a href="/catalog/plumbing/vanny-i-dushevye-zony/" class="fn-menu__link" itemprop="url"><span itemprop="name">Ванны и душевые кабины</span></a>
+	                    </div>
+            </div>
+            <div class="fn-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <div class="fn-menu__title">Шоурумы</div>
+                <div class="fn-menu__nav">
+                    	
+        <a href="/showroom/vitra_artplay/" class="fn-menu__link" itemprop="url"><span itemprop="name">Диджитал шоурум VitrA на ArtPlay</span></a>
+	    <div id="navigation" class="breadcrumbs" itemprop="http://schema.org/breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList"><div class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <div itemprop="item">
+                    <span itemprop="name">VitrA</span>
+                    <meta itemprop="position" content="1" />
+                </div>
+			</div></div>                </div>
+            </div>
+            <div class="fn-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <div class="fn-menu__title">Конструкторы VitrA</div>
+                <div class="fn-menu__nav">
+                    <a href="https://rootconfigurator.vitra-russia.ru" class="fn-menu__link" target="_blank" itemprop="url">
+                        <span itemprop="name">Конструктор мебели Root</span>
+                    </a>
+                    <a href="https://colors.vitranext.com/ru" class="fn-menu__link" target="_blank" itemprop="url">
+                        <span itemprop="name">Конструктор цветов</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="footer__line">
+            <a class="footer__logo" href="/"><img src="/local/templates/main/img/logo-f.svg" alt="" loading="lazy"></a>
+            <div class="footer__social">
+    <a class="footer__social-item" href="https://vk.com/vitrarussia" target="_blank">
+        <img src="/upload/iblock/5a1/89jwzupuxee0om6jemo50v1h418acrlj.svg" alt="VK" loading="lazy">
+    </a>
+        <a class="footer__social-item" href="https://www.youtube.com/c/VitrABathrooms1" target="_blank">
+        <img src="/upload/iblock/567/cx3eqxvl1o9rwvcfd61p3bf1fnwqeae1.svg" alt="YouTube" loading="lazy">
+    </a>
+    </div>
+        </div>
+        <div class="footer__line">
+            <div class="footer__copy">
+                VitrA 2026 <a href="/Политика%20конфиденциальности.pdf" class="footer__copy-link">Политика конфиденциальности</a>            </div>
+            <a class="footer__made" href="https://ony.ru/" target="_blank">Made by ONY</a>
+        </div>
+    </div>
+</footer>
+</div><!-- .layout -->
+
+<!--<div class="cookie">
+    <div class="wrapper">
+        <div class="cookie__content">
+            <div class="cookie__text">
+                Мы используем файлы cookie, чтобы обеспечивать эффективную работу нашего веб-сайта и улучшать пользовательский опыт. <br>
+                Если вы не согласны использовать данный тип файлов, измените соответствующие настройки своего Интернет-браузера.<br>
+                Помните, что это может повлиять на работу сайта. Больше информации — в документе «Политика использования файлов cookie».
+            </div>
+            <div class="cookie__apply">Принять</div>
+            <div class="cookie__close"></div>
+        </div>
+    </div>
+</div> -->
+
+        
+        <!-- Логин в Метрике -->
+<!-- Yandex.Metrika counter -->
+<noscript>
+    <div><img src="https://mc.yandex.ru/watch/26002683" style="position:absolute; left:-9999px;" alt="" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WPHeader",
+        "name": "",
+        "description": "Страница не найдена",
+        "url": "https://www.vitra-russia.ru/local/templates/vitra/images/logo.png"
+    }
+</script>
+<script type="text/javascript">if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script><script type="text/javascript" src="/bitrix/js/main/core/core.js?1694623201487656"></script><script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1772784035','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'410157024f3d5c23e668a2452592af35'});</script><script type="text/javascript">BX.setJSList(['/local/components/dev/select.city/templates/main/script.js','/bitrix/components/bitrix/search.title/script.js','/local/templates/main/components/bitrix/search.title/header/script.js','/local/templates/main/js/vendors.js','/local/templates/main/js/main.js','/local/templates/main/js/custom.js','/local/templates/main/js/p-script.js']);</script>
+<script type="text/javascript">BX.setCSSList(['/local/templates/main/css/main_v2.css','/local/templates/main/css/custom.css']);</script>
+<script defer src="https://cdn.jsdelivr.net/npm/vue@3.2.20/dist/vue.global.prod.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+
+
+
+<script type="text/javascript"  src="/bitrix/cache/js/s1/main/template_780c5ff5a6364923a7590b66042d02ba/template_780c5ff5a6364923a7590b66042d02ba_v1.js?1764591606554051"></script>
+
+<script src="https://bundles.efilli.com/vitra-russia.ru.prod.js" defer></script>
+<script type="text/javascript">
+            window.publicSettings = {
+                'siteState':'prod',
+                'language': 'ru',
+            };
+        </script><script type="text/javascript">
+    (function(d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter26002683 = new Ya.Metrika({
+                    id: 26002683,
+                    clickmap: true,
+                    trackLinks: true,
+                    accurateTrackBounce: true,
+                    webvisor: true,
+                    trackHash: true,
+                    triggerEvent: true
+                });
+            } catch (e) {}
+        });
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function() {
+                n.parentNode.insertBefore(s, n);
+            };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else {
+            f();
+        }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-43963032-3', 'auto');
+    ga('send', 'pageview');
+</script>
+<script>
+function clearSearchHistory(){
+    var formData = new FormData();
+    formData.append('action', 'clearSearchHistory');
+    fetch('/local/templates/main/components/bitrix/search.title/header/xhr.php', {
+        method: 'POST',
+        body: formData,
+    }).then(response => response.json()).then(response => {
+        if(response.result){
+            document.getElementById('blockSearchHistory').remove();
+        }
+    });
+}
+</script>
+<script>
+	BX.ready(function(){
+		new JCTitleSearchLocal({
+			'AJAX_PAGE' : '/local/templates/vitra/images/logo.png',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+
+</body>
+
+</html>
