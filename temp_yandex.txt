@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru-RU" prefix="og: http://ogp.me/ns#">
+<head>
+<meta name="yandex-verification" content="4755eb505f3d5b45" />
+
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="google-site-verification" content="1JltxBGW0t0jPZVyTuVZK8O6z7_Borh-fatcyefy9ko" />
+  <meta property="og:image" content="http://vsedlyavanny.kz.opt-images.1c-bitrix-cdn.ru/upload/medialibrary/94b/94b6f0e6a4e619e35cd49924ba57f52b.png" />
+	<title>Поиск</title>
+
+
+
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/design-tokens/dist/ui.design-tokens.css?175068227426358" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/ui/fonts/opensans/ui.font.opensans.css?17506794172555" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/js/main/popup/dist/main.popup.bundle.css?175068286331694" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/vanny/page_f80c035addd78e78581840240c024eaa/page_f80c035addd78e78581840240c024eaa_v1.css?1751541473369" type="text/css"  rel="stylesheet" />
+<link href="/bitrix/cache/css/s1/vanny/template_ea30124b8effdbc4b758fac2c94496c1/template_ea30124b8effdbc4b758fac2c94496c1_v1.css?1751541473111959" type="text/css"  data-template-style="true" rel="stylesheet" />
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script>
+
+<script src="/bitrix/js/main/core/core.js?1750682928512406"></script>
+
+<script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"ui.dexie","namespace":"BX.DexieExport","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ls","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"fx","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"fc","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.protobuf","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"rest.client","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"N","pull_config_timestamp":0,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1750682124});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.client","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.design-tokens","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"ui.fonts.opensans","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"main.popup","namespace":"BX.Main","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"popup","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"BITRIX_SM","SERVER_TZ_OFFSET":"18000","UTF_MODE":"Y","SITE_ID":"s1","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1772797958,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"21a6ea3ea71cfa5148392c6ccdb5455d"});</script>
+
+
+<script src="/bitrix/js/ui/dexie/dist/dexie.bundle.js?1750682921218847"></script>
+<script src="/bitrix/js/main/core/core_ls.js?17506824664201"></script>
+<script src="/bitrix/js/main/core/core_fx.js?171395017216888"></script>
+<script src="/bitrix/js/main/core/core_frame_cache.js?175068292516945"></script>
+<script src="/bitrix/js/pull/protobuf/protobuf.js?1746942129274055"></script>
+<script src="/bitrix/js/pull/protobuf/model.js?174694212970928"></script>
+<script src="/bitrix/js/rest/client/rest.client.js?174694218017414"></script>
+<script src="/bitrix/js/pull/client/pull.client.js?175068212583861"></script>
+<script src="/bitrix/js/main/popup/dist/main.popup.bundle.js?1750682925119074"></script>
+<script>BX.setCSSList(["\/bitrix\/templates\/vanny\/components\/bitrix\/catalog.search\/search\/style.css","\/bitrix\/templates\/vanny\/css\/resset-v2.css","\/bitrix\/templates\/vanny\/css\/bootstrap.css","\/bitrix\/templates\/vanny\/css\/jquery.bxslider.css","\/bitrix\/templates\/vanny\/css\/jquery.fancybox.css","\/bitrix\/templates\/vanny\/css\/style.css","\/bitrix\/templates\/vanny\/js\/nivoslider\/nivo-slider.css","\/bitrix\/templates\/vanny\/js\/nivoslider\/themes\/default\/default.css","\/bitrix\/templates\/vanny\/js\/superfish\/css\/superfish.css","\/bitrix\/templates\/vanny\/js\/superfish\/css\/superfish-vertical.css","\/bitrix\/templates\/vanny\/components\/bitrix\/system.auth.form\/auth\/style.css","\/bitrix\/templates\/vanny\/components\/bitrix\/system.auth.form\/auth_modal\/style.css","\/bitrix\/templates\/vanny\/components\/bitrix\/search.title\/search\/style.css","\/bitrix\/templates\/vanny\/components\/bitrix\/sale.basket.basket.small\/small_cart\/style.css","\/bitrix\/templates\/vanny\/styles.css","\/bitrix\/templates\/vanny\/template_styles.css"]);</script>
+
+
+<script src="/bitrix/templates/vanny/js/jquery-1.8.3.min.js?163110592493636"></script>
+<script src="/bitrix/templates/vanny/js/jquery-ui-1.12.1.min.js?1631105924253668"></script>
+<script src="/bitrix/templates/vanny/js/jquery.fitvids.js?16311059232864"></script>
+<script src="/bitrix/templates/vanny/js/jquery.bxslider.min.js?163110592419359"></script>
+<script src="/bitrix/templates/vanny/js/fancybox/fancybox.js?163110592423135"></script>
+<script src="/bitrix/templates/vanny/js/jquery.maskedinput.min.js?16311059244324"></script>
+<script src="/bitrix/templates/vanny/js/jquery.formstyler.min.js?163110592418702"></script>
+<script src="/bitrix/templates/vanny/js/layout.js?16311059243942"></script>
+<script src="/bitrix/templates/vanny/js/nivoslider/jquery.nivo.slider.pack.js?163110592312201"></script>
+<script src="/bitrix/templates/vanny/js/superfish/js/hoverIntent.js?16311059244938"></script>
+<script src="/bitrix/components/bitrix/search.title/script.js?175068286610542"></script>
+
+
+    <!-- HotLab Microm --></head>
+<body class='body_page'>
+<div id="panel"></div>
+<header class="header-wrap">
+  <div class="container header-border">
+    <div class="row header-information">
+      <div class="col-md-3 col-xs-12">
+      <a href="/" class="logo">
+		<img width="260" alt="Accurat1e logo.png" src="/upload/medialibrary/8bc/8bcb0cac2fb57cd871397c2536949aad.jpg" height="65" title="Accurat1e logo.png">
+      </a>
+      </div>
+      <div class="col-md-3 col-xs-12 header-text">
+<b><a href="mailto:info@accurate.kz">
+<p style="text-align: center;">
+</p>
+<p class="headmail" >
+	 info@accurate.kz
+</p>
+ </a></b>        <div class="row header-phones2">
+
+
+			<div class="col-xs-12">
+				<div class="phones_top_m">
+<a href="tel:+77273670780">+7 (727) 367 07 80</a><br>
+<a href="tel:+77475856089">+7 (747) 585 60 89</a><br>
+ВТ - ВС: 09:00-17:00<br>
+<br>
+				</div>
+				<div class="phones_top">
++7 (747) 585 60 89&nbsp;<br>
+ <u>График работы:<br>
+ </u><b>Вт-Вс</b><b>&nbsp;9.00-17.00<br>
+ </b><u>Понедельник: выходной<br>
+ </u>		
+			</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-12 col-md-6">
+        <div class="row">
+          <div class="col-xs-8">
+            <div class="skype-block">
+<span style="color: #ee1d24;">Уважаемые покупатели, скидки выставленные на сайте действуют только при покупке без рассрочки.<br>
+Обращаем Ваше внимание, что информация по стоимости, а также ассортимент товаров </span><span style="color: #ee1d24;">на данный момент обновляется. Убедительная просьба, наличие и актуальную стоимость уточнять у менеджеров по телефону.</span><br>            </div>
+
+          </div>
+          
+                    <div class="col-xs-4 text-right">
+            <a href="/favorites/" class="favourite-icon"></a>
+            <a href="/personal/" class="login-icon"></a>
+            <ul class="favorites-block">
+                          </ul>
+            <div class="login-block">
+	<!--'start_frame_cache_login-line'-->			<a onclick="openAuthorizePopup()" href="javascript:void(0)">Вход</a>
+						 | <a href="/auth/?register=yes&amp;backurl=%2Fyandex.php">Регистрация</a>
+						<script>
+				BX.localStorage.remove("eshop_user_name");
+			</script>
+		<!--'end_frame_cache_login-line'-->
+
+<div id="bx_auth_popup_form" style="display:none;" class="bx_login_popup_form">
+	<!--'start_frame_cache_8k8aZS'--><div class="login_page">
+				<form name="system_auth_formPqgS8z" method="post" target="_top" action="/auth/" class="bx_auth_form">
+		<input type="hidden" name="AUTH_FORM" value="Y" />
+		<input type="hidden" name="TYPE" value="AUTH" />
+				<input type="hidden" name="backurl" value="/yandex.php" />
+				
+		<strong>Войти</strong><br>
+		<input class="input_text_style" type="text" name="USER_LOGIN" maxlength="255" value="" /><br>
+		<strong>Пароль:</strong><br>
+		<input class="input_text_style" type="password" name="USER_PASSWORD" maxlength="255" /><br>
+
+				<span style="display:block;height:7px;"></span>
+					<span class="rememberme"><input type="checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y" checked/>Запомнить меня</span>
+		
+					<span class="forgotpassword" style="padding-left:75px;"><a href="/auth?forgot_password=yes" rel="nofollow">Забыли пароль?</a></span>
+				<br><br><input type="submit" name="Login" class="bt_blue big shadow" value="Войти" />
+	</form>
+</div>
+<script type="text/javascript">
+try{document.form_auth.USER_LOGIN.focus();}catch(e){}
+</script>
+
+<!--'end_frame_cache_8k8aZS'--></div>
+
+<script>
+	function openAuthorizePopup()
+	{
+		var authPopup = BX.PopupWindowManager.create("AuthorizePopup", null, {
+			autoHide: true,
+			//	zIndex: 0,
+			offsetLeft: 0,
+			offsetTop: 0,
+			overlay : true,
+			draggable: {restrict:true},
+			closeByEsc: true,
+			closeIcon: { right : "12px", top : "10px"},
+			content: '<div style="width:400px;height:400px; text-align: center;"><span style="position:absolute;left:50%; top:50%"><img src="/bitrix/templates/vanny/components/bitrix/system.auth.form/auth/images/wait.gif"/></span></div>',
+			events: {
+				onAfterPopupShow: function()
+				{
+					this.setContent(BX("bx_auth_popup_form"));
+				}
+			}
+		});
+
+		authPopup.show();
+	}
+</script>
+            </div>
+          </div>
+        </div>
+
+        <div class="row search-cart">
+          <div class="col-sm-8 search-wrap">
+    <div class="search-block" id="title-search">
+      <form id="searchform" method="get" action="/search/" accept-charset="utf-8">
+          <input type="text" placeholder="поиск" value="" name="q" id="title-search-input" class="search-form_it" autocomplete="off">
+          <input name="s" type="submit" value="НАЙТИ" class="search-form_is">
+      </form>
+    </div>
+<script>
+	BX.ready(function(){
+		new JCTitleSearch({
+			'AJAX_PAGE' : '/yandex.php',
+			'CONTAINER_ID': 'title-search',
+			'INPUT_ID': 'title-search-input',
+			'MIN_QUERY_LEN': 2
+		});
+	});
+</script>
+          </div>
+          <div class="col-sm-4 cart-block-wrap">
+<!--'start_frame_cache_oLJPsr'--><div class="cart-block">
+<a href="/personal/cart/">
+  0 шт. <br>
+  0 тенге
+</a>
+</div>
+<!--'end_frame_cache_oLJPsr'-->          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-nav">
+    <div class="container">
+		<a class="js-topMenuItemLink col-sm-3" href="" rel="nofollow" title="Каталог">
+        <span class="b-topMenu__item__link"><span>Каталог</span></span>
+	</a>
+	
+<script>
+(function($) {
+	$(function(){
+		/*$(".b-topMenu__item__link").on("mouseenter", function(){
+			$("#sections_hidden").show();
+		});
+		$(document).on("mousemove", function(event) {
+			if ($(event.target).closest(".header-wrap").length) return;
+			if ($(event.target).closest(".sidebar").length) return;
+			if ($(event.target).closest(".wrapper-top-nav").length) return;
+			$("#sections_hidden").hide();
+			event.stopPropagation();
+		});*/
+	});
+})(jQuery);
+</script>
+
+        <nav class="topmenu">
+<!--'start_frame_cache_LkGdQn'-->	<ul>
+			<li><a href="/news/">Новости</a></li>
+				<li><a href="/about/howto/">Как купить</a></li>
+				<li><a href="/about/delivery/">Доставка</a></li>
+				<li><a href="/about/contacts/">Контакты</a></li>
+				<li><a href="/discount/">Акции</a></li>
+				<li><a href=""></a></li>
+		</ul>
+<!--'end_frame_cache_LkGdQn'-->  
+      </nav>
+    </div>
+  </div>
+</header>
+
+
+
+<div class="wrapper">
+	  <div class="container cont"> 	  	  <h1>Поиск</h1>
+<div class="search-page">
+<form action="" method="get">
+	<input type="text" name="q" value="" size="40" />
+	&nbsp;<input type="submit" value="Искать" />
+	<input type="hidden" name="how" value="r" />
+</form><br />
+
+</div><div class="row catalog_wrap catalog_section">
+<div class="col-sm-3 sidebar">
+
+<nav class="category-menu">
+<ul>
+	<li id="bx_1847241719_38"><a href="/shop/unitazy/">Унитазы</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_254"><a href="/shop/unitazy/Unitaz_kompakt/">Напольные унитазы</a></li>
+		<li id="bx_1847241719_95"><a href="/shop/unitazy/Podvesnie_unitazi/">Подвесные унитазы</a></li>
+		<li id="bx_1847241719_253"><a href="/shop/unitazy/Pristavnye/">Приставные унитазы</a></li>
+		<li id="bx_1847241719_263"><a href="/shop/unitazy/TSvetnye/">Цветные унитазы</a></li>
+		<li id="bx_1847241719_259"><a href="/shop/unitazy/Gotovoe_reshenie/">Комплект подвесной унитаз+инсталляция</a></li>
+		<li id="bx_1847241719_396"><a href="/shop/unitazy/2v1_s_bide/">2в1 с биде</a></li>
+		<li id="bx_1847241719_319"><a href="/shop/unitazy/Detskiy_unitaz/">Детские унитазы</a></li>
+		<li id="bx_1847241719_380"><a href="/shop/unitazy/Impulsnynye_unitazy/">Импульсные унитазы</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_11"><a href="/shop/Dushevie_kabini/">Душевые кабины</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_279"><a href="/shop/Dushevie_kabini/Dushevye_kabiny_zakrytye/">Душевые кабины закрытые</a></li>
+		<li id="bx_1847241719_280"><a href="/shop/Dushevie_kabini/Dushevye_ugolki/">Душевые ограждения</a></li>
+		<li id="bx_1847241719_282"><a href="/shop/Dushevie_kabini/Poddony/">Поддоны</a></li>
+		<li id="bx_1847241719_281"><a href="/shop/Dushevie_kabini/Dushevye_dveri/">Душевые двери</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_9"><a href="/shop/Vanni/">Ванны</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_266"><a href="/shop/Vanni/Pryamougolnye/">Прямоугольные</a></li>
+		<li id="bx_1847241719_71"><a href="/shop/Vanni/Simmetrichnie/">Угловые</a></li>
+		<li id="bx_1847241719_268"><a href="/shop/Vanni/Otdelno_stoyashchie/">Отдельно стоящие</a></li>
+		<li id="bx_1847241719_223"><a href="/shop/Vanni/Ekrany_dlya_vanny/">Экраны для ванны</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_37"><a href="/shop/Mebel_dlya_vanni1/">Мебель для ванны</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_273"><a href="/shop/Mebel_dlya_vanni1/_Mebel_40_50_/">Мебель 40-49 см</a></li>
+		<li id="bx_1847241719_274"><a href="/shop/Mebel_dlya_vanni1/_Mebel_55_70/">Мебель 50-59 см</a></li>
+		<li id="bx_1847241719_352"><a href="/shop/Mebel_dlya_vanni1/Mebel_60_69_/">Мебель 60-69  см</a></li>
+		<li id="bx_1847241719_275"><a href="/shop/Mebel_dlya_vanni1/Mebel_75_95/">Мебель 70-79 см</a></li>
+		<li id="bx_1847241719_353"><a href="/shop/Mebel_dlya_vanni1/Mebel_80_89/">Мебель 80-89 см</a></li>
+		<li id="bx_1847241719_354"><a href="/shop/Mebel_dlya_vanni1/Mebel_90_99/">Мебель 90-99 см</a></li>
+		<li id="bx_1847241719_276"><a href="/shop/Mebel_dlya_vanni1/Mebel_bolshe_100/">Мебель больше 100 см</a></li>
+		<li id="bx_1847241719_278"><a href="/shop/Mebel_dlya_vanni1/Zerkala/">Зеркала</a></li>
+		<li id="bx_1847241719_357"><a href="/shop/Mebel_dlya_vanni1/Tumby_s_rakovinoy_nad_stiralnoy_mashinoy/">Тумбы с раковиной над стиральной машиной</a></li>
+		<li id="bx_1847241719_277"><a href="/shop/Mebel_dlya_vanni1/Penaly/">Пеналы</a></li>
+		<li id="bx_1847241719_346"><a href="/shop/Mebel_dlya_vanni1/RASPRODAZHA_mebeli/">РАСПРОДАЖА мебели</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_7"><a href="/shop/Umivalniki/">Раковины</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_291"><a href="/shop/Umivalniki/Vstraivaemye_sverkhu/">Врезные/встраиваемые</a></li>
+		<li id="bx_1847241719_288"><a href="/shop/Umivalniki/Mini_rakovini/">Мини раковины</a></li>
+		<li id="bx_1847241719_292"><a href="/shop/Umivalniki/Vstraivaemye_snizu/">Под столешницу</a></li>
+		<li id="bx_1847241719_287"><a href="/shop/Umivalniki/podvesnie/">Подвесные/ с пьедисталом</a></li>
+		<li id="bx_1847241719_395"><a href="/shop/Umivalniki/Rakovina_chasha_dlya_omoveniya/">Раковина+чаша для омовения</a></li>
+		<li id="bx_1847241719_333"><a href="/shop/Umivalniki/Rakoviny_nad_stiralnoy_mashinoy/">Раковины над стиральной машиной</a></li>
+		<li id="bx_1847241719_289"><a href="/shop/Umivalniki/Nakladnye/">Раковины-чаши/ накладные</a></li>
+		<li id="bx_1847241719_290"><a href="/shop/Umivalniki/Svobodnostoyashchie/">Свободностоящие</a></li>
+		<li id="bx_1847241719_320"><a href="/shop/Umivalniki/Uglovye/">Угловые</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_10"><a href="/shop/Smesiteli/">Смесители</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_75"><a href="/shop/Smesiteli/Vanna/">Для ванны</a></li>
+		<li id="bx_1847241719_83"><a href="/shop/Smesiteli/Dlya_umivalnika/">Для умывальника</a></li>
+		<li id="bx_1847241719_81"><a href="/shop/Smesiteli/dlya_kukhni/">Для кухни</a></li>
+		<li id="bx_1847241719_84"><a href="/shop/Smesiteli/Dlya_bide/">Для биде</a></li>
+		<li id="bx_1847241719_300"><a href="/shop/Smesiteli/Dushevaya_stoyka/">Смесители с тропическим душем</a></li>
+		<li id="bx_1847241719_299"><a href="/shop/Smesiteli/Gigienicheskiy_dush/">Гигиенический душ</a></li>
+		<li id="bx_1847241719_239"><a href="/shop/Smesiteli/Smesiteli_dlya_dusha__dushevye_sistemy/">Для душа</a></li>
+		<li id="bx_1847241719_342"><a href="/shop/Smesiteli/Dushevoy_komplekt/">Душевые комплекты без смесителя</a></li>
+		<li id="bx_1847241719_341"><a href="/shop/Smesiteli/Krany_dlya_pissuara/">Краны для писсуара</a></li>
+		<li id="bx_1847241719_331"><a href="/shop/Smesiteli/Komplekt_smesiteley/">Комплект смесителей</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_12"><a href="/shop/bide/">Биде</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_326"><a href="/shop/bide/Napolnye/">Напольные</a></li>
+		<li id="bx_1847241719_325"><a href="/shop/bide/padvesnye/">Подвесные</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_347"><a href="/shop/Izmelchiteli_kukhonnykh_otkhodov/">Измельчители кухонных отходов</a></li>
+	<li id="bx_1847241719_85"><a href="/shop/Moyki_dlya_kuhni/">Мойки для кухни</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_183"><a href="/shop/Moyki_dlya_kuhni/GranFest/">1 чаша + крыло</a></li>
+		<li id="bx_1847241719_301"><a href="/shop/Moyki_dlya_kuhni/EcoStone/">1 чаша без крыла</a></li>
+		<li id="bx_1847241719_339"><a href="/shop/Moyki_dlya_kuhni/2_chashi/">двойные</a></li>
+		<li id="bx_1847241719_184"><a href="/shop/Moyki_dlya_kuhni/Ulgran/">круглые</a></li>
+		<li id="bx_1847241719_321"><a href="/shop/Moyki_dlya_kuhni/Everest/">овальные</a></li>
+		<li id="bx_1847241719_334"><a href="/shop/Moyki_dlya_kuhni/podstolnyy_montazh/">подстольный монтаж</a></li>
+		<li id="bx_1847241719_338"><a href="/shop/Moyki_dlya_kuhni/1_5_chashi/">полуторки</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_93"><a href="/shop/Polotentsesushiteli/">Полотенцесушители</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_261"><a href="/shop/Polotentsesushiteli/Vodyanye/">Водяные</a></li>
+		<li id="bx_1847241719_351"><a href="/shop/Polotentsesushiteli/Komplektuyushchie_k_polotentsesushitelyam/">Комплектующие к полотенцесушителям</a></li>
+		<li id="bx_1847241719_262"><a href="/shop/Polotentsesushiteli/Elektricheskie/">Электрические</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_227"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/">Аксессуары для ванной комнаты</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_365"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Bumagoderzhateli/">Бумагодержатели</a></li>
+		<li id="bx_1847241719_368"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Derzhateli_dlya_osvezhitelya/">Держатели для освежителя</a></li>
+		<li id="bx_1847241719_370"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Derzhateli_dlya_fena/">Держатели для фена</a></li>
+		<li id="bx_1847241719_369"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Derzhateli_zapasnogo_rulona/">Держатели запасного рулона</a></li>
+		<li id="bx_1847241719_373"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Derzhatel_vatnykh_diskov/">Держатель ватных дисков</a></li>
+		<li id="bx_1847241719_362"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Dozatory_dlya_zhidkogo_myla/">Дозаторы для жидкого мыла</a></li>
+		<li id="bx_1847241719_345"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/donnyy_klapan/">Донный клапан</a></li>
+		<li id="bx_1847241719_366"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Ershi/">Ерши</a></li>
+		<li id="bx_1847241719_359"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Zerkala/">Зеркала косметические</a></li>
+		<li id="bx_1847241719_356"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Karniz_dlya_shtorki/">Карниз для шторки</a></li>
+		<li id="bx_1847241719_378"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Komplektuyushchie_dlya_dusha/">Комплектующие для душа</a></li>
+		<li id="bx_1847241719_381"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Komplektuyushchie_dlya_smesiteley/">Комплектующие для смесителей</a></li>
+		<li id="bx_1847241719_363"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Kryuchki/">Крючки</a></li>
+		<li id="bx_1847241719_361"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Mylnitsy/">Мыльницы</a></li>
+		<li id="bx_1847241719_375"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Nabory_aksessuarov/">Наборы аксессуаров</a></li>
+		<li id="bx_1847241719_364"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Podstakanniki/">Подстаканники</a></li>
+		<li id="bx_1847241719_322"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Polki/">Полки</a></li>
+		<li id="bx_1847241719_358"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Polotentsederzhateli/">Полотенцедержатели</a></li>
+		<li id="bx_1847241719_371"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Poruchni_dlya_vanny/">Поручни для ванны</a></li>
+		<li id="bx_1847241719_374"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/Skotch/">Скотч</a></li>
+		<li id="bx_1847241719_372"><a href="/shop/Aksessuary_dlya_vannoy_komnaty/SHnury_dlya_belya/">Шнуры для белья</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_171"><a href="/shop/Pissuari/">Писсуары</a></li>
+	<li id="bx_1847241719_348"><a href="/shop/Vodonagrevateli/">Водонагреватели</a></li>
+	<li id="bx_1847241719_217"><a href="/shop/Instalyatsii/">Инсталляции</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_382"><a href="/shop/Instalyatsii/Installyatsii_dlya_unitaza/">Инсталляции для унитаза</a></li>
+		<li id="bx_1847241719_384"><a href="/shop/Instalyatsii/Paneli_smyva__knopki_/">Панели смыва (кнопки)</a></li>
+		<li id="bx_1847241719_383"><a href="/shop/Instalyatsii/Installyatsii_dlya_bide/">Инсталляции для биде</a></li>
+		<li id="bx_1847241719_386"><a href="/shop/Instalyatsii/Installyatsii_dlya_pissuarov/">Инсталляции для писсуаров</a></li>
+		<li id="bx_1847241719_387"><a href="/shop/Instalyatsii/Installyatsii_dlya_rakovin/">Инсталляции для раковин</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_324"><a href="/shop/Slivnye_trapy_/">Сливные трапы </a></li>
+	<li id="bx_1847241719_226"><a href="/shop/Steklyannye_shtorki_na_vannu/">Стеклянные шторки на ванну</a></li>
+	<li id="bx_1847241719_230"><a href="/shop/Poruchni_dlya_lyudey_s_ogranichennymi_vozmozhnostyami/">Товары для людей с О/В</a>
+		<ul class="subcategory">
+		<li id="bx_1847241719_340"><a href="/shop/Poruchni_dlya_lyudey_s_ogranichennymi_vozmozhnostyami/Keramika_/">Керамика </a></li>
+		<li id="bx_1847241719_336"><a href="/shop/Poruchni_dlya_lyudey_s_ogranichennymi_vozmozhnostyami/Poruchni/">Поручни</a></li>
+		</ul>
+	</li>
+	<li id="bx_1847241719_323"><a href="/shop/Elektrosushiteli_dlya_ruk/">Электросушители для рук</a></li>
+	<li id="bx_1847241719_330"><a href="/shop/Rasprodazha/">РАСПРОДАЖА</a></li>
+	<li id="bx_1847241719_355"><a href="/shop/Lyuki_revizionnye/">Люки ревизионные</a></li>
+	<li id="bx_1847241719_379"><a href="/shop/Filtry_dlya_vody/">Фильтры для воды</a></li>
+</ul>
+</nav>
+</div>
+<div class="col-sm-9 page-content">
+Сожалеем, но ничего не найдено.</div><!-- end page content -->
+</div>  </div><!-- end container -->
+</div><!-- end wrapper -->
+<footer>
+  <div class="footer-widgets">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <a href="/" class="footer-logo">
+<img width="201" alt="Accurat1e logo.png" src="/upload/medialibrary/94b/94b6f0e6a4e619e35cd49924ba57f52b.png" height="123" title="Accurat1e logo.png">          </a>
+          <nav class="footer-nav">
+            <h4>Главное меню</h4>
+<!--'start_frame_cache_XEVOpk'--><ul>
+			<li><a href="/news/">Новости</a></li>
+				<li><a href="/about/howto/">Как купить</a></li>
+				<li><a href="/about/delivery/">Доставка</a></li>
+				<li><a href="/about/">О магазине</a></li>
+				<li><a href="/about/guaranty/">Гарантия</a></li>
+				<li><a href="/about/contacts/">Контакты</a></li>
+	</ul>
+<!--'end_frame_cache_XEVOpk'-->          </nav>
+          <div class="product-return">
+            <a href="/about/return/"><img src="/bitrix/templates/vanny/images/prod-return.png" alt="Возврат товара"> Возврат товара</a>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="google-map-widget">
+<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A97368a1d3d630eb1ca611d231c97fec4862df8423b0d0680eff74a06db5d8525&amp;source=constructor" width="320" height="240" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="footer-review">
+            <h4>Отзывы</h4>
+<ul class="review-slider">
+</ul>
+<div class="news-list">
+
+	<p class="news-item">
+															</p>
+
+</div>
+          </div>
+        </div>
+        <div class="col-sm-3 footer-contacts">
+          <h4>Контакты</h4>
+          <div class="row">
+            <div class="col-xs-2"><img src="/bitrix/templates/vanny/images/f-icon-mail.png" alt=""></div>
+            <div class="col-xs-10">
+<a href="mailto:info@accurate.kz">info@accurate.kz</a>            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2"><img src="/bitrix/templates/vanny/images/f-icon-phone.png" alt=""></div>
+            <div class="col-xs-10">
+<b>+7 (727) 367 07 80</b><br>            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-2"><img src="/bitrix/templates/vanny/images/f-icon-fax.png" alt=""></div>
+            <div class="col-xs-10">
+<b></b><b>+7 (747) 585 60 89</b><br>            </div>
+          </div>
+          <div class="row">
+            <!--<div class="col-xs-2"><img src="/bitrix/templates/vanny/images/f-icon-city.png" alt=""></div>-->
+            <div class="col-xs-10">
+            </div>
+          </div>
+          <div class="footer-socials">
+Мы в соц.сетях: <br>
+<ul class="soc_buttons">
+	<li><a target="_blank" href="https://vk.com/accuratekzalmaty"><img width="40" src="/bitrix/templates/vanny/images/soc/soc_vk.png" height="40"></a></li>
+	<li><a target="_blank" href="https://www.facebook.com/accuratekz-188546298689979/?referrer=whatsapp/"><img width="40" src="/bitrix/templates/vanny/images/soc/soc_fb.png" height="40"></a></li>
+	<li><a target="_blank" href="https://www.instagram.com/accurate_kz/?r=nametag"><img width="40" src="/bitrix/templates/vanny/images/soc/soc_in.png" height="40"></a></li>
+</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- end footer widgets -->
+  <div class="copyright">
+    <div class="container">
+2015-2025 © Vsedlyavanny. Все права защищены      <!-- http://albanza.com создание сайтов и интернет-магазинов Begin
+      <a href="http://albanza.com/">
+          <img src="http://albanza.com/img/logo/albanza_logo_gtext.png" alt="Albanza - создание сайтов и интернет-магазинов" width="90" height="45" />
+      </a>
+      <!-- http://albanza.com создание сайтов и интернет-магазинов End -->
+    </div>
+  </div>
+  <a class="whatsapp" target="_blank" href="whatsapp://send?phone=+77475856089" onmouseenter="mouseEnterHandler(event)" onmouseleave="mouseLeaveHandler(event)" transport="WhatsApp"><img src="/bitrix/templates/vanny/images/whatsapp.png">Написать в WhatsApp</a>
+</footer>
+<aside id="writeus" class="modal">
+    <div>
+    <div class="writeus-form">
+      <form action="/include/email.php" method="post">
+        <input class="sidebar_input" name="name2" id="name2" type="text" placeholder="Имя"/>
+        <input class="sidebar_input phone-mask" name="phone2" id="phone2" type="text" placeholder="Телефон"/>
+        <input class="sidebar_input" name="email2" id="email2" type="text" placeholder="E-mail"/>
+        <textarea name="message2" id="message2" cols="30" rows="10" placeholder="Текст сообщения"></textarea>
+        <input type="submit" class="button-form" value="ОТПРАВИТЬ">
+        <input type="hidden" value="145.249.245.135" id="ip2" name="ip2">
+      </form>
+    </div>
+      <a href="#close" title="Закрыть">&nbsp;</a>
+    </div>
+</aside>
+<aside id="callback" class="modal">
+    <div>
+    <div class="writeus-form">
+      <form action="/include/email.php" method="post">
+        <input class="sidebar_input" name="name1" id="name1" type="text" placeholder="Имя"/>
+        <input class="sidebar_input phone-mask" name="phone1" id="phone1" type="text" placeholder="Телефон"/>
+        <input type="submit" class="button-form" value="Заказать звонок">
+        <input type="hidden" value="145.249.245.135" id="ip1" name="ip1">
+      </form>
+    </div>
+      <a href="#close" title="Закрыть">&nbsp;</a>
+    </div>
+</aside>
+  
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-96664001-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+
+	
+			
+</body>
+</html>

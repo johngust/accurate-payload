@@ -267,6 +267,7 @@ export interface Order {
  */
 export interface Product {
   id: number;
+  bitrixId?: number | null;
   title: string;
   description?: {
     root: {
@@ -340,6 +341,10 @@ export interface Product {
  */
 export interface Media {
   id: number;
+  /**
+   * Используется для дедупликации загрузок из Bitrix
+   */
+  bitrixId?: number | null;
   alt: string;
   caption?: {
     root: {
@@ -723,6 +728,7 @@ export interface ArchiveBlock {
  */
 export interface Category {
   id: number;
+  bitrixId?: number | null;
   title: string;
   image?: (number | null) | Media;
   parent?: (number | null) | Category;
@@ -1679,6 +1685,7 @@ export interface FormBlockSelect<T extends boolean = true> {
  * via the `definition` "categories_select".
  */
 export interface CategoriesSelect<T extends boolean = true> {
+  bitrixId?: T;
   title?: T;
   image?: T;
   parent?: T;
@@ -1693,6 +1700,7 @@ export interface CategoriesSelect<T extends boolean = true> {
  * via the `definition` "media_select".
  */
 export interface MediaSelect<T extends boolean = true> {
+  bitrixId?: T;
   alt?: T;
   caption?: T;
   updatedAt?: T;
@@ -1971,6 +1979,7 @@ export interface VariantOptionsSelect<T extends boolean = true> {
  * via the `definition` "products_select".
  */
 export interface ProductsSelect<T extends boolean = true> {
+  bitrixId?: T;
   title?: T;
   description?: T;
   gallery?:

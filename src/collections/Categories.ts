@@ -17,6 +17,16 @@ export const Categories: CollectionConfig = {
   },
   fields: [
     {
+      name: 'bitrixId',
+      label: 'ID в Bitrix',
+      type: 'number',
+      unique: true,
+      index: true,
+      admin: {
+        position: 'sidebar',
+      },
+    },
+    {
       name: 'title',
       type: 'text',
       required: true,

@@ -66,12 +66,15 @@ export function HeaderClient({ header, categories }: Props) {
             </div>
 
             <Link href="/" className="flex-shrink-0">
-              <div className="flex items-center gap-2">
+              <div className="flex flex-col items-center md:items-start gap-1">
                 <img
                   alt="Accurate.kz Logo"
                   className="max-w-[150px] w-full h-auto max-h-16 object-contain"
                   src="/images/AccurateLogoWhite.svg"
                 />
+                <span className="text-[10px] text-zinc-300 font-medium">
+                  Лучший онлайн магазин сантехники
+                </span>
               </div>
             </Link>
 

@@ -1,4 +1,4 @@
-# Project Overview
+﻿# Project Overview
 
 This is a full-stack **Ecommerce Application** built using **Next.js** (App Router) for the frontend and **Payload CMS** for the backend. It serves as a comprehensive template for building online stores with features like product management, shopping carts, orders, and Stripe payments.
 

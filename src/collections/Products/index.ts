@@ -67,6 +67,16 @@ export const ProductsCollection: CollectionOverride = ({ defaultCollection }) =>
     singular: 'Товар',
   },
   fields: [
+    {
+      name: 'bitrixId',
+      label: 'ID в Bitrix',
+      type: 'number',
+      unique: true,
+      index: true,
+      admin: {
+        position: 'sidebar',
+      },
+    },
     { name: 'title', label: 'Название', type: 'text', required: true },
     {
       type: 'tabs',

@@ -20,6 +20,15 @@ export const Media: CollectionConfig = {
   },
   fields: [
     {
+      name: 'bitrixId',
+      label: 'ID в Bitrix',
+      type: 'number',
+      index: true,
+      admin: {
+        description: 'Используется для дедупликации загрузок из Bitrix',
+      },
+    },
+    {
       name: 'alt',
       type: 'text',
       required: true,
