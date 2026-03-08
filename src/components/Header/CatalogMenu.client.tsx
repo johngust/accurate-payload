@@ -9,7 +9,7 @@ import { cn } from '@/utilities/cn'
 import { LayoutGrid } from 'lucide-react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import React, { useCallback, useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 
 type Props = {
   categories: CategoryTree[]
@@ -58,9 +58,14 @@ export function CatalogMenu({ categories }: Props) {
   const activeCategory = categories[activeIndex]
 
   return (
-    <div ref={menuRef} className="relative">
-      <button
-        onClick={toggle}
+    <div
+      ref={menuRef}
+      className="relative"
+      onMouseLeave={() => setIsOpen(false)}
+    >
+      <Link
+        href="/catalog"
+        onMouseEnter={() => setIsOpen(true)}
         className={cn(
           'flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition-colors',
           'bg-primary text-primary-foreground hover:bg-primary/90',
@@ -68,7 +73,7 @@ export function CatalogMenu({ categories }: Props) {
       >
         <LayoutGrid className="h-4 w-4" />
         Каталог
-      </button>
+      </Link>
 
       {isOpen && (
         <div className="absolute left-0 top-full mt-2 z-50 flex w-[700px] rounded-xl border border-border bg-card shadow-xl">
