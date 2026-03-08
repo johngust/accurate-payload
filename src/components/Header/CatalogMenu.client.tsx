@@ -19,6 +19,7 @@ export function CatalogMenu({ categories }: Props) {
   const [isOpen, setIsOpen] = useState(false)
   const [activeIndex, setActiveIndex] = useState(0)
   const menuRef = useRef<HTMLDivElement>(null)
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
   const pathname = usePathname()
 
   // Закрываем при смене маршрута
@@ -48,9 +49,32 @@ export function CatalogMenu({ categories }: Props) {
     return () => document.removeEventListener('keydown', handleKey)
   }, [isOpen])
 
+  // Очистка таймера при размонтировании
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) clearTimeout(timeoutRef.current)
+    }
+  }, [])
+
   const toggle = useCallback(() => {
     setIsOpen((prev) => !prev)
     setActiveIndex(0)
+  }, [])
+
+  const handleMouseEnter = useCallback(() => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current)
+    }
+    setIsOpen(true)
+  }, [])
+
+  const handleMouseLeave = useCallback(() => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current)
+    }
+    timeoutRef.current = setTimeout(() => {
+      setIsOpen(false)
+    }, 200) // 200ms задержки перед закрытием
   }, [])
 
   if (categories.length === 0) return null
@@ -61,11 +85,11 @@ export function CatalogMenu({ categories }: Props) {
     <div
       ref={menuRef}
       className="relative"
-      onMouseLeave={() => setIsOpen(false)}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
     >
       <Link
         href="/catalog"
-        onMouseEnter={() => setIsOpen(true)}
         className={cn(
           'flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition-colors',
           'bg-primary text-primary-foreground hover:bg-primary/90',
