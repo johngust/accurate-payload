@@ -100,7 +100,7 @@ export function CatalogMenu({ categories }: Props) {
       </Link>
 
       {isOpen && (
-        <div className="absolute left-0 top-full mt-2 z-50 flex w-[700px] rounded-xl border border-border bg-card shadow-xl">
+        <div className="absolute left-0 top-full z-50 flex w-[700px] rounded-b-xl border border-border bg-card shadow-xl">
           {/* Левая колонка — корневые категории */}
           <div className="w-1/3 border-r border-border py-2">
             {categories.map((cat, index) => (
