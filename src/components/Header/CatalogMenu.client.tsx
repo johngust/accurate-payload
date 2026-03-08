@@ -74,7 +74,7 @@ export function CatalogMenu({ categories }: Props) {
     }
     timeoutRef.current = setTimeout(() => {
       setIsOpen(false)
-    }, 200) // 200ms задержки перед закрытием
+    }, 300) // 300ms задержки перед закрытием
   }, [])
 
   if (categories.length === 0) return null
