@@ -3,13 +3,12 @@
 import type { Metadata } from 'next'
 import type { Where } from 'payload'
 
-import { CategoryCard } from '@/components/CategoryCard'
 import { FiltersSidebar } from '@/components/FiltersSidebar'
 import { Grid } from '@/components/Grid'
 import { ProductGridItem } from '@/components/ProductGridItem'
+import { getCategoryFilters } from '@/utilities/getFilters'
 import configPromise from '@payload-config'
 import { getPayload } from 'payload'
-import { getCategoryFilters } from '@/utilities/getFilters'
 
 type SearchParams = { [key: string]: string | string[] | undefined }
 
@@ -27,9 +26,9 @@ export default async function CatalogPage({ searchParams }: Args) {
   const payload = await getPayload({ config: configPromise })
 
   // Получаем общие фильтры для всего магазина
-  const { 
-    brands: availableBrands, 
-    minPrice: minPossiblePrice, 
+  const {
+    brands: availableBrands,
+    minPrice: minPossiblePrice,
     maxPrice: maxPossiblePrice,
     categoryCounts
   } = await getCategoryFilters()
@@ -134,28 +133,14 @@ export default async function CatalogPage({ searchParams }: Args) {
     <div className="container py-8">
       <h1 className="font-heading text-3xl font-bold mb-6">Каталог</h1>
 
-      {/* Категории */}
-      <div className="mb-12">
-        <h2 className="text-xl font-semibold mb-4 text-muted-foreground uppercase tracking-wider text-sm">Категории</h2>
-        {categories.docs.length > 0 ? (
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
-            {categories.docs.map((category) => (
-              <CategoryCard key={category.id} category={category} />
-            ))}
-          </div>
-        ) : (
-          <p className="text-muted-foreground">Категории пока не добавлены.</p>
-        )}
-      </div>
 
-      <hr className="mb-12 border-gray-100" />
 
       {/* Фильтры + Товары */}
       <div className="flex flex-col md:flex-row gap-8">
         <aside className="w-full shrink-0 md:w-1/4">
-          <FiltersSidebar 
-            brands={availableBrands} 
-            categories={categories.docs} 
+          <FiltersSidebar
+            brands={availableBrands}
+            categories={categories.docs}
             categoryCounts={categoryCounts}
             minPossiblePrice={minPossiblePrice}
             maxPossiblePrice={maxPossiblePrice}

@@ -23,7 +23,7 @@ export async function getCategoryFilters(categoryId?: string | number) {
       limit: 100,
       depth: 0
     })
-    
+
     const allCategoryIds = subCategories.docs.map(c => c.id)
     where.categories = { in: allCategoryIds }
   }
@@ -65,7 +65,7 @@ export async function getCategoryFilters(categoryId?: string | number) {
     // Category counts (Cumulative)
     if (Array.isArray(product.categories)) {
       const processedInThisProduct = new Set<string | number>()
-      
+
       product.categories.forEach(catId => {
         const id = typeof catId === 'object' ? (catId as any).id : catId
         if (!id) return
@@ -90,9 +90,11 @@ export async function getCategoryFilters(categoryId?: string | number) {
 
     // Specs counts (Brands, Materials)
     product.specs?.forEach(spec => {
-      const key = spec.key.toLowerCase().trim()
-      const val = spec.value.trim()
-      
+      const key = (spec.key || '').toLowerCase().trim()
+      const val = (spec.value || '').trim()
+
+      if (!val) return;
+
       if (key === 'бренд' || key === 'производитель' || key === 'brand') {
         brandCounts.set(val, (brandCounts.get(val) || 0) + 1)
       }

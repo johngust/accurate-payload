@@ -14,10 +14,10 @@ import { Button } from '@/components/ui/button'
 import { Checkbox } from '@/components/ui/checkbox'
 import { Input } from '@/components/ui/input'
 import { Slider } from '@/components/ui/slider'
-import { usePathname, useRouter, useSearchParams } from 'next/navigation'
-import React, { useCallback, useState, useEffect, useMemo } from 'react'
-import { Search, X, ChevronRight, Filter, ShoppingBag } from 'lucide-react'
 import { cn } from '@/utilities/cn'
+import { ChevronRight, Filter, Search, X } from 'lucide-react'
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import React, { useCallback, useEffect, useMemo, useState } from 'react'
 
 type Props = {
   brands?: { title: string; count: number }[]
@@ -28,9 +28,9 @@ type Props = {
   maxPossiblePrice?: number
 }
 
-export const FiltersSidebar: React.FC<Props> = ({ 
-  brands = [], 
-  materials = [], 
+export const FiltersSidebar: React.FC<Props> = ({
+  brands = [],
+  materials = [],
   categories = [],
   categoryCounts = {},
   minPossiblePrice = 0,
@@ -104,9 +104,9 @@ export const FiltersSidebar: React.FC<Props> = ({
   }
 
   const handlePriceApply = () => {
-    updateParams({ 
-      minPrice: priceRange[0] !== minPossiblePrice ? priceRange[0].toString() : null, 
-      maxPrice: priceRange[1] !== maxPossiblePrice ? priceRange[1].toString() : null 
+    updateParams({
+      minPrice: priceRange[0] !== minPossiblePrice ? priceRange[0].toString() : null,
+      maxPrice: priceRange[1] !== maxPossiblePrice ? priceRange[1].toString() : null
     })
   }
 
@@ -119,10 +119,10 @@ export const FiltersSidebar: React.FC<Props> = ({
   const filteredBrands = brands.filter(b => b.title.toLowerCase().includes(brandSearch.toLowerCase()))
   const visibleBrands = showAllBrands ? filteredBrands : filteredBrands.slice(0, 8)
 
-  const hasActiveFilters = currentInStock || 
-    (currentMinPrice !== minPossiblePrice) || 
-    (currentMaxPrice !== maxPossiblePrice) || 
-    selectedBrands.length > 0 || 
+  const hasActiveFilters = currentInStock ||
+    (currentMinPrice !== minPossiblePrice) ||
+    (currentMaxPrice !== maxPossiblePrice) ||
+    selectedBrands.length > 0 ||
     selectedCategories.length > 0 ||
     currentGlobalSearch
 
@@ -140,8 +140,8 @@ export const FiltersSidebar: React.FC<Props> = ({
           className="pl-9 h-9 bg-white border-border/60 rounded-lg shadow-sm focus-visible:ring-primary/20 focus-visible:border-primary transition-all text-xs"
         />
         {globalSearch && (
-          <button 
-            type="button" 
+          <button
+            type="button"
             onClick={() => { setGlobalSearch(''); updateParams({ q: null }); }}
             className="absolute inset-y-0 right-0 pr-2 flex items-center text-muted-foreground hover:text-foreground"
           >
@@ -159,7 +159,7 @@ export const FiltersSidebar: React.FC<Props> = ({
             <span className="font-bold text-[11px] uppercase tracking-wider">Фильтры</span>
           </div>
           {hasActiveFilters && (
-            <button 
+            <button
               onClick={handleReset}
               className="text-[9px] font-bold text-muted-foreground hover:text-destructive uppercase tracking-widest transition-colors"
             >
@@ -169,7 +169,7 @@ export const FiltersSidebar: React.FC<Props> = ({
         </div>
 
         <Accordion type="multiple" defaultValue={['category', 'price', 'brand']} className="w-full">
-          
+
           {/* Categories Tree-like */}
           {categories.length > 0 && (
             <AccordionItem value="category" className="px-4 border-b border-border/30">
@@ -187,8 +187,8 @@ export const FiltersSidebar: React.FC<Props> = ({
                         onClick={() => cat.slug && handleCategoryChange(cat.slug)}
                         className={cn(
                           "flex items-center justify-between w-full text-left py-1.5 px-2 rounded-md transition-all text-[12px] group relative overflow-hidden",
-                          isActive 
-                            ? "bg-primary text-primary-foreground font-semibold" 
+                          isActive
+                            ? "bg-primary text-primary-foreground font-semibold"
                             : "hover:bg-muted text-muted-foreground hover:text-foreground"
                         )}
                       >
@@ -229,7 +229,7 @@ export const FiltersSidebar: React.FC<Props> = ({
                   onValueCommit={handlePriceApply}
                   className="py-2"
                 />
-                
+
                 <div className="grid grid-cols-2 gap-2">
                   <div className="space-y-1">
                     <label className="text-[8px] uppercase font-black text-muted-foreground tracking-tighter ml-1">От</label>
@@ -250,10 +250,10 @@ export const FiltersSidebar: React.FC<Props> = ({
                     />
                   </div>
                 </div>
-                
-                <Button 
-                  size="sm" 
-                  className="w-full h-7 text-[10px] uppercase tracking-widest font-black rounded-md" 
+
+                <Button
+                  size="sm"
+                  className="w-full h-7 text-[10px] uppercase tracking-widest font-black rounded-md"
                   onClick={handlePriceApply}
                 >
                   ОК
@@ -278,21 +278,21 @@ export const FiltersSidebar: React.FC<Props> = ({
                     className="h-7 pl-7 text-[11px] bg-muted/20 border-none rounded-md focus-visible:ring-1 focus-visible:ring-primary/30"
                   />
                 </div>
-                
+
                 <div className="flex flex-col gap-0.5 max-h-56 overflow-y-auto pr-1 custom-scrollbar">
                   {visibleBrands.length > 0 ? visibleBrands.map((brand) => (
-                    <label 
-                      key={brand.title} 
+                    <div
+                      key={brand.title}
+                      onClick={() => handleBrandChange(brand.title)}
                       className={cn(
                         "flex cursor-pointer items-center justify-between py-1 px-1.5 rounded-md transition-colors group",
                         selectedBrands.includes(brand.title) ? "bg-primary/5" : "hover:bg-muted/50"
                       )}
                     >
                       <div className="flex items-center gap-2">
-                        <Checkbox 
+                        <Checkbox
                           checked={selectedBrands.includes(brand.title)}
-                          onCheckedChange={() => handleBrandChange(brand.title)}
-                          className="h-3.5 w-3.5 rounded-[3px] border-border/60 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+                          className="h-3.5 w-3.5 rounded-[3px] border-border/60 data-[state=checked]:bg-primary data-[state=checked]:border-primary pointer-events-none"
                         />
                         <span className={cn(
                           "text-[12px] transition-colors",
@@ -304,7 +304,7 @@ export const FiltersSidebar: React.FC<Props> = ({
                       <span className="text-[9px] font-medium text-muted-foreground/50">
                         {brand.count}
                       </span>
-                    </label>
+                    </div>
                   )) : (
                     <div className="text-center py-4 opacity-40">
                       <p className="text-[10px] uppercase tracking-tighter">Нет результатов</p>
