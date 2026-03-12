@@ -49,7 +49,11 @@ export const Image: React.FC<MediaProps> = (props) => {
 
     const filename = fullFilename
 
-    src = `${process.env.NEXT_PUBLIC_SERVER_URL}${url}`
+    const serverUrl = process.env.NEXT_PUBLIC_SERVER_URL || ''
+    src = `${serverUrl}${url}`
+    if (!serverUrl && url?.startsWith('/')) {
+        src = url
+    }
   }
 
   // NOTE: this is used by the browser to determine which image to download at different screen sizes

@@ -40,7 +40,7 @@ async function main() {
     ID: 0,
     NAME: 1,
     DETAIL_TEXT: 3,
-    IMAGE: 60,
+    IMAGE: 62,
     CAT0: 150,
     CAT1: 151,
     CAT2: 152,

@@ -16,14 +16,29 @@ const nextConfig = {
   serverExternalPackages: ['payload', 'sharp'],
   images: {
     remotePatterns: [
-      ...[NEXT_PUBLIC_SERVER_URL /* 'https://example.com' */].map((item) => {
-        const url = new URL(item)
-
-        return {
-          hostname: url.hostname,
-          protocol: url.protocol.replace(':', ''),
+      ...[NEXT_PUBLIC_SERVER_URL, 'http://localhost:3000'].map((item) => {
+        try {
+          const url = new URL(item)
+          return {
+            hostname: url.hostname,
+            protocol: url.protocol.replace(':', ''),
+          }
+        } catch (e) {
+          return { hostname: 'localhost' }
         }
       }),
+      {
+        hostname: '*.public.blob.vercel-storage.com',
+        protocol: 'https',
+      },
+      {
+        hostname: 'placehold.co',
+        protocol: 'https',
+      },
+      {
+        hostname: 'vsedlyavanny.kz',
+        protocol: 'https',
+      }
     ],
   },
   reactStrictMode: true,

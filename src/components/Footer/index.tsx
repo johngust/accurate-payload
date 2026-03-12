@@ -10,7 +10,7 @@ import { Suspense } from 'react'
 
 export async function Footer() {
   const footer: FooterType = await getCachedGlobal('footer', 1)()
-  const { navItems, columns, contactPhone, contactEmail } = footer
+  const { navItems = [], columns = [], contactPhone = '', contactEmail = '' } = footer || {}
   const hasColumns = columns && columns.length > 0
 
   return (

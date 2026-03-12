@@ -16,7 +16,6 @@ export type CategoryTree = Pick<Category, 'id' | 'title' | 'slug' | 'image'> & {
 
 export async function Header() {
   const header = await getCachedGlobal('header', 1)()
-
   const payload = await getPayload({ config: configPromise })
 
   // Корневые категории
@@ -30,7 +29,7 @@ export async function Header() {
 
   // Для каждой корневой — подкатегории
   const categoryTree: CategoryTree[] = await Promise.all(
-    rootCategories.docs.map(async (cat) => {
+    (rootCategories.docs || []).map(async (cat) => {
       const subs = await payload.find({
         collection: 'categories',
         where: { parent: { equals: cat.id } },
@@ -43,10 +42,10 @@ export async function Header() {
         title: cat.title,
         slug: cat.slug,
         image: cat.image,
-        children: subs.docs.map((s) => ({ id: s.id, title: s.title, slug: s.slug })),
+        children: (subs.docs || []).map((s) => ({ id: s.id, title: s.title, slug: s.slug })),
       }
     }),
   )
 
-  return <HeaderClient header={header} categories={categoryTree} />
+  return <HeaderClient header={header || { navItems: [] }} categories={categoryTree} />
 }

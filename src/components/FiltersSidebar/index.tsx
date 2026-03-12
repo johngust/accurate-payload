@@ -21,8 +21,8 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 
 type Props = {
   brands?: { title: string; count: number }[]
-  materials?: { title: string; count: number }[]
-  categories?: { id: string | number; title: string; slug?: string | null }[]
+  materials?: { title: number; count: number }[]
+  categories?: any[]
   categoryCounts?: Record<string, number>
   minPossiblePrice?: number
   maxPossiblePrice?: number
@@ -52,6 +52,42 @@ export const FiltersSidebar: React.FC<Props> = ({
   const [brandSearch, setBrandSearch] = useState('')
   const [globalSearch, setGlobalSearch] = useState(currentGlobalSearch)
   const [showAllBrands, setShowAllBrands] = useState(false)
+  const [expandedCats, setExpandedCats] = useState<Set<string>>(new Set())
+
+  // Build category tree
+  const categoryTree = useMemo(() => {
+    const map = new Map<string, any>()
+    const roots: any[] = []
+
+    categories.forEach(cat => {
+      map.set(cat.id.toString(), { ...cat, children: [] })
+    })
+
+    categories.forEach(cat => {
+      const parentId = typeof cat.parent === 'object' ? cat.parent?.id : cat.parent
+      if (parentId) {
+        const parent = map.get(parentId.toString())
+        if (parent) {
+          parent.children.push(map.get(cat.id.toString()))
+        }
+      } else {
+        roots.push(map.get(cat.id.toString()))
+      }
+    })
+
+    return roots
+  }, [categories])
+
+  const toggleExpand = (id: string, e: React.MouseEvent) => {
+    e.stopPropagation()
+    const newExpanded = new Set(expandedCats)
+    if (newExpanded.has(id)) {
+      newExpanded.delete(id)
+    } else {
+      newExpanded.add(id)
+    }
+    setExpandedCats(newExpanded)
+  }
 
   // Sync with URL
   useEffect(() => {
@@ -126,6 +162,66 @@ export const FiltersSidebar: React.FC<Props> = ({
     selectedCategories.length > 0 ||
     currentGlobalSearch
 
+  const renderCategory = (cat: any, depth = 0) => {
+    const idStr = cat.id.toString()
+    const count = categoryCounts[idStr] || 0
+    const isActive = selectedCategories.includes(cat.slug || '')
+    const isExpanded = expandedCats.has(idStr)
+    const hasChildren = cat.children && cat.children.length > 0
+
+    return (
+      <div key={cat.id} className="flex flex-col">
+        <div 
+          onClick={() => cat.slug && handleCategoryChange(cat.slug)}
+          className={cn(
+            "flex items-center justify-between w-full text-left py-2 px-2 rounded-lg transition-all group relative overflow-hidden cursor-pointer",
+            isActive 
+              ? "bg-primary text-primary-foreground font-bold" 
+              : "hover:bg-muted text-muted-foreground hover:text-foreground"
+          )}
+          style={{ marginLeft: `${depth * 8}px` }}
+        >
+          <div className="flex items-center gap-2 z-10 flex-1 min-w-0">
+            {hasChildren ? (
+              <button 
+                onClick={(e) => toggleExpand(idStr, e)}
+                className={cn(
+                  "p-1.5 rounded-md transition-all hover:bg-black/5 flex items-center justify-center",
+                  isActive ? "hover:bg-white/10" : ""
+                )}
+              >
+                <ChevronRight className={cn(
+                  "h-5 w-5 transition-transform", // Увеличен размер до h-5 w-5
+                  isExpanded ? "rotate-90" : ""
+                )} />
+              </button>
+            ) : (
+              <div className="w-8 h-8 flex items-center justify-center shrink-0">
+                 <div className={cn(
+                  "w-1.5 h-1.5 rounded-full transition-all",
+                  isActive ? "bg-white scale-125" : "bg-muted-foreground/30 group-hover:bg-primary/50"
+                )} />
+              </div>
+            )}
+            <span className="text-[13px] leading-tight truncate">{cat.title}</span>
+          </div>
+          <span className={cn(
+            "text-[10px] font-bold px-2 py-0.5 rounded-full z-10 shrink-0",
+            isActive ? "bg-white/20 text-white" : "bg-muted/50 text-muted-foreground group-hover:bg-primary/10 group-hover:text-primary"
+          )}>
+            {count}
+          </span>
+        </div>
+        
+        {hasChildren && isExpanded && (
+          <div className="mt-0.5">
+            {cat.children.map((child: any) => renderCategory(child, depth + 1))}
+          </div>
+        )}
+      </div>
+    )
+  }
+
   return (
     <div className="flex flex-col gap-3 sticky top-24 max-h-[calc(100vh-120px)] pb-4 overflow-y-auto custom-scrollbar">
       {/* Global Catalog Search */}
@@ -177,37 +273,8 @@ export const FiltersSidebar: React.FC<Props> = ({
                 Категории
               </AccordionTrigger>
               <AccordionContent className="pb-3">
-                <div className="flex flex-col space-y-0.5 max-h-48 overflow-y-auto pr-1 custom-scrollbar">
-                  {categories.map((cat) => {
-                    const count = categoryCounts[cat.id.toString()] || 0
-                    const isActive = selectedCategories.includes(cat.slug || '')
-                    return (
-                      <button
-                        key={cat.id}
-                        onClick={() => cat.slug && handleCategoryChange(cat.slug)}
-                        className={cn(
-                          "flex items-center justify-between w-full text-left py-1.5 px-2 rounded-md transition-all text-[12px] group relative overflow-hidden",
-                          isActive
-                            ? "bg-primary text-primary-foreground font-semibold"
-                            : "hover:bg-muted text-muted-foreground hover:text-foreground"
-                        )}
-                      >
-                        <div className="flex items-center gap-2 z-10">
-                          <ChevronRight className={cn(
-                            "h-3 w-3 transition-transform",
-                            isActive ? "rotate-90" : "group-hover:translate-x-0.5"
-                          )} />
-                          <span className="truncate">{cat.title}</span>
-                        </div>
-                        <span className={cn(
-                          "text-[9px] px-1.5 py-0.5 rounded-full z-10",
-                          isActive ? "bg-white/20 text-white" : "bg-muted-foreground/10 text-muted-foreground"
-                        )}>
-                          {count}
-                        </span>
-                      </button>
-                    )
-                  })}
+                <div className="flex flex-col space-y-1 max-h-[400px] overflow-y-auto pr-1 custom-scrollbar">
+                  {categoryTree.map(cat => renderCategory(cat))}
                 </div>
               </AccordionContent>
             </AccordionItem>

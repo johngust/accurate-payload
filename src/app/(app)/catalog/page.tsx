@@ -33,16 +33,11 @@ export default async function CatalogPage({ searchParams }: Args) {
     categoryCounts
   } = await getCategoryFilters()
 
-  // Корневые категории
-  const categories = await payload.find({
+  // Все категории для построения дерева в фильтрах
+  const allCategories = await payload.find({
     collection: 'categories',
-    where: {
-      parent: {
-        exists: false,
-      },
-    },
     sort: 'title',
-    limit: 50,
+    limit: 300,
     depth: 1,
   })
 
@@ -62,16 +57,30 @@ export default async function CatalogPage({ searchParams }: Args) {
 
   if (category && typeof category === 'string') {
     const categorySlugs = category.split(',')
+    
+    // 1. Находим выбранные категории
     const selectedCategoryDocs = await payload.find({
       collection: 'categories',
       where: { slug: { in: categorySlugs } },
       limit: 100,
       depth: 0,
     })
+    
     const selectedCategoryIds = selectedCategoryDocs.docs.map((c) => c.id)
+
     if (selectedCategoryIds.length > 0) {
+      // 2. Находим все подкатегории для выбранных категорий (на 2 уровня вглубь)
+      const subCategoryDocs = await payload.find({
+        collection: 'categories',
+        where: { parent: { in: selectedCategoryIds } },
+        limit: 100,
+        depth: 0,
+      })
+      
+      const allCategoryIds = [...selectedCategoryIds, ...subCategoryDocs.docs.map(c => c.id)]
+      
       productConditions.push({
-        categories: { in: selectedCategoryIds },
+        categories: { in: allCategoryIds },
       })
     }
   }
@@ -140,7 +149,7 @@ export default async function CatalogPage({ searchParams }: Args) {
         <aside className="w-full shrink-0 md:w-1/4">
           <FiltersSidebar
             brands={availableBrands}
-            categories={categories.docs}
+            categories={allCategories.docs}
             categoryCounts={categoryCounts}
             minPossiblePrice={minPossiblePrice}
             maxPossiblePrice={maxPossiblePrice}
